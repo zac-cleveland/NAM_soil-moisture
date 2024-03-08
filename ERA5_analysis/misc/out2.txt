@@ -1,0 +1,305 @@
+Waiting on job launch; 3059830.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=128:mem=235GB -A UUSL0032 -q main@desched1 -l walltime=2:00:00
+
+Processing variable: lsp: 201601_201612
+
+File lsp_201601_201612_dsw already exists. Skipping...
+
+Processing variable: lsp: 201701_201712
+
+File lsp_201701_201712_dsw already exists. Skipping...
+
+Processing variable: lsp: 201801_201812
+
+File lsp_201801_201812_dsw already exists. Skipping...
+
+Processing variable: lsp: 201901_201912
+
+File lsp_201901_201912_dsw already exists. Skipping...
+
+Processing variable: cp: 201601_201612
+
+File cp_201601_201612_dsw already exists. Skipping...
+
+Processing variable: cp: 201701_201712
+
+File cp_201701_201712_dsw already exists. Skipping...
+
+Processing variable: cp: 201801_201812
+
+File cp_201801_201812_dsw already exists. Skipping...
+
+Processing variable: cp: 201901_201912
+
+File cp_201901_201912_dsw already exists. Skipping...
+
+Processing variable: sd: 201601_201612
+
+File sd_201601_201612_dsw already exists. Skipping...
+
+Processing variable: sd: 201701_201712
+
+File sd_201701_201712_dsw already exists. Skipping...
+
+Processing variable: sd: 201801_201812
+
+File sd_201801_201812_dsw already exists. Skipping...
+
+Processing variable: sd: 201901_201912
+
+File sd_201901_201912_dsw already exists. Skipping...
+
+Processing variable: msl: 201601_201612
+
+File msl_201601_201612_dsw already exists. Skipping...
+
+Processing variable: msl: 201701_201712
+
+File msl_201701_201712_dsw already exists. Skipping...
+
+Processing variable: msl: 201801_201812
+
+File msl_201801_201812_dsw already exists. Skipping...
+
+Processing variable: msl: 201901_201912
+
+File msl_201901_201912_dsw already exists. Skipping...
+
+Processing variable: tcc: 201601_201612
+
+File tcc_201601_201612_dsw already exists. Skipping...
+
+Processing variable: tcc: 201701_201712
+
+File tcc_201701_201712_dsw already exists. Skipping...
+
+Processing variable: tcc: 201801_201812
+
+File tcc_201801_201812_dsw already exists. Skipping...
+
+Processing variable: tcc: 201901_201912
+
+File tcc_201901_201912_dsw already exists. Skipping...
+
+Processing variable: stl1: 201601_201612
+
+File stl1_201601_201612_dsw already exists. Skipping...
+
+Processing variable: stl1: 201701_201712
+
+File stl1_201701_201712_dsw already exists. Skipping...
+
+Processing variable: stl1: 201801_201812
+
+File stl1_201801_201812_dsw already exists. Skipping...
+
+Processing variable: stl1: 201901_201912
+
+File stl1_201901_201912_dsw already exists. Skipping...
+
+Processing variable: stl2: 201601_201612
+
+File stl2_201601_201612_dsw already exists. Skipping...
+
+Processing variable: stl2: 201701_201712
+
+File stl2_201701_201712_dsw already exists. Skipping...
+
+Processing variable: stl2: 201801_201812
+
+File stl2_201801_201812_dsw already exists. Skipping...
+
+Processing variable: stl2: 201901_201912
+
+File stl2_201901_201912_dsw already exists. Skipping...
+
+Processing variable: stl3: 201601_201612
+
+File stl3_201601_201612_dsw already exists. Skipping...
+
+Processing variable: stl3: 201701_201712
+
+File stl3_201701_201712_dsw already exists. Skipping...
+
+Processing variable: stl3: 201801_201812
+
+File stl3_201801_201812_dsw already exists. Skipping...
+
+Processing variable: stl3: 201901_201912
+
+File stl3_201901_201912_dsw already exists. Skipping...
+
+Processing variable: stl4: 201601_201612
+
+File stl4_201601_201612_dsw already exists. Skipping...
+
+Processing variable: stl4: 201701_201712
+
+File stl4_201701_201712_dsw already exists. Skipping...
+
+Processing variable: stl4: 201801_201812
+
+File stl4_201801_201812_dsw already exists. Skipping...
+
+Processing variable: stl4: 201901_201912
+
+File stl4_201901_201912_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201601_201612
+
+File swvl1_201601_201612_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201701_201712
+
+File swvl1_201701_201712_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201801_201812
+
+File swvl1_201801_201812_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201901_201912
+
+File swvl1_201901_201912_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201601_201612
+
+File swvl2_201601_201612_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201701_201712
+
+File swvl2_201701_201712_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201801_201812
+
+File swvl2_201801_201812_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201901_201912
+
+File swvl2_201901_201912_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201601_201612
+
+File swvl3_201601_201612_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201701_201712
+
+File swvl3_201701_201712_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201801_201812
+
+File swvl3_201801_201812_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201901_201912
+
+File swvl3_201901_201912_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201601_201612
+
+File swvl4_201601_201612_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201701_201712
+
+File swvl4_201701_201712_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201801_201812
+
+File swvl4_201801_201812_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201901_201912
+
+File swvl4_201901_201912_dsw already exists. Skipping...
+
+Processing variable: 2t: 201601_201612
+
+File 2t_201601_201612_dsw already exists. Skipping...
+
+Processing variable: 2t: 201701_201712
+
+File 2t_201701_201712_dsw already exists. Skipping...
+
+Processing variable: 2t: 201801_201812
+
+File 2t_201801_201812_dsw already exists. Skipping...
+
+Processing variable: 2t: 201901_201912
+
+File 2t_201901_201912_dsw already exists. Skipping...
+
+Processing variable: 2d: 201601_201612
+
+File 2d_201601_201612_dsw already exists. Skipping...
+
+Processing variable: 2d: 201701_201712
+
+File 2d_201701_201712_dsw already exists. Skipping...
+
+Processing variable: 2d: 201801_201812
+
+File 2d_201801_201812_dsw already exists. Skipping...
+
+Processing variable: 2d: 201901_201912
+
+File 2d_201901_201912_dsw already exists. Skipping...
+
+Processing variable: ishf: 201601_201612
+
+File ishf_201601_201612_dsw already exists. Skipping...
+
+Processing variable: ishf: 201701_201712
+
+File ishf_201701_201712_dsw already exists. Skipping...
+
+Processing variable: ishf: 201801_201812
+
+File ishf_201801_201812_dsw already exists. Skipping...
+
+Processing variable: ishf: 201901_201912
+
+File ishf_201901_201912_dsw already exists. Skipping...
+
+Processing variable: ie: 201601_201612
+
+File ie_201601_201612_dsw already exists. Skipping...
+
+Processing variable: ie: 201701_201712
+
+Searching for ie in /glade/campaign/collections/rda/data/ds633.0/
+
+ie found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  94.40 s
+
+Processing variable: ie: 201801_201812
+
+Searching for ie in /glade/campaign/collections/rda/data/ds633.0/
+
+ie found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  92.63 s
+
+Processing variable: ie: 201901_201912
+
+Searching for ie in /glade/campaign/collections/rda/data/ds633.0/
+
+ie found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  89.31 s
+

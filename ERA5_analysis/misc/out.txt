@@ -1,0 +1,2731 @@
+Waiting on job launch; 3058178.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=128:mem=235GB -A UUSL0032 -q main@desched1 -l walltime=2:00:00
+
+Processing variable: lsp: 198001_198012
+
+File lsp_198001_198012_dsw already exists. Skipping...
+
+Processing variable: lsp: 198101_198112
+
+File lsp_198101_198112_dsw already exists. Skipping...
+
+Processing variable: lsp: 198201_198212
+
+File lsp_198201_198212_dsw already exists. Skipping...
+
+Processing variable: lsp: 198301_198312
+
+File lsp_198301_198312_dsw already exists. Skipping...
+
+Processing variable: lsp: 198401_198412
+
+File lsp_198401_198412_dsw already exists. Skipping...
+
+Processing variable: lsp: 198501_198512
+
+File lsp_198501_198512_dsw already exists. Skipping...
+
+Processing variable: lsp: 198601_198612
+
+File lsp_198601_198612_dsw already exists. Skipping...
+
+Processing variable: lsp: 198701_198712
+
+File lsp_198701_198712_dsw already exists. Skipping...
+
+Processing variable: lsp: 198801_198812
+
+File lsp_198801_198812_dsw already exists. Skipping...
+
+Processing variable: lsp: 198901_198912
+
+File lsp_198901_198912_dsw already exists. Skipping...
+
+Processing variable: lsp: 199001_199012
+
+File lsp_199001_199012_dsw already exists. Skipping...
+
+Processing variable: lsp: 199101_199112
+
+File lsp_199101_199112_dsw already exists. Skipping...
+
+Processing variable: lsp: 199201_199212
+
+File lsp_199201_199212_dsw already exists. Skipping...
+
+Processing variable: lsp: 199301_199312
+
+File lsp_199301_199312_dsw already exists. Skipping...
+
+Processing variable: lsp: 199401_199412
+
+File lsp_199401_199412_dsw already exists. Skipping...
+
+Processing variable: lsp: 199501_199512
+
+File lsp_199501_199512_dsw already exists. Skipping...
+
+Processing variable: lsp: 199601_199612
+
+File lsp_199601_199612_dsw already exists. Skipping...
+
+Processing variable: lsp: 199701_199712
+
+File lsp_199701_199712_dsw already exists. Skipping...
+
+Processing variable: lsp: 199801_199812
+
+File lsp_199801_199812_dsw already exists. Skipping...
+
+Processing variable: lsp: 199901_199912
+
+File lsp_199901_199912_dsw already exists. Skipping...
+
+Processing variable: lsp: 200001_200012
+
+File lsp_200001_200012_dsw already exists. Skipping...
+
+Processing variable: lsp: 200101_200112
+
+File lsp_200101_200112_dsw already exists. Skipping...
+
+Processing variable: lsp: 200201_200212
+
+File lsp_200201_200212_dsw already exists. Skipping...
+
+Processing variable: lsp: 200301_200312
+
+File lsp_200301_200312_dsw already exists. Skipping...
+
+Processing variable: lsp: 200401_200412
+
+File lsp_200401_200412_dsw already exists. Skipping...
+
+Processing variable: lsp: 200501_200512
+
+File lsp_200501_200512_dsw already exists. Skipping...
+
+Processing variable: lsp: 200601_200612
+
+File lsp_200601_200612_dsw already exists. Skipping...
+
+Processing variable: lsp: 200701_200712
+
+File lsp_200701_200712_dsw already exists. Skipping...
+
+Processing variable: lsp: 200801_200812
+
+File lsp_200801_200812_dsw already exists. Skipping...
+
+Processing variable: lsp: 200901_200912
+
+File lsp_200901_200912_dsw already exists. Skipping...
+
+Processing variable: lsp: 201001_201012
+
+File lsp_201001_201012_dsw already exists. Skipping...
+
+Processing variable: lsp: 201101_201112
+
+File lsp_201101_201112_dsw already exists. Skipping...
+
+Processing variable: lsp: 201201_201212
+
+File lsp_201201_201212_dsw already exists. Skipping...
+
+Processing variable: lsp: 201301_201312
+
+File lsp_201301_201312_dsw already exists. Skipping...
+
+Processing variable: lsp: 201401_201412
+
+File lsp_201401_201412_dsw already exists. Skipping...
+
+Processing variable: lsp: 201501_201512
+
+File lsp_201501_201512_dsw already exists. Skipping...
+
+Processing variable: lsp: 201601_201612
+
+File lsp_201601_201612_dsw already exists. Skipping...
+
+Processing variable: lsp: 201701_201712
+
+File lsp_201701_201712_dsw already exists. Skipping...
+
+Processing variable: lsp: 201801_201812
+
+File lsp_201801_201812_dsw already exists. Skipping...
+
+Processing variable: lsp: 201901_201912
+
+File lsp_201901_201912_dsw already exists. Skipping...
+
+Processing variable: cp: 198001_198012
+
+File cp_198001_198012_dsw already exists. Skipping...
+
+Processing variable: cp: 198101_198112
+
+File cp_198101_198112_dsw already exists. Skipping...
+
+Processing variable: cp: 198201_198212
+
+File cp_198201_198212_dsw already exists. Skipping...
+
+Processing variable: cp: 198301_198312
+
+File cp_198301_198312_dsw already exists. Skipping...
+
+Processing variable: cp: 198401_198412
+
+File cp_198401_198412_dsw already exists. Skipping...
+
+Processing variable: cp: 198501_198512
+
+File cp_198501_198512_dsw already exists. Skipping...
+
+Processing variable: cp: 198601_198612
+
+File cp_198601_198612_dsw already exists. Skipping...
+
+Processing variable: cp: 198701_198712
+
+File cp_198701_198712_dsw already exists. Skipping...
+
+Processing variable: cp: 198801_198812
+
+File cp_198801_198812_dsw already exists. Skipping...
+
+Processing variable: cp: 198901_198912
+
+File cp_198901_198912_dsw already exists. Skipping...
+
+Processing variable: cp: 199001_199012
+
+File cp_199001_199012_dsw already exists. Skipping...
+
+Processing variable: cp: 199101_199112
+
+File cp_199101_199112_dsw already exists. Skipping...
+
+Processing variable: cp: 199201_199212
+
+File cp_199201_199212_dsw already exists. Skipping...
+
+Processing variable: cp: 199301_199312
+
+File cp_199301_199312_dsw already exists. Skipping...
+
+Processing variable: cp: 199401_199412
+
+File cp_199401_199412_dsw already exists. Skipping...
+
+Processing variable: cp: 199501_199512
+
+File cp_199501_199512_dsw already exists. Skipping...
+
+Processing variable: cp: 199601_199612
+
+File cp_199601_199612_dsw already exists. Skipping...
+
+Processing variable: cp: 199701_199712
+
+File cp_199701_199712_dsw already exists. Skipping...
+
+Processing variable: cp: 199801_199812
+
+File cp_199801_199812_dsw already exists. Skipping...
+
+Processing variable: cp: 199901_199912
+
+File cp_199901_199912_dsw already exists. Skipping...
+
+Processing variable: cp: 200001_200012
+
+File cp_200001_200012_dsw already exists. Skipping...
+
+Processing variable: cp: 200101_200112
+
+File cp_200101_200112_dsw already exists. Skipping...
+
+Processing variable: cp: 200201_200212
+
+File cp_200201_200212_dsw already exists. Skipping...
+
+Processing variable: cp: 200301_200312
+
+File cp_200301_200312_dsw already exists. Skipping...
+
+Processing variable: cp: 200401_200412
+
+File cp_200401_200412_dsw already exists. Skipping...
+
+Processing variable: cp: 200501_200512
+
+File cp_200501_200512_dsw already exists. Skipping...
+
+Processing variable: cp: 200601_200612
+
+File cp_200601_200612_dsw already exists. Skipping...
+
+Processing variable: cp: 200701_200712
+
+File cp_200701_200712_dsw already exists. Skipping...
+
+Processing variable: cp: 200801_200812
+
+File cp_200801_200812_dsw already exists. Skipping...
+
+Processing variable: cp: 200901_200912
+
+File cp_200901_200912_dsw already exists. Skipping...
+
+Processing variable: cp: 201001_201012
+
+File cp_201001_201012_dsw already exists. Skipping...
+
+Processing variable: cp: 201101_201112
+
+File cp_201101_201112_dsw already exists. Skipping...
+
+Processing variable: cp: 201201_201212
+
+File cp_201201_201212_dsw already exists. Skipping...
+
+Processing variable: cp: 201301_201312
+
+File cp_201301_201312_dsw already exists. Skipping...
+
+Processing variable: cp: 201401_201412
+
+File cp_201401_201412_dsw already exists. Skipping...
+
+Processing variable: cp: 201501_201512
+
+File cp_201501_201512_dsw already exists. Skipping...
+
+Processing variable: cp: 201601_201612
+
+File cp_201601_201612_dsw already exists. Skipping...
+
+Processing variable: cp: 201701_201712
+
+File cp_201701_201712_dsw already exists. Skipping...
+
+Processing variable: cp: 201801_201812
+
+File cp_201801_201812_dsw already exists. Skipping...
+
+Processing variable: cp: 201901_201912
+
+File cp_201901_201912_dsw already exists. Skipping...
+
+Processing variable: sd: 198001_198012
+
+File sd_198001_198012_dsw already exists. Skipping...
+
+Processing variable: sd: 198101_198112
+
+File sd_198101_198112_dsw already exists. Skipping...
+
+Processing variable: sd: 198201_198212
+
+File sd_198201_198212_dsw already exists. Skipping...
+
+Processing variable: sd: 198301_198312
+
+File sd_198301_198312_dsw already exists. Skipping...
+
+Processing variable: sd: 198401_198412
+
+File sd_198401_198412_dsw already exists. Skipping...
+
+Processing variable: sd: 198501_198512
+
+File sd_198501_198512_dsw already exists. Skipping...
+
+Processing variable: sd: 198601_198612
+
+File sd_198601_198612_dsw already exists. Skipping...
+
+Processing variable: sd: 198701_198712
+
+File sd_198701_198712_dsw already exists. Skipping...
+
+Processing variable: sd: 198801_198812
+
+File sd_198801_198812_dsw already exists. Skipping...
+
+Processing variable: sd: 198901_198912
+
+File sd_198901_198912_dsw already exists. Skipping...
+
+Processing variable: sd: 199001_199012
+
+File sd_199001_199012_dsw already exists. Skipping...
+
+Processing variable: sd: 199101_199112
+
+File sd_199101_199112_dsw already exists. Skipping...
+
+Processing variable: sd: 199201_199212
+
+File sd_199201_199212_dsw already exists. Skipping...
+
+Processing variable: sd: 199301_199312
+
+File sd_199301_199312_dsw already exists. Skipping...
+
+Processing variable: sd: 199401_199412
+
+File sd_199401_199412_dsw already exists. Skipping...
+
+Processing variable: sd: 199501_199512
+
+File sd_199501_199512_dsw already exists. Skipping...
+
+Processing variable: sd: 199601_199612
+
+File sd_199601_199612_dsw already exists. Skipping...
+
+Processing variable: sd: 199701_199712
+
+File sd_199701_199712_dsw already exists. Skipping...
+
+Processing variable: sd: 199801_199812
+
+File sd_199801_199812_dsw already exists. Skipping...
+
+Processing variable: sd: 199901_199912
+
+File sd_199901_199912_dsw already exists. Skipping...
+
+Processing variable: sd: 200001_200012
+
+File sd_200001_200012_dsw already exists. Skipping...
+
+Processing variable: sd: 200101_200112
+
+File sd_200101_200112_dsw already exists. Skipping...
+
+Processing variable: sd: 200201_200212
+
+File sd_200201_200212_dsw already exists. Skipping...
+
+Processing variable: sd: 200301_200312
+
+File sd_200301_200312_dsw already exists. Skipping...
+
+Processing variable: sd: 200401_200412
+
+File sd_200401_200412_dsw already exists. Skipping...
+
+Processing variable: sd: 200501_200512
+
+File sd_200501_200512_dsw already exists. Skipping...
+
+Processing variable: sd: 200601_200612
+
+File sd_200601_200612_dsw already exists. Skipping...
+
+Processing variable: sd: 200701_200712
+
+File sd_200701_200712_dsw already exists. Skipping...
+
+Processing variable: sd: 200801_200812
+
+File sd_200801_200812_dsw already exists. Skipping...
+
+Processing variable: sd: 200901_200912
+
+File sd_200901_200912_dsw already exists. Skipping...
+
+Processing variable: sd: 201001_201012
+
+File sd_201001_201012_dsw already exists. Skipping...
+
+Processing variable: sd: 201101_201112
+
+File sd_201101_201112_dsw already exists. Skipping...
+
+Processing variable: sd: 201201_201212
+
+File sd_201201_201212_dsw already exists. Skipping...
+
+Processing variable: sd: 201301_201312
+
+File sd_201301_201312_dsw already exists. Skipping...
+
+Processing variable: sd: 201401_201412
+
+File sd_201401_201412_dsw already exists. Skipping...
+
+Processing variable: sd: 201501_201512
+
+File sd_201501_201512_dsw already exists. Skipping...
+
+Processing variable: sd: 201601_201612
+
+File sd_201601_201612_dsw already exists. Skipping...
+
+Processing variable: sd: 201701_201712
+
+File sd_201701_201712_dsw already exists. Skipping...
+
+Processing variable: sd: 201801_201812
+
+File sd_201801_201812_dsw already exists. Skipping...
+
+Processing variable: sd: 201901_201912
+
+File sd_201901_201912_dsw already exists. Skipping...
+
+Processing variable: msl: 198001_198012
+
+File msl_198001_198012_dsw already exists. Skipping...
+
+Processing variable: msl: 198101_198112
+
+File msl_198101_198112_dsw already exists. Skipping...
+
+Processing variable: msl: 198201_198212
+
+File msl_198201_198212_dsw already exists. Skipping...
+
+Processing variable: msl: 198301_198312
+
+File msl_198301_198312_dsw already exists. Skipping...
+
+Processing variable: msl: 198401_198412
+
+File msl_198401_198412_dsw already exists. Skipping...
+
+Processing variable: msl: 198501_198512
+
+File msl_198501_198512_dsw already exists. Skipping...
+
+Processing variable: msl: 198601_198612
+
+File msl_198601_198612_dsw already exists. Skipping...
+
+Processing variable: msl: 198701_198712
+
+File msl_198701_198712_dsw already exists. Skipping...
+
+Processing variable: msl: 198801_198812
+
+File msl_198801_198812_dsw already exists. Skipping...
+
+Processing variable: msl: 198901_198912
+
+File msl_198901_198912_dsw already exists. Skipping...
+
+Processing variable: msl: 199001_199012
+
+File msl_199001_199012_dsw already exists. Skipping...
+
+Processing variable: msl: 199101_199112
+
+File msl_199101_199112_dsw already exists. Skipping...
+
+Processing variable: msl: 199201_199212
+
+File msl_199201_199212_dsw already exists. Skipping...
+
+Processing variable: msl: 199301_199312
+
+File msl_199301_199312_dsw already exists. Skipping...
+
+Processing variable: msl: 199401_199412
+
+File msl_199401_199412_dsw already exists. Skipping...
+
+Processing variable: msl: 199501_199512
+
+File msl_199501_199512_dsw already exists. Skipping...
+
+Processing variable: msl: 199601_199612
+
+File msl_199601_199612_dsw already exists. Skipping...
+
+Processing variable: msl: 199701_199712
+
+File msl_199701_199712_dsw already exists. Skipping...
+
+Processing variable: msl: 199801_199812
+
+File msl_199801_199812_dsw already exists. Skipping...
+
+Processing variable: msl: 199901_199912
+
+File msl_199901_199912_dsw already exists. Skipping...
+
+Processing variable: msl: 200001_200012
+
+File msl_200001_200012_dsw already exists. Skipping...
+
+Processing variable: msl: 200101_200112
+
+File msl_200101_200112_dsw already exists. Skipping...
+
+Processing variable: msl: 200201_200212
+
+File msl_200201_200212_dsw already exists. Skipping...
+
+Processing variable: msl: 200301_200312
+
+File msl_200301_200312_dsw already exists. Skipping...
+
+Processing variable: msl: 200401_200412
+
+File msl_200401_200412_dsw already exists. Skipping...
+
+Processing variable: msl: 200501_200512
+
+File msl_200501_200512_dsw already exists. Skipping...
+
+Processing variable: msl: 200601_200612
+
+File msl_200601_200612_dsw already exists. Skipping...
+
+Processing variable: msl: 200701_200712
+
+File msl_200701_200712_dsw already exists. Skipping...
+
+Processing variable: msl: 200801_200812
+
+File msl_200801_200812_dsw already exists. Skipping...
+
+Processing variable: msl: 200901_200912
+
+File msl_200901_200912_dsw already exists. Skipping...
+
+Processing variable: msl: 201001_201012
+
+File msl_201001_201012_dsw already exists. Skipping...
+
+Processing variable: msl: 201101_201112
+
+File msl_201101_201112_dsw already exists. Skipping...
+
+Processing variable: msl: 201201_201212
+
+File msl_201201_201212_dsw already exists. Skipping...
+
+Processing variable: msl: 201301_201312
+
+File msl_201301_201312_dsw already exists. Skipping...
+
+Processing variable: msl: 201401_201412
+
+File msl_201401_201412_dsw already exists. Skipping...
+
+Processing variable: msl: 201501_201512
+
+File msl_201501_201512_dsw already exists. Skipping...
+
+Processing variable: msl: 201601_201612
+
+File msl_201601_201612_dsw already exists. Skipping...
+
+Processing variable: msl: 201701_201712
+
+File msl_201701_201712_dsw already exists. Skipping...
+
+Processing variable: msl: 201801_201812
+
+File msl_201801_201812_dsw already exists. Skipping...
+
+Processing variable: msl: 201901_201912
+
+File msl_201901_201912_dsw already exists. Skipping...
+
+Processing variable: tcc: 198001_198012
+
+File tcc_198001_198012_dsw already exists. Skipping...
+
+Processing variable: tcc: 198101_198112
+
+File tcc_198101_198112_dsw already exists. Skipping...
+
+Processing variable: tcc: 198201_198212
+
+File tcc_198201_198212_dsw already exists. Skipping...
+
+Processing variable: tcc: 198301_198312
+
+File tcc_198301_198312_dsw already exists. Skipping...
+
+Processing variable: tcc: 198401_198412
+
+File tcc_198401_198412_dsw already exists. Skipping...
+
+Processing variable: tcc: 198501_198512
+
+File tcc_198501_198512_dsw already exists. Skipping...
+
+Processing variable: tcc: 198601_198612
+
+File tcc_198601_198612_dsw already exists. Skipping...
+
+Processing variable: tcc: 198701_198712
+
+File tcc_198701_198712_dsw already exists. Skipping...
+
+Processing variable: tcc: 198801_198812
+
+File tcc_198801_198812_dsw already exists. Skipping...
+
+Processing variable: tcc: 198901_198912
+
+File tcc_198901_198912_dsw already exists. Skipping...
+
+Processing variable: tcc: 199001_199012
+
+File tcc_199001_199012_dsw already exists. Skipping...
+
+Processing variable: tcc: 199101_199112
+
+File tcc_199101_199112_dsw already exists. Skipping...
+
+Processing variable: tcc: 199201_199212
+
+File tcc_199201_199212_dsw already exists. Skipping...
+
+Processing variable: tcc: 199301_199312
+
+File tcc_199301_199312_dsw already exists. Skipping...
+
+Processing variable: tcc: 199401_199412
+
+File tcc_199401_199412_dsw already exists. Skipping...
+
+Processing variable: tcc: 199501_199512
+
+File tcc_199501_199512_dsw already exists. Skipping...
+
+Processing variable: tcc: 199601_199612
+
+File tcc_199601_199612_dsw already exists. Skipping...
+
+Processing variable: tcc: 199701_199712
+
+File tcc_199701_199712_dsw already exists. Skipping...
+
+Processing variable: tcc: 199801_199812
+
+File tcc_199801_199812_dsw already exists. Skipping...
+
+Processing variable: tcc: 199901_199912
+
+File tcc_199901_199912_dsw already exists. Skipping...
+
+Processing variable: tcc: 200001_200012
+
+File tcc_200001_200012_dsw already exists. Skipping...
+
+Processing variable: tcc: 200101_200112
+
+File tcc_200101_200112_dsw already exists. Skipping...
+
+Processing variable: tcc: 200201_200212
+
+File tcc_200201_200212_dsw already exists. Skipping...
+
+Processing variable: tcc: 200301_200312
+
+File tcc_200301_200312_dsw already exists. Skipping...
+
+Processing variable: tcc: 200401_200412
+
+File tcc_200401_200412_dsw already exists. Skipping...
+
+Processing variable: tcc: 200501_200512
+
+File tcc_200501_200512_dsw already exists. Skipping...
+
+Processing variable: tcc: 200601_200612
+
+File tcc_200601_200612_dsw already exists. Skipping...
+
+Processing variable: tcc: 200701_200712
+
+File tcc_200701_200712_dsw already exists. Skipping...
+
+Processing variable: tcc: 200801_200812
+
+File tcc_200801_200812_dsw already exists. Skipping...
+
+Processing variable: tcc: 200901_200912
+
+File tcc_200901_200912_dsw already exists. Skipping...
+
+Processing variable: tcc: 201001_201012
+
+File tcc_201001_201012_dsw already exists. Skipping...
+
+Processing variable: tcc: 201101_201112
+
+File tcc_201101_201112_dsw already exists. Skipping...
+
+Processing variable: tcc: 201201_201212
+
+File tcc_201201_201212_dsw already exists. Skipping...
+
+Processing variable: tcc: 201301_201312
+
+File tcc_201301_201312_dsw already exists. Skipping...
+
+Processing variable: tcc: 201401_201412
+
+File tcc_201401_201412_dsw already exists. Skipping...
+
+Processing variable: tcc: 201501_201512
+
+File tcc_201501_201512_dsw already exists. Skipping...
+
+Processing variable: tcc: 201601_201612
+
+File tcc_201601_201612_dsw already exists. Skipping...
+
+Processing variable: tcc: 201701_201712
+
+File tcc_201701_201712_dsw already exists. Skipping...
+
+Processing variable: tcc: 201801_201812
+
+File tcc_201801_201812_dsw already exists. Skipping...
+
+Processing variable: tcc: 201901_201912
+
+File tcc_201901_201912_dsw already exists. Skipping...
+
+Processing variable: stl1: 198001_198012
+
+File stl1_198001_198012_dsw already exists. Skipping...
+
+Processing variable: stl1: 198101_198112
+
+File stl1_198101_198112_dsw already exists. Skipping...
+
+Processing variable: stl1: 198201_198212
+
+File stl1_198201_198212_dsw already exists. Skipping...
+
+Processing variable: stl1: 198301_198312
+
+File stl1_198301_198312_dsw already exists. Skipping...
+
+Processing variable: stl1: 198401_198412
+
+File stl1_198401_198412_dsw already exists. Skipping...
+
+Processing variable: stl1: 198501_198512
+
+File stl1_198501_198512_dsw already exists. Skipping...
+
+Processing variable: stl1: 198601_198612
+
+File stl1_198601_198612_dsw already exists. Skipping...
+
+Processing variable: stl1: 198701_198712
+
+File stl1_198701_198712_dsw already exists. Skipping...
+
+Processing variable: stl1: 198801_198812
+
+File stl1_198801_198812_dsw already exists. Skipping...
+
+Processing variable: stl1: 198901_198912
+
+File stl1_198901_198912_dsw already exists. Skipping...
+
+Processing variable: stl1: 199001_199012
+
+File stl1_199001_199012_dsw already exists. Skipping...
+
+Processing variable: stl1: 199101_199112
+
+File stl1_199101_199112_dsw already exists. Skipping...
+
+Processing variable: stl1: 199201_199212
+
+File stl1_199201_199212_dsw already exists. Skipping...
+
+Processing variable: stl1: 199301_199312
+
+File stl1_199301_199312_dsw already exists. Skipping...
+
+Processing variable: stl1: 199401_199412
+
+File stl1_199401_199412_dsw already exists. Skipping...
+
+Processing variable: stl1: 199501_199512
+
+File stl1_199501_199512_dsw already exists. Skipping...
+
+Processing variable: stl1: 199601_199612
+
+File stl1_199601_199612_dsw already exists. Skipping...
+
+Processing variable: stl1: 199701_199712
+
+File stl1_199701_199712_dsw already exists. Skipping...
+
+Processing variable: stl1: 199801_199812
+
+File stl1_199801_199812_dsw already exists. Skipping...
+
+Processing variable: stl1: 199901_199912
+
+File stl1_199901_199912_dsw already exists. Skipping...
+
+Processing variable: stl1: 200001_200012
+
+File stl1_200001_200012_dsw already exists. Skipping...
+
+Processing variable: stl1: 200101_200112
+
+File stl1_200101_200112_dsw already exists. Skipping...
+
+Processing variable: stl1: 200201_200212
+
+File stl1_200201_200212_dsw already exists. Skipping...
+
+Processing variable: stl1: 200301_200312
+
+File stl1_200301_200312_dsw already exists. Skipping...
+
+Processing variable: stl1: 200401_200412
+
+File stl1_200401_200412_dsw already exists. Skipping...
+
+Processing variable: stl1: 200501_200512
+
+File stl1_200501_200512_dsw already exists. Skipping...
+
+Processing variable: stl1: 200601_200612
+
+File stl1_200601_200612_dsw already exists. Skipping...
+
+Processing variable: stl1: 200701_200712
+
+File stl1_200701_200712_dsw already exists. Skipping...
+
+Processing variable: stl1: 200801_200812
+
+File stl1_200801_200812_dsw already exists. Skipping...
+
+Processing variable: stl1: 200901_200912
+
+File stl1_200901_200912_dsw already exists. Skipping...
+
+Processing variable: stl1: 201001_201012
+
+File stl1_201001_201012_dsw already exists. Skipping...
+
+Processing variable: stl1: 201101_201112
+
+File stl1_201101_201112_dsw already exists. Skipping...
+
+Processing variable: stl1: 201201_201212
+
+File stl1_201201_201212_dsw already exists. Skipping...
+
+Processing variable: stl1: 201301_201312
+
+File stl1_201301_201312_dsw already exists. Skipping...
+
+Processing variable: stl1: 201401_201412
+
+File stl1_201401_201412_dsw already exists. Skipping...
+
+Processing variable: stl1: 201501_201512
+
+File stl1_201501_201512_dsw already exists. Skipping...
+
+Processing variable: stl1: 201601_201612
+
+File stl1_201601_201612_dsw already exists. Skipping...
+
+Processing variable: stl1: 201701_201712
+
+File stl1_201701_201712_dsw already exists. Skipping...
+
+Processing variable: stl1: 201801_201812
+
+File stl1_201801_201812_dsw already exists. Skipping...
+
+Processing variable: stl1: 201901_201912
+
+File stl1_201901_201912_dsw already exists. Skipping...
+
+Processing variable: stl2: 198001_198012
+
+File stl2_198001_198012_dsw already exists. Skipping...
+
+Processing variable: stl2: 198101_198112
+
+File stl2_198101_198112_dsw already exists. Skipping...
+
+Processing variable: stl2: 198201_198212
+
+File stl2_198201_198212_dsw already exists. Skipping...
+
+Processing variable: stl2: 198301_198312
+
+File stl2_198301_198312_dsw already exists. Skipping...
+
+Processing variable: stl2: 198401_198412
+
+File stl2_198401_198412_dsw already exists. Skipping...
+
+Processing variable: stl2: 198501_198512
+
+File stl2_198501_198512_dsw already exists. Skipping...
+
+Processing variable: stl2: 198601_198612
+
+File stl2_198601_198612_dsw already exists. Skipping...
+
+Processing variable: stl2: 198701_198712
+
+File stl2_198701_198712_dsw already exists. Skipping...
+
+Processing variable: stl2: 198801_198812
+
+File stl2_198801_198812_dsw already exists. Skipping...
+
+Processing variable: stl2: 198901_198912
+
+File stl2_198901_198912_dsw already exists. Skipping...
+
+Processing variable: stl2: 199001_199012
+
+File stl2_199001_199012_dsw already exists. Skipping...
+
+Processing variable: stl2: 199101_199112
+
+File stl2_199101_199112_dsw already exists. Skipping...
+
+Processing variable: stl2: 199201_199212
+
+File stl2_199201_199212_dsw already exists. Skipping...
+
+Processing variable: stl2: 199301_199312
+
+File stl2_199301_199312_dsw already exists. Skipping...
+
+Processing variable: stl2: 199401_199412
+
+File stl2_199401_199412_dsw already exists. Skipping...
+
+Processing variable: stl2: 199501_199512
+
+File stl2_199501_199512_dsw already exists. Skipping...
+
+Processing variable: stl2: 199601_199612
+
+File stl2_199601_199612_dsw already exists. Skipping...
+
+Processing variable: stl2: 199701_199712
+
+File stl2_199701_199712_dsw already exists. Skipping...
+
+Processing variable: stl2: 199801_199812
+
+File stl2_199801_199812_dsw already exists. Skipping...
+
+Processing variable: stl2: 199901_199912
+
+File stl2_199901_199912_dsw already exists. Skipping...
+
+Processing variable: stl2: 200001_200012
+
+File stl2_200001_200012_dsw already exists. Skipping...
+
+Processing variable: stl2: 200101_200112
+
+File stl2_200101_200112_dsw already exists. Skipping...
+
+Processing variable: stl2: 200201_200212
+
+File stl2_200201_200212_dsw already exists. Skipping...
+
+Processing variable: stl2: 200301_200312
+
+File stl2_200301_200312_dsw already exists. Skipping...
+
+Processing variable: stl2: 200401_200412
+
+File stl2_200401_200412_dsw already exists. Skipping...
+
+Processing variable: stl2: 200501_200512
+
+File stl2_200501_200512_dsw already exists. Skipping...
+
+Processing variable: stl2: 200601_200612
+
+File stl2_200601_200612_dsw already exists. Skipping...
+
+Processing variable: stl2: 200701_200712
+
+File stl2_200701_200712_dsw already exists. Skipping...
+
+Processing variable: stl2: 200801_200812
+
+File stl2_200801_200812_dsw already exists. Skipping...
+
+Processing variable: stl2: 200901_200912
+
+File stl2_200901_200912_dsw already exists. Skipping...
+
+Processing variable: stl2: 201001_201012
+
+File stl2_201001_201012_dsw already exists. Skipping...
+
+Processing variable: stl2: 201101_201112
+
+File stl2_201101_201112_dsw already exists. Skipping...
+
+Processing variable: stl2: 201201_201212
+
+File stl2_201201_201212_dsw already exists. Skipping...
+
+Processing variable: stl2: 201301_201312
+
+File stl2_201301_201312_dsw already exists. Skipping...
+
+Processing variable: stl2: 201401_201412
+
+File stl2_201401_201412_dsw already exists. Skipping...
+
+Processing variable: stl2: 201501_201512
+
+File stl2_201501_201512_dsw already exists. Skipping...
+
+Processing variable: stl2: 201601_201612
+
+File stl2_201601_201612_dsw already exists. Skipping...
+
+Processing variable: stl2: 201701_201712
+
+File stl2_201701_201712_dsw already exists. Skipping...
+
+Processing variable: stl2: 201801_201812
+
+File stl2_201801_201812_dsw already exists. Skipping...
+
+Processing variable: stl2: 201901_201912
+
+File stl2_201901_201912_dsw already exists. Skipping...
+
+Processing variable: stl3: 198001_198012
+
+File stl3_198001_198012_dsw already exists. Skipping...
+
+Processing variable: stl3: 198101_198112
+
+File stl3_198101_198112_dsw already exists. Skipping...
+
+Processing variable: stl3: 198201_198212
+
+File stl3_198201_198212_dsw already exists. Skipping...
+
+Processing variable: stl3: 198301_198312
+
+File stl3_198301_198312_dsw already exists. Skipping...
+
+Processing variable: stl3: 198401_198412
+
+File stl3_198401_198412_dsw already exists. Skipping...
+
+Processing variable: stl3: 198501_198512
+
+File stl3_198501_198512_dsw already exists. Skipping...
+
+Processing variable: stl3: 198601_198612
+
+File stl3_198601_198612_dsw already exists. Skipping...
+
+Processing variable: stl3: 198701_198712
+
+File stl3_198701_198712_dsw already exists. Skipping...
+
+Processing variable: stl3: 198801_198812
+
+File stl3_198801_198812_dsw already exists. Skipping...
+
+Processing variable: stl3: 198901_198912
+
+File stl3_198901_198912_dsw already exists. Skipping...
+
+Processing variable: stl3: 199001_199012
+
+File stl3_199001_199012_dsw already exists. Skipping...
+
+Processing variable: stl3: 199101_199112
+
+File stl3_199101_199112_dsw already exists. Skipping...
+
+Processing variable: stl3: 199201_199212
+
+File stl3_199201_199212_dsw already exists. Skipping...
+
+Processing variable: stl3: 199301_199312
+
+File stl3_199301_199312_dsw already exists. Skipping...
+
+Processing variable: stl3: 199401_199412
+
+File stl3_199401_199412_dsw already exists. Skipping...
+
+Processing variable: stl3: 199501_199512
+
+File stl3_199501_199512_dsw already exists. Skipping...
+
+Processing variable: stl3: 199601_199612
+
+File stl3_199601_199612_dsw already exists. Skipping...
+
+Processing variable: stl3: 199701_199712
+
+File stl3_199701_199712_dsw already exists. Skipping...
+
+Processing variable: stl3: 199801_199812
+
+File stl3_199801_199812_dsw already exists. Skipping...
+
+Processing variable: stl3: 199901_199912
+
+File stl3_199901_199912_dsw already exists. Skipping...
+
+Processing variable: stl3: 200001_200012
+
+File stl3_200001_200012_dsw already exists. Skipping...
+
+Processing variable: stl3: 200101_200112
+
+File stl3_200101_200112_dsw already exists. Skipping...
+
+Processing variable: stl3: 200201_200212
+
+File stl3_200201_200212_dsw already exists. Skipping...
+
+Processing variable: stl3: 200301_200312
+
+File stl3_200301_200312_dsw already exists. Skipping...
+
+Processing variable: stl3: 200401_200412
+
+File stl3_200401_200412_dsw already exists. Skipping...
+
+Processing variable: stl3: 200501_200512
+
+File stl3_200501_200512_dsw already exists. Skipping...
+
+Processing variable: stl3: 200601_200612
+
+File stl3_200601_200612_dsw already exists. Skipping...
+
+Processing variable: stl3: 200701_200712
+
+File stl3_200701_200712_dsw already exists. Skipping...
+
+Processing variable: stl3: 200801_200812
+
+File stl3_200801_200812_dsw already exists. Skipping...
+
+Processing variable: stl3: 200901_200912
+
+File stl3_200901_200912_dsw already exists. Skipping...
+
+Processing variable: stl3: 201001_201012
+
+File stl3_201001_201012_dsw already exists. Skipping...
+
+Processing variable: stl3: 201101_201112
+
+File stl3_201101_201112_dsw already exists. Skipping...
+
+Processing variable: stl3: 201201_201212
+
+File stl3_201201_201212_dsw already exists. Skipping...
+
+Processing variable: stl3: 201301_201312
+
+File stl3_201301_201312_dsw already exists. Skipping...
+
+Processing variable: stl3: 201401_201412
+
+File stl3_201401_201412_dsw already exists. Skipping...
+
+Processing variable: stl3: 201501_201512
+
+File stl3_201501_201512_dsw already exists. Skipping...
+
+Processing variable: stl3: 201601_201612
+
+File stl3_201601_201612_dsw already exists. Skipping...
+
+Processing variable: stl3: 201701_201712
+
+File stl3_201701_201712_dsw already exists. Skipping...
+
+Processing variable: stl3: 201801_201812
+
+File stl3_201801_201812_dsw already exists. Skipping...
+
+Processing variable: stl3: 201901_201912
+
+File stl3_201901_201912_dsw already exists. Skipping...
+
+Processing variable: stl4: 198001_198012
+
+File stl4_198001_198012_dsw already exists. Skipping...
+
+Processing variable: stl4: 198101_198112
+
+File stl4_198101_198112_dsw already exists. Skipping...
+
+Processing variable: stl4: 198201_198212
+
+File stl4_198201_198212_dsw already exists. Skipping...
+
+Processing variable: stl4: 198301_198312
+
+File stl4_198301_198312_dsw already exists. Skipping...
+
+Processing variable: stl4: 198401_198412
+
+File stl4_198401_198412_dsw already exists. Skipping...
+
+Processing variable: stl4: 198501_198512
+
+File stl4_198501_198512_dsw already exists. Skipping...
+
+Processing variable: stl4: 198601_198612
+
+File stl4_198601_198612_dsw already exists. Skipping...
+
+Processing variable: stl4: 198701_198712
+
+File stl4_198701_198712_dsw already exists. Skipping...
+
+Processing variable: stl4: 198801_198812
+
+File stl4_198801_198812_dsw already exists. Skipping...
+
+Processing variable: stl4: 198901_198912
+
+File stl4_198901_198912_dsw already exists. Skipping...
+
+Processing variable: stl4: 199001_199012
+
+File stl4_199001_199012_dsw already exists. Skipping...
+
+Processing variable: stl4: 199101_199112
+
+File stl4_199101_199112_dsw already exists. Skipping...
+
+Processing variable: stl4: 199201_199212
+
+File stl4_199201_199212_dsw already exists. Skipping...
+
+Processing variable: stl4: 199301_199312
+
+File stl4_199301_199312_dsw already exists. Skipping...
+
+Processing variable: stl4: 199401_199412
+
+File stl4_199401_199412_dsw already exists. Skipping...
+
+Processing variable: stl4: 199501_199512
+
+File stl4_199501_199512_dsw already exists. Skipping...
+
+Processing variable: stl4: 199601_199612
+
+File stl4_199601_199612_dsw already exists. Skipping...
+
+Processing variable: stl4: 199701_199712
+
+File stl4_199701_199712_dsw already exists. Skipping...
+
+Processing variable: stl4: 199801_199812
+
+File stl4_199801_199812_dsw already exists. Skipping...
+
+Processing variable: stl4: 199901_199912
+
+File stl4_199901_199912_dsw already exists. Skipping...
+
+Processing variable: stl4: 200001_200012
+
+File stl4_200001_200012_dsw already exists. Skipping...
+
+Processing variable: stl4: 200101_200112
+
+File stl4_200101_200112_dsw already exists. Skipping...
+
+Processing variable: stl4: 200201_200212
+
+File stl4_200201_200212_dsw already exists. Skipping...
+
+Processing variable: stl4: 200301_200312
+
+File stl4_200301_200312_dsw already exists. Skipping...
+
+Processing variable: stl4: 200401_200412
+
+File stl4_200401_200412_dsw already exists. Skipping...
+
+Processing variable: stl4: 200501_200512
+
+File stl4_200501_200512_dsw already exists. Skipping...
+
+Processing variable: stl4: 200601_200612
+
+File stl4_200601_200612_dsw already exists. Skipping...
+
+Processing variable: stl4: 200701_200712
+
+File stl4_200701_200712_dsw already exists. Skipping...
+
+Processing variable: stl4: 200801_200812
+
+File stl4_200801_200812_dsw already exists. Skipping...
+
+Processing variable: stl4: 200901_200912
+
+File stl4_200901_200912_dsw already exists. Skipping...
+
+Processing variable: stl4: 201001_201012
+
+File stl4_201001_201012_dsw already exists. Skipping...
+
+Processing variable: stl4: 201101_201112
+
+File stl4_201101_201112_dsw already exists. Skipping...
+
+Processing variable: stl4: 201201_201212
+
+File stl4_201201_201212_dsw already exists. Skipping...
+
+Processing variable: stl4: 201301_201312
+
+File stl4_201301_201312_dsw already exists. Skipping...
+
+Processing variable: stl4: 201401_201412
+
+File stl4_201401_201412_dsw already exists. Skipping...
+
+Processing variable: stl4: 201501_201512
+
+File stl4_201501_201512_dsw already exists. Skipping...
+
+Processing variable: stl4: 201601_201612
+
+File stl4_201601_201612_dsw already exists. Skipping...
+
+Processing variable: stl4: 201701_201712
+
+File stl4_201701_201712_dsw already exists. Skipping...
+
+Processing variable: stl4: 201801_201812
+
+File stl4_201801_201812_dsw already exists. Skipping...
+
+Processing variable: stl4: 201901_201912
+
+File stl4_201901_201912_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198001_198012
+
+File swvl1_198001_198012_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198101_198112
+
+File swvl1_198101_198112_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198201_198212
+
+File swvl1_198201_198212_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198301_198312
+
+File swvl1_198301_198312_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198401_198412
+
+File swvl1_198401_198412_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198501_198512
+
+File swvl1_198501_198512_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198601_198612
+
+File swvl1_198601_198612_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198701_198712
+
+File swvl1_198701_198712_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198801_198812
+
+File swvl1_198801_198812_dsw already exists. Skipping...
+
+Processing variable: swvl1: 198901_198912
+
+File swvl1_198901_198912_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199001_199012
+
+File swvl1_199001_199012_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199101_199112
+
+File swvl1_199101_199112_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199201_199212
+
+File swvl1_199201_199212_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199301_199312
+
+File swvl1_199301_199312_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199401_199412
+
+File swvl1_199401_199412_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199501_199512
+
+File swvl1_199501_199512_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199601_199612
+
+File swvl1_199601_199612_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199701_199712
+
+File swvl1_199701_199712_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199801_199812
+
+File swvl1_199801_199812_dsw already exists. Skipping...
+
+Processing variable: swvl1: 199901_199912
+
+File swvl1_199901_199912_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200001_200012
+
+File swvl1_200001_200012_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200101_200112
+
+File swvl1_200101_200112_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200201_200212
+
+File swvl1_200201_200212_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200301_200312
+
+File swvl1_200301_200312_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200401_200412
+
+File swvl1_200401_200412_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200501_200512
+
+File swvl1_200501_200512_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200601_200612
+
+File swvl1_200601_200612_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200701_200712
+
+File swvl1_200701_200712_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200801_200812
+
+File swvl1_200801_200812_dsw already exists. Skipping...
+
+Processing variable: swvl1: 200901_200912
+
+File swvl1_200901_200912_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201001_201012
+
+File swvl1_201001_201012_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201101_201112
+
+File swvl1_201101_201112_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201201_201212
+
+File swvl1_201201_201212_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201301_201312
+
+File swvl1_201301_201312_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201401_201412
+
+File swvl1_201401_201412_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201501_201512
+
+File swvl1_201501_201512_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201601_201612
+
+File swvl1_201601_201612_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201701_201712
+
+File swvl1_201701_201712_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201801_201812
+
+File swvl1_201801_201812_dsw already exists. Skipping...
+
+Processing variable: swvl1: 201901_201912
+
+File swvl1_201901_201912_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198001_198012
+
+File swvl2_198001_198012_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198101_198112
+
+File swvl2_198101_198112_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198201_198212
+
+File swvl2_198201_198212_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198301_198312
+
+File swvl2_198301_198312_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198401_198412
+
+File swvl2_198401_198412_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198501_198512
+
+File swvl2_198501_198512_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198601_198612
+
+File swvl2_198601_198612_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198701_198712
+
+File swvl2_198701_198712_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198801_198812
+
+File swvl2_198801_198812_dsw already exists. Skipping...
+
+Processing variable: swvl2: 198901_198912
+
+File swvl2_198901_198912_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199001_199012
+
+File swvl2_199001_199012_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199101_199112
+
+File swvl2_199101_199112_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199201_199212
+
+File swvl2_199201_199212_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199301_199312
+
+File swvl2_199301_199312_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199401_199412
+
+File swvl2_199401_199412_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199501_199512
+
+File swvl2_199501_199512_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199601_199612
+
+File swvl2_199601_199612_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199701_199712
+
+File swvl2_199701_199712_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199801_199812
+
+File swvl2_199801_199812_dsw already exists. Skipping...
+
+Processing variable: swvl2: 199901_199912
+
+File swvl2_199901_199912_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200001_200012
+
+File swvl2_200001_200012_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200101_200112
+
+File swvl2_200101_200112_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200201_200212
+
+File swvl2_200201_200212_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200301_200312
+
+File swvl2_200301_200312_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200401_200412
+
+File swvl2_200401_200412_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200501_200512
+
+File swvl2_200501_200512_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200601_200612
+
+File swvl2_200601_200612_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200701_200712
+
+File swvl2_200701_200712_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200801_200812
+
+File swvl2_200801_200812_dsw already exists. Skipping...
+
+Processing variable: swvl2: 200901_200912
+
+File swvl2_200901_200912_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201001_201012
+
+File swvl2_201001_201012_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201101_201112
+
+File swvl2_201101_201112_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201201_201212
+
+File swvl2_201201_201212_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201301_201312
+
+File swvl2_201301_201312_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201401_201412
+
+File swvl2_201401_201412_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201501_201512
+
+File swvl2_201501_201512_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201601_201612
+
+File swvl2_201601_201612_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201701_201712
+
+File swvl2_201701_201712_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201801_201812
+
+File swvl2_201801_201812_dsw already exists. Skipping...
+
+Processing variable: swvl2: 201901_201912
+
+File swvl2_201901_201912_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198001_198012
+
+File swvl3_198001_198012_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198101_198112
+
+File swvl3_198101_198112_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198201_198212
+
+File swvl3_198201_198212_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198301_198312
+
+File swvl3_198301_198312_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198401_198412
+
+File swvl3_198401_198412_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198501_198512
+
+File swvl3_198501_198512_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198601_198612
+
+File swvl3_198601_198612_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198701_198712
+
+File swvl3_198701_198712_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198801_198812
+
+File swvl3_198801_198812_dsw already exists. Skipping...
+
+Processing variable: swvl3: 198901_198912
+
+File swvl3_198901_198912_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199001_199012
+
+File swvl3_199001_199012_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199101_199112
+
+File swvl3_199101_199112_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199201_199212
+
+File swvl3_199201_199212_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199301_199312
+
+File swvl3_199301_199312_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199401_199412
+
+File swvl3_199401_199412_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199501_199512
+
+File swvl3_199501_199512_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199601_199612
+
+File swvl3_199601_199612_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199701_199712
+
+File swvl3_199701_199712_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199801_199812
+
+File swvl3_199801_199812_dsw already exists. Skipping...
+
+Processing variable: swvl3: 199901_199912
+
+File swvl3_199901_199912_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200001_200012
+
+File swvl3_200001_200012_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200101_200112
+
+File swvl3_200101_200112_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200201_200212
+
+File swvl3_200201_200212_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200301_200312
+
+File swvl3_200301_200312_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200401_200412
+
+File swvl3_200401_200412_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200501_200512
+
+File swvl3_200501_200512_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200601_200612
+
+File swvl3_200601_200612_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200701_200712
+
+File swvl3_200701_200712_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200801_200812
+
+File swvl3_200801_200812_dsw already exists. Skipping...
+
+Processing variable: swvl3: 200901_200912
+
+File swvl3_200901_200912_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201001_201012
+
+File swvl3_201001_201012_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201101_201112
+
+File swvl3_201101_201112_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201201_201212
+
+File swvl3_201201_201212_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201301_201312
+
+File swvl3_201301_201312_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201401_201412
+
+File swvl3_201401_201412_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201501_201512
+
+File swvl3_201501_201512_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201601_201612
+
+File swvl3_201601_201612_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201701_201712
+
+File swvl3_201701_201712_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201801_201812
+
+File swvl3_201801_201812_dsw already exists. Skipping...
+
+Processing variable: swvl3: 201901_201912
+
+File swvl3_201901_201912_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198001_198012
+
+File swvl4_198001_198012_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198101_198112
+
+File swvl4_198101_198112_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198201_198212
+
+File swvl4_198201_198212_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198301_198312
+
+File swvl4_198301_198312_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198401_198412
+
+File swvl4_198401_198412_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198501_198512
+
+File swvl4_198501_198512_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198601_198612
+
+File swvl4_198601_198612_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198701_198712
+
+File swvl4_198701_198712_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198801_198812
+
+File swvl4_198801_198812_dsw already exists. Skipping...
+
+Processing variable: swvl4: 198901_198912
+
+File swvl4_198901_198912_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199001_199012
+
+File swvl4_199001_199012_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199101_199112
+
+File swvl4_199101_199112_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199201_199212
+
+File swvl4_199201_199212_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199301_199312
+
+File swvl4_199301_199312_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199401_199412
+
+File swvl4_199401_199412_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199501_199512
+
+File swvl4_199501_199512_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199601_199612
+
+File swvl4_199601_199612_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199701_199712
+
+File swvl4_199701_199712_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199801_199812
+
+File swvl4_199801_199812_dsw already exists. Skipping...
+
+Processing variable: swvl4: 199901_199912
+
+File swvl4_199901_199912_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200001_200012
+
+File swvl4_200001_200012_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200101_200112
+
+File swvl4_200101_200112_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200201_200212
+
+File swvl4_200201_200212_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200301_200312
+
+File swvl4_200301_200312_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200401_200412
+
+File swvl4_200401_200412_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200501_200512
+
+File swvl4_200501_200512_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200601_200612
+
+File swvl4_200601_200612_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200701_200712
+
+File swvl4_200701_200712_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200801_200812
+
+File swvl4_200801_200812_dsw already exists. Skipping...
+
+Processing variable: swvl4: 200901_200912
+
+File swvl4_200901_200912_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201001_201012
+
+File swvl4_201001_201012_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201101_201112
+
+File swvl4_201101_201112_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201201_201212
+
+File swvl4_201201_201212_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201301_201312
+
+File swvl4_201301_201312_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201401_201412
+
+File swvl4_201401_201412_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201501_201512
+
+File swvl4_201501_201512_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201601_201612
+
+File swvl4_201601_201612_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201701_201712
+
+File swvl4_201701_201712_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201801_201812
+
+File swvl4_201801_201812_dsw already exists. Skipping...
+
+Processing variable: swvl4: 201901_201912
+
+File swvl4_201901_201912_dsw already exists. Skipping...
+
+Processing variable: 2t: 198001_198012
+
+File 2t_198001_198012_dsw already exists. Skipping...
+
+Processing variable: 2t: 198101_198112
+
+File 2t_198101_198112_dsw already exists. Skipping...
+
+Processing variable: 2t: 198201_198212
+
+File 2t_198201_198212_dsw already exists. Skipping...
+
+Processing variable: 2t: 198301_198312
+
+File 2t_198301_198312_dsw already exists. Skipping...
+
+Processing variable: 2t: 198401_198412
+
+File 2t_198401_198412_dsw already exists. Skipping...
+
+Processing variable: 2t: 198501_198512
+
+File 2t_198501_198512_dsw already exists. Skipping...
+
+Processing variable: 2t: 198601_198612
+
+File 2t_198601_198612_dsw already exists. Skipping...
+
+Processing variable: 2t: 198701_198712
+
+File 2t_198701_198712_dsw already exists. Skipping...
+
+Processing variable: 2t: 198801_198812
+
+File 2t_198801_198812_dsw already exists. Skipping...
+
+Processing variable: 2t: 198901_198912
+
+File 2t_198901_198912_dsw already exists. Skipping...
+
+Processing variable: 2t: 199001_199012
+
+File 2t_199001_199012_dsw already exists. Skipping...
+
+Processing variable: 2t: 199101_199112
+
+File 2t_199101_199112_dsw already exists. Skipping...
+
+Processing variable: 2t: 199201_199212
+
+File 2t_199201_199212_dsw already exists. Skipping...
+
+Processing variable: 2t: 199301_199312
+
+File 2t_199301_199312_dsw already exists. Skipping...
+
+Processing variable: 2t: 199401_199412
+
+File 2t_199401_199412_dsw already exists. Skipping...
+
+Processing variable: 2t: 199501_199512
+
+File 2t_199501_199512_dsw already exists. Skipping...
+
+Processing variable: 2t: 199601_199612
+
+File 2t_199601_199612_dsw already exists. Skipping...
+
+Processing variable: 2t: 199701_199712
+
+File 2t_199701_199712_dsw already exists. Skipping...
+
+Processing variable: 2t: 199801_199812
+
+File 2t_199801_199812_dsw already exists. Skipping...
+
+Processing variable: 2t: 199901_199912
+
+File 2t_199901_199912_dsw already exists. Skipping...
+
+Processing variable: 2t: 200001_200012
+
+File 2t_200001_200012_dsw already exists. Skipping...
+
+Processing variable: 2t: 200101_200112
+
+File 2t_200101_200112_dsw already exists. Skipping...
+
+Processing variable: 2t: 200201_200212
+
+File 2t_200201_200212_dsw already exists. Skipping...
+
+Processing variable: 2t: 200301_200312
+
+File 2t_200301_200312_dsw already exists. Skipping...
+
+Processing variable: 2t: 200401_200412
+
+File 2t_200401_200412_dsw already exists. Skipping...
+
+Processing variable: 2t: 200501_200512
+
+File 2t_200501_200512_dsw already exists. Skipping...
+
+Processing variable: 2t: 200601_200612
+
+File 2t_200601_200612_dsw already exists. Skipping...
+
+Processing variable: 2t: 200701_200712
+
+File 2t_200701_200712_dsw already exists. Skipping...
+
+Processing variable: 2t: 200801_200812
+
+File 2t_200801_200812_dsw already exists. Skipping...
+
+Processing variable: 2t: 200901_200912
+
+File 2t_200901_200912_dsw already exists. Skipping...
+
+Processing variable: 2t: 201001_201012
+
+File 2t_201001_201012_dsw already exists. Skipping...
+
+Processing variable: 2t: 201101_201112
+
+File 2t_201101_201112_dsw already exists. Skipping...
+
+Processing variable: 2t: 201201_201212
+
+File 2t_201201_201212_dsw already exists. Skipping...
+
+Processing variable: 2t: 201301_201312
+
+File 2t_201301_201312_dsw already exists. Skipping...
+
+Processing variable: 2t: 201401_201412
+
+File 2t_201401_201412_dsw already exists. Skipping...
+
+Processing variable: 2t: 201501_201512
+
+File 2t_201501_201512_dsw already exists. Skipping...
+
+Processing variable: 2t: 201601_201612
+
+File 2t_201601_201612_dsw already exists. Skipping...
+
+Processing variable: 2t: 201701_201712
+
+File 2t_201701_201712_dsw already exists. Skipping...
+
+Processing variable: 2t: 201801_201812
+
+File 2t_201801_201812_dsw already exists. Skipping...
+
+Processing variable: 2t: 201901_201912
+
+File 2t_201901_201912_dsw already exists. Skipping...
+
+Processing variable: 2d: 198001_198012
+
+File 2d_198001_198012_dsw already exists. Skipping...
+
+Processing variable: 2d: 198101_198112
+
+File 2d_198101_198112_dsw already exists. Skipping...
+
+Processing variable: 2d: 198201_198212
+
+File 2d_198201_198212_dsw already exists. Skipping...
+
+Processing variable: 2d: 198301_198312
+
+File 2d_198301_198312_dsw already exists. Skipping...
+
+Processing variable: 2d: 198401_198412
+
+File 2d_198401_198412_dsw already exists. Skipping...
+
+Processing variable: 2d: 198501_198512
+
+File 2d_198501_198512_dsw already exists. Skipping...
+
+Processing variable: 2d: 198601_198612
+
+File 2d_198601_198612_dsw already exists. Skipping...
+
+Processing variable: 2d: 198701_198712
+
+File 2d_198701_198712_dsw already exists. Skipping...
+
+Processing variable: 2d: 198801_198812
+
+File 2d_198801_198812_dsw already exists. Skipping...
+
+Processing variable: 2d: 198901_198912
+
+File 2d_198901_198912_dsw already exists. Skipping...
+
+Processing variable: 2d: 199001_199012
+
+File 2d_199001_199012_dsw already exists. Skipping...
+
+Processing variable: 2d: 199101_199112
+
+File 2d_199101_199112_dsw already exists. Skipping...
+
+Processing variable: 2d: 199201_199212
+
+File 2d_199201_199212_dsw already exists. Skipping...
+
+Processing variable: 2d: 199301_199312
+
+File 2d_199301_199312_dsw already exists. Skipping...
+
+Processing variable: 2d: 199401_199412
+
+File 2d_199401_199412_dsw already exists. Skipping...
+
+Processing variable: 2d: 199501_199512
+
+File 2d_199501_199512_dsw already exists. Skipping...
+
+Processing variable: 2d: 199601_199612
+
+File 2d_199601_199612_dsw already exists. Skipping...
+
+Processing variable: 2d: 199701_199712
+
+File 2d_199701_199712_dsw already exists. Skipping...
+
+Processing variable: 2d: 199801_199812
+
+File 2d_199801_199812_dsw already exists. Skipping...
+
+Processing variable: 2d: 199901_199912
+
+File 2d_199901_199912_dsw already exists. Skipping...
+
+Processing variable: 2d: 200001_200012
+
+File 2d_200001_200012_dsw already exists. Skipping...
+
+Processing variable: 2d: 200101_200112
+
+File 2d_200101_200112_dsw already exists. Skipping...
+
+Processing variable: 2d: 200201_200212
+
+File 2d_200201_200212_dsw already exists. Skipping...
+
+Processing variable: 2d: 200301_200312
+
+File 2d_200301_200312_dsw already exists. Skipping...
+
+Processing variable: 2d: 200401_200412
+
+File 2d_200401_200412_dsw already exists. Skipping...
+
+Processing variable: 2d: 200501_200512
+
+File 2d_200501_200512_dsw already exists. Skipping...
+
+Processing variable: 2d: 200601_200612
+
+File 2d_200601_200612_dsw already exists. Skipping...
+
+Processing variable: 2d: 200701_200712
+
+File 2d_200701_200712_dsw already exists. Skipping...
+
+Processing variable: 2d: 200801_200812
+
+File 2d_200801_200812_dsw already exists. Skipping...
+
+Processing variable: 2d: 200901_200912
+
+File 2d_200901_200912_dsw already exists. Skipping...
+
+Processing variable: 2d: 201001_201012
+
+File 2d_201001_201012_dsw already exists. Skipping...
+
+Processing variable: 2d: 201101_201112
+
+File 2d_201101_201112_dsw already exists. Skipping...
+
+Processing variable: 2d: 201201_201212
+
+File 2d_201201_201212_dsw already exists. Skipping...
+
+Processing variable: 2d: 201301_201312
+
+File 2d_201301_201312_dsw already exists. Skipping...
+
+Processing variable: 2d: 201401_201412
+
+File 2d_201401_201412_dsw already exists. Skipping...
+
+Processing variable: 2d: 201501_201512
+
+File 2d_201501_201512_dsw already exists. Skipping...
+
+Processing variable: 2d: 201601_201612
+
+File 2d_201601_201612_dsw already exists. Skipping...
+
+Processing variable: 2d: 201701_201712
+
+File 2d_201701_201712_dsw already exists. Skipping...
+
+Processing variable: 2d: 201801_201812
+
+File 2d_201801_201812_dsw already exists. Skipping...
+
+Processing variable: 2d: 201901_201912
+
+File 2d_201901_201912_dsw already exists. Skipping...
+
+Processing variable: ishf: 198001_198012
+
+File ishf_198001_198012_dsw already exists. Skipping...
+
+Processing variable: ishf: 198101_198112
+
+File ishf_198101_198112_dsw already exists. Skipping...
+
+Processing variable: ishf: 198201_198212
+
+File ishf_198201_198212_dsw already exists. Skipping...
+
+Processing variable: ishf: 198301_198312
+
+File ishf_198301_198312_dsw already exists. Skipping...
+
+Processing variable: ishf: 198401_198412
+
+File ishf_198401_198412_dsw already exists. Skipping...
+
+Processing variable: ishf: 198501_198512
+
+File ishf_198501_198512_dsw already exists. Skipping...
+
+Processing variable: ishf: 198601_198612
+
+File ishf_198601_198612_dsw already exists. Skipping...
+
+Processing variable: ishf: 198701_198712
+
+File ishf_198701_198712_dsw already exists. Skipping...
+
+Processing variable: ishf: 198801_198812
+
+File ishf_198801_198812_dsw already exists. Skipping...
+
+Processing variable: ishf: 198901_198912
+
+File ishf_198901_198912_dsw already exists. Skipping...
+
+Processing variable: ishf: 199001_199012
+
+File ishf_199001_199012_dsw already exists. Skipping...
+
+Processing variable: ishf: 199101_199112
+
+File ishf_199101_199112_dsw already exists. Skipping...
+
+Processing variable: ishf: 199201_199212
+
+File ishf_199201_199212_dsw already exists. Skipping...
+
+Processing variable: ishf: 199301_199312
+
+File ishf_199301_199312_dsw already exists. Skipping...
+
+Processing variable: ishf: 199401_199412
+
+File ishf_199401_199412_dsw already exists. Skipping...
+
+Processing variable: ishf: 199501_199512
+
+File ishf_199501_199512_dsw already exists. Skipping...
+
+Processing variable: ishf: 199601_199612
+
+File ishf_199601_199612_dsw already exists. Skipping...
+
+Processing variable: ishf: 199701_199712
+
+File ishf_199701_199712_dsw already exists. Skipping...
+
+Processing variable: ishf: 199801_199812
+
+File ishf_199801_199812_dsw already exists. Skipping...
+
+Processing variable: ishf: 199901_199912
+
+File ishf_199901_199912_dsw already exists. Skipping...
+
+Processing variable: ishf: 200001_200012
+
+File ishf_200001_200012_dsw already exists. Skipping...
+
+Processing variable: ishf: 200101_200112
+
+File ishf_200101_200112_dsw already exists. Skipping...
+
+Processing variable: ishf: 200201_200212
+
+File ishf_200201_200212_dsw already exists. Skipping...
+
+Processing variable: ishf: 200301_200312
+
+File ishf_200301_200312_dsw already exists. Skipping...
+
+Processing variable: ishf: 200401_200412
+
+File ishf_200401_200412_dsw already exists. Skipping...
+
+Processing variable: ishf: 200501_200512
+
+File ishf_200501_200512_dsw already exists. Skipping...
+
+Processing variable: ishf: 200601_200612
+
+File ishf_200601_200612_dsw already exists. Skipping...
+
+Processing variable: ishf: 200701_200712
+
+File ishf_200701_200712_dsw already exists. Skipping...
+
+Processing variable: ishf: 200801_200812
+
+File ishf_200801_200812_dsw already exists. Skipping...
+
+Processing variable: ishf: 200901_200912
+
+File ishf_200901_200912_dsw already exists. Skipping...
+
+Processing variable: ishf: 201001_201012
+
+File ishf_201001_201012_dsw already exists. Skipping...
+
+Processing variable: ishf: 201101_201112
+
+File ishf_201101_201112_dsw already exists. Skipping...
+
+Processing variable: ishf: 201201_201212
+
+File ishf_201201_201212_dsw already exists. Skipping...
+
+Processing variable: ishf: 201301_201312
+
+File ishf_201301_201312_dsw already exists. Skipping...
+
+Processing variable: ishf: 201401_201412
+
+File ishf_201401_201412_dsw already exists. Skipping...
+
+Processing variable: ishf: 201501_201512
+
+File ishf_201501_201512_dsw already exists. Skipping...
+
+Processing variable: ishf: 201601_201612
+
+File ishf_201601_201612_dsw already exists. Skipping...
+
+Processing variable: ishf: 201701_201712
+
+File ishf_201701_201712_dsw already exists. Skipping...
+
+Processing variable: ishf: 201801_201812
+
+File ishf_201801_201812_dsw already exists. Skipping...
+
+Processing variable: ishf: 201901_201912
+
+File ishf_201901_201912_dsw already exists. Skipping...
+
+Processing variable: ie: 198001_198012
+
+File ie_198001_198012_dsw already exists. Skipping...
+
+Processing variable: ie: 198101_198112
+
+File ie_198101_198112_dsw already exists. Skipping...
+
+Processing variable: ie: 198201_198212
+
+File ie_198201_198212_dsw already exists. Skipping...
+
+Processing variable: ie: 198301_198312
+
+File ie_198301_198312_dsw already exists. Skipping...
+
+Processing variable: ie: 198401_198412
+
+File ie_198401_198412_dsw already exists. Skipping...
+
+Processing variable: ie: 198501_198512
+
+File ie_198501_198512_dsw already exists. Skipping...
+
+Processing variable: ie: 198601_198612
+
+File ie_198601_198612_dsw already exists. Skipping...
+
+Processing variable: ie: 198701_198712
+
+File ie_198701_198712_dsw already exists. Skipping...
+
+Processing variable: ie: 198801_198812
+
+File ie_198801_198812_dsw already exists. Skipping...
+
+Processing variable: ie: 198901_198912
+
+File ie_198901_198912_dsw already exists. Skipping...
+
+Processing variable: ie: 199001_199012
+
+File ie_199001_199012_dsw already exists. Skipping...
+
+Processing variable: ie: 199101_199112
+
+File ie_199101_199112_dsw already exists. Skipping...
+
+Processing variable: ie: 199201_199212
+
+File ie_199201_199212_dsw already exists. Skipping...
+
+Processing variable: ie: 199301_199312
+
+File ie_199301_199312_dsw already exists. Skipping...
+
+Processing variable: ie: 199401_199412
+
+File ie_199401_199412_dsw already exists. Skipping...
+
+Processing variable: ie: 199501_199512
+
+File ie_199501_199512_dsw already exists. Skipping...
+
+Processing variable: ie: 199601_199612
+
+File ie_199601_199612_dsw already exists. Skipping...
+
+Processing variable: ie: 199701_199712
+
+File ie_199701_199712_dsw already exists. Skipping...
+
+Processing variable: ie: 199801_199812
+
+File ie_199801_199812_dsw already exists. Skipping...
+
+Processing variable: ie: 199901_199912
+
+File ie_199901_199912_dsw already exists. Skipping...
+
+Processing variable: ie: 200001_200012
+
+File ie_200001_200012_dsw already exists. Skipping...
+
+Processing variable: ie: 200101_200112
+
+File ie_200101_200112_dsw already exists. Skipping...
+
+Processing variable: ie: 200201_200212
+
+File ie_200201_200212_dsw already exists. Skipping...
+
+Processing variable: ie: 200301_200312
+
+File ie_200301_200312_dsw already exists. Skipping...
+
+Processing variable: ie: 200401_200412
+
+File ie_200401_200412_dsw already exists. Skipping...
+
+Processing variable: ie: 200501_200512
+
+File ie_200501_200512_dsw already exists. Skipping...
+
+Processing variable: ie: 200601_200612
+
+File ie_200601_200612_dsw already exists. Skipping...
+
+Processing variable: ie: 200701_200712
+
+File ie_200701_200712_dsw already exists. Skipping...
+
+Processing variable: ie: 200801_200812
+
+File ie_200801_200812_dsw already exists. Skipping...
+
+Processing variable: ie: 200901_200912
+
+File ie_200901_200912_dsw already exists. Skipping...
+
+Processing variable: ie: 201001_201012
+
+File ie_201001_201012_dsw already exists. Skipping...
+
+Processing variable: ie: 201101_201112
+
+File ie_201101_201112_dsw already exists. Skipping...
+
+Processing variable: ie: 201201_201212
+
+File ie_201201_201212_dsw already exists. Skipping...
+
+Processing variable: ie: 201301_201312
+
+File ie_201301_201312_dsw already exists. Skipping...
+
+Processing variable: ie: 201401_201412
+
+File ie_201401_201412_dsw already exists. Skipping...
+
+Processing variable: ie: 201501_201512
+
+File ie_201501_201512_dsw already exists. Skipping...
+
+Processing variable: ie: 201601_201612
+
+File ie_201601_201612_dsw already exists. Skipping...
+
+Processing variable: ie: 201701_201712
+
+File ie_201701_201712_dsw already exists. Skipping...
+
+Processing variable: ie: 201801_201812
+
+Searching for ie in /glade/campaign/collections/rda/data/ds633.0/
+
+ie found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Traceback (most recent call last):
+File "/glade/u/home/zcleveland/ERA5_analysis/DSW_subsetting_yearly.py", line 238, in <module>
+dsw_subset_era5(var, start_date, end_date)
+File "/glade/u/home/zcleveland/ERA5_analysis/DSW_subsetting_yearly.py", line 186, in dsw_subset_era5
+combined_ccc
+NameError: name 'combined_ccc' is not defined

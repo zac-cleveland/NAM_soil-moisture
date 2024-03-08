@@ -1,0 +1,4086 @@
+Waiting on job launch; 3129322.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=128:mem=235GB -A UUSL0032 -q main@desched1 -l walltime=12:00:00
+
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+Processing variable: sshf: 198001_198012
+
+File sshf_198001_198012_dsw already exists. Skipping...
+
+Processing variable: sshf: 198101_198112
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.61 s
+
+Processing variable: sshf: 198201_198212
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.52 s
+
+Processing variable: sshf: 198301_198312
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.34 s
+
+Processing variable: sshf: 198401_198412
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.61 s
+
+Processing variable: sshf: 198501_198512
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.47 s
+
+Processing variable: sshf: 198601_198612
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.29 s
+
+Processing variable: sshf: 198701_198712
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.17 s
+
+Processing variable: sshf: 198801_198812
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.74 s
+
+Processing variable: sshf: 198901_198912
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.59 s
+
+Processing variable: sshf: 199001_199012
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.01 s
+
+Processing variable: sshf: 199101_199112
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  148.77 s
+
+Processing variable: sshf: 199201_199212
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.59 s
+
+Processing variable: sshf: 199301_199312
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  148.74 s
+
+Processing variable: sshf: 199401_199412
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.44 s
+
+Processing variable: sshf: 199501_199512
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.64 s
+
+Processing variable: sshf: 199601_199612
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.83 s
+
+Processing variable: sshf: 199701_199712
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.69 s
+
+Processing variable: sshf: 199801_199812
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  148.39 s
+
+Processing variable: sshf: 199901_199912
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.45 s
+
+Processing variable: sshf: 200001_200012
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.70 s
+
+Processing variable: sshf: 200101_200112
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.56 s
+
+Processing variable: sshf: 200201_200212
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.70 s
+
+Processing variable: sshf: 200301_200312
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.74 s
+
+Processing variable: sshf: 200401_200412
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.60 s
+
+Processing variable: sshf: 200501_200512
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.29 s
+
+Processing variable: sshf: 200601_200612
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.72 s
+
+Processing variable: sshf: 200701_200712
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.40 s
+
+Processing variable: sshf: 200801_200812
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.70 s
+
+Processing variable: sshf: 200901_200912
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.67 s
+
+Processing variable: sshf: 201001_201012
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  161.90 s
+
+Processing variable: sshf: 201101_201112
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.62 s
+
+Processing variable: sshf: 201201_201212
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.17 s
+
+Processing variable: sshf: 201301_201312
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.32 s
+
+Processing variable: sshf: 201401_201412
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.45 s
+
+Processing variable: sshf: 201501_201512
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.39 s
+
+Processing variable: sshf: 201601_201612
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.35 s
+
+Processing variable: sshf: 201701_201712
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.74 s
+
+Processing variable: sshf: 201801_201812
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.37 s
+
+Processing variable: sshf: 201901_201912
+
+Searching for sshf in /glade/campaign/collections/rda/data/ds633.0/
+
+sshf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.34 s
+
+Processing variable: slhf: 198001_198012
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.91 s
+
+Processing variable: slhf: 198101_198112
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.10 s
+
+Processing variable: slhf: 198201_198212
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  148.56 s
+
+Processing variable: slhf: 198301_198312
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.02 s
+
+Processing variable: slhf: 198401_198412
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  148.92 s
+
+Processing variable: slhf: 198501_198512
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.10 s
+
+Processing variable: slhf: 198601_198612
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  148.36 s
+
+Processing variable: slhf: 198701_198712
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  148.17 s
+
+Processing variable: slhf: 198801_198812
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.19 s
+
+Processing variable: slhf: 198901_198912
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.19 s
+
+Processing variable: slhf: 199001_199012
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.29 s
+
+Processing variable: slhf: 199101_199112
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  148.52 s
+
+Processing variable: slhf: 199201_199212
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.90 s
+
+Processing variable: slhf: 199301_199312
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.86 s
+
+Processing variable: slhf: 199401_199412
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.76 s
+
+Processing variable: slhf: 199501_199512
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  149.92 s
+
+Processing variable: slhf: 199601_199612
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  153.46 s
+
+Processing variable: slhf: 199701_199712
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  153.89 s
+
+Processing variable: slhf: 199801_199812
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.28 s
+
+Processing variable: slhf: 199901_199912
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.37 s
+
+Processing variable: slhf: 200001_200012
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.79 s
+
+Processing variable: slhf: 200101_200112
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.63 s
+
+Processing variable: slhf: 200201_200212
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.70 s
+
+Processing variable: slhf: 200301_200312
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  154.23 s
+
+Processing variable: slhf: 200401_200412
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.99 s
+
+Processing variable: slhf: 200501_200512
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  156.40 s
+
+Processing variable: slhf: 200601_200612
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  154.15 s
+
+Processing variable: slhf: 200701_200712
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  153.80 s
+
+Processing variable: slhf: 200801_200812
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.76 s
+
+Processing variable: slhf: 200901_200912
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  156.33 s
+
+Processing variable: slhf: 201001_201012
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  154.34 s
+
+Processing variable: slhf: 201101_201112
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  153.61 s
+
+Processing variable: slhf: 201201_201212
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.80 s
+
+Processing variable: slhf: 201301_201312
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.58 s
+
+Processing variable: slhf: 201401_201412
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  154.04 s
+
+Processing variable: slhf: 201501_201512
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  154.60 s
+
+Processing variable: slhf: 201601_201612
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  151.19 s
+
+Processing variable: slhf: 201701_201712
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  155.77 s
+
+Processing variable: slhf: 201801_201812
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  153.35 s
+
+Processing variable: slhf: 201901_201912
+
+Searching for slhf in /glade/campaign/collections/rda/data/ds633.0/
+
+slhf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  150.96 s
+
+Processing variable: ssr: 198001_198012
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  109.40 s
+
+Processing variable: ssr: 198101_198112
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.24 s
+
+Processing variable: ssr: 198201_198212
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  108.47 s
+
+Processing variable: ssr: 198301_198312
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.77 s
+
+Processing variable: ssr: 198401_198412
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.25 s
+
+Processing variable: ssr: 198501_198512
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.99 s
+
+Processing variable: ssr: 198601_198612
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.07 s
+
+Processing variable: ssr: 198701_198712
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.77 s
+
+Processing variable: ssr: 198801_198812
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.74 s
+
+Processing variable: ssr: 198901_198912
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.35 s
+
+Processing variable: ssr: 199001_199012
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  104.41 s
+
+Processing variable: ssr: 199101_199112
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.73 s
+
+Processing variable: ssr: 199201_199212
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  107.15 s
+
+Processing variable: ssr: 199301_199312
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  107.54 s
+
+Processing variable: ssr: 199401_199412
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.68 s
+
+Processing variable: ssr: 199501_199512
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  107.45 s
+
+Processing variable: ssr: 199601_199612
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  104.31 s
+
+Processing variable: ssr: 199701_199712
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.75 s
+
+Processing variable: ssr: 199801_199812
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  108.22 s
+
+Processing variable: ssr: 199901_199912
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.12 s
+
+Processing variable: ssr: 200001_200012
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  107.99 s
+
+Processing variable: ssr: 200101_200112
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.98 s
+
+Processing variable: ssr: 200201_200212
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  107.26 s
+
+Processing variable: ssr: 200301_200312
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.49 s
+
+Processing variable: ssr: 200401_200412
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  104.99 s
+
+Processing variable: ssr: 200501_200512
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  107.67 s
+
+Processing variable: ssr: 200601_200612
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.82 s
+
+Processing variable: ssr: 200701_200712
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  107.65 s
+
+Processing variable: ssr: 200801_200812
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.45 s
+
+Processing variable: ssr: 200901_200912
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.80 s
+
+Processing variable: ssr: 201001_201012
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  104.95 s
+
+Processing variable: ssr: 201101_201112
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.93 s
+
+Processing variable: ssr: 201201_201212
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  103.43 s
+
+Processing variable: ssr: 201301_201312
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.24 s
+
+Processing variable: ssr: 201401_201412
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  107.01 s
+
+Processing variable: ssr: 201501_201512
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  107.71 s
+
+Processing variable: ssr: 201601_201612
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.82 s
+
+Processing variable: ssr: 201701_201712
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.03 s
+
+Processing variable: ssr: 201801_201812
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  106.20 s
+
+Processing variable: ssr: 201901_201912
+
+Searching for ssr in /glade/campaign/collections/rda/data/ds633.0/
+
+ssr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  105.47 s
+
+Processing variable: str: 198001_198012
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  159.30 s
+
+Processing variable: str: 198101_198112
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  158.72 s
+
+Processing variable: str: 198201_198212
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  159.19 s
+
+Processing variable: str: 198301_198312
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  160.67 s
+
+Processing variable: str: 198401_198412
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  159.88 s
+
+Processing variable: str: 198501_198512
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  156.87 s
+
+Processing variable: str: 198601_198612
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  161.70 s
+
+Processing variable: str: 198701_198712
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  159.60 s
+
+Processing variable: str: 198801_198812
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  160.43 s
+
+Processing variable: str: 198901_198912
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  153.49 s
+
+Processing variable: str: 199001_199012
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.14 s
+
+Processing variable: str: 199101_199112
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  153.64 s
+
+Processing variable: str: 199201_199212
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  153.71 s
+
+Processing variable: str: 199301_199312
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  157.69 s
+
+Processing variable: str: 199401_199412
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  152.37 s
+
+Processing variable: str: 199501_199512
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  157.12 s
+
+Processing variable: str: 199601_199612
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  173.67 s
+
+Processing variable: str: 199701_199712
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  170.35 s
+
+Processing variable: str: 199801_199812
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  170.15 s
+
+Processing variable: str: 199901_199912
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  169.82 s
+
+Processing variable: str: 200001_200012
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  170.87 s
+
+Processing variable: str: 200101_200112
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  177.43 s
+
+Processing variable: str: 200201_200212
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  174.93 s
+
+Processing variable: str: 200301_200312
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  170.64 s
+
+Processing variable: str: 200401_200412
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  178.08 s
+
+Processing variable: str: 200501_200512
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  174.12 s
+
+Processing variable: str: 200601_200612
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  173.82 s
+
+Processing variable: str: 200701_200712
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  180.88 s
+
+Processing variable: str: 200801_200812
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  174.31 s
+
+Processing variable: str: 200901_200912
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  175.65 s
+
+Processing variable: str: 201001_201012
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  174.81 s
+
+Processing variable: str: 201101_201112
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  177.52 s
+
+Processing variable: str: 201201_201212
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  183.96 s
+
+Processing variable: str: 201301_201312
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  179.08 s
+
+Processing variable: str: 201401_201412
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  177.56 s
+
+Processing variable: str: 201501_201512
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  173.60 s
+
+Processing variable: str: 201601_201612
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  176.15 s
+
+Processing variable: str: 201701_201712
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  175.96 s
+
+Processing variable: str: 201801_201812
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  167.60 s
+
+Processing variable: str: 201901_201912
+
+Searching for str in /glade/campaign/collections/rda/data/ds633.0/
+
+str found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  171.22 s
+
+Processing variable: sro: 198001_198012
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  77.56 s
+
+Processing variable: sro: 198101_198112
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.55 s
+
+Processing variable: sro: 198201_198212
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  84.49 s
+
+Processing variable: sro: 198301_198312
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  85.39 s
+
+Processing variable: sro: 198401_198412
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.66 s
+
+Processing variable: sro: 198501_198512
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  79.52 s
+
+Processing variable: sro: 198601_198612
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  79.10 s
+
+Processing variable: sro: 198701_198712
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  87.82 s
+
+Processing variable: sro: 198801_198812
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  82.69 s
+
+Processing variable: sro: 198901_198912
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  85.20 s
+
+Processing variable: sro: 199001_199012
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  83.66 s
+
+Processing variable: sro: 199101_199112
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.42 s
+
+Processing variable: sro: 199201_199212
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  79.89 s
+
+Processing variable: sro: 199301_199312
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.71 s
+
+Processing variable: sro: 199401_199412
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  66.40 s
+
+Processing variable: sro: 199501_199512
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.66 s
+
+Processing variable: sro: 199601_199612
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  66.47 s
+
+Processing variable: sro: 199701_199712
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  66.41 s
+
+Processing variable: sro: 199801_199812
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.27 s
+
+Processing variable: sro: 199901_199912
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.55 s
+
+Processing variable: sro: 200001_200012
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  66.57 s
+
+Processing variable: sro: 200101_200112
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.53 s
+
+Processing variable: sro: 200201_200212
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  64.94 s
+
+Processing variable: sro: 200301_200312
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.79 s
+
+Processing variable: sro: 200401_200412
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  64.90 s
+
+Processing variable: sro: 200501_200512
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.90 s
+
+Processing variable: sro: 200601_200612
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  66.27 s
+
+Processing variable: sro: 200701_200712
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  64.81 s
+
+Processing variable: sro: 200801_200812
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.42 s
+
+Processing variable: sro: 200901_200912
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.49 s
+
+Processing variable: sro: 201001_201012
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  66.54 s
+
+Processing variable: sro: 201101_201112
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  66.62 s
+
+Processing variable: sro: 201201_201212
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.77 s
+
+Processing variable: sro: 201301_201312
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.19 s
+
+Processing variable: sro: 201401_201412
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.10 s
+
+Processing variable: sro: 201501_201512
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  64.94 s
+
+Processing variable: sro: 201601_201612
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  64.51 s
+
+Processing variable: sro: 201701_201712
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  64.84 s
+
+Processing variable: sro: 201801_201812
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  64.62 s
+
+Processing variable: sro: 201901_201912
+
+Searching for sro in /glade/campaign/collections/rda/data/ds633.0/
+
+sro found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  65.28 s
+
+Processing variable: sf: 198001_198012
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.22 s
+
+Processing variable: sf: 198101_198112
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  83.44 s
+
+Processing variable: sf: 198201_198212
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  85.64 s
+
+Processing variable: sf: 198301_198312
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  82.56 s
+
+Processing variable: sf: 198401_198412
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  84.63 s
+
+Processing variable: sf: 198501_198512
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  85.45 s
+
+Processing variable: sf: 198601_198612
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  83.10 s
+
+Processing variable: sf: 198701_198712
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.25 s
+
+Processing variable: sf: 198801_198812
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  83.72 s
+
+Processing variable: sf: 198901_198912
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  83.28 s
+
+Processing variable: sf: 199001_199012
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.71 s
+
+Processing variable: sf: 199101_199112
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  83.41 s
+
+Processing variable: sf: 199201_199212
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  85.08 s
+
+Processing variable: sf: 199301_199312
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.85 s
+
+Processing variable: sf: 199401_199412
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  84.73 s
+
+Processing variable: sf: 199501_199512
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  84.76 s
+
+Processing variable: sf: 199601_199612
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  84.05 s
+
+Processing variable: sf: 199701_199712
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  82.67 s
+
+Processing variable: sf: 199801_199812
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  82.18 s
+
+Processing variable: sf: 199901_199912
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  82.01 s
+
+Processing variable: sf: 200001_200012
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  82.41 s
+
+Processing variable: sf: 200101_200112
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.56 s
+
+Processing variable: sf: 200201_200212
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.60 s
+
+Processing variable: sf: 200301_200312
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.47 s
+
+Processing variable: sf: 200401_200412
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.46 s
+
+Processing variable: sf: 200501_200512
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.76 s
+
+Processing variable: sf: 200601_200612
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.53 s
+
+Processing variable: sf: 200701_200712
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.16 s
+
+Processing variable: sf: 200801_200812
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.51 s
+
+Processing variable: sf: 200901_200912
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.45 s
+
+Processing variable: sf: 201001_201012
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  82.37 s
+
+Processing variable: sf: 201101_201112
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  79.23 s
+
+Processing variable: sf: 201201_201212
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.73 s
+
+Processing variable: sf: 201301_201312
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.26 s
+
+Processing variable: sf: 201401_201412
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.54 s
+
+Processing variable: sf: 201501_201512
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  81.04 s
+
+Processing variable: sf: 201601_201612
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.39 s
+
+Processing variable: sf: 201701_201712
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.47 s
+
+Processing variable: sf: 201801_201812
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  80.34 s
+
+Processing variable: sf: 201901_201912
+
+Searching for sf in /glade/campaign/collections/rda/data/ds633.0/
+
+sf found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Combining Data
+Writing data to NetCDF
+
+Time elapsed:  79.82 s
+
+Processing variable: cape: 198001_198012
+
+File cape_198001_198012_dsw already exists. Skipping...
+
+Processing variable: cape: 198101_198112
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  48.81 s
+
+Processing variable: cape: 198201_198212
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  45.21 s
+
+Processing variable: cape: 198301_198312
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.21 s
+
+Processing variable: cape: 198401_198412
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  45.53 s
+
+Processing variable: cape: 198501_198512
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  46.71 s
+
+Processing variable: cape: 198601_198612
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.64 s
+
+Processing variable: cape: 198701_198712
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  43.53 s
+
+Processing variable: cape: 198801_198812
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  40.39 s
+
+Processing variable: cape: 198901_198912
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  45.45 s
+
+Processing variable: cape: 199001_199012
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.84 s
+
+Processing variable: cape: 199101_199112
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  45.37 s
+
+Processing variable: cape: 199201_199212
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.99 s
+
+Processing variable: cape: 199301_199312
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  42.11 s
+
+Processing variable: cape: 199401_199412
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.40 s
+
+Processing variable: cape: 199501_199512
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  42.67 s
+
+Processing variable: cape: 199601_199612
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.01 s
+
+Processing variable: cape: 199701_199712
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  45.55 s
+
+Processing variable: cape: 199801_199812
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  46.11 s
+
+Processing variable: cape: 199901_199912
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  43.75 s
+
+Processing variable: cape: 200001_200012
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  45.17 s
+
+Processing variable: cape: 200101_200112
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.82 s
+
+Processing variable: cape: 200201_200212
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.81 s
+
+Processing variable: cape: 200301_200312
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.78 s
+
+Processing variable: cape: 200401_200412
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  45.28 s
+
+Processing variable: cape: 200501_200512
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  43.97 s
+
+Processing variable: cape: 200601_200612
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  43.03 s
+
+Processing variable: cape: 200701_200712
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  43.14 s
+
+Processing variable: cape: 200801_200812
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  43.68 s
+
+Processing variable: cape: 200901_200912
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.74 s
+
+Processing variable: cape: 201001_201012
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  43.74 s
+
+Processing variable: cape: 201101_201112
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  42.72 s
+
+Processing variable: cape: 201201_201212
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.77 s
+
+Processing variable: cape: 201301_201312
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  45.47 s
+
+Processing variable: cape: 201401_201412
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  45.62 s
+
+Processing variable: cape: 201501_201512
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  43.83 s
+
+Processing variable: cape: 201601_201612
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  42.92 s
+
+Processing variable: cape: 201701_201712
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  47.66 s
+
+Processing variable: cape: 201801_201812
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  43.45 s
+
+Processing variable: cape: 201901_201912
+
+Searching for cape in /glade/campaign/collections/rda/data/ds633.0/
+
+cape found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining Data
+Combining data
+Writing data to NetCDF
+
+Time elapsed:  44.10 s
+
