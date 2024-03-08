@@ -71,10 +71,10 @@ import calendar
 
 
 data_in_path = '/glade/u/home/zcleveland/scratch/ERA5/dsw/' # path to subsetted data
-sub_script_path = '/glade/u/home/zcleveland/ERA5_analysis/scripts/subsetting/' # path to subsetting scripts
-plot_script_path = '/glade/u/home/zcleveland/ERA5_analysis/scripts/plotting/' # path to plotting scripts
-fig_out_path = '/glade/u/home/zcleveland/ERA5_analysis/figures/' # path to generated figures
-temp_scratch_path = '/glade/u/home/zcleveland/ERA5_analysis/temp/' # path to temp directory in scratch
+sub_script_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/subsetting/' # path to subsetting scripts
+plot_script_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/plotting/' # path to plotting scripts
+fig_out_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/figures/' # path to generated figures
+temp_scratch_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/temp/' # path to temp directory in scratch
 
 
 # In[3]:
