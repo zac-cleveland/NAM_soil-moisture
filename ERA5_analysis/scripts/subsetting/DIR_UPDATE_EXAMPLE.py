@@ -76,7 +76,7 @@ plot_script_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scr
 fig_out_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/figures/' # path to generated figures
 temp_scratch_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/temp/' # path to temp directory in scratch
 
-EXAMPLE_FOR_DIR_UPDATE_FUNCTION = '/EXAMPLE/PATH/FOR/DIR/UPDATE/FUNCTION/'
+EXAMPLE_FOR_DIR_UPDATE_FUNCTION = '/EXAMPLE/PATH/FOR/Hello_World/DIR/UPDATE/FUNCTION/'
 
 
 # In[3]:
