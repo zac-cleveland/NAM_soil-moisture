@@ -1,0 +1,6853 @@
+Waiting on job launch; 3892914.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=60GB -A UUSL0032 -q develop@desched1 -l walltime=4:00:00
+
+
+
+Starting var: lsp
+
+
+Year: ...1980Processing variable: lsp_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: lsp_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: lsp_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: lsp_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: lsp_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: lsp_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: lsp_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: lsp_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: lsp_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: lsp_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: lsp_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: lsp_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: lsp_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: lsp_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: lsp_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: lsp_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: lsp_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: lsp_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: lsp_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: lsp_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: lsp_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: lsp_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: lsp_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: lsp_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: lsp_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: lsp_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: lsp_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: lsp_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: lsp_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: lsp_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: lsp_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: lsp_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: lsp_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: lsp_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: lsp_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: lsp_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: lsp_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: lsp_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: lsp_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: lsp_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: cp
+
+
+Year: ...1980Processing variable: cp_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: cp_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: cp_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: cp_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: cp_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: cp_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: cp_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: cp_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: cp_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: cp_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: cp_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: cp_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: cp_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: cp_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: cp_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: cp_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: cp_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: cp_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: cp_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: cp_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: cp_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: cp_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: cp_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: cp_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: cp_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: cp_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: cp_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: cp_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: cp_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: cp_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: cp_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: cp_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: cp_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: cp_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: cp_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: cp_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: cp_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: cp_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: cp_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: cp_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: tp
+
+
+Year: ...1980tp_198001_1980_12_regrid.nc already exists. Skipping . . .
+...1981Processing variable: tp_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: tp_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: tp_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: tp_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: tp_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: tp_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: tp_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: tp_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: tp_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: tp_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: tp_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: tp_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: tp_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: tp_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: tp_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: tp_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: tp_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: tp_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: tp_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: tp_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: tp_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: tp_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: tp_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: tp_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: tp_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: tp_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: tp_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: tp_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: tp_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: tp_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: tp_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: tp_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: tp_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: tp_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: tp_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: tp_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: tp_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: tp_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: tp_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: sd
+
+
+Year: ...1980sd_198001_1980_12_regrid.nc already exists. Skipping . . .
+...1981Processing variable: sd_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: sd_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: sd_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: sd_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: sd_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: sd_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: sd_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: sd_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: sd_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: sd_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: sd_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: sd_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: sd_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: sd_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: sd_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: sd_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: sd_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: sd_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: sd_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: sd_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: sd_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: sd_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: sd_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: sd_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: sd_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: sd_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: sd_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: sd_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: sd_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: sd_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: sd_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: sd_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: sd_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: sd_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: sd_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: sd_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: sd_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: sd_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: sd_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: msl
+
+
+Year: ...1980Processing variable: msl_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: msl_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: msl_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: msl_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: msl_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: msl_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: msl_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: msl_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: msl_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: msl_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: msl_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: msl_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: msl_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: msl_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: msl_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: msl_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: msl_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: msl_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: msl_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: msl_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: msl_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: msl_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: msl_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: msl_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: msl_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: msl_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: msl_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: msl_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: msl_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: msl_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: msl_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: msl_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: msl_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: msl_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: msl_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: msl_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: msl_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: msl_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: msl_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: msl_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: tcc
+
+
+Year: ...1980Processing variable: tcc_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: tcc_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: tcc_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: tcc_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: tcc_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: tcc_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: tcc_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: tcc_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: tcc_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: tcc_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: tcc_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: tcc_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: tcc_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: tcc_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: tcc_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: tcc_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: tcc_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: tcc_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: tcc_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: tcc_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: tcc_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: tcc_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: tcc_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: tcc_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: tcc_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: tcc_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: tcc_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: tcc_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: tcc_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: tcc_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: tcc_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: tcc_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: tcc_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: tcc_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: tcc_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: tcc_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: tcc_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: tcc_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: tcc_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: tcc_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: stl1
+
+
+Year: ...1980Processing variable: stl1_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: stl1_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: stl1_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: stl1_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: stl1_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: stl1_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: stl1_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: stl1_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: stl1_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: stl1_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: stl1_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: stl1_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: stl1_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: stl1_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: stl1_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: stl1_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: stl1_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: stl1_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: stl1_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: stl1_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: stl1_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: stl1_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: stl1_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: stl1_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: stl1_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: stl1_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: stl1_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: stl1_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: stl1_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: stl1_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: stl1_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: stl1_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: stl1_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: stl1_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: stl1_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: stl1_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: stl1_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: stl1_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: stl1_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: stl1_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: stl2
+
+
+Year: ...1980Processing variable: stl2_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: stl2_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: stl2_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: stl2_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: stl2_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: stl2_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: stl2_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: stl2_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: stl2_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: stl2_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: stl2_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: stl2_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: stl2_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: stl2_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: stl2_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: stl2_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: stl2_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: stl2_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: stl2_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: stl2_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: stl2_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: stl2_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: stl2_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: stl2_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: stl2_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: stl2_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: stl2_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: stl2_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: stl2_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: stl2_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: stl2_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: stl2_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: stl2_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: stl2_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: stl2_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: stl2_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: stl2_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: stl2_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: stl2_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: stl2_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: stl3
+
+
+Year: ...1980Processing variable: stl3_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: stl3_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: stl3_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: stl3_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: stl3_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: stl3_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: stl3_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: stl3_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: stl3_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: stl3_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: stl3_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: stl3_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: stl3_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: stl3_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: stl3_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: stl3_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: stl3_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: stl3_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: stl3_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: stl3_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: stl3_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: stl3_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: stl3_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: stl3_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: stl3_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: stl3_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: stl3_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: stl3_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: stl3_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: stl3_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: stl3_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: stl3_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: stl3_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: stl3_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: stl3_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: stl3_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: stl3_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: stl3_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: stl3_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: stl3_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: stl4
+
+
+Year: ...1980Processing variable: stl4_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: stl4_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: stl4_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: stl4_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: stl4_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: stl4_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: stl4_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: stl4_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: stl4_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: stl4_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: stl4_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: stl4_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: stl4_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: stl4_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: stl4_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: stl4_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: stl4_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: stl4_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: stl4_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: stl4_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: stl4_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: stl4_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: stl4_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: stl4_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: stl4_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: stl4_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: stl4_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: stl4_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: stl4_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: stl4_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: stl4_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: stl4_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: stl4_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: stl4_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: stl4_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: stl4_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: stl4_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: stl4_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: stl4_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: stl4_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: swvl1
+
+
+Year: ...1980Processing variable: swvl1_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: swvl1_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: swvl1_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: swvl1_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: swvl1_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: swvl1_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: swvl1_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: swvl1_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: swvl1_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: swvl1_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: swvl1_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: swvl1_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: swvl1_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: swvl1_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: swvl1_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: swvl1_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: swvl1_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: swvl1_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: swvl1_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: swvl1_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: swvl1_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: swvl1_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: swvl1_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: swvl1_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: swvl1_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: swvl1_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: swvl1_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: swvl1_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: swvl1_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: swvl1_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: swvl1_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: swvl1_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: swvl1_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: swvl1_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: swvl1_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: swvl1_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: swvl1_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: swvl1_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: swvl1_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: swvl1_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: swvl2
+
+
+Year: ...1980Processing variable: swvl2_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: swvl2_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: swvl2_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: swvl2_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: swvl2_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: swvl2_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: swvl2_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: swvl2_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: swvl2_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: swvl2_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: swvl2_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: swvl2_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: swvl2_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: swvl2_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: swvl2_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: swvl2_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: swvl2_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: swvl2_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: swvl2_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: swvl2_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: swvl2_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: swvl2_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: swvl2_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: swvl2_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: swvl2_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: swvl2_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: swvl2_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: swvl2_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: swvl2_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: swvl2_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: swvl2_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: swvl2_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: swvl2_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: swvl2_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: swvl2_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: swvl2_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: swvl2_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: swvl2_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: swvl2_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: swvl2_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: swvl3
+
+
+Year: ...1980Processing variable: swvl3_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: swvl3_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: swvl3_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: swvl3_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: swvl3_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: swvl3_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: swvl3_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: swvl3_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: swvl3_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: swvl3_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: swvl3_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: swvl3_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: swvl3_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: swvl3_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: swvl3_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: swvl3_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: swvl3_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: swvl3_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: swvl3_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: swvl3_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: swvl3_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: swvl3_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: swvl3_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: swvl3_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: swvl3_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: swvl3_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: swvl3_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: swvl3_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: swvl3_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: swvl3_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: swvl3_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: swvl3_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: swvl3_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: swvl3_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: swvl3_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: swvl3_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: swvl3_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: swvl3_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: swvl3_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: swvl3_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: swvl4
+
+
+Year: ...1980Processing variable: swvl4_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: swvl4_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: swvl4_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: swvl4_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: swvl4_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: swvl4_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: swvl4_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: swvl4_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: swvl4_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: swvl4_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: swvl4_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: swvl4_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: swvl4_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: swvl4_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: swvl4_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: swvl4_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: swvl4_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: swvl4_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: swvl4_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: swvl4_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: swvl4_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: swvl4_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: swvl4_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: swvl4_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: swvl4_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: swvl4_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: swvl4_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: swvl4_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: swvl4_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: swvl4_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: swvl4_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: swvl4_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: swvl4_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: swvl4_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: swvl4_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: swvl4_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: swvl4_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: swvl4_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: swvl4_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: swvl4_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: 2t
+
+
+Year: ...1980Processing variable: 2t_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: 2t_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: 2t_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: 2t_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: 2t_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: 2t_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: 2t_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: 2t_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: 2t_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: 2t_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: 2t_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: 2t_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: 2t_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: 2t_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: 2t_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: 2t_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: 2t_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: 2t_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: 2t_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: 2t_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: 2t_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: 2t_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: 2t_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: 2t_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: 2t_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: 2t_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: 2t_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: 2t_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: 2t_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: 2t_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: 2t_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: 2t_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: 2t_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: 2t_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: 2t_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: 2t_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: 2t_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: 2t_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: 2t_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: 2t_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: 2d
+
+
+Year: ...1980Processing variable: 2d_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: 2d_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: 2d_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: 2d_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: 2d_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: 2d_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: 2d_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: 2d_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: 2d_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: 2d_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: 2d_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: 2d_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: 2d_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: 2d_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: 2d_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: 2d_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: 2d_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: 2d_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: 2d_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: 2d_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: 2d_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: 2d_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: 2d_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: 2d_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: 2d_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: 2d_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: 2d_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: 2d_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: 2d_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: 2d_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: 2d_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: 2d_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: 2d_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: 2d_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: 2d_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: 2d_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: 2d_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: 2d_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: 2d_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: 2d_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: ishf
+
+
+Year: ...1980Processing variable: ishf_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: ishf_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: ishf_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: ishf_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: ishf_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: ishf_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: ishf_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: ishf_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: ishf_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: ishf_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: ishf_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: ishf_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: ishf_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: ishf_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: ishf_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: ishf_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: ishf_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: ishf_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: ishf_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: ishf_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: ishf_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: ishf_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: ishf_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: ishf_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: ishf_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: ishf_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: ishf_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: ishf_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: ishf_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: ishf_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: ishf_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: ishf_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: ishf_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: ishf_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: ishf_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: ishf_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: ishf_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: ishf_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: ishf_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: ishf_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: ie
+
+
+Year: ...1980Processing variable: ie_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: ie_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: ie_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: ie_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: ie_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: ie_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: ie_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: ie_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: ie_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: ie_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: ie_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: ie_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: ie_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: ie_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: ie_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: ie_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: ie_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: ie_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: ie_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: ie_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: ie_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: ie_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: ie_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: ie_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: ie_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: ie_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: ie_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: ie_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: ie_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: ie_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: ie_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: ie_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: ie_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: ie_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: ie_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: ie_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: ie_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: ie_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: ie_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: ie_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: sshf
+
+
+Year: ...1980Processing variable: sshf_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: sshf_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: sshf_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: sshf_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: sshf_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: sshf_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: sshf_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: sshf_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: sshf_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: sshf_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: sshf_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: sshf_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: sshf_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: sshf_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: sshf_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: sshf_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: sshf_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: sshf_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: sshf_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: sshf_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: sshf_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: sshf_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: sshf_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: sshf_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: sshf_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: sshf_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: sshf_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: sshf_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: sshf_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: sshf_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: sshf_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: sshf_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: sshf_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: sshf_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: sshf_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: sshf_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: sshf_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: sshf_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: sshf_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: sshf_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: slhf
+
+
+Year: ...1980Processing variable: slhf_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: slhf_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: slhf_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: slhf_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: slhf_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: slhf_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: slhf_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: slhf_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: slhf_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: slhf_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: slhf_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: slhf_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: slhf_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: slhf_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: slhf_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: slhf_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: slhf_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: slhf_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: slhf_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: slhf_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: slhf_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: slhf_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: slhf_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: slhf_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: slhf_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: slhf_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: slhf_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: slhf_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: slhf_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: slhf_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: slhf_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: slhf_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: slhf_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: slhf_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: slhf_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: slhf_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: slhf_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: slhf_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: slhf_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: slhf_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: ssr
+
+
+Year: ...1980Processing variable: ssr_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: ssr_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: ssr_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: ssr_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: ssr_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: ssr_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: ssr_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: ssr_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: ssr_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: ssr_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: ssr_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: ssr_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: ssr_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: ssr_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: ssr_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: ssr_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: ssr_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: ssr_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: ssr_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: ssr_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: ssr_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: ssr_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: ssr_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: ssr_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: ssr_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: ssr_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: ssr_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: ssr_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: ssr_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: ssr_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: ssr_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: ssr_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: ssr_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: ssr_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: ssr_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: ssr_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: ssr_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: ssr_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: ssr_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: ssr_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: str
+
+
+Year: ...1980Processing variable: str_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: str_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: str_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: str_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: str_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: str_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: str_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: str_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: str_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: str_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: str_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: str_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: str_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: str_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: str_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: str_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: str_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: str_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: str_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: str_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: str_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: str_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: str_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: str_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: str_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: str_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: str_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: str_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: str_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: str_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: str_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: str_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: str_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: str_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: str_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: str_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: str_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: str_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: str_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: str_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: sro
+
+
+Year: ...1980Processing variable: sro_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: sro_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: sro_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: sro_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: sro_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: sro_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: sro_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: sro_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: sro_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: sro_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: sro_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: sro_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: sro_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: sro_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: sro_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: sro_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: sro_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: sro_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: sro_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: sro_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: sro_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: sro_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: sro_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: sro_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: sro_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: sro_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: sro_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: sro_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: sro_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: sro_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: sro_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: sro_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: sro_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: sro_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: sro_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: sro_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: sro_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: sro_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: sro_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: sro_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: sf
+
+
+Year: ...1980Processing variable: sf_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: sf_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: sf_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: sf_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: sf_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: sf_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: sf_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: sf_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: sf_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: sf_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: sf_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: sf_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: sf_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: sf_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: sf_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: sf_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: sf_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: sf_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: sf_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: sf_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: sf_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: sf_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: sf_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: sf_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: sf_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: sf_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: sf_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: sf_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: sf_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: sf_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: sf_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: sf_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: sf_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: sf_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: sf_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: sf_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: sf_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: sf_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: sf_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: sf_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: cape
+
+
+Year: ...1980Processing variable: cape_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: cape_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: cape_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: cape_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: cape_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: cape_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: cape_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: cape_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: cape_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: cape_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: cape_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: cape_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: cape_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: cape_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: cape_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: cape_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: cape_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: cape_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: cape_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: cape_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: cape_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: cape_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: cape_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: cape_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: cape_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: cape_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: cape_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: cape_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: cape_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: cape_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: cape_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: cape_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: cape_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: cape_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: cape_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: cape_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: cape_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: cape_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: cape_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: cape_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: tcw
+
+
+Year: ...1980Processing variable: tcw_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: tcw_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: tcw_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: tcw_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: tcw_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: tcw_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: tcw_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: tcw_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: tcw_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: tcw_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: tcw_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: tcw_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: tcw_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: tcw_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: tcw_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: tcw_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: tcw_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: tcw_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: tcw_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: tcw_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: tcw_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: tcw_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: tcw_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: tcw_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: tcw_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: tcw_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: tcw_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: tcw_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: tcw_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: tcw_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: tcw_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: tcw_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: tcw_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: tcw_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: tcw_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: tcw_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: tcw_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: tcw_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: tcw_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: tcw_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: ssrd
+
+
+Year: ...1980Processing variable: ssrd_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: ssrd_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: ssrd_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: ssrd_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: ssrd_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: ssrd_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: ssrd_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: ssrd_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: ssrd_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: ssrd_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: ssrd_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: ssrd_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: ssrd_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: ssrd_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: ssrd_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: ssrd_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: ssrd_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: ssrd_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: ssrd_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: ssrd_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: ssrd_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: ssrd_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: ssrd_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: ssrd_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: ssrd_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: ssrd_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: ssrd_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: ssrd_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: ssrd_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: ssrd_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: ssrd_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: ssrd_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: ssrd_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: ssrd_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: ssrd_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: ssrd_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: ssrd_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: ssrd_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: ssrd_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: ssrd_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+
+
+Starting var: strd
+
+
+Year: ...1980Processing variable: strd_198001_1980_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1981Processing variable: strd_198101_1981_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1982Processing variable: strd_198201_1982_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1983Processing variable: strd_198301_1983_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1984Processing variable: strd_198401_1984_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1985Processing variable: strd_198501_1985_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1986Processing variable: strd_198601_1986_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1987Processing variable: strd_198701_1987_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1988Processing variable: strd_198801_1988_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1989Processing variable: strd_198901_1989_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1990Processing variable: strd_199001_1990_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1991Processing variable: strd_199101_1991_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1992Processing variable: strd_199201_1992_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1993Processing variable: strd_199301_1993_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1994Processing variable: strd_199401_1994_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1995Processing variable: strd_199501_1995_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1996Processing variable: strd_199601_1996_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1997Processing variable: strd_199701_1997_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1998Processing variable: strd_199801_1998_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...1999Processing variable: strd_199901_1999_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2000Processing variable: strd_200001_2000_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2001Processing variable: strd_200101_2001_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2002Processing variable: strd_200201_2002_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2003Processing variable: strd_200301_2003_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2004Processing variable: strd_200401_2004_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2005Processing variable: strd_200501_2005_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2006Processing variable: strd_200601_2006_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2007Processing variable: strd_200701_2007_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2008Processing variable: strd_200801_2008_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2009Processing variable: strd_200901_2009_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2010Processing variable: strd_201001_2010_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2011Processing variable: strd_201101_2011_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2012Processing variable: strd_201201_2012_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2013Processing variable: strd_201301_2013_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2014Processing variable: strd_201401_2014_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2015Processing variable: strd_201501_2015_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2016Processing variable: strd_201601_2016_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2017Processing variable: strd_201701_2017_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2018Processing variable: strd_201801_2018_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+
+...2019Processing variable: strd_201901_2019_12_regrid.nc.
+
+Regridding . . .
+
+Saving to netcdf . . .
+

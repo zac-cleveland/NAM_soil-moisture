@@ -64,44 +64,47 @@ from matplotlib.gridspec import GridSpec
 from cartopy.crs import EqualEarth, PlateCarree
 
 
-# In[4]:
+# In[2]:
 
-out_text_file = []
 
 era5_path = '/glade/campaign/collections/rda/data/ds633.0/' # base path to ERA5 data on derecho
 out_path = '/glade/u/home/zcleveland/scratch/ERA5/dsw/' # base path to my subsetted data
 
 
-# In[16]:
+# In[5]:
 
 
-# Add other variables and their corresponding subdirectories here
+# variable list to choose
 var_list = [
-    # 'lsp', # large scale precipitation (m of water) - accumu
-    # 'cp', # convective precipitation (m of water) - accumu
-    # 'sd', # snow depth  (m of water equivalent) - instan
-    # 'msl', # mean sea level pressure (Pa) - instan
-    # 'tcc', # total cloud cover (0-1) - instan
-    # 'stl1', # soil temp layer 1 (K) - instan
-    # 'stl2', # soil temp layer 2 (K) - instan
-    # 'stl3', # soil temp layer 3 (K) - instan
-    # 'stl4', # soil temp layer 4 (K) - instan
-    # 'swvl1', # soil volume water content layer 1 (m^3 m^-3) - instan
-    # 'swvl2', # soil volume water content layer 2 (m^3 m^-3) - instan
-    # 'swvl3', # soil volume water content layer 3 (m^3 m^-3) - instan
-    # 'swvl4', # soil volume water content layer 4 (m^3 m^-3) - instan
-    # '2t', # 2 meter temp (K) - instan
-    # '2d', # 2 meter dew point (K) - instan
-    # 'ishf', # instant surface heat flux (W m^-2) - instan
-    # 'ie', # instant moisture flux (kg m^-2 s^-1) - instan
-    # 'sshf', # surface sensible heat flux (J m^-2) - accumu
-    # 'slhf', # surface latent heat flux (J m^-2) - accumu
-    # 'ssr', # surface net solar radiation (J m^-2) - accumu
-    # 'str', # surface net thermal radiation (J m^-2) - accumu
-    # 'sro', # surface runoff (m) - accumu
-    # 'sf', # total snowfall (m of water equivalent) - accumu
-    # 'cape', # convective available potential energy (J kg^-1) - instan
-    'tcw', # total column water (kg m^-2) - sfc (sum total of solid, liquid, and vapor in a column)
+    # 'lsp',  # large scale precipitation (m of water) - accumu
+    # 'cp',  # convective precipitation (m of water) - accumu
+    # 'tp',  # total precipitation (m of water) - accumu -- DERIVED
+    # 'sd',  # snow depth  (m of water equivalent) - instan
+    # 'msl',  # mean sea level pressure (Pa) - instan
+    # 'tcc',  # total cloud cover (0-1) - instan
+    # 'stl1',  # soil temp layer 1 (K) - instan
+    # 'stl2',  # soil temp layer 2 (K) - instan
+    # 'stl3',  # soil temp layer 3 (K) - instan
+    # 'stl4',  # soil temp layer 4 (K) - instan
+    # 'swvl1',  # soil volume water content layer 1 (m^3 m^-3) - instan
+    # 'swvl2',  # soil volume water content layer 2 (m^3 m^-3) - instan
+    # 'swvl3',  # soil volume water content layer 3 (m^3 m^-3) - instan
+    # 'swvl4',  # soil volume water content layer 4 (m^3 m^-3) - instan
+    # '2t',  # 2 meter temp (K) - instan
+    # '2d',  # 2 meter dew point (K) - instan
+    # 'ishf',  # instant surface heat flux (W m^-2) - instan
+    # 'ie',  # instant moisture flux (kg m^-2 s^-1) - instan
+    # 'sshf',  # surface sensible heat flux (J m^-2) - accumu
+    # 'slhf',  # surface latent heat flux (J m^-2) - accumu
+    # 'ssr',  # surface net solar radiation (J m^-2) - accumu
+    # 'str',  # surface net thermal radiation (J m^-2) - accumu
+    # 'sro',  # surface runoff (m) - accumu
+    # 'sf',  # total snowfall (m of water equivalent) - accumu
+    # 'cape',  # convective available potential energy (J kg^-1) - instan
+    'cin',  # convective inhibition (J kg^-1) - instan
+    # 'tcw',  # total column water (kg m^-2) - sfc (sum total of solid, liquid, and vapor in a column)
+    'ssrd',  # surface solar radiation downwards (J m^-2) - accumu
+    'strd',  # surface thermal radiation downwards (J m^-2) - accumu
 ]
 
 
