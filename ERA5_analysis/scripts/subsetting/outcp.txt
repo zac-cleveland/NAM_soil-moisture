@@ -1,0 +1,46 @@
+Waiting on job launch; 3918396.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=4:00:00
+
+Waiting on job launch; 3922092.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=4:00:00
+
+Traceback (most recent call last):
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 199, in _acquire_with_cache_info
+file = self._cache[self._key]
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/backends/lru_cache.py", line 53, in __getitem__
+value = self._cache[key]
+KeyError: [<class 'netCDF4._netCDF4.Dataset'>, ('/glade/u/home/zcleveland/scratch/ERA5/cp/swvl1_198001_201912_cp.nc',), 'a', (('clobber', True), ('diskless', False), ('format', 'NETCDF4'), ('persist', False))]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/subsetting/CP_averages.py", line 182, in <module>
+cp_subsetting_monthly(var=var, regrid_flag=False, overwrite_flag=True)
+File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/subsetting/CP_averages.py", line 173, in cp_subsetting_monthly
+cp_monthly_data.to_netcdf(out_fp)
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataset.py", line 1900, in to_netcdf
+return to_netcdf(
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/backends/api.py", line 1055, in to_netcdf
+store = store_open(target, mode, format, group, **kwargs)
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 382, in open
+return cls(manager, group=group, mode=mode, lock=lock, autoclose=autoclose)
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 330, in __init__
+self.format = self.ds.data_model
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 391, in ds
+return self._acquire()
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/backends/netCDF4_.py", line 385, in _acquire
+with self._manager.acquire_context(needs_lock) as root:
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/contextlib.py", line 119, in __enter__
+return next(self.gen)
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 187, in acquire_context
+file, cached = self._acquire_with_cache_info(needs_lock)
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/backends/file_manager.py", line 205, in _acquire_with_cache_info
+file = self._opener(*self._args, **kwargs)
+File "src/netCDF4/_netCDF4.pyx", line 2353, in netCDF4._netCDF4.Dataset.__init__
+File "src/netCDF4/_netCDF4.pyx", line 1963, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'/glade/u/home/zcleveland/scratch/ERA5/cp/swvl1_198001_201912_cp.nc'
+Waiting on job launch; 3922121.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=4:00:00
+
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
