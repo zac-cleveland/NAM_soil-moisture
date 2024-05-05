@@ -1,0 +1,2363 @@
+Waiting on job launch; 4351075.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
+
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/utils.py:35: RuntimeWarning: All-NaN slice encountered
+return func(*args, **kwargs)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: All-NaN slice encountered
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+. . . Processing variable: ttr: 198001_198012 . . .
+
+File ttr_198001_198012_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 198101_198112 . . .
+
+File ttr_198101_198112_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 198201_198212 . . .
+
+File ttr_198201_198212_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 198301_198312 . . .
+
+File ttr_198301_198312_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 198401_198412 . . .
+
+File ttr_198401_198412_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 198501_198512 . . .
+
+File ttr_198501_198512_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 198601_198612 . . .
+
+File ttr_198601_198612_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 198701_198712 . . .
+
+File ttr_198701_198712_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 198801_198812 . . .
+
+File ttr_198801_198812_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 198901_198912 . . .
+
+File ttr_198901_198912_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199001_199012 . . .
+
+File ttr_199001_199012_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199101_199112 . . .
+
+File ttr_199101_199112_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199201_199212 . . .
+
+File ttr_199201_199212_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199301_199312 . . .
+
+File ttr_199301_199312_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199401_199412 . . .
+
+File ttr_199401_199412_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199501_199512 . . .
+
+File ttr_199501_199512_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199601_199612 . . .
+
+File ttr_199601_199612_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199701_199712 . . .
+
+File ttr_199701_199712_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199801_199812 . . .
+
+File ttr_199801_199812_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 199901_199912 . . .
+
+File ttr_199901_199912_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200001_200012 . . .
+
+File ttr_200001_200012_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200101_200112 . . .
+
+File ttr_200101_200112_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200201_200212 . . .
+
+File ttr_200201_200212_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200301_200312 . . .
+
+File ttr_200301_200312_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200401_200412 . . .
+
+File ttr_200401_200412_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200501_200512 . . .
+
+File ttr_200501_200512_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200601_200612 . . .
+
+File ttr_200601_200612_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200701_200712 . . .
+
+File ttr_200701_200712_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200801_200812 . . .
+
+File ttr_200801_200812_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 200901_200912 . . .
+
+File ttr_200901_200912_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201001_201012 . . .
+
+File ttr_201001_201012_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201101_201112 . . .
+
+File ttr_201101_201112_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201201_201212 . . .
+
+File ttr_201201_201212_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201301_201312 . . .
+
+File ttr_201301_201312_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201401_201412 . . .
+
+File ttr_201401_201412_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201501_201512 . . .
+
+File ttr_201501_201512_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201601_201612 . . .
+
+File ttr_201601_201612_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201701_201712 . . .
+
+File ttr_201701_201712_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201801_201812 . . .
+
+File ttr_201801_201812_dsw already exists. Skipping...
+
+. . . Processing variable: ttr: 201901_201912 . . .
+
+File ttr_201901_201912_dsw already exists. Skipping...
+
+. . . Processing variable: sstk: 198001_198012 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.41 s
+
+. . . Processing variable: sstk: 198101_198112 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.15 s
+
+. . . Processing variable: sstk: 198201_198212 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  39.09 s
+
+. . . Processing variable: sstk: 198301_198312 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.48 s
+
+. . . Processing variable: sstk: 198401_198412 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  39.82 s
+
+. . . Processing variable: sstk: 198501_198512 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.81 s
+
+. . . Processing variable: sstk: 198601_198612 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.55 s
+
+. . . Processing variable: sstk: 198701_198712 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.30 s
+
+. . . Processing variable: sstk: 198801_198812 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  42.33 s
+
+. . . Processing variable: sstk: 198901_198912 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.22 s
+
+. . . Processing variable: sstk: 199001_199012 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.69 s
+
+. . . Processing variable: sstk: 199101_199112 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.12 s
+
+. . . Processing variable: sstk: 199201_199212 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.93 s
+
+. . . Processing variable: sstk: 199301_199312 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.60 s
+
+. . . Processing variable: sstk: 199401_199412 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.41 s
+
+. . . Processing variable: sstk: 199501_199512 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  42.32 s
+
+. . . Processing variable: sstk: 199601_199612 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  44.56 s
+
+. . . Processing variable: sstk: 199701_199712 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  44.02 s
+
+. . . Processing variable: sstk: 199801_199812 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.26 s
+
+. . . Processing variable: sstk: 199901_199912 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.29 s
+
+. . . Processing variable: sstk: 200001_200012 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.47 s
+
+. . . Processing variable: sstk: 200101_200112 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  39.22 s
+
+. . . Processing variable: sstk: 200201_200212 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.49 s
+
+. . . Processing variable: sstk: 200301_200312 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.26 s
+
+. . . Processing variable: sstk: 200401_200412 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.59 s
+
+. . . Processing variable: sstk: 200501_200512 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  46.16 s
+
+. . . Processing variable: sstk: 200601_200612 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  42.34 s
+
+. . . Processing variable: sstk: 200701_200712 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  39.52 s
+
+. . . Processing variable: sstk: 200801_200812 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.37 s
+
+. . . Processing variable: sstk: 200901_200912 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.00 s
+
+. . . Processing variable: sstk: 201001_201012 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  39.30 s
+
+. . . Processing variable: sstk: 201101_201112 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.02 s
+
+. . . Processing variable: sstk: 201201_201212 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  38.40 s
+
+. . . Processing variable: sstk: 201301_201312 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  39.82 s
+
+. . . Processing variable: sstk: 201401_201412 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.60 s
+
+. . . Processing variable: sstk: 201501_201512 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  40.64 s
+
+. . . Processing variable: sstk: 201601_201612 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.07 s
+
+. . . Processing variable: sstk: 201701_201712 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.58 s
+
+. . . Processing variable: sstk: 201801_201812 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.59 s
+
+. . . Processing variable: sstk: 201901_201912 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  41.78 s
+
+. . . Processing variable: ttr: 198001_198012 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  115.54 s
+
+. . . Processing variable: ttr: 198101_198112 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  114.34 s
+
+. . . Processing variable: ttr: 198201_198212 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  110.61 s
+
+. . . Processing variable: ttr: 198301_198312 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  111.68 s
+
+. . . Processing variable: ttr: 198401_198412 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.55 s
+
+. . . Processing variable: ttr: 198501_198512 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.16 s
+
+. . . Processing variable: ttr: 198601_198612 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.39 s
+
+. . . Processing variable: ttr: 198701_198712 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.31 s
+
+. . . Processing variable: ttr: 198801_198812 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.58 s
+
+. . . Processing variable: ttr: 198901_198912 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.55 s
+
+. . . Processing variable: ttr: 199001_199012 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.07 s
+
+. . . Processing variable: ttr: 199101_199112 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.27 s
+
+. . . Processing variable: ttr: 199201_199212 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.47 s
+
+. . . Processing variable: ttr: 199301_199312 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  111.66 s
+
+. . . Processing variable: ttr: 199401_199412 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.39 s
+
+. . . Processing variable: ttr: 199501_199512 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.52 s
+
+. . . Processing variable: ttr: 199601_199612 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  115.91 s
+
+. . . Processing variable: ttr: 199701_199712 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  111.98 s
+
+. . . Processing variable: ttr: 199801_199812 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  114.38 s
+
+. . . Processing variable: ttr: 199901_199912 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  111.93 s
+
+. . . Processing variable: ttr: 200001_200012 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  115.07 s
+
+. . . Processing variable: ttr: 200101_200112 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  114.58 s
+
+. . . Processing variable: ttr: 200201_200212 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.73 s
+
+. . . Processing variable: ttr: 200301_200312 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  116.34 s
+
+. . . Processing variable: ttr: 200401_200412 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  115.00 s
+
+. . . Processing variable: ttr: 200501_200512 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  115.34 s
+
+. . . Processing variable: ttr: 200601_200612 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.49 s
+
+. . . Processing variable: ttr: 200701_200712 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.57 s
+
+. . . Processing variable: ttr: 200801_200812 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  114.96 s
+
+. . . Processing variable: ttr: 200901_200912 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.68 s
+
+. . . Processing variable: ttr: 201001_201012 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.39 s
+
+. . . Processing variable: ttr: 201101_201112 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.43 s
+
+. . . Processing variable: ttr: 201201_201212 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  116.02 s
+
+. . . Processing variable: ttr: 201301_201312 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  117.63 s
+
+. . . Processing variable: ttr: 201401_201412 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  116.60 s
+
+. . . Processing variable: ttr: 201501_201512 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  115.27 s
+
+. . . Processing variable: ttr: 201601_201612 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.92 s
+
+. . . Processing variable: ttr: 201701_201712 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  113.78 s
+
+. . . Processing variable: ttr: 201801_201812 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  114.30 s
+
+. . . Processing variable: ttr: 201901_201912 . . .
+
+Searching for ttr in /glade/campaign/collections/rda/data/ds633.0/
+
+ttr found at e5.oper.fc.sfc.accumu
+
+24 number of files
+
+opening datasets
+Writing data to NetCDF
+
+Time elapsed:  112.87 s
+
+. . . Processing variable: sstk: 198001_198012 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  138.60 s
+
+. . . Processing variable: sstk: 198101_198112 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  142.71 s
+
+. . . Processing variable: sstk: 198201_198212 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  149.18 s
+
+. . . Processing variable: sstk: 198301_198312 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  149.41 s
+
+. . . Processing variable: sstk: 198401_198412 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  139.81 s
+
+. . . Processing variable: sstk: 198501_198512 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  147.03 s
+
+. . . Processing variable: sstk: 198601_198612 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  146.98 s
+
+. . . Processing variable: sstk: 198701_198712 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  136.55 s
+
+. . . Processing variable: sstk: 198801_198812 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  145.39 s
+
+. . . Processing variable: sstk: 198901_198912 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  144.63 s
+
+. . . Processing variable: sstk: 199001_199012 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  137.37 s
+
+. . . Processing variable: sstk: 199101_199112 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  144.05 s
+
+. . . Processing variable: sstk: 199201_199212 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  146.24 s
+
+. . . Processing variable: sstk: 199301_199312 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  148.09 s
+
+. . . Processing variable: sstk: 199401_199412 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  145.13 s
+
+. . . Processing variable: sstk: 199501_199512 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  145.96 s
+
+. . . Processing variable: sstk: 199601_199612 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  151.74 s
+
+. . . Processing variable: sstk: 199701_199712 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  150.43 s
+
+. . . Processing variable: sstk: 199801_199812 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  154.24 s
+
+. . . Processing variable: sstk: 199901_199912 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  151.90 s
+
+. . . Processing variable: sstk: 200001_200012 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  146.66 s
+
+. . . Processing variable: sstk: 200101_200112 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  142.47 s
+
+. . . Processing variable: sstk: 200201_200212 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  147.00 s
+
+. . . Processing variable: sstk: 200301_200312 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  138.17 s
+
+. . . Processing variable: sstk: 200401_200412 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  144.63 s
+
+. . . Processing variable: sstk: 200501_200512 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  147.87 s
+
+. . . Processing variable: sstk: 200601_200612 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  139.86 s
+
+. . . Processing variable: sstk: 200701_200712 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  147.72 s
+
+. . . Processing variable: sstk: 200801_200812 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  144.94 s
+
+. . . Processing variable: sstk: 200901_200912 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  143.19 s
+
+. . . Processing variable: sstk: 201001_201012 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  144.34 s
+
+. . . Processing variable: sstk: 201101_201112 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  138.62 s
+
+. . . Processing variable: sstk: 201201_201212 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  148.42 s
+
+. . . Processing variable: sstk: 201301_201312 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  144.38 s
+
+. . . Processing variable: sstk: 201401_201412 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  139.38 s
+
+. . . Processing variable: sstk: 201501_201512 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  148.48 s
+
+. . . Processing variable: sstk: 201601_201612 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  144.02 s
+
+. . . Processing variable: sstk: 201701_201712 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  146.96 s
+
+. . . Processing variable: sstk: 201801_201812 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  146.46 s
+
+. . . Processing variable: sstk: 201901_201912 . . .
+
+Searching for sstk in /glade/campaign/collections/rda/data/ds633.0/
+
+sstk found at e5.oper.an.sfc
+
+12 number of files
+
+opening datasets
+Combining data
+
+Writing data to NetCDF
+
+Time elapsed:  146.52 s
+

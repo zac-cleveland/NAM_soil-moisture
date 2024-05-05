@@ -1,0 +1,48 @@
+ttr - [3] - onset
+ttr - [3] - retreat
+ttr - [3] - length
+ttr - [4] - onset
+ttr - [4] - retreat
+ttr - [4] - length
+ttr - [5] - onset
+ttr - [5] - retreat
+ttr - [5] - length
+ttr - [6] - onset
+ttr - [6] - retreat
+ttr - [6] - length
+ttr - [7] - onset
+ttr - [7] - retreat
+ttr - [7] - length
+ttr - [8] - onset
+ttr - [8] - retreat
+ttr - [8] - length
+ttr - [3, 4, 5] - onset
+ttr - [3, 4, 5] - retreat
+ttr - [3, 4, 5] - length
+ttr - [6, 7, 8] - onset
+ttr - [6, 7, 8] - retreat
+ttr - [6, 7, 8] - length
+sstk - [3] - onset
+sstk - [3] - retreat
+sstk - [3] - length
+sstk - [4] - onset
+sstk - [4] - retreat
+sstk - [4] - length
+sstk - [5] - onset
+sstk - [5] - retreat
+sstk - [5] - length
+sstk - [6] - onset
+sstk - [6] - retreat
+sstk - [6] - length
+sstk - [7] - onset
+sstk - [7] - retreat
+sstk - [7] - length
+sstk - [8] - onset
+sstk - [8] - retreat
+sstk - [8] - length
+sstk - [3, 4, 5] - onset
+sstk - [3, 4, 5] - retreat
+sstk - [3, 4, 5] - length
+sstk - [6, 7, 8] - onset
+sstk - [6, 7, 8] - retreat
+sstk - [6, 7, 8] - length

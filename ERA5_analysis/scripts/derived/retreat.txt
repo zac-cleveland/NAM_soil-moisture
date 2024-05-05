@@ -1,0 +1,4 @@
+Waiting on job launch; 3940644.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
+
+Done
