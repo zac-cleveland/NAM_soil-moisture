@@ -94,8 +94,8 @@ var_list = [
     # 'tcw',  # total column water (kg m^-2) - sfc (sum total of solid, liquid, and vapor in a column)
     # 'ssrd',  # surface solar radiation downwards (J m^-2) - accumu
     # 'strd',  # surface thermal radiation downwards (J m^-2) - accumu
-    'ttr',  # top net thermal radiation (OLR, J m^-2) - accumu -- divide by time (s) for W m^-2
-    'sstk',  # sea surface temperature (K) - instan
+    # 'ttr',  # top net thermal radiation (OLR, J m^-2) - accumu -- divide by time (s) for W m^-2
+    # 'sstk',  # sea surface temperature (K) - instan
 ]
 
 
@@ -129,10 +129,10 @@ pl_var_list = [
     # 'cswc',  # specific snow water content (kg kg^-1)
     # 'z',  # geopotential (m^2 s^2)
     # 't',  # temperature (K)
-    # 'u',  # u component of wind(m s^-1)
-    # 'v',  # v component of wind (m s^-1)
-    # 'q',  # specific humidity (kg kg^-1)
-    # 'w',  # vertical velo|city (Pa s^-1)
+    'u',  # u component of wind(m s^-1)
+    'v',  # v component of wind (m s^-1)
+    'q',  # specific humidity (kg kg^-1)
+    'w',  # vertical velo|city (Pa s^-1)
     # 'vo',  # vorticity - relative (s^-1)
     # 'd',  # divergence (s^-1)
     # 'r',  # relative humidity (%)
@@ -299,35 +299,35 @@ def dsw_subset_era5(variable='lsp', start_date=200101, end_date=200102, dsw_flag
 # In[28]:
 
 
-# set time array to loop through
-years = np.arange(1980,2020)
-months = np.arange(1,13)
+# # set time array to loop through
+# years = np.arange(1980,2020)
+# months = np.arange(1,13)
 
 
 # In[ ]:
 
 
-# Loop through variables in var_list and process each one for DSW
-for var in var_list:
-    for year in years:
-        with open(f'{sub_script_path}pl_out.txt', 'a') as file:
-            file.write(f'{var} - {year} - DSW\n')
-        start_date = int(f'{year}01')
-        end_date = int(f'{year}12')
-        dsw_subset_era5(var, start_date, end_date)
+# # Loop through variables in var_list and process each one for DSW
+# for var in var_list:
+#     for year in years:
+#         with open(f'{sub_script_path}pl_out.txt', 'a') as file:
+#             file.write(f'{var} - {year} - DSW\n')
+#         start_date = int(f'{year}01')
+#         end_date = int(f'{year}12')
+#         dsw_subset_era5(var, start_date, end_date)
 
 
 # In[ ]:
 
 
-# Loop through variables in var_list and process each one for GLOBAL
-for var in var_list:
-    for year in years:
-        with open(f'{sub_script_path}pl_out.txt', 'a') as file:
-            file.write(f'{var} - {year} - GLOBAL\n')
-        start_date = int(f'{year}01')
-        end_date = int(f'{year}12')
-        dsw_subset_era5(var, start_date, end_date, dsw_flag=False)
+# # Loop through variables in var_list and process each one for GLOBAL
+# for var in var_list:
+#     for year in years:
+#         with open(f'{sub_script_path}pl_out.txt', 'a') as file:
+#             file.write(f'{var} - {year} - GLOBAL\n')
+#         start_date = int(f'{year}01')
+#         end_date = int(f'{year}12')
+#         dsw_subset_era5(var, start_date, end_date, dsw_flag=False)
 
 
 # In[34]:
@@ -371,7 +371,7 @@ def pl_subset_era5(variable='pv', start_date = 200101):
     start_year = f'{start_date}'[:4]
     # define output filename and path
     out_fn = f'{variable}_{start_date}_dsw'  # out file name
-    out_fp = f'{out_path}{start_year}/pl/{out_fn}'  # out file path (including file name)
+    out_fp = f'{out_path}dsw/{start_year}/pl/{out_fn}'  # out file path (including file name)
 
     # check if file already exists
     if (os.path.exists(f'{out_fp}.nc')):
@@ -411,31 +411,31 @@ def pl_subset_era5(variable='pv', start_date = 200101):
 
 
 # set time array to loop through
-# years = np.arange(1980,2020)
-# months = np.arange(1,13)
+years = np.arange(1980,2020)
+months = np.arange(1,13)
 
 
 # In[ ]:
 
 
 # Loop through variables in pl_var_list and process each one
-# for var in pl_var_list:
-#     with open(f'{sub_script_path}pl_out.txt', 'a') as file:
-#         file.write(f'\n. . . . . . . . . . \n{var}\n. . . . . . . . . .\n')
-#     for year in years:
-#         with open(f'{sub_script_path}pl_out.txt', 'a') as file:
-#             file.write(f'{var} - {year}\n')
-#         # month_list = []
-#         for month in months:
-#             print(month)
-#             with open(f'{sub_script_path}pl_out.txt', 'a') as file:
-#                 file.write(f'{month} . ')
-#             if month<10:
-#                 start_date = int(f'{year}0{month}')
-#             elif month>=10:
-#                 start_date = int(f'{year}{month}')
+for var in pl_var_list:
+    with open(f'{sub_script_path}pl_out.txt', 'a') as file:
+        file.write(f'\n. . . . . . . . . . \n{var}\n. . . . . . . . . .\n')
+    for year in years:
+        with open(f'{sub_script_path}pl_out.txt', 'a') as file:
+            file.write(f'{var} - {year}\n')
+        # month_list = []
+        for month in months:
+            print(month)
+            with open(f'{sub_script_path}pl_out.txt', 'a') as file:
+                file.write(f'{month} . ')
+            if month<10:
+                start_date = int(f'{year}0{month}')
+            elif month>=10:
+                start_date = int(f'{year}{month}')
 
-#             monthly_data = pl_subset_era5(var, start_date)
+            monthly_data = pl_subset_era5(var, start_date)
 
             # month_list.append(monthly_data)
 

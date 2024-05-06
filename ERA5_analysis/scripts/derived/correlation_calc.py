@@ -3,7 +3,7 @@
 
 # This script calculates correlations between various parameters and saves them to their own netcdf file
 
-# In[1]:
+# In[17]:
 
 
 # import functions
@@ -52,7 +52,7 @@ from IPython.display import HTML
 import IPython.core.display as di # Example: di.display_html('<h3>%s:</h3>' % str, raw=True)
 
 
-# In[2]:
+# In[18]:
 
 
 # specify directories
@@ -66,7 +66,7 @@ fig_out_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/plots/'
 temp_scratch_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/temp/'  # path to temp directory in scratch
 
 
-# In[3]:
+# In[19]:
 
 
 # define list of variables
@@ -305,16 +305,22 @@ def calc_var_correlation(var1='swvl1',var1_months=[3, 4, 5],
     var_corr.to_netcdf(out_fp)
 
 
-# In[ ]:
+# In[98]:
 
 
 # define a function to calculate the correlation between the start of the monsoon averages over a certain region and other variables globally
 def calc_correlation_global(var='ttr', months=[3, 4, 5], NAM_var='onset'):
 
-    # create list of months over which to average
-    var_months_list = months  # [int(m) for m in str(months)]  # turn var integer into list (e.g. 678 -> [6,7,8])
     # make string for month letters from var_range (e.g. [6,7,8] -> 'JJA')
-    var_months = ''.join([calendar.month_name[m][0] for m in var_months_list])
+    if len(months) == 1:
+        var_months = calendar.month_name[months[0]]  # use full month name if only 1 month
+    elif ((len(months) > 1) & (len(months) <= 12)):
+        var_months = ''.join([calendar.month_name[m][0] for m in months])
+    else:
+        print(f'invalid input for "months" : {months}')
+        # with open(f'{der_script_path}gobal.txt', 'a') as file:
+        #     file.write(f'\ninvalid input for "months" : {months}\n')
+        return
 
     # path to save figures
     out_fn = f'corr_{var}_{NAM_var}_{var_months}_global.nc'
@@ -324,6 +330,8 @@ def calc_correlation_global(var='ttr', months=[3, 4, 5], NAM_var='onset'):
     if os.path.exists(out_fp):
         print(f'File already exists for: {out_fn}')
         print('\nSkipping . . .')
+        # with open(f'{der_script_path}gobal.txt', 'a') as file:
+        #     file.write(f'\nFile already exists for: {out_fn}\n')
         return
 
     # lat/lon range for averaging
@@ -356,11 +364,11 @@ def calc_correlation_global(var='ttr', months=[3, 4, 5], NAM_var='onset'):
     # get data from var
     if 'AVG' in var_name:
         mon_mean = var_da.resample(time='1M').mean()
-        var_mon_mean = mon_mean.sel(time=mon_mean['time.month'].isin(var_months_list))
+        var_mon_mean = mon_mean.sel(time=mon_mean['time.month'].isin(months))
         var_data = var_mon_mean.groupby('time.year').mean(dim='time')
     else:
         mon_sum = var_da.resample(time='1M').sum()
-        var_mon_sum = mon_sum.sel(time=mon_sum['time.month'].isin(var_months_list))
+        var_mon_sum = mon_sum.sel(time=mon_sum['time.month'].isin(months))
         var_data = var_mon_sum.groupby('time.year').sum(dim='time')
 
     # calculate correlation

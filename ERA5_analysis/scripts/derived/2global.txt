@@ -1,4 +1,4 @@
-Waiting on job launch; 4354211.desched1 with qsub arguments:
+Waiting on job launch; 4370978.desched1 with qsub arguments:
     qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
 
 /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
@@ -19,69 +19,96 @@ x = np.divide(x1, x2, out)
 x = np.divide(x1, x2, out)
 /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
 x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-File already exists for: corr_ttr_onset_M_global.nc
+File already exists for: corr_ttr_onset_March_global.nc
 
 Skipping . . .
-File already exists for: corr_ttr_retreat_M_global.nc
+File already exists for: corr_ttr_retreat_March_global.nc
 
 Skipping . . .
-File already exists for: corr_ttr_length_M_global.nc
+File already exists for: corr_ttr_length_March_global.nc
 
 Skipping . . .
-File already exists for: corr_ttr_onset_J_global.nc
+File already exists for: corr_ttr_onset_April_global.nc
 
 Skipping . . .
-File already exists for: corr_ttr_retreat_J_global.nc
+File already exists for: corr_ttr_retreat_April_global.nc
 
 Skipping . . .
-File already exists for: corr_ttr_length_J_global.nc
+File already exists for: corr_ttr_length_April_global.nc
 
 Skipping . . .
-File already exists for: corr_ttr_onset_A_global.nc
+File already exists for: corr_ttr_onset_May_global.nc
 
 Skipping . . .
-File already exists for: corr_ttr_retreat_A_global.nc
+File already exists for: corr_ttr_onset_June_global.nc
 
 Skipping . . .
-File already exists for: corr_ttr_length_A_global.nc
+File already exists for: corr_ttr_retreat_June_global.nc
 
 Skipping . . .
-File already exists for: corr_sstk_onset_M_global.nc
+File already exists for: corr_ttr_length_June_global.nc
 
 Skipping . . .
-File already exists for: corr_sstk_retreat_M_global.nc
+File already exists for: corr_ttr_onset_MAM_global.nc
 
 Skipping . . .
-File already exists for: corr_sstk_length_M_global.nc
+File already exists for: corr_ttr_retreat_MAM_global.nc
 
 Skipping . . .
-File already exists for: corr_sstk_onset_J_global.nc
+File already exists for: corr_ttr_length_MAM_global.nc
 
 Skipping . . .
-File already exists for: corr_sstk_retreat_J_global.nc
+File already exists for: corr_ttr_onset_JJA_global.nc
 
 Skipping . . .
-File already exists for: corr_sstk_length_J_global.nc
+File already exists for: corr_ttr_retreat_JJA_global.nc
 
 Skipping . . .
-File already exists for: corr_sstk_onset_A_global.nc
+File already exists for: corr_ttr_length_JJA_global.nc
 
 Skipping . . .
-File already exists for: corr_sstk_retreat_A_global.nc
+File already exists for: corr_sstk_onset_March_global.nc
 
 Skipping . . .
-File already exists for: corr_sstk_length_A_global.nc
+File already exists for: corr_sstk_retreat_March_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_length_March_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_onset_April_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_retreat_April_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_length_April_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_onset_June_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_retreat_June_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_length_June_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_onset_MAM_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_retreat_MAM_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_length_MAM_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_onset_JJA_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_retreat_JJA_global.nc
+
+Skipping . . .
+File already exists for: corr_sstk_length_JJA_global.nc
 
 Skipping . . .
