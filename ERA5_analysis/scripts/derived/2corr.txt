@@ -1,0 +1,185 @@
+Waiting on job launch; 4386797.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
+
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: invalid value encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: divide by zero encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: divide by zero encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: divide by zero encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/core.py:121: RuntimeWarning: divide by zero encountered in true_divide
+return func(*(_execute_task(a, cache) for a in args))
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<_access_through_series, shape=(40, 81, 81), dtype=int64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<_access_through_series, shape=(40, 81, 81), dtype=int64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<open_dataset-eea53da33fe076fad2962656a837c2bddayofyear, shape=(40, 81, 81), dtype=float64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'TP' (year: 40, latitude: 81, longitude: 81)>
+dask.array<stack, shape=(40, 81, 81), dtype=float32, chunksize=(1, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+File already exists for: corr_swvl1_MAM_cp_onset_dsw.nc
+
+Skipping . . .
+File already exists for: corr_swvl1_MAM_cp_tp_JJA_dsw.nc
+
+Skipping . . .
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<_access_through_series, shape=(40, 81, 81), dtype=int64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<_access_through_series, shape=(40, 81, 81), dtype=int64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<open_dataset-eea53da33fe076fad2962656a837c2bddayofyear, shape=(40, 81, 81), dtype=float64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'TP' (year: 40, latitude: 81, longitude: 81)>
+dask.array<stack, shape=(40, 81, 81), dtype=float32, chunksize=(1, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<_access_through_series, shape=(40, 81, 81), dtype=int64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<_access_through_series, shape=(40, 81, 81), dtype=int64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<_access_through_series, shape=(40, 81, 81), dtype=int64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<_access_through_series, shape=(40, 81, 81), dtype=int64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<open_dataset-eea53da33fe076fad2962656a837c2bddayofyear, shape=(40, 81, 81), dtype=float64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'dayofyear' (year: 40, latitude: 81, longitude: 81)>
+dask.array<open_dataset-eea53da33fe076fad2962656a837c2bddayofyear, shape=(40, 81, 81), dtype=float64, chunksize=(40, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+No files were found a var:
+None
+<xarray.DataArray 'TP' (year: 40, latitude: 81, longitude: 81)>
+dask.array<stack, shape=(40, 81, 81), dtype=float32, chunksize=(1, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
+No files were found a var:
+None
+<xarray.DataArray 'TP' (year: 40, latitude: 81, longitude: 81)>
+dask.array<stack, shape=(40, 81, 81), dtype=float32, chunksize=(1, 81, 81), chunktype=numpy.ndarray>
+Coordinates:
+* latitude   (latitude) float64 40.0 39.75 39.5 39.25 ... 20.5 20.25 20.0
+* longitude  (longitude) float64 240.0 240.2 240.5 240.8 ... 259.5 259.8 260.0
+* year       (year) int64 1980 1981 1982 1983 1984 ... 2016 2017 2018 2019
