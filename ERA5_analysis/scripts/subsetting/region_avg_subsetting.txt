@@ -1,445 +1,204 @@
+Waiting on job launch; 4544485.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
 
-Processing Snow Depth
-sd -- cp -- 198001 -- 201912Elapsed time: 0.005425453186035156
-Processing Mean Sea Level Pressure
-msl -- cp -- 198001 -- 201912Elapsed time: 0.0059854984283447266
-Processing Total Cloud Cover
-tcc -- cp -- 198001 -- 201912Elapsed time: 0.006489276885986328
-Processing Soil Temp Layer 1
-stl1 -- cp -- 198001 -- 201912Elapsed time: 0.0069942474365234375
-Processing Soil Temp Layer 2
-stl2 -- cp -- 198001 -- 201912Elapsed time: 0.007526874542236328
-Processing Soil Temp Layer 3
-stl3 -- cp -- 198001 -- 201912Elapsed time: 0.008058547973632812
-Processing Soil Temp Layer 4
-stl4 -- cp -- 198001 -- 201912Elapsed time: 0.008581876754760742
-Processing Soil Volume Water Content Layer 1
-swvl1 -- cp -- 198001 -- 201912Elapsed time: 0.009085893630981445
-Processing Soil Volume Water Content Layer 2
-swvl2 -- cp -- 198001 -- 201912Elapsed time: 0.026499509811401367
-Processing Soil Volume Water Content Layer 3
-swvl3 -- cp -- 198001 -- 201912Elapsed time: 0.02722787857055664
-Processing Soil Volume Water Content Layer 4
-swvl4 -- cp -- 198001 -- 201912Elapsed time: 0.02789783477783203
-Processing 2 Meter Temp
-2t -- cp -- 198001 -- 201912Elapsed time: 0.04094672203063965
-Processing 2 Meter Dew Point
-2d -- cp -- 198001 -- 201912Elapsed time: 0.0625302791595459
-Processing Instant Surface Heat Flux
-ishf -- cp -- 198001 -- 201912Elapsed time: 0.07464981079101562
-Processing Instant Moisture Flux
-ie -- cp -- 198001 -- 201912Elapsed time: 0.07533407211303711
-Processing Convective Available Potential Energy
-cape -- cp -- 198001 -- 201912Elapsed time: 0.08157753944396973
-Processing Total Column Water
-tcw -- cp -- 198001 -- 201912Elapsed time: 0.08230400085449219
-Processing Sea Surface Temperature
-sstk -- cp -- 198001 -- 201912Elapsed time: 3.9431848526000977
-Processing Large Scale Precipitation
-lsp -- cp -- 198001 -- 201912Elapsed time: 3.9553394317626953
-Processing Convective Precipitation
-cp -- cp -- 198001 -- 201912Elapsed time: 3.9561269283294678
-Processing Total Precipitation
-tp -- cp -- 198001 -- 201912Elapsed time: 3.9775571823120117
-Processing Surface Sensible Heat Flux
-sshf -- cp -- 198001 -- 201912Elapsed time: 3.978318929672241
-Processing Surface Latent Heat Flux
-slhf -- cp -- 198001 -- 201912Elapsed time: 3.9930918216705322
-Processing Surface Net Solar Radiation
-ssr -- cp -- 198001 -- 201912Elapsed time: 4.02202844619751
-Processing Surface Net Thermal Radiation
-str -- cp -- 198001 -- 201912Elapsed time: 4.022758483886719
-Processing Surface Runoff
-sro -- cp -- 198001 -- 201912Elapsed time: 4.0235209465026855
-Processing Total Snowfall
-sf -- cp -- 198001 -- 201912Elapsed time: 4.039431810379028
-Processing Surface Solar Radiation Downwards
-ssrd -- cp -- 198001 -- 201912Elapsed time: 4.040264368057251
-Processing Surface Thermal Radiation Downwards
-strd -- cp -- 198001 -- 201912Elapsed time: 4.040745735168457
-Processing Top Net Thermal Radiation (OLR)
-ttr -- cp -- 198001 -- 201912Elapsed time: 8.04527235031128
-Processing Geopotential
-z -- cp -- 198001 -- 201912Elapsed time: 34.86466717720032
-Processing Temperature
-t -- cp -- 198001 -- 201912Elapsed time: 64.14828872680664
-Processing U Component of Wind
-u -- cp -- 198001 -- 201912Elapsed time: 93.33193969726562
-Processing V Component of Wind
-v -- cp -- 198001 -- 201912Elapsed time: 122.03849625587463
-Processing Specific Humidity
-q -- cp -- 198001 -- 201912Elapsed time: 150.42715668678284
-Processing Vertical Velocity
-w -- cp -- 198001 -- 201912Elapsed time: 179.40137815475464
-Processing Relative Humidity
-r -- cp -- 198001 -- 201912Elapsed time: 179.4071912765503
-Processing Snow Depth
-sd -- mr -- 198001 -- 201912Elapsed time: 183.50634503364563
-Processing Mean Sea Level Pressure
-msl -- mr -- 198001 -- 201912Elapsed time: 186.87086009979248
-Processing Total Cloud Cover
-tcc -- mr -- 198001 -- 201912Elapsed time: 189.86905932426453
-Processing Soil Temp Layer 1
-stl1 -- mr -- 198001 -- 201912Elapsed time: 193.01270365715027
-Processing Soil Temp Layer 2
-stl2 -- mr -- 198001 -- 201912Elapsed time: 196.45649576187134
-Processing Soil Temp Layer 3
-stl3 -- mr -- 198001 -- 201912Elapsed time: 200.0853350162506
-Processing Soil Temp Layer 4
-stl4 -- mr -- 198001 -- 201912Elapsed time: 203.29138493537903
-Processing Soil Volume Water Content Layer 1
-swvl1 -- mr -- 198001 -- 201912Elapsed time: 207.11056971549988
-Processing Soil Volume Water Content Layer 2
-swvl2 -- mr -- 198001 -- 201912Elapsed time: 210.66089987754822
-Processing Soil Volume Water Content Layer 3
-swvl3 -- mr -- 198001 -- 201912Elapsed time: 214.60162949562073
-Processing Soil Volume Water Content Layer 4
-swvl4 -- mr -- 198001 -- 201912Elapsed time: 217.95035672187805
-Processing 2 Meter Temp
-2t -- mr -- 198001 -- 201912Elapsed time: 221.86251497268677
-Processing 2 Meter Dew Point
-2d -- mr -- 198001 -- 201912Elapsed time: 225.6480131149292
-Processing Instant Surface Heat Flux
-ishf -- mr -- 198001 -- 201912Elapsed time: 228.83231616020203
-Processing Instant Moisture Flux
-ie -- mr -- 198001 -- 201912Elapsed time: 231.648428440094
-Processing Convective Available Potential Energy
-cape -- mr -- 198001 -- 201912Elapsed time: 235.66011381149292
-Processing Total Column Water
-tcw -- mr -- 198001 -- 201912Elapsed time: 239.12086868286133
-Processing Sea Surface Temperature
-sstk -- mr -- 198001 -- 201912Elapsed time: 240.47479844093323
-Processing Large Scale Precipitation
-lsp -- mr -- 198001 -- 201912Elapsed time: 244.01189613342285
-Processing Convective Precipitation
-cp -- mr -- 198001 -- 201912Elapsed time: 247.9101061820984
-Processing Total Precipitation
-tp -- mr -- 198001 -- 201912Elapsed time: 251.2403266429901
-Processing Surface Sensible Heat Flux
-sshf -- mr -- 198001 -- 201912Elapsed time: 255.552020072937
-Processing Surface Latent Heat Flux
-slhf -- mr -- 198001 -- 201912Elapsed time: 259.41510248184204
-Processing Surface Net Solar Radiation
-ssr -- mr -- 198001 -- 201912Elapsed time: 263.9384603500366
-Processing Surface Net Thermal Radiation
-str -- mr -- 198001 -- 201912Elapsed time: 267.4375066757202
-Processing Surface Runoff
-sro -- mr -- 198001 -- 201912Elapsed time: 271.0266182422638
-Processing Total Snowfall
-sf -- mr -- 198001 -- 201912Elapsed time: 274.612726688385
-Processing Surface Solar Radiation Downwards
-ssrd -- mr -- 198001 -- 201912Elapsed time: 278.2929344177246
-Processing Surface Thermal Radiation Downwards
-strd -- mr -- 198001 -- 201912Elapsed time: 282.05201625823975
-Processing Top Net Thermal Radiation (OLR)
-ttr -- mr -- 198001 -- 201912Elapsed time: 283.80103826522827
-Processing Geopotential
-z -- mr -- 198001 -- 201912Elapsed time: 290.6170222759247
-Processing Temperature
-t -- mr -- 198001 -- 201912Elapsed time: 298.818359375
-Processing U Component of Wind
-u -- mr -- 198001 -- 201912Elapsed time: 305.86409044265747
-Processing V Component of Wind
-v -- mr -- 198001 -- 201912Elapsed time: 313.33719396591187
-Processing Specific Humidity
-q -- mr -- 198001 -- 201912Elapsed time: 320.09508299827576
-Processing Vertical Velocity
-w -- mr -- 198001 -- 201912Elapsed time: 327.6800374984741
-Processing Relative Humidity
-r -- mr -- 198001 -- 201912Elapsed time: 327.68565464019775
-Processing Snow Depth
-sd -- son -- 198001 -- 201912Elapsed time: 329.0472731590271
-Processing Mean Sea Level Pressure
-msl -- son -- 198001 -- 201912Elapsed time: 330.2249779701233
-Processing Total Cloud Cover
-tcc -- son -- 198001 -- 201912Elapsed time: 331.4016556739807
-Processing Soil Temp Layer 1
-stl1 -- son -- 198001 -- 201912Elapsed time: 332.5766270160675
-Processing Soil Temp Layer 2
-stl2 -- son -- 198001 -- 201912Elapsed time: 333.750985622406
-Processing Soil Temp Layer 3
-stl3 -- son -- 198001 -- 201912Elapsed time: 334.9183850288391
-Processing Soil Temp Layer 4
-stl4 -- son -- 198001 -- 201912Elapsed time: 336.09962344169617
-Processing Soil Volume Water Content Layer 1
-swvl1 -- son -- 198001 -- 201912Elapsed time: 336.1009564399719
-Processing Soil Volume Water Content Layer 2
-swvl2 -- son -- 198001 -- 201912Elapsed time: 337.36602234840393
-Processing Soil Volume Water Content Layer 3
-swvl3 -- son -- 198001 -- 201912Elapsed time: 338.6516354084015
-Processing Soil Volume Water Content Layer 4
-swvl4 -- son -- 198001 -- 201912Elapsed time: 339.83408784866333
-Processing 2 Meter Temp
-2t -- son -- 198001 -- 201912Elapsed time: 341.01166439056396
-Processing 2 Meter Dew Point
-2d -- son -- 198001 -- 201912Elapsed time: 342.1871054172516
-Processing Instant Surface Heat Flux
-ishf -- son -- 198001 -- 201912Elapsed time: 343.3593122959137
-Processing Instant Moisture Flux
-ie -- son -- 198001 -- 201912Elapsed time: 344.53957056999207
-Processing Convective Available Potential Energy
-cape -- son -- 198001 -- 201912Elapsed time: 345.7171540260315
-Processing Total Column Water
-tcw -- son -- 198001 -- 201912Elapsed time: 346.89510202407837
-Processing Sea Surface Temperature
-sstk -- son -- 198001 -- 201912Elapsed time: 348.09604811668396
-Processing Large Scale Precipitation
-lsp -- son -- 198001 -- 201912Elapsed time: 349.83209562301636
-Processing Convective Precipitation
-cp -- son -- 198001 -- 201912Elapsed time: 351.504367351532
-Processing Total Precipitation
-tp -- son -- 198001 -- 201912Elapsed time: 351.505827665329
-Processing Surface Sensible Heat Flux
-sshf -- son -- 198001 -- 201912Elapsed time: 353.2008640766144
-Processing Surface Latent Heat Flux
-slhf -- son -- 198001 -- 201912Elapsed time: 355.0093641281128
-Processing Surface Net Solar Radiation
-ssr -- son -- 198001 -- 201912Elapsed time: 357.3056073188782
-Processing Surface Net Thermal Radiation
-str -- son -- 198001 -- 201912Elapsed time: 358.9871277809143
-Processing Surface Runoff
-sro -- son -- 198001 -- 201912Elapsed time: 360.8670246601105
-Processing Total Snowfall
-sf -- son -- 198001 -- 201912Elapsed time: 362.538250207901
-Processing Surface Solar Radiation Downwards
-ssrd -- son -- 198001 -- 201912Elapsed time: 364.766224861145
-Processing Surface Thermal Radiation Downwards
-strd -- son -- 198001 -- 201912Elapsed time: 366.4840087890625
-Processing Top Net Thermal Radiation (OLR)
-ttr -- son -- 198001 -- 201912Elapsed time: 368.1956264972687
-Processing Geopotential
-z -- son -- 198001 -- 201912Elapsed time: 368.19683814048767
-Processing Temperature
-t -- son -- 198001 -- 201912Elapsed time: 375.29792618751526
-Processing U Component of Wind
-u -- son -- 198001 -- 201912Elapsed time: 383.3815710544586
-Processing V Component of Wind
-v -- son -- 198001 -- 201912Elapsed time: 390.721492767334
-Processing Specific Humidity
-q -- son -- 198001 -- 201912Elapsed time: 398.2978951931
-Processing Vertical Velocity
-w -- son -- 198001 -- 201912Elapsed time: 405.57289695739746
-Processing Relative Humidity
-r -- son -- 198001 -- 201912Elapsed time: 405.5784523487091
-Processing Snow Depth
-sd -- chi -- 198001 -- 201912Elapsed time: 406.74352860450745
-Processing Mean Sea Level Pressure
-msl -- chi -- 198001 -- 201912Elapsed time: 407.951868057251
-Processing Total Cloud Cover
-tcc -- chi -- 198001 -- 201912Elapsed time: 409.14365315437317
-Processing Soil Temp Layer 1
-stl1 -- chi -- 198001 -- 201912Elapsed time: 410.33865571022034
-Processing Soil Temp Layer 2
-stl2 -- chi -- 198001 -- 201912Elapsed time: 411.5241231918335
-Processing Soil Temp Layer 3
-stl3 -- chi -- 198001 -- 201912Elapsed time: 412.7078354358673
-Processing Soil Temp Layer 4
-stl4 -- chi -- 198001 -- 201912Elapsed time: 413.88901829719543
-Processing Soil Volume Water Content Layer 1
-swvl1 -- chi -- 198001 -- 201912Elapsed time: 415.0754323005676
-Processing Soil Volume Water Content Layer 2
-swvl2 -- chi -- 198001 -- 201912Elapsed time: 416.2512917518616
-Processing Soil Volume Water Content Layer 3
-swvl3 -- chi -- 198001 -- 201912Elapsed time: 417.43943762779236
-Processing Soil Volume Water Content Layer 4
-swvl4 -- chi -- 198001 -- 201912Elapsed time: 418.88147354125977
-Processing 2 Meter Temp
-2t -- chi -- 198001 -- 201912Elapsed time: 420.0869343280792
-Processing 2 Meter Dew Point
-2d -- chi -- 198001 -- 201912Elapsed time: 421.2744791507721
-Processing Instant Surface Heat Flux
-ishf -- chi -- 198001 -- 201912Elapsed time: 422.4710443019867
-Processing Instant Moisture Flux
-ie -- chi -- 198001 -- 201912Elapsed time: 423.6662359237671
-Processing Convective Available Potential Energy
-cape -- chi -- 198001 -- 201912Elapsed time: 424.8487927913666
-Processing Total Column Water
-tcw -- chi -- 198001 -- 201912Elapsed time: 426.03149938583374
-Processing Sea Surface Temperature
-sstk -- chi -- 198001 -- 201912Elapsed time: 427.2303457260132
-Processing Large Scale Precipitation
-lsp -- chi -- 198001 -- 201912Elapsed time: 428.97872018814087
-Processing Convective Precipitation
-cp -- chi -- 198001 -- 201912Elapsed time: 430.67316246032715
-Processing Total Precipitation
-tp -- chi -- 198001 -- 201912Elapsed time: 432.3114290237427
-Processing Surface Sensible Heat Flux
-sshf -- chi -- 198001 -- 201912Elapsed time: 434.0384819507599
-Processing Surface Latent Heat Flux
-slhf -- chi -- 198001 -- 201912Elapsed time: 435.74755120277405
-Processing Surface Net Solar Radiation
-ssr -- chi -- 198001 -- 201912Elapsed time: 437.57395482063293
-Processing Surface Net Thermal Radiation
-str -- chi -- 198001 -- 201912Elapsed time: 439.35870265960693
-Processing Surface Runoff
-sro -- chi -- 198001 -- 201912Elapsed time: 441.32475304603577
-Processing Total Snowfall
-sf -- chi -- 198001 -- 201912Elapsed time: 443.060179233551
-Processing Surface Solar Radiation Downwards
-ssrd -- chi -- 198001 -- 201912Elapsed time: 444.7501780986786
-Processing Surface Thermal Radiation Downwards
-strd -- chi -- 198001 -- 201912Elapsed time: 446.56122374534607
-Processing Top Net Thermal Radiation (OLR)
-ttr -- chi -- 198001 -- 201912Elapsed time: 448.36034989356995
-Processing Geopotential
-z -- chi -- 198001 -- 201912Elapsed time: 455.41931319236755
-Processing Temperature
-t -- chi -- 198001 -- 201912Elapsed time: 462.8085284233093
-Processing U Component of Wind
-u -- chi -- 198001 -- 201912Elapsed time: 469.8716633319855
-Processing V Component of Wind
-v -- chi -- 198001 -- 201912Elapsed time: 476.7082920074463
-Processing Specific Humidity
-q -- chi -- 198001 -- 201912Elapsed time: 484.590270280838
-Processing Vertical Velocity
-w -- chi -- 198001 -- 201912Elapsed time: 491.4924840927124
-Processing Relative Humidity
-r -- chi -- 198001 -- 201912Elapsed time: 491.49813318252563
-Processing Snow Depth
-sd -- moj -- 198001 -- 201912Elapsed time: 492.6886684894562
-Processing Mean Sea Level Pressure
-msl -- moj -- 198001 -- 201912Elapsed time: 493.8743016719818
-Processing Total Cloud Cover
-tcc -- moj -- 198001 -- 201912Elapsed time: 495.0627555847168
-Processing Soil Temp Layer 1
-stl1 -- moj -- 198001 -- 201912Elapsed time: 496.49302673339844
-Processing Soil Temp Layer 2
-stl2 -- moj -- 198001 -- 201912Elapsed time: 497.72841334342957
-Processing Soil Temp Layer 3
-stl3 -- moj -- 198001 -- 201912Elapsed time: 498.95350980758667
-Processing Soil Temp Layer 4
-stl4 -- moj -- 198001 -- 201912Elapsed time: 500.16920804977417
-Processing Soil Volume Water Content Layer 1
-swvl1 -- moj -- 198001 -- 201912Elapsed time: 501.3791618347168
-Processing Soil Volume Water Content Layer 2
-swvl2 -- moj -- 198001 -- 201912Elapsed time: 502.5757279396057
-Processing Soil Volume Water Content Layer 3
-swvl3 -- moj -- 198001 -- 201912Elapsed time: 503.7509150505066
-Processing Soil Volume Water Content Layer 4
-swvl4 -- moj -- 198001 -- 201912Elapsed time: 504.92302894592285
-Processing 2 Meter Temp
-2t -- moj -- 198001 -- 201912Elapsed time: 506.1826195716858
-Processing 2 Meter Dew Point
-2d -- moj -- 198001 -- 201912Elapsed time: 507.3634076118469
-Processing Instant Surface Heat Flux
-ishf -- moj -- 198001 -- 201912Elapsed time: 508.55402970314026
-Processing Instant Moisture Flux
-ie -- moj -- 198001 -- 201912Elapsed time: 509.73542499542236
-Processing Convective Available Potential Energy
-cape -- moj -- 198001 -- 201912Elapsed time: 510.92091846466064
-Processing Total Column Water
-tcw -- moj -- 198001 -- 201912Elapsed time: 512.1026179790497
-Processing Sea Surface Temperature
-sstk -- moj -- 198001 -- 201912Elapsed time: 513.3069829940796
-Processing Large Scale Precipitation
-lsp -- moj -- 198001 -- 201912Elapsed time: 515.9730358123779
-Processing Convective Precipitation
-cp -- moj -- 198001 -- 201912Elapsed time: 517.6405966281891
-Processing Total Precipitation
-tp -- moj -- 198001 -- 201912Elapsed time: 519.3296823501587
-Processing Surface Sensible Heat Flux
-sshf -- moj -- 198001 -- 201912Elapsed time: 521.0827519893646
-Processing Surface Latent Heat Flux
-slhf -- moj -- 198001 -- 201912Elapsed time: 523.0107834339142
-Processing Surface Net Solar Radiation
-ssr -- moj -- 198001 -- 201912Elapsed time: 524.6987402439117
-Processing Surface Net Thermal Radiation
-str -- moj -- 198001 -- 201912Elapsed time: 526.3998274803162
-Processing Surface Runoff
-sro -- moj -- 198001 -- 201912Elapsed time: 528.0947661399841
-Processing Total Snowfall
-sf -- moj -- 198001 -- 201912Elapsed time: 529.7952983379364
-Processing Surface Solar Radiation Downwards
-ssrd -- moj -- 198001 -- 201912Elapsed time: 531.7764422893524
-Processing Surface Thermal Radiation Downwards
-strd -- moj -- 198001 -- 201912Elapsed time: 533.4776918888092
-Processing Top Net Thermal Radiation (OLR)
-ttr -- moj -- 198001 -- 201912Elapsed time: 535.184033870697
-Processing Geopotential
-z -- moj -- 198001 -- 201912Elapsed time: 542.0314259529114
-Processing Temperature
-t -- moj -- 198001 -- 201912Elapsed time: 549.4882357120514
-Processing U Component of Wind
-u -- moj -- 198001 -- 201912Elapsed time: 557.0421617031097
-Processing V Component of Wind
-v -- moj -- 198001 -- 201912Elapsed time: 564.3794915676117
-Processing Specific Humidity
-q -- moj -- 198001 -- 201912Elapsed time: 571.897932767868
-Processing Vertical Velocity
-w -- moj -- 198001 -- 201912Elapsed time: 578.8514530658722
-Processing Relative Humidity
-r -- moj -- 198001 -- 201912Elapsed time: 578.8569877147675
-Processing Snow Depth
-sd -- MeNmAz -- 198001 -- 201912Elapsed time: 580.1757616996765
-Processing Mean Sea Level Pressure
-msl -- MeNmAz -- 198001 -- 201912Elapsed time: 581.3599984645844
-Processing Total Cloud Cover
-tcc -- MeNmAz -- 198001 -- 201912Elapsed time: 582.5292806625366
-Processing Soil Temp Layer 1
-stl1 -- MeNmAz -- 198001 -- 201912Elapsed time: 583.7258543968201
-Processing Soil Temp Layer 2
-stl2 -- MeNmAz -- 198001 -- 201912Elapsed time: 584.9037239551544
-Processing Soil Temp Layer 3
-stl3 -- MeNmAz -- 198001 -- 201912Elapsed time: 586.0860064029694
-Processing Soil Temp Layer 4
-stl4 -- MeNmAz -- 198001 -- 201912Elapsed time: 587.2821218967438
-Processing Soil Volume Water Content Layer 1
-swvl1 -- MeNmAz -- 198001 -- 201912Elapsed time: 588.4710590839386
-Processing Soil Volume Water Content Layer 2
-swvl2 -- MeNmAz -- 198001 -- 201912Elapsed time: 589.605504989624
-Processing Soil Volume Water Content Layer 3
-swvl3 -- MeNmAz -- 198001 -- 201912Elapsed time: 590.8328065872192
-Processing Soil Volume Water Content Layer 4
-swvl4 -- MeNmAz -- 198001 -- 201912Elapsed time: 592.0071835517883
-Processing 2 Meter Temp
-2t -- MeNmAz -- 198001 -- 201912Elapsed time: 593.1900749206543
-Processing 2 Meter Dew Point
-2d -- MeNmAz -- 198001 -- 201912Elapsed time: 594.3890042304993
-Processing Instant Surface Heat Flux
-ishf -- MeNmAz -- 198001 -- 201912Elapsed time: 595.5718495845795
-Processing Instant Moisture Flux
-ie -- MeNmAz -- 198001 -- 201912Elapsed time: 596.7492363452911
-Processing Convective Available Potential Energy
-cape -- MeNmAz -- 198001 -- 201912Elapsed time: 597.9250087738037
-Processing Total Column Water
-tcw -- MeNmAz -- 198001 -- 201912Elapsed time: 599.4230012893677
-Processing Sea Surface Temperature
-sstk -- MeNmAz -- 198001 -- 201912Elapsed time: 600.6237382888794
-Processing Large Scale Precipitation
-lsp -- MeNmAz -- 198001 -- 201912Elapsed time: 602.3195900917053
-Processing Convective Precipitation
-cp -- MeNmAz -- 198001 -- 201912Elapsed time: 603.9936170578003
-Processing Total Precipitation
-tp -- MeNmAz -- 198001 -- 201912Elapsed time: 605.650162935257
-Processing Surface Sensible Heat Flux
-sshf -- MeNmAz -- 198001 -- 201912Elapsed time: 607.3774514198303
-Processing Surface Latent Heat Flux
-slhf -- MeNmAz -- 198001 -- 201912Elapsed time: 609.208025932312
-Processing Surface Net Solar Radiation
-ssr -- MeNmAz -- 198001 -- 201912Elapsed time: 610.8755714893341
-Processing Surface Net Thermal Radiation
-str -- MeNmAz -- 198001 -- 201912Elapsed time: 612.8100247383118
-Processing Surface Runoff
-sro -- MeNmAz -- 198001 -- 201912Elapsed time: 614.537175655365
-Processing Total Snowfall
-sf -- MeNmAz -- 198001 -- 201912Elapsed time: 616.4205346107483
-Processing Surface Solar Radiation Downwards
-ssrd -- MeNmAz -- 198001 -- 201912Elapsed time: 618.107935667038
-Processing Surface Thermal Radiation Downwards
-strd -- MeNmAz -- 198001 -- 201912Elapsed time: 619.7946753501892
-Processing Top Net Thermal Radiation (OLR)
-ttr -- MeNmAz -- 198001 -- 201912Elapsed time: 621.8006839752197
-Processing Geopotential
-z -- MeNmAz -- 198001 -- 201912Elapsed time: 629.2609751224518
-Processing Temperature
-t -- MeNmAz -- 198001 -- 201912Elapsed time: 636.7201557159424
-Processing U Component of Wind
-u -- MeNmAz -- 198001 -- 201912Elapsed time: 644.1496343612671
-Processing V Component of Wind
-v -- MeNmAz -- 198001 -- 201912Elapsed time: 651.1124572753906
-Processing Specific Humidity
-q -- MeNmAz -- 198001 -- 201912Elapsed time: 658.5025205612183
-Processing Vertical Velocity
-w -- MeNmAz -- 198001 -- 201912Elapsed time: 665.6052932739258
-Processing Relative Humidity
-r -- MeNmAz -- 198001 -- 201912Elapsed time: 665.6109600067139
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+files is empty
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+files is empty
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+files is empty
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+files is empty
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+File already exists.  overwrite_flag is set to True.  File will be overwritten
+files is empty
+Done

@@ -1,0 +1,567 @@
+Waiting on job launch; 4590201.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
+
+File already exists for: corr_lsp_MAM_cp_onset_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_onset_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_retreat_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_retreat_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_length_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_length_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_tp_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_tp_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_vipile_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_vipile_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_viwve_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_viwve_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_viwvn_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_viwvn_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_viwvd_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_lsp_MAM_cp_viwvd_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_onset_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_onset_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_retreat_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_retreat_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_length_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_length_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_tp_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_tp_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_vipile_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_vipile_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_viwve_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_viwve_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_viwvn_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_viwvn_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_viwvd_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_cp_MAM_cp_viwvd_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_onset_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_onset_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_retreat_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_retreat_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_length_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_length_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_tp_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_tp_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_vipile_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_vipile_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_viwve_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_viwve_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_viwvn_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_viwvn_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_viwvd_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_tp_MAM_cp_viwvd_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_onset_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_onset_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_retreat_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_retreat_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_length_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_length_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_tp_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_tp_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_vipile_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_vipile_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_viwve_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_viwve_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_viwvn_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_viwvn_JJA_dsw.png - overwrite_flag is False. Skipping . . .
+File already exists for: corr_sshf_MAM_cp_viwvd_JJA_dsw_detrend.png - overwrite_flag is False. Skipping . . .
+plotting flux	-	var1: sshf	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.0569071)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.0569071)
+plotting flux	-	var1: slhf	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.05499446)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.05499446)
+plotting flux	-	var1: slhf	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04967266)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04967266)
+plotting flux	-	var1: slhf	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.09279626)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.09279626)
+plotting flux	-	var1: slhf	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04784854)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04784854)
+plotting flux	-	var1: slhf	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.03828272)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.03828272)
+plotting flux	-	var1: slhf	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.01109075)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.01109075)
+plotting flux	-	var1: slhf	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00346455)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00346455)
+plotting flux	-	var1: slhf	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.11031994)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.11031994)
+plotting flux	-	var1: slhf	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00660968)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00660968)
+plotting flux	-	var1: slhf	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.11337375)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.11337375)
+plotting flux	-	var1: slhf	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.27033334)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.27033334)
+plotting flux	-	var1: slhf	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.18161359)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.18161359)
+plotting flux	-	var1: slhf	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.03284553)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.03284553)
+plotting flux	-	var1: slhf	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.08535559)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.08535559)
+plotting flux	-	var1: slhf	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.11604659)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.11604659)
+plotting flux	-	var1: slhf	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.05740091)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.05740091)
+plotting flux	-	var1: ttr	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02923373)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02923373)
+plotting flux	-	var1: ttr	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02986094)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02986094)
+plotting flux	-	var1: ttr	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.174604)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.174604)
+plotting flux	-	var1: ttr	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.13964281)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.13964281)
+plotting flux	-	var1: ttr	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.11253963)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.11253963)
+plotting flux	-	var1: ttr	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.08856018)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.08856018)
+plotting flux	-	var1: ttr	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00998133)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00998133)
+plotting flux	-	var1: ttr	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.08324551)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.08324551)
+plotting flux	-	var1: ttr	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.08329074)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.08329074)
+plotting flux	-	var1: ttr	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00041554)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00041554)
+plotting flux	-	var1: ttr	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.24461293)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.24461293)
+plotting flux	-	var1: ttr	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.19569501)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.19569501)
+plotting flux	-	var1: ttr	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.12589415)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.12589415)
+plotting flux	-	var1: ttr	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.15338195)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.15338195)
+plotting flux	-	var1: ttr	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.0920198)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.0920198)
+plotting flux	-	var1: ttr	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.05695456)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.05695456)
+plotting flux	-	var1: ishf	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.07216392)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.07216392)
+plotting flux	-	var1: ishf	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.06225512)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.06225512)
+plotting flux	-	var1: ishf	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.0997385)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.0997385)
+plotting flux	-	var1: ishf	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04853535)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04853535)
+plotting flux	-	var1: ishf	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.03240137)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.03240137)
+plotting flux	-	var1: ishf	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00373692)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00373692)
+plotting flux	-	var1: ishf	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00523745)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00523745)
+plotting flux	-	var1: ishf	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.1202291)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.1202291)
+plotting flux	-	var1: ishf	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00642295)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00642295)
+plotting flux	-	var1: ishf	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.11058737)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.11058737)
+plotting flux	-	var1: ishf	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.24505647)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.24505647)
+plotting flux	-	var1: ishf	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.15099973)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.15099973)
+plotting flux	-	var1: ishf	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.06576545)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.06576545)
+plotting flux	-	var1: ishf	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.11463859)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.11463859)
+plotting flux	-	var1: ishf	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.12579429)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.12579429)
+plotting flux	-	var1: ishf	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.05878892)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.05878892)
+plotting flux	-	var1: ie	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04988502)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04988502)
+plotting flux	-	var1: ie	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04557365)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04557365)
+plotting flux	-	var1: ie	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.0965726)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.0965726)
+plotting flux	-	var1: ie	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.05152887)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.05152887)
+plotting flux	-	var1: ie	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04442445)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04442445)
+plotting flux	-	var1: ie	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.01646293)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.01646293)
+plotting flux	-	var1: ie	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.0019436)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.0019436)
+plotting flux	-	var1: ie	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.1081506)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.1081506)
+plotting flux	-	var1: ie	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00423643)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00423643)
+plotting flux	-	var1: ie	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.11046784)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.11046784)
+plotting flux	-	var1: ie	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.27421429)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.27421429)
+plotting flux	-	var1: ie	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.1860313)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.1860313)
+plotting flux	-	var1: ie	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02700795)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02700795)
+plotting flux	-	var1: ie	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.08014173)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.08014173)
+plotting flux	-	var1: ie	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.11639361)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.11639361)
+plotting flux	-	var1: ie	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.05836286)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.05836286)
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_onset_dsw_detrend.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_onset_dsw.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_retreat_dsw_detrend.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_retreat_dsw.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_length_dsw_detrend.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_length_dsw.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_tp_JJA_dsw_detrend.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_tp_JJA_dsw.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_vipile_JJA_dsw_detrend.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_vipile_JJA_dsw.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_viwve_JJA_dsw_detrend.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_viwve_JJA_dsw.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_viwvn_JJA_dsw_detrend.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_viwvn_JJA_dsw.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_viwvd_JJA_dsw_detrend.nc
+corr file not found : /glade/u/home/zcleveland/scratch/ERA5/correlations/dsw/corr_r_MAM_cp_viwvd_JJA_dsw.nc
+plotting flux	-	var1: ttr	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04616691)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04616691)
+plotting flux	-	var1: ttr	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04556478)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04556478)
+plotting flux	-	var1: ttr	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02371843)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02371843)
+plotting flux	-	var1: ttr	-	var2:onset
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02406121)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02406121)
+plotting flux	-	var1: ttr	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04184261)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04184261)
+plotting flux	-	var1: ttr	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04002437)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04002437)
+plotting flux	-	var1: ttr	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02139385)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02139385)
+plotting flux	-	var1: ttr	-	var2:retreat
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02065695)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02065695)
+plotting flux	-	var1: ttr	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.06157901)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.06157901)
+plotting flux	-	var1: ttr	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.06007131)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.06007131)
+plotting flux	-	var1: ttr	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.03157285)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.03157285)
+plotting flux	-	var1: ttr	-	var2:length
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.03142609)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.03142609)
+plotting flux	-	var1: ttr	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.0250887)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.0250887)
+plotting flux	-	var1: ttr	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02249069)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02249069)
+plotting flux	-	var1: ttr	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00155027)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00155027)
+plotting flux	-	var1: ttr	-	var2:tp
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.00278285)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.00278285)
+plotting flux	-	var1: ttr	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.07319947)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.07319947)
+plotting flux	-	var1: ttr	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.07026965)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.07026965)
+plotting flux	-	var1: ttr	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.03604112)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.03604112)
+plotting flux	-	var1: ttr	-	var2:vipile
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.0344363)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.0344363)
+plotting flux	-	var1: ttr	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.03145218)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.03145218)
+plotting flux	-	var1: ttr	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.03015872)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.03015872)
+plotting flux	-	var1: ttr	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02009087)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02009087)
+plotting flux	-	var1: ttr	-	var2:viwve
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02182898)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02182898)
+plotting flux	-	var1: ttr	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02063174)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02063174)
+plotting flux	-	var1: ttr	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02052021)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02052021)
+plotting flux	-	var1: ttr	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.01307907)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.01307907)
+plotting flux	-	var1: ttr	-	var2:viwvn
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.01227183)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.01227183)
+plotting flux	-	var1: ttr	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04976603)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04976603)
+plotting flux	-	var1: ttr	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.04857765)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.04857765)
+plotting flux	-	var1: ttr	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02713941)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02713941)
+plotting flux	-	var1: ttr	-	var2:viwvd
+old corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(0.02732522)
+new corr_da avg: <xarray.DataArray 'pearson_r' ()>
+array(-0.02732522)

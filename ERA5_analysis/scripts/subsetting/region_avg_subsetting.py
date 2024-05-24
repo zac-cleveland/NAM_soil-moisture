@@ -3,7 +3,7 @@
 
 # This script subsets data for a region over the Sonora Desert and calculates the average values of given variables in that region.
 
-# In[16]:
+# In[1]:
 
 
 # import functions
@@ -52,14 +52,14 @@ from IPython.display import HTML
 import IPython.core.display as di # Example: di.display_html('<h3>%s:</h3>' % str, raw=True)
 
 
-# In[17]:
+# In[2]:
 
 
 my_era5_path = '/glade/u/home/zcleveland/scratch/ERA5/'
 sub_script_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/subsetting/'
 
 
-# In[18]:
+# In[3]:
 
 
 # define list of variables
@@ -83,7 +83,11 @@ sfc_instan_list = [
     'ie',  # instant moisture flux (kg m^-2 s^-1)
     'cape',  # convective available potential energy (J kg^-1)
     'tcw',  # total column water (kg m^-2) -- sum total of solid, liquid, and vapor in a column
-    'sstk',  # sea surface temperature (K)
+    # 'sstk',  # sea surface temperature (K)
+    'vipile',  # vertical integral of potential, internal, and latent energy (J m^-2) - instan
+    'viwve',  # vertical integral of eastward water vapour flux (kg m^-1 s^-1) - instan -- positive south -> north
+    'viwvn',  # vertical integral of northward water vapour flux (kg m^-1 s^-1) - instan -- positive west -> east
+    'viwvd',  # vertical integral of divergence of moisture flux (kg m^-2 s^-1) - instan -- positive divergencve
 ]
 
 # surface accumulation variables
@@ -121,12 +125,19 @@ pl_var_list = [
     # 'cc',  # fraction of cloud cover (0-1)
 ]
 
+# NAM variables
+NAM_var_list = [
+    'onset',
+    'retreat',
+    'length'
+]
+
 # all var in one list
 var_list = sfc_instan_list + sfc_accumu_list + pl_var_list
 
 # region average list
 region_avg_list = [
-    'cp',
+    # 'cp',
     'mr',
     'son',
     'chi',
@@ -135,7 +146,7 @@ region_avg_list = [
 ]
 
 
-# In[19]:
+# In[4]:
 
 
 # dictionary of variables and their names
@@ -158,6 +169,10 @@ var_dict = {
     'cape': 'Convective Available Potential Energy',
     'tcw': 'Total Column Water',
     'sstk': 'Sea Surface Temperature',
+    'vipile': 'vertical integral of potential, internal, and latent energy',
+    'viwve': 'vertical integral of eastward water vapour flux',
+    'viwvn': 'vertical integral of northward water vapour flux',
+    'viwvd': 'vertical integral of divergence of moisture flux',
     'lsp': 'Large Scale Precipitation',
     'cp': 'Convective Precipitation',
     'tp': 'Total Precipitation',
@@ -177,9 +192,9 @@ var_dict = {
     'q': 'Specific Humidity',
     'w': 'Vertical Velocity',
     'r': 'Relative Humidity',
-    'onset': 'NAM Onset',
-    'retreat': 'NAM Retreat',
-    'length': 'NAM Length'
+    'onset': 'Onset',
+    'retreat': 'Retreat',
+    'length': 'Length'
 }
 
 # dictionary of regions and their names
@@ -196,15 +211,15 @@ region_avg_dict = {
 # [WEST, EAST, NORTH, SOUTH] -- WEST and EAST are on 0-360 latitude grid system
 region_avg_coords = {
     'cp': [249, 253, 39, 35],
-    'mr': [249, 251, 33, 34],
-    'son': [246, 250, 28, 32],
-    'chi': [252, 256, 29, 33],
-    'moj': [243, 247, 33, 37],
+    'mr': [249, 251, 34, 33],
+    'son': [246, 250, 32, 28],
+    'chi': [252, 256, 33, 29],
+    'moj': [243, 247, 37, 33],
     'MeNmAz': [246, 256, 38, 28],
 }
 
 
-# In[27]:
+# In[5]:
 
 
 # define main function to execute subsetting
@@ -214,7 +229,7 @@ def main(var=None, region=None, start_date=198001, end_date=201912, overwrite_fl
     if region in region_avg_list:
         coords = region_avg_coords[region]
         out_fn = f'{var}_{start_date}_{end_date}_{region}.nc'
-        out_fp = os.path.join(my_era5_path, region, out_fn)
+        out_fp = os.path.join(my_era5_path, 'regions', region, out_fn)
     elif verify_coords(region):
         coords = region
         region = '-'.join(map(str, region))
@@ -248,7 +263,7 @@ def main(var=None, region=None, start_date=198001, end_date=201912, overwrite_fl
     region_ds.to_netcdf(out_fp)
 
 
-# In[21]:
+# In[6]:
 
 
 # define a finction to get coordinates of region to subset
@@ -283,7 +298,7 @@ def verify_coords(region=None):
         return True
 
 
-# In[33]:
+# In[7]:
 
 
 # define a function to get input files for extracting
@@ -297,7 +312,7 @@ def get_input_files(var=None):
     return files
 
 
-# In[29]:
+# In[8]:
 
 
 # define a function to get regional data and return the average, sum, etc.
@@ -308,7 +323,7 @@ def get_region_data(ds, var, region, coords):
 
     # slice ds into region coords
     west, east, north, south = coords[0], coords[1], coords[2], coords[3]
-    da = ds[var_name].sel(latitude=slice(west, east), longitude=slice(north, south))
+    da = ds[var_name].sel(latitude=slice(north, south), longitude=slice(west, east))
 
     if var in sfc_accumu_list:
         region_da = da.resample(time='1M').sum(dim=['time', 'latitude', 'longitude'])
@@ -329,7 +344,7 @@ def get_region_data(ds, var, region, coords):
     return region_ds
 
 
-# In[34]:
+# In[ ]:
 
 
 # run the code!
@@ -341,16 +356,23 @@ if __name__ == '__main__':
     end_date = 201912
 
     for region in region_avg_list:
+        # print('----\t\t', region.upper(), '\t\t----')
+        with open(os.path.join(sub_script_path, 'region_avg_subsetting.txt'), 'a') as file:
+            file.write(f'----\t\t{region.upper()}\t\t----\n')
         for var in var_list:
-            print(f'Processing {var_dict[var]}')
-            print(f'{var} -- {region} -- {start_date} -- {end_date}')
+            # print(f'Processing {var_dict[var]}')
+            # print(f' {var} ', end='')
             with open(os.path.join(sub_script_path, 'region_avg_subsetting.txt'), 'a') as file:
-                file.write(f'Processing {var_dict[var]}\n{var} -- {region} -- {start_date} -- {end_date}')
-            main(var=var, region=region, start_date=start_date, end_date=end_date)
-            elapsed_time = time.time()-start_time
-            print(f'Elapsed time: {elapsed_time}')
-            with open(os.path.join(sub_script_path, 'region_avg_subsetting.txt'), 'a') as file:
-                file.write(f'Elapsed time: {elapsed_time}\n')
+                file.write(f' {var} ')
+            main(var=var, region=region, start_date=start_date, end_date=end_date, overwrite_flag=True)
+        elapsed_time = time.time()-start_time
+        # print(f'Elapsed time: {elapsed_time}')
+        with open(os.path.join(sub_script_path, 'region_avg_subsetting.txt'), 'a') as file:
+            file.write(f'Elapsed time: {elapsed_time}\n')
+
+    print('Done')
+    with open(os.path.join(sub_script_path, 'region_avg_subsetting.txt'), 'a') as file:
+        file.write(f'\nDone')
 
 
 # In[ ]:

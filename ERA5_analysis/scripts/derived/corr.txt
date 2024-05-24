@@ -1,298 +1,133 @@
 
-onset : onset : dsw
-lsp : onset : dsw
-lsp : onset : cp
-lsp : retreat : dsw
-lsp : retreat : cp
-lsp : length : dsw
-lsp : length : cp
-lsp : tp : dsw
-lsp : tp : cp
-cp : onset : dsw
-cp : onset : cp
-cp : retreat : dsw
-cp : retreat : cp
-cp : length : dsw
-cp : length : cp
-cp : tp : dsw
-cp : tp : cp
-tp : onset : dsw
-tp : onset : cp
-tp : retreat : dsw
-tp : retreat : cp
-tp : length : dsw
-tp : length : cp
-tp : tp : dsw
-tp : tp : cp
-sshf : onset : dsw
-sshf : onset : cp
-sshf : retreat : dsw
-sshf : retreat : cp
-sshf : length : dsw
-sshf : length : cp
-sshf : tp : dsw
-sshf : tp : cp
-slhf : onset : dsw
-slhf : onset : cp
-slhf : retreat : dsw
-slhf : retreat : cp
-slhf : length : dsw
-slhf : length : cp
-slhf : tp : dsw
-slhf : tp : cp
-ssr : onset : dsw
-ssr : onset : cp
-ssr : retreat : dsw
-ssr : retreat : cp
-ssr : length : dsw
-ssr : length : cp
-ssr : tp : dsw
-ssr : tp : cp
-str : onset : dsw
-str : onset : cp
-str : retreat : dsw
-str : retreat : cp
-str : length : dsw
-str : length : cp
-str : tp : dsw
-str : tp : cp
-sro : onset : dsw
-sro : onset : cp
-sro : retreat : dsw
-sro : retreat : cp
-sro : length : dsw
-sro : length : cp
-sro : tp : dsw
-sro : tp : cp
-sf : onset : dsw
-sf : onset : cp
-sf : retreat : dsw
-sf : retreat : cp
-sf : length : dsw
-sf : length : cp
-sf : tp : dsw
-sf : tp : cp
-ssrd : onset : dsw
-ssrd : onset : cp
-ssrd : retreat : dsw
-ssrd : retreat : cp
-ssrd : length : dsw
-ssrd : length : cp
-ssrd : tp : dsw
-ssrd : tp : cp
-strd : onset : dsw
-strd : onset : cp
-strd : retreat : dsw
-strd : retreat : cp
-strd : length : dsw
-strd : length : cp
-strd : tp : dsw
-strd : tp : cp
-ttr : onset : dsw
-ttr : onset : cp
-ttr : retreat : dsw
-ttr : retreat : cp
-ttr : length : dsw
-ttr : length : cp
-ttr : tp : dsw
-ttr : tp : cp
-sd : onset : dsw
-sd : onset : cp
-sd : retreat : dsw
-sd : retreat : cp
-sd : length : dsw
-sd : length : cp
-sd : tp : dsw
-sd : tp : cp
-msl : onset : dsw
-msl : onset : cp
-msl : retreat : dsw
-msl : retreat : cp
-msl : length : dsw
-msl : length : cp
-msl : tp : dsw
-msl : tp : cp
-tcc : onset : dsw
-tcc : onset : cp
-tcc : retreat : dsw
-tcc : retreat : cp
-tcc : length : dsw
-tcc : length : cp
-tcc : tp : dsw
-tcc : tp : cp
-stl1 : onset : dsw
-stl1 : onset : cp
-stl1 : retreat : dsw
-stl1 : retreat : cp
-stl1 : length : dsw
-stl1 : length : cp
-stl1 : tp : dsw
-stl1 : tp : cp
-stl2 : onset : dsw
-stl2 : onset : cp
-stl2 : retreat : dsw
-stl2 : retreat : cp
-stl2 : length : dsw
-stl2 : length : cp
-stl2 : tp : dsw
-stl2 : tp : cp
-stl3 : onset : dsw
-stl3 : onset : cp
-stl3 : retreat : dsw
-stl3 : retreat : cp
-stl3 : length : dsw
-stl3 : length : cp
-stl3 : tp : dsw
-stl3 : tp : cp
-stl4 : onset : dsw
-stl4 : onset : cp
-stl4 : retreat : dsw
-stl4 : retreat : cp
-stl4 : length : dsw
-stl4 : length : cp
-stl4 : tp : dsw
-stl4 : tp : cp
-swvl1 : onset : dsw
-swvl1 : onset : cp
-swvl1 : retreat : dsw
-swvl1 : retreat : cp
-swvl1 : length : dsw
-swvl1 : length : cp
-swvl1 : tp : dsw
-swvl1 : tp : cp
-swvl2 : onset : dsw
-swvl2 : onset : cp
-swvl2 : retreat : dsw
-swvl2 : retreat : cp
-swvl2 : length : dsw
-swvl2 : length : cp
-swvl2 : tp : dsw
-swvl2 : tp : cp
-swvl3 : onset : dsw
-swvl3 : onset : cp
-swvl3 : retreat : dsw
-swvl3 : retreat : cp
-swvl3 : length : dsw
-swvl3 : length : cp
-swvl3 : tp : dsw
-swvl3 : tp : cp
-swvl4 : onset : dsw
-swvl4 : onset : cp
-swvl4 : retreat : dsw
-swvl4 : retreat : cp
-swvl4 : length : dsw
-swvl4 : length : cp
-swvl4 : tp : dsw
-swvl4 : tp : cp
-2t : onset : dsw
-2t : onset : cp
-2t : retreat : dsw
-2t : retreat : cp
-2t : length : dsw
-2t : length : cp
-2t : tp : dsw
-2t : tp : cp
-2d : onset : dsw
-2d : onset : cp
-2d : retreat : dsw
-2d : retreat : cp
-2d : length : dsw
-2d : length : cp
-2d : tp : dsw
-2d : tp : cp
-ishf : onset : dsw
-ishf : onset : cp
-ishf : retreat : dsw
-ishf : retreat : cp
-ishf : length : dsw
-ishf : length : cp
-ishf : tp : dsw
-ishf : tp : cp
-ie : onset : dsw
-ie : onset : cp
-ie : retreat : dsw
-ie : retreat : cp
-ie : length : dsw
-ie : length : cp
-ie : tp : dsw
-ie : tp : cp
-cape : onset : dsw
-cape : onset : cp
-cape : retreat : dsw
-cape : retreat : cp
-cape : length : dsw
-cape : length : cp
-cape : tp : dsw
-cape : tp : cp
-tcw : onset : dsw
-tcw : onset : cp
-tcw : retreat : dsw
-tcw : retreat : cp
-tcw : length : dsw
-tcw : length : cp
-tcw : tp : dsw
-tcw : tp : cp
-sstk : onset : dsw
-sstk : onset : cp
-sstk : retreat : dsw
-sstk : retreat : cp
-sstk : length : dsw
-sstk : length : cp
-sstk : tp : dsw
-sstk : tp : cp
-z : onset : dsw
-z : onset : cp
-z : retreat : dsw
-z : retreat : cp
-z : length : dsw
-z : length : cp
-z : tp : dsw
-z : tp : cp
-t : onset : dsw
-t : onset : cp
-t : retreat : dsw
-t : retreat : cp
-t : length : dsw
-t : length : cp
-t : tp : dsw
-t : tp : cp
-u : onset : dsw
-u : onset : cp
-u : retreat : dsw
-u : retreat : cp
-u : length : dsw
-u : length : cp
-u : tp : dsw
-u : tp : cp
-v : onset : dsw
-v : onset : cp
-v : retreat : dsw
-v : retreat : cp
-v : length : dsw
-v : length : cp
-v : tp : dsw
-v : tp : cp
-q : onset : dsw
-q : onset : cp
-q : retreat : dsw
-q : retreat : cp
-q : length : dsw
-q : length : cp
-q : tp : dsw
-q : tp : cp
-w : onset : dsw
-w : onset : cp
-w : retreat : dsw
-w : retreat : cp
-w : length : dsw
-w : length : cp
-w : tp : dsw
-w : tp : cp
-r : onset : dsw
-r : onset : cp
-r : retreat : dsw
-r : retreat : cp
-r : length : dsw
-r : length : cp
-r : tp : dsw
-r : tp : cp
+ttr	: onset	: [3, 4, 5]	: detrend=True	: 0.0 %	: time=0.0018033981323242188
+ttr	: onset	: [3, 4, 5]	: detrend=False	: 1.5625 %	: time=254.48239970207214
+ttr	: onset	: [6, 7, 8]	: detrend=True	: 3.125 %	: time=403.27178955078125
+ttr	: onset	: [6, 7, 8]	: detrend=False	: 4.6875 %	: time=678.3479952812195
+ttr	: retreat	: [3, 4, 5]	: detrend=True	: 6.25 %	: time=827.0476026535034
+ttr	: retreat	: [3, 4, 5]	: detrend=False	: 7.8125 %	: time=1100.8467996120453
+ttr	: retreat	: [6, 7, 8]	: detrend=True	: 9.375 %	: time=1253.3436748981476
+ttr	: retreat	: [6, 7, 8]	: detrend=False	: 10.9375 %	: time=1535.9938020706177
+ttr	: length	: [3, 4, 5]	: detrend=True	: 12.5 %	: time=1685.5530726909637
+ttr	: length	: [3, 4, 5]	: detrend=False	: 14.0625 %	: time=1958.6574349403381
+ttr	: length	: [6, 7, 8]	: detrend=True	: 15.625 %	: time=2107.8040704727173
+ttr	: length	: [6, 7, 8]	: detrend=False	: 17.1875 %	: time=2377.594589948654
+ttr	: tp	: [3, 4, 5]	: detrend=True	: 18.75 %	: time=2527.223943710327
+ttr	: tp	: [3, 4, 5]	: detrend=False	: 20.3125 %	: time=2805.4504809379578
+ttr	: tp	: [6, 7, 8]	: detrend=True	: 21.875 %	: time=2952.9504165649414
+ttr	: tp	: [6, 7, 8]	: detrend=False	: 23.4375 %	: time=3224.216588973999
+ttr	: vipile	: [3, 4, 5]	: detrend=True	: 25.0 %	: time=3370.8145611286163
+ttr	: vipile	: [3, 4, 5]	: detrend=False	: 26.5625 %	: time=3644.60826420784
+ttr	: vipile	: [6, 7, 8]	: detrend=True	: 28.125 %	: time=3797.5706136226654
+ttr	: vipile	: [6, 7, 8]	: detrend=False	: 29.6875 %	: time=4070.1332898139954
+ttr	: viwve	: [3, 4, 5]	: detrend=True	: 31.25 %	: time=4220.252694368362
+ttr	: viwve	: [3, 4, 5]	: detrend=False	: 32.8125 %	: time=4497.526898622513
+ttr	: viwve	: [6, 7, 8]	: detrend=True	: 34.375 %	: time=4651.745556116104
+ttr	: viwve	: [6, 7, 8]	: detrend=False	: 35.9375 %	: time=4923.80029797554
+ttr	: viwvn	: [3, 4, 5]	: detrend=True	: 37.5 %	: time=5075.2563009262085
+ttr	: viwvn	: [3, 4, 5]	: detrend=False	: 39.0625 %	: time=5349.060198068619
+ttr	: viwvn	: [6, 7, 8]	: detrend=True	: 40.625 %	: time=5500.880458831787
+ttr	: viwvn	: [6, 7, 8]	: detrend=False	: 42.1875 %	: time=5773.5945637226105
+ttr	: viwvd	: [3, 4, 5]	: detrend=True	: 43.75 %	: time=5928.175612211227
+ttr	: viwvd	: [3, 4, 5]	: detrend=False	: 45.3125 %	: time=6206.288727760315
+ttr	: viwvd	: [6, 7, 8]	: detrend=True	: 46.875 %	: time=6360.414004325867
+ttr	: viwvd	: [6, 7, 8]	: detrend=False	: 48.4375 %	: time=6632.591699123383
+sstk	: onset	: [3, 4, 5]	: detrend=True	: 50.0 %	: time=6781.402001857758
+ttr	: onset	: [3, 4, 5]	: detrend=True	: 0.0 %	: time=0.0002167224884033203
+ttr	: onset	: [3, 4, 5]	: detrend=True	: 0.0 %	: time=0.001050710678100586
+ttr	: onset	: [3, 4, 5]	: detrend=True	: 0.0 %	: time=0.0002155303955078125
+ttr	: onset	: [3, 4, 5]	: detrend=False	: 1.5625 %	: time=0.0004601478576660156
+ttr	: onset	: [6, 7, 8]	: detrend=True	: 3.125 %	: time=0.0017673969268798828
+ttr	: onset	: [6, 7, 8]	: detrend=False	: 4.6875 %	: time=0.0026128292083740234
+ttr	: retreat	: [3, 4, 5]	: detrend=True	: 6.25 %	: time=0.0032906532287597656
+ttr	: retreat	: [3, 4, 5]	: detrend=False	: 7.8125 %	: time=0.0040209293365478516
+ttr	: retreat	: [6, 7, 8]	: detrend=True	: 9.375 %	: time=0.004665851593017578
+ttr	: retreat	: [6, 7, 8]	: detrend=False	: 10.9375 %	: time=0.005391120910644531
+ttr	: length	: [3, 4, 5]	: detrend=True	: 12.5 %	: time=0.00609278678894043
+ttr	: length	: [3, 4, 5]	: detrend=False	: 14.0625 %	: time=0.006872892379760742
+ttr	: length	: [6, 7, 8]	: detrend=True	: 15.625 %	: time=0.007554531097412109
+ttr	: length	: [6, 7, 8]	: detrend=False	: 17.1875 %	: time=0.008122682571411133
+ttr	: tp	: [3, 4, 5]	: detrend=True	: 18.75 %	: time=0.008755207061767578
+ttr	: tp	: [3, 4, 5]	: detrend=False	: 20.3125 %	: time=0.00922393798828125
+ttr	: tp	: [6, 7, 8]	: detrend=True	: 21.875 %	: time=0.009646177291870117
+ttr	: tp	: [6, 7, 8]	: detrend=False	: 23.4375 %	: time=0.010202884674072266
+ttr	: vipile	: [3, 4, 5]	: detrend=True	: 25.0 %	: time=0.010716676712036133
+ttr	: vipile	: [3, 4, 5]	: detrend=False	: 26.5625 %	: time=0.013299942016601562
+ttr	: vipile	: [6, 7, 8]	: detrend=True	: 28.125 %	: time=0.013985395431518555
+ttr	: vipile	: [6, 7, 8]	: detrend=False	: 29.6875 %	: time=0.014609098434448242
+ttr	: viwve	: [3, 4, 5]	: detrend=True	: 31.25 %	: time=0.015055179595947266
+ttr	: viwve	: [3, 4, 5]	: detrend=False	: 32.8125 %	: time=0.028130054473876953
+ttr	: viwve	: [6, 7, 8]	: detrend=True	: 34.375 %	: time=0.028867721557617188
+ttr	: viwve	: [6, 7, 8]	: detrend=False	: 35.9375 %	: time=0.0295107364654541
+ttr	: viwvn	: [3, 4, 5]	: detrend=True	: 37.5 %	: time=0.030012845993041992
+ttr	: viwvn	: [3, 4, 5]	: detrend=False	: 39.0625 %	: time=0.030577898025512695
+ttr	: viwvn	: [6, 7, 8]	: detrend=True	: 40.625 %	: time=0.030981063842773438
+ttr	: viwvn	: [6, 7, 8]	: detrend=False	: 42.1875 %	: time=0.03144049644470215
+ttr	: viwvd	: [3, 4, 5]	: detrend=True	: 43.75 %	: time=0.03180527687072754
+ttr	: viwvd	: [3, 4, 5]	: detrend=False	: 45.3125 %	: time=0.032196044921875
+ttr	: viwvd	: [6, 7, 8]	: detrend=True	: 46.875 %	: time=0.03269004821777344
+ttr	: viwvd	: [6, 7, 8]	: detrend=False	: 48.4375 %	: time=0.03313016891479492
+sstk	: onset	: [3, 4, 5]	: detrend=True	: 50.0 %	: time=0.03359818458557129
+ttr	: onset	: [3, 4, 5]	: detrend=True	: 0.0 %	: time=0.000362396240234375
+ttr	: onset	: [3, 4, 5]	: detrend=False	: 1.5625 %	: time=0.004767656326293945
+ttr	: onset	: [6, 7, 8]	: detrend=True	: 3.125 %	: time=0.005201578140258789
+ttr	: onset	: [6, 7, 8]	: detrend=False	: 4.6875 %	: time=0.005614280700683594
+ttr	: retreat	: [3, 4, 5]	: detrend=True	: 6.25 %	: time=0.0059986114501953125
+ttr	: retreat	: [3, 4, 5]	: detrend=False	: 7.8125 %	: time=0.0064013004302978516
+ttr	: retreat	: [6, 7, 8]	: detrend=True	: 9.375 %	: time=0.00678706169128418
+ttr	: retreat	: [6, 7, 8]	: detrend=False	: 10.9375 %	: time=0.00720667839050293
+ttr	: length	: [3, 4, 5]	: detrend=True	: 12.5 %	: time=0.007593393325805664
+ttr	: length	: [3, 4, 5]	: detrend=False	: 14.0625 %	: time=0.007998228073120117
+ttr	: length	: [6, 7, 8]	: detrend=True	: 15.625 %	: time=0.008382081985473633
+ttr	: length	: [6, 7, 8]	: detrend=False	: 17.1875 %	: time=0.008779048919677734
+ttr	: tp	: [3, 4, 5]	: detrend=True	: 18.75 %	: time=0.009186983108520508
+ttr	: tp	: [3, 4, 5]	: detrend=False	: 20.3125 %	: time=0.009596586227416992
+ttr	: tp	: [6, 7, 8]	: detrend=True	: 21.875 %	: time=0.009999752044677734
+ttr	: tp	: [6, 7, 8]	: detrend=False	: 23.4375 %	: time=0.010389089584350586
+ttr	: vipile	: [3, 4, 5]	: detrend=True	: 25.0 %	: time=0.01079702377319336
+ttr	: vipile	: [3, 4, 5]	: detrend=False	: 26.5625 %	: time=0.011226892471313477
+ttr	: vipile	: [6, 7, 8]	: detrend=True	: 28.125 %	: time=0.011608362197875977
+ttr	: vipile	: [6, 7, 8]	: detrend=False	: 29.6875 %	: time=0.012038707733154297
+ttr	: viwve	: [3, 4, 5]	: detrend=True	: 31.25 %	: time=0.012431144714355469
+ttr	: viwve	: [3, 4, 5]	: detrend=False	: 32.8125 %	: time=0.012824773788452148
+ttr	: viwve	: [6, 7, 8]	: detrend=True	: 34.375 %	: time=0.014540910720825195
+ttr	: viwve	: [6, 7, 8]	: detrend=False	: 35.9375 %	: time=0.01495218276977539
+ttr	: viwvn	: [3, 4, 5]	: detrend=True	: 37.5 %	: time=0.015345573425292969
+ttr	: viwvn	: [3, 4, 5]	: detrend=False	: 39.0625 %	: time=0.015740156173706055
+ttr	: viwvn	: [6, 7, 8]	: detrend=True	: 40.625 %	: time=0.01611804962158203
+ttr	: viwvn	: [6, 7, 8]	: detrend=False	: 42.1875 %	: time=0.016487836837768555
+ttr	: viwvd	: [3, 4, 5]	: detrend=True	: 43.75 %	: time=0.016854286193847656
+ttr	: viwvd	: [3, 4, 5]	: detrend=False	: 45.3125 %	: time=0.017223119735717773
+ttr	: viwvd	: [6, 7, 8]	: detrend=True	: 46.875 %	: time=0.01761460304260254
+ttr	: viwvd	: [6, 7, 8]	: detrend=False	: 48.4375 %	: time=0.01799750328063965
+sstk	: onset	: [3, 4, 5]	: detrend=True	: 50.0 %	: time=0.01838541030883789
+sstk	: onset	: [3, 4, 5]	: detrend=False	: 51.5625 %	: time=200.8771984577179
+sstk	: onset	: [6, 7, 8]	: detrend=True	: 53.125 %	: time=329.7691855430603
+sstk	: onset	: [6, 7, 8]	: detrend=False	: 54.6875 %	: time=547.5777587890625
+sstk	: retreat	: [3, 4, 5]	: detrend=True	: 56.25 %	: time=675.1618428230286
+sstk	: retreat	: [3, 4, 5]	: detrend=False	: 57.8125 %	: time=889.3968930244446
+sstk	: retreat	: [6, 7, 8]	: detrend=True	: 59.375 %	: time=1016.742431640625
+sstk	: retreat	: [6, 7, 8]	: detrend=False	: 60.9375 %	: time=1228.828839302063
+sstk	: length	: [3, 4, 5]	: detrend=True	: 62.5 %	: time=1356.4903724193573
+sstk	: length	: [3, 4, 5]	: detrend=False	: 64.0625 %	: time=1562.3634219169617
+sstk	: length	: [6, 7, 8]	: detrend=True	: 65.625 %	: time=1687.9605128765106
+sstk	: length	: [6, 7, 8]	: detrend=False	: 67.1875 %	: time=1897.380882024765
+sstk	: tp	: [3, 4, 5]	: detrend=True	: 68.75 %	: time=2023.202760219574
+sstk	: tp	: [3, 4, 5]	: detrend=False	: 70.3125 %	: time=2238.0104126930237
+sstk	: tp	: [6, 7, 8]	: detrend=True	: 71.875 %	: time=2367.729051589966
+sstk	: tp	: [6, 7, 8]	: detrend=False	: 73.4375 %	: time=2580.99858546257
+sstk	: vipile	: [3, 4, 5]	: detrend=True	: 75.0 %	: time=2707.8118646144867
+sstk	: vipile	: [3, 4, 5]	: detrend=False	: 76.5625 %	: time=2923.0155460834503
+sstk	: vipile	: [6, 7, 8]	: detrend=True	: 78.125 %	: time=3049.0929441452026
+sstk	: vipile	: [6, 7, 8]	: detrend=False	: 79.6875 %	: time=3259.7531995773315
+sstk	: viwve	: [3, 4, 5]	: detrend=True	: 81.25 %	: time=3386.1773853302
+sstk	: viwve	: [3, 4, 5]	: detrend=False	: 82.8125 %	: time=3601.3753781318665
+sstk	: viwve	: [6, 7, 8]	: detrend=True	: 84.375 %	: time=3726.146282196045
+sstk	: viwve	: [6, 7, 8]	: detrend=False	: 85.9375 %	: time=3934.6493158340454
+sstk	: viwvn	: [3, 4, 5]	: detrend=True	: 87.5 %	: time=4060.661548137665
+sstk	: viwvn	: [3, 4, 5]	: detrend=False	: 89.0625 %	: time=4275.099228858948
+sstk	: viwvn	: [6, 7, 8]	: detrend=True	: 90.625 %	: time=4400.909330606461
+sstk	: viwvn	: [6, 7, 8]	: detrend=False	: 92.1875 %	: time=4614.866445302963
+sstk	: viwvd	: [3, 4, 5]	: detrend=True	: 93.75 %	: time=4740.785169839859
+sstk	: viwvd	: [3, 4, 5]	: detrend=False	: 95.3125 %	: time=4954.145924091339
+sstk	: viwvd	: [6, 7, 8]	: detrend=True	: 96.875 %	: time=5080.127728700638
+sstk	: viwvd	: [6, 7, 8]	: detrend=False	: 98.4375 %	: time=5288.963751316071

@@ -50,7 +50,7 @@ from IPython.display import HTML
 import IPython.core.display as di # Example: di.display_html('<h3>%s:</h3>' % str, raw=True)
 
 
-# In[30]:
+# In[2]:
 
 
 era5_path = '/glade/campaign/collections/rda/data/ds633.0/'  # base path to ERA5 data on derecho
@@ -61,7 +61,7 @@ era5_pl_path = '/glade/campaign/collections/rda/data/ds633.0/e5.oper.an.pl/'  # 
 sub_script_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/subsetting/'  # path to my subsetting scripts
 
 
-# In[ ]:
+# In[10]:
 
 
 # variable list to choose
@@ -96,6 +96,10 @@ var_list = [
     # 'strd',  # surface thermal radiation downwards (J m^-2) - accumu
     # 'ttr',  # top net thermal radiation (OLR, J m^-2) - accumu -- divide by time (s) for W m^-2
     # 'sstk',  # sea surface temperature (K) - instan
+    'vipile',  # vertical integral of potential, internal, and latent energy (J m^-2) - instan
+    'viwve',  # vertical integral of eastward water vapour flux (kg m^-1 s^-1) - instan -- positive south -> north
+    'viwvn',  # vertical integral of northward water vapour flux (kg m^-1 s^-1) - instan -- positive west -> east
+    'viwvd',  # vertical integral of divergence of moisture flux (kg m^-2 s^-1) - instan -- positive divergencve
 ]
 
 
@@ -129,10 +133,10 @@ pl_var_list = [
     # 'cswc',  # specific snow water content (kg kg^-1)
     # 'z',  # geopotential (m^2 s^2)
     # 't',  # temperature (K)
-    'u',  # u component of wind(m s^-1)
-    'v',  # v component of wind (m s^-1)
-    'q',  # specific humidity (kg kg^-1)
-    'w',  # vertical velo|city (Pa s^-1)
+    # 'u',  # u component of wind(m s^-1)
+    # 'v',  # v component of wind (m s^-1)
+    # 'q',  # specific humidity (kg kg^-1)
+    # 'w',  # vertical velo|city (Pa s^-1)
     # 'vo',  # vorticity - relative (s^-1)
     # 'd',  # divergence (s^-1)
     # 'r',  # relative humidity (%)
@@ -142,7 +146,7 @@ pl_var_list = [
 ]
 
 
-# In[16]:
+# In[19]:
 
 
 # function to extract, subset, and process data for single variable in the desert southwest
@@ -296,25 +300,25 @@ def dsw_subset_era5(variable='lsp', start_date=200101, end_date=200102, dsw_flag
     # return ds, ds_sub, daily_data
 
 
-# In[28]:
+# In[20]:
 
 
-# # set time array to loop through
-# years = np.arange(1980,2020)
-# months = np.arange(1,13)
+# set time array to loop through
+years = np.arange(1980,2020)
+months = np.arange(1,13)
 
 
 # In[ ]:
 
 
-# # Loop through variables in var_list and process each one for DSW
-# for var in var_list:
-#     for year in years:
-#         with open(f'{sub_script_path}pl_out.txt', 'a') as file:
-#             file.write(f'{var} - {year} - DSW\n')
-#         start_date = int(f'{year}01')
-#         end_date = int(f'{year}12')
-#         dsw_subset_era5(var, start_date, end_date)
+# Loop through variables in var_list and process each one for DSW
+for var in var_list:
+    for year in years:
+        with open(f'{sub_script_path}dsw_out.txt', 'a') as file:
+            file.write(f'{var} - {year} - DSW\n')
+        start_date = int(f'{year}01')
+        end_date = int(f'{year}12')
+        dsw_subset_era5(var, start_date, end_date)
 
 
 # In[ ]:
@@ -410,39 +414,39 @@ def pl_subset_era5(variable='pv', start_date = 200101):
 # In[6]:
 
 
-# set time array to loop through
-years = np.arange(1980,2020)
-months = np.arange(1,13)
+# # set time array to loop through
+# years = np.arange(1980,2020)
+# months = np.arange(1,13)
 
 
 # In[ ]:
 
 
-# Loop through variables in pl_var_list and process each one
-for var in pl_var_list:
-    with open(f'{sub_script_path}pl_out.txt', 'a') as file:
-        file.write(f'\n. . . . . . . . . . \n{var}\n. . . . . . . . . .\n')
-    for year in years:
-        with open(f'{sub_script_path}pl_out.txt', 'a') as file:
-            file.write(f'{var} - {year}\n')
-        # month_list = []
-        for month in months:
-            print(month)
-            with open(f'{sub_script_path}pl_out.txt', 'a') as file:
-                file.write(f'{month} . ')
-            if month<10:
-                start_date = int(f'{year}0{month}')
-            elif month>=10:
-                start_date = int(f'{year}{month}')
+# # Loop through variables in pl_var_list and process each one
+# for var in pl_var_list:
+#     with open(f'{sub_script_path}pl_out.txt', 'a') as file:
+#         file.write(f'\n. . . . . . . . . . \n{var}\n. . . . . . . . . .\n')
+#     for year in years:
+#         with open(f'{sub_script_path}pl_out.txt', 'a') as file:
+#             file.write(f'{var} - {year}\n')
+#         # month_list = []
+#         for month in months:
+#             print(month)
+#             with open(f'{sub_script_path}pl_out.txt', 'a') as file:
+#                 file.write(f'{month} . ')
+#             if month<10:
+#                 start_date = int(f'{year}0{month}')
+#             elif month>=10:
+#                 start_date = int(f'{year}{month}')
 
-            monthly_data = pl_subset_era5(var, start_date)
+#             monthly_data = pl_subset_era5(var, start_date)
 
-            # month_list.append(monthly_data)
+#             # month_list.append(monthly_data)
 
-        # year_fn = f'{var}_{year}01_{year}12_dsw.nc'  # out file name for yearly data
-        # year_fp = f'{out_path}{year}/{year_fn}'  # out file path for yearly data(including file name)
-        # year_ds = xr.concat(month_list, dim='time')
-        # year_ds.to_netcdf(year_fp)
+#         # year_fn = f'{var}_{year}01_{year}12_dsw.nc'  # out file name for yearly data
+#         # year_fp = f'{out_path}{year}/{year_fn}'  # out file path for yearly data(including file name)
+#         # year_ds = xr.concat(month_list, dim='time')
+#         # year_ds.to_netcdf(year_fp)
 
 
 # In[ ]:
