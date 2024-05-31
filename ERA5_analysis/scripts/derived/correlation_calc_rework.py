@@ -3,7 +3,7 @@
 
 # This script calculates correlations between various parameters and saves them to their own netcdf file
 
-# In[ ]:
+# In[1]:
 
 
 # import functions
@@ -54,7 +54,7 @@ from IPython.display import HTML
 import IPython.core.display as di  # Example: di.display_html('<h3>%s:</h3>' % str, raw=True)
 
 
-# In[ ]:
+# In[2]:
 
 
 # specify directories
@@ -64,7 +64,7 @@ corr_out_path = '/glade/u/home/zcleveland/scratch/ERA5/correlations/'  # path to
 der_script_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/derived/'  # path to derived scripts
 
 
-# In[ ]:
+# In[11]:
 
 
 # define list of variables
@@ -134,7 +134,9 @@ pl_var_list = [
 NAM_var_list = [
     'onset',
     'retreat',
-    'length'
+    'length',
+    'precipitation',
+    'precipitation-rate'
 ]
 
 # all var in one list
@@ -151,7 +153,7 @@ region_avg_list = [
 ]
 
 
-# In[ ]:
+# In[12]:
 
 
 # dictionary of variables and their names
@@ -197,9 +199,11 @@ var_dict = {
     'q': 'Specific Humidity',
     'w': 'Vertical Velocity',
     'r': 'Relative Humidity',
-    'onset': 'Onset',
-    'retreat': 'Retreat',
-    'length': 'Length'
+    'onset': 'NAM Onset',
+    'retreat': 'NAM Retreat',
+    'length': 'NAM Length',
+    'precipitation': 'Yearly NAM Season Precipitation',
+    'precipitation-rate': 'NAM Precipitation Rate'
 }
 
 # dictionary of regions and their names
@@ -224,7 +228,7 @@ region_avg_coords = {
 }
 
 
-# In[ ]:
+# In[5]:
 
 
 # define a function to calculate the correlation between
@@ -239,31 +243,38 @@ def calc_correlation(var1='sd', var1_month_list=[3, 4, 5], var1_region='cp',
 
     # filename and path
 
+    # set detrend string for naming convention
     if detrend_flag:
         detrend_str = 'detrend'
     else:
         detrend_str = ''
 
+    # create list of var names, months, regions, etc. for naming convention
     fn_list = [str(var1), str(var1_months), str(var1_region),
                str(var2), str(var2_months), str(var2_region),
                str(detrend_str)]
+    # core of the naming convention
     fn_core = '_'.join([i for i in fn_list if i != ''])
     out_fn = f'corr_{fn_core}.nc'
 
+    # set the file path to save output
+    # global correlations
     if ((var1_region == 'global') or (var2_region == 'global')):
         out_fp = os.path.join(my_era5_path, 'correlations', 'global', out_fn)
+    # region to region correlations
     elif ((var1_region in region_avg_list) and (var2_region in region_avg_list)):
         out_fp = os.path.join(my_era5_path, 'correlations', f'regions/{var2_region}', out_fn)
+    # correlations within the DSW (region to DSW or DSW to DSW)
     elif ((var1_region == 'dsw') or (var2_region == 'dsw')):
         out_fp = os.path.join(my_era5_path, 'correlations', 'dsw', out_fn)
 
     # check existence of file already
     if os.path.exists(out_fp):
         print(f'File already exists for: {out_fn}', end=' - ')
-        if not overwrite_flag:
+        if not overwrite_flag:  # don't continue
             print('overwrite_flag is set to False. Skipping . . .')
             return
-        else:
+        else:  # continue
             print('overwrite_flag is set to True. Overwriting . . .')
 
     # get files for variables
@@ -282,11 +293,12 @@ def calc_correlation(var1='sd', var1_month_list=[3, 4, 5], var1_region='cp',
         print(f'missing var data {var1}: \n{var1_data}\n{var2}:\n{var2_data}')
         return
 
-    # calculate correlation
+    # apply detrend if needed
     if detrend_flag:
         var1_data = apply_detrend(var1_data)
         var2_data = apply_detrend(var2_data)
 
+    # calculate correlation
     var_corr = apply_correlation(var1_data, var2_data)
     # return var_corr, out_fn
 
@@ -294,7 +306,7 @@ def calc_correlation(var1='sd', var1_month_list=[3, 4, 5], var1_region='cp',
     var_corr.to_netcdf(out_fp)
 
 
-# In[ ]:
+# In[6]:
 
 
 # define a function to turn a list of integers into months
@@ -302,15 +314,15 @@ def month_num_to_name(var, months, **kwargs):
 
     # make string for month letters from var_range (e.g. [6,7,8] -> 'JJA')
     if var in NAM_var_list:
-        var_months = ''
+        var_months = ''  # don't use months for onset, retreat, length
     elif len(months) == 1:
         var_months = calendar.month_name[months[0]]  # use full month name if only 1 month
     elif ((len(months) > 1) & (len(months) <= 12)):
-        var_months = ''.join([calendar.month_name[m][0] for m in months])
+        var_months = ''.join([calendar.month_name[m][0] for m in months])  # make string of months, i.e. 3, 4, 5 is MAM
     return var_months
 
 
-# In[ ]:
+# In[7]:
 
 
 # define a function to get the files for a given variable/region
@@ -334,7 +346,7 @@ def get_var_files(var, region, **kwargs):
 
     # grab files for NAM var
     elif var in NAM_var_list:
-        files = glob.glob(f'{my_era5_path}dsw/NAM_{var.lower()}.nc')
+        files = glob.glob(f'{my_era5_path}dsw/NAM_{var}.nc')
 
     # if something went wrong
     else:
@@ -344,7 +356,7 @@ def get_var_files(var, region, **kwargs):
     return files
 
 
-# In[ ]:
+# In[13]:
 
 
 # define a function to open the datasets and return monthly averages
@@ -372,10 +384,11 @@ def get_var_data(files, var, months, region, level, **kwargs):
         var_data = da.sel(time=da['time.month'].isin(months), level=level).groupby('time.year').mean(dim='time')
 
     #NAM var
-    elif ((var.lower() == 'onset') or (var.lower() == 'retreat')):
-        var_data = da.dt.dayofyear
-    elif var.lower() == 'length':
-        var_data = da
+    elif var.lower() in NAM_var_list:
+        if ((var.lower() == 'onset') or (var.lower() == 'retreat')):
+            var_data = da.dt.dayofyear
+        else:
+            var_data = da
 
     # something went wrong
     else:
@@ -390,7 +403,7 @@ def get_var_data(files, var, months, region, level, **kwargs):
     return var_data
 
 
-# In[ ]:
+# In[9]:
 
 
 # define a function to detrend the data
@@ -406,6 +419,7 @@ def detrend_data(arr):
     arr_years_mask = arr_years[mask]
     arr_mask = arr[mask]
 
+    # make sure the array is not full of non-finite values
     if len(arr_mask) == 0:
         arr_detrend = np.empty(40)
         arr_detrend[:] = np.nan
@@ -419,30 +433,6 @@ def detrend_data(arr):
         arr_detrend = arr - (m*arr_years + b)
 
     return arr_detrend
-
-
-# def detrend_data(arr):
-
-#     # handle nans and infs
-#     mask = np.isfinite(arr)
-#     arr_masked = arr[mask]
-
-#     # create new array to keep nan values back in
-#     arr_detrend = np.empty(arr.shape)
-#     arr_detrend[:] = np.nan
-
-#     if ((len(arr[~mask]) / len(arr)) > 0.5):
-#         print('too many nan values, cannot be detrended')
-#         return arr_detrend
-#     else:
-#         # perform detrend
-#         detrend_masked = sp.signal.detrend(arr_masked)
-
-#         # input masked array into their spots
-#         arr_detrend[mask] = detrend_masked
-
-#     # return data
-#     return arr_detrend
 
 
 # define a function to mask data for detrending or correlating
@@ -463,7 +453,7 @@ def apply_detrend(da):
     return da_detrend
 
 
-# In[ ]:
+# In[10]:
 
 
 # define a function to calculate the Pearson correlation and p-value statistic
@@ -502,97 +492,18 @@ def apply_correlation(da1, da2):
 # In[ ]:
 
 
-# # define function to open pressure level datasets
-# def open_pl_data(var='z', p_level=700, months=None):
-
-#     # grab files for pl var
-#     files = glob.glob(f'{my_era5_path}dsw/*/pl/{var.lower()}_*_dsw.nc')
-#     files.sort()
-
-#     if not files:
-#         return None
-
-#     # open dataset
-#     ds = xr.open_mfdataset(files, data_vars='minimal', coords='minimal', parallel=True, chunks={'level': 1})
-
-#     # subset the data bas
-#     da = ds[var.upper()].sel(level=p_level, drop=True)
-#     var_data = da.sel(time=da['time.month'].isin(months)).groupby('time.year').mean(dim='time')
-#     return var_data
-
-
-# In[ ]:
-
-
-# # define a function to open surface data
-# def open_sfc_data(var='swvl1', region='dsw', months=None):
-
-#     # grab files for sfc var
-#     if region.lower() == 'dsw':
-#         files = glob.glob(f'{my_era5_path}dsw/*/{var.lower()}_*_dsw.nc')
-#     elif region.lower() in region_avg_list:
-#         files = glob.glob(f'{my_era5_path}regions/{region.lower()}/{var.lower()}_198001_201912_cp.nc')
-#     elif region.lower() == 'global':
-#         files = glob.glob(f'{my_era5_path}global/*/{var.lower()}_*_dsw.nc')
-#     files.sort()
-
-#     if not files:
-#         return None
-
-#     # open dataset
-#     ds = xr.open_mfdataset(files)
-
-#     # pull out actual variable name in the dataset since they can be different names/capitalized
-#     var_name = [v for v in ds.data_vars.keys() if f'{var.upper()}' in v][0]
-#     da = ds[var_name]
-#     # get data from var
-#     if var.lower() in sfc_instan_list:
-#         var_data = da.sel(time=da['time.month'].isin(months)).groupby('time.year').mean(dim='time')
-#     elif var.lower() in sfc_accumu_list:
-#         var_data = da.sel(time=da['time.month'].isin(months)).groupby('time.year').sum(dim='time')
-#     return var_data
-
-
-# In[ ]:
-
-
-# # define a function to open onset, retreat, and length of NAM data
-# def open_NAM_data(var='onset'):
-
-#     # grab files for NAM data
-#     files = glob.glob(f'{my_era5_path}dsw/NAM_{var.lower()}.nc')
-#     files.sort()
-
-#     if not files:
-#         return None
-
-#     # open dataset
-#     ds = xr.open_mfdataset(files)
-#     ds['year'] = ds['year'].dt.year  # convert to only year.  e.g. 2012-01-01 -> 2012
-
-#     # pull out actual variable name in the dataset since they can be different
-#     if ((var.lower() == 'onset') or (var.lower() == 'retreat')):
-#         da = ds['date'].dt.dayofyear
-#     elif var.lower() == 'length':
-#         da = ds['dayofyear']
-#     return da
-
-
-# In[ ]:
-
-
-# # test cell
-# var1 = 'vipile'
+# # test cell -- dsw
+# var1 = 'sd'
 # var1_month_list = [3, 4, 5]
 # var1_region = 'cp'
-# var2 = 'onset'
+# var2 = 'precipitation'
 # var2_month_list = [6, 7, 8]
 # var2_region = 'dsw'
-# detrend_list=[True,False]
+# detrend_list=[True]
 # for detrend_flag in detrend_list:
-#     calc_correlation(var1=var1, var1_level=700, var1_month_list=var1_month_list, var1_region=var1_region,
-#                      var2=var2, var2_level=700, var2_month_list=var2_month_list, var2_region=var2_region,
-#                      detrend_flag=detrend_flag)
+#     calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region,
+#                      var2=var2, var2_month_list=var2_month_list, var2_region=var2_region,
+#                      detrend_flag=detrend_flag, overwrite_flag=False)
 
 
 # In[ ]:
@@ -613,8 +524,8 @@ def apply_correlation(da1, da2):
 #                 # with open(f'{der_script_path}corr.txt', 'a') as file:
 #                 #     file.write(f'{var1}\t:\t{var2}\t:\t{region}\t:\tdetrend={detrend_flag}\t:\t{100*cnt/len_lists} %\n')
 #                 print(f'{var1}\t:\t{var2}\t:\t{region}\t:\tdetrend={detrend_flag}\t:\t{100*cnt/len_lists} %')
-#                 calc_correlation(var1=var1, var1_month_list=[3, 4, 5], var1_region=region, var1_level=700,
-#                                  var2=var2, var2_month_list=[6, 7, 8], var2_region='dsw', var2_level=700,
+#                 calc_correlation(var1=var1, var1_month_list=[3, 4, 5], var1_region=region,
+#                                  var2=var2, var2_month_list=[6, 7, 8], var2_region='dsw',
 #                                  detrend_flag=detrend_flag, overwrite_flag=False)
 #                 cnt = cnt+1
 
@@ -622,96 +533,34 @@ def apply_correlation(da1, da2):
 # In[ ]:
 
 
-# # calculate correlations for onset, length, and summer precipitation
+# # cell to compute specific correlations
 # var_list1 = sfc_accumu_list + sfc_instan_list + pl_var_list
-# var_list2 = ['vipile', 'viwve', 'viwvn', 'viwvd']
-# region_list = ['dsw', 'cp']
+# if 'sstk' in var_list1:
+#     var_list1.remove('sstk')
+# var1_month_lists = [[3, 4, 5]]
+# var_list2 = ['precipitation-rate']
+# var2_month_lists = [[6, 7, 8]]
+# len_lists = len(var_list1)*len(var_list2)*len(var1_month_lists)*len(var2_month_lists)
+# detrend_flag_list = [True, False]
+# cnt = 0
 # for var1 in var_list1:
-#     for var2 in var_list2:
-#         for region in region_list:
-#             # with open(f'{der_script_path}corr.txt', 'a') as file:
-#             #     file.write(f'{var1} : {var2} : {region}\n')
-#             print(f'{var1} : {var2} : {region}\n')
-#             calc_correlation(var1=var1, var1_level=700, var1_month_list=[3, 4, 5], var1_region=region,
-#                              var2=var2, var2_level=700, var2_month_list=[6, 7, 8], var2_region='dsw')
+#     for var1_month_list in var1_month_lists:
+#         for var2 in var_list2:
+#             for var2_month_list in var2_month_lists:
+#                 for detrend_flag in detrend_flag_list:
+#                     # with open(f'{der_script_path}corr.txt', 'a') as file:
+#                     #     file.write(f'{var1}\t:\t{var2}\t:\t{region}\t:\tdetrend={detrend_flag}\t:\t{100*cnt/len_lists} %\n')
+#                     print(f'{var1}\t:\t{var1_month_list}\t:\t{var2}\t:\t{var2_month_list}\t:\t{100*cnt/len_lists} %')
+#                     calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region='cp',
+#                                      var2=var2, var2_month_list=var2_month_list, var2_region='dsw',
+#                                      detrend_flag=detrend_flag, overwrite_flag=False)
+#                     cnt = cnt+1
 
 
 # In[ ]:
 
 
-# # define a function to calculate the correlation for global variables
-# def calc_correlation_global(var1='ttr', var1_level=700, var1_month_list=[3, 4, 5], var1_region='global',
-#                             var2='tp', var2_level=700, var2_month_list=[6, 7, 8], var2_region='dsw',
-#                             detrend_flag=True, overwrite_flag=False, **kwargs):
-
-#     # months list
-#     var1_months = month_num_to_name(var=var1, months=var1_month_list)
-#     var2_months = month_num_to_name(var=var2, months=var2_month_list)
-
-#     fn_list = [str(var1), str(var1_months), 'global', str(var2), str(var2_months), 'MeNmAz']
-#     fn_core = '_'.join([i for i in fn_list if i != ''])
-
-#     # filename and path
-#     out_fn = f'corr_{fn_core}.nc'
-#     out_fp = os.path.join(corr_out_path, 'global', out_fn)
-
-#     # check existence of file already
-#     if os.path.exists(out_fp):
-#         print(f'File already exists for: {out_fn}')
-#         print('\nSkipping . . .')
-#         return
-
-#     # open datasets
-
-#     # var 1
-#     if ((var1 in sfc_instan_list) or (var1 in sfc_accumu_list)):
-#         var1_data = open_sfc_data(var=var1, region=var1_region, months=var1_month_list)
-#     elif var1 in pl_var_list:
-#         var1_data = open_pl_data(var=var1, p_level=var1_level, months=var1_month_list)
-#     elif var1 in NAM_var_list:
-#         var1_data = open_NAM_data(var=var1)
-#     else:
-#         print('Something went wront . . .')
-#         return
-
-#     # var 2
-#     if ((var2 in sfc_instan_list) or (var2 in sfc_accumu_list)):
-#         var2_data = open_sfc_data(var=var2, region=var2_region, months=var2_month_list)
-#     elif var2 in pl_var_list:
-#         var2_data = open_pl_data(var=var2, p_level=var2_level, months=var2_month_list)
-#     elif var2 in NAM_var_list:
-#         var2_data = open_NAM_data(var=var2)
-#     else:
-#         print('Something went wront . . .')
-#         return
-
-#     if ((var1_data is None) or (var2_data is None)):
-#         print(f'No files were found a var: \n{var1_data}\n{var2_data}')
-#         return
-
-#     lats = slice(38,28)
-#     lons = slice(246, 256)
-
-#     var2_data = var2_data.sel(latitude=lats, longitude=lons).mean(dim=['latitude', 'longitude'])
-
-#     # calculate correlation
-#     if detrend_flag:
-#         var1_data = detrend_data(var1_data, 'year')
-#         if var2 not in NAM_var_list:
-#             var2_data = detrend_data(var2_data, 'year')
-
-#     # calculate correlation
-#     var_corr = apply_correlation(var1_data, var2_data)
-#     # return var_corr, out_fn
-
-#     # save to netCDF file
-#     var_corr.to_netcdf(out_fp)
-
-
-# In[ ]:
-
-
-# # test cell
+# # test cell -- global
 # var1='sstk'
 # var1_month_list=[3, 4, 5]
 # var1_region='global'
@@ -728,8 +577,36 @@ def apply_correlation(da1, da2):
 # In[ ]:
 
 
+# var_list1 = ['ttr', 'sstk']
+# var_list2 = NAM_var_list + ['precipitation', 'tp', 'vipile', 'viwve', 'viwvn', 'viwvd']
+# var1_months_list = [
+#     [3, 4, 5],
+#     [6, 7, 8]
+# ]
+# detrend_list = [True, False]
+# len_lists = len(var_list1)*len(var_list2)*len(var1_months_list)*len(detrend_list)
+# cnt = 0
+# start_time = time.time()
+# for var1 in var_list1:
+#     for var2 in var_list2:
+#         for var1_month_list in var1_months_list:
+#             for detrend_flag in detrend_list:
+#                 # print(f'var1 : {var1} {var1_month_list} -- var2 : {var2}')
+#                 with open(f'{der_script_path}corr.txt', 'a') as file:
+#                     file.write(f'{var1}\t: {var2}\t: {var1_month_list}\t: detrend={detrend_flag}\t: {100*cnt/len_lists} %\t: time={time.time()-start_time}\n')
+
+#                 calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region='global', var1_level=700,
+#                                         var2=var2, var2_month_list=[6, 7, 8], var2_region='MeNmAz', var2_level=700,
+#                                         detrend_flag=detrend_flag, overwrite_flag=False)
+#                 cnt=cnt+1
+
+
+# In[ ]:
+
+
+# cell to compute specific correlations -- global
 var_list1 = ['ttr', 'sstk']
-var_list2 = NAM_var_list + ['tp', 'vipile', 'viwve', 'viwvn', 'viwvd']
+var_list2 = ['precipitation-rate']
 var1_months_list = [
     [3, 4, 5],
     [6, 7, 8]
@@ -742,7 +619,7 @@ for var1 in var_list1:
     for var2 in var_list2:
         for var1_month_list in var1_months_list:
             for detrend_flag in detrend_list:
-                # print(f'var1 : {var1} {var1_month_list} -- var2 : {var2}')
+                # print(f'{var1}\t: {var2}\t: {var1_month_list}\t: detrend={detrend_flag}\t: {100*cnt/len_lists} %\t: time={time.time()-start_time}')
                 with open(f'{der_script_path}corr.txt', 'a') as file:
                     file.write(f'{var1}\t: {var2}\t: {var1_month_list}\t: detrend={detrend_flag}\t: {100*cnt/len_lists} %\t: time={time.time()-start_time}\n')
 

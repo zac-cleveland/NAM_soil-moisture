@@ -131,3 +131,11 @@ sstk	: viwvd	: [3, 4, 5]	: detrend=True	: 93.75 %	: time=4740.785169839859
 sstk	: viwvd	: [3, 4, 5]	: detrend=False	: 95.3125 %	: time=4954.145924091339
 sstk	: viwvd	: [6, 7, 8]	: detrend=True	: 96.875 %	: time=5080.127728700638
 sstk	: viwvd	: [6, 7, 8]	: detrend=False	: 98.4375 %	: time=5288.963751316071
+ttr	: precipitation-rate	: [3, 4, 5]	: detrend=True	: 0.0 %	: time=0.0010461807250976562
+ttr	: precipitation-rate	: [3, 4, 5]	: detrend=False	: 12.5 %	: time=258.14277696609497
+ttr	: precipitation-rate	: [6, 7, 8]	: detrend=True	: 25.0 %	: time=397.5796582698822
+ttr	: precipitation-rate	: [6, 7, 8]	: detrend=False	: 37.5 %	: time=669.517303943634
+sstk	: precipitation-rate	: [3, 4, 5]	: detrend=True	: 50.0 %	: time=811.239093542099
+sstk	: precipitation-rate	: [3, 4, 5]	: detrend=False	: 62.5 %	: time=1023.9159491062164
+sstk	: precipitation-rate	: [6, 7, 8]	: detrend=True	: 75.0 %	: time=1144.421648979187
+sstk	: precipitation-rate	: [6, 7, 8]	: detrend=False	: 87.5 %	: time=1357.080471277237

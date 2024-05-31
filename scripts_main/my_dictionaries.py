@@ -68,7 +68,9 @@ pl_var_list = [
 NAM_var_list = [
     'onset',
     'retreat',
-    'length'
+    'length',
+    'precipitation',
+    'precipitation-rate'
 ]
 
 # all var in one list
@@ -82,6 +84,21 @@ region_avg_list = [
     'chi',
     'moj',
     'MeNmAz',
+]
+
+# variables that are fluxes and need to be multiplied by -1 for easier understanding
+flux_var_list = [
+    'sshf',  # surface sensible heat flux (J m^-2)
+    'slhf',  # surface latent heat flux (J m^-2)
+    'ttr',  # top net thermal radiation (OLR, J m^-2) -- divide by time (s) for W m^-2
+    'ishf',  # instant surface heat flux (W m^-2)
+    'ie',  # instant moisture flux (kg m^-2 s^-1)
+    'str',  # surface thermal radiation (J m^-2)
+]
+
+# misc variables
+misc_var_list = [
+    'nino-3',
 ]
 
 
@@ -130,57 +147,63 @@ var_dict = {
     'q': 'Specific Humidity',
     'w': 'Vertical Velocity',
     'r': 'Relative Humidity',
-    'onset': 'Onset',
-    'retreat': 'Retreat',
-    'length': 'Length'
+    'onset': 'NAM Onset',
+    'retreat': 'NAM Retreat',
+    'length': 'NAM Length',
+    'precipitation': 'Yearly NAM Season Precipitation',
+    'precipitation-rate': 'NAM Precipitation Rate',
+    'nino-3': r'Ni$\tilda{n}$o-3 Index',
 }
 
 # variable units in latex format for plotting
 var_units = {
-    'sd': '(m)',
-    'msl': '(Pa)',
-    'tcc': '(0-1)',
-    'stl1': '(K)',
-    'stl2': '(K)',
-    'stl3': '(K)',
-    'stl4': '(K)',
-    'swvl1': '$(m^3 m^{-3})$',
-    'swvl2': '$(m^3 m^{-3})$',
-    'swvl3': '$(m^3 m^{-3})$',
-    'swvl4': '$(m^3 m^{-3})$',
-    '2t': '(K)',
-    '2d': '(K)',
-    'ishf': '$(W m^{-2})$',
-    'ie': '$(kg m^{-2} s^{-1})$',
-    'cape': '$(J kg^{-1})$',
-    'tcw': '$(kg m^{-2})$',
-    'sstk': '(K)',
-    'vipile': '$(J m^{-2})$',
-    'viwve': '$(kg m^{-1} s^{-1})$',
-    'viwvn': '$(kg m^{-1} s^{-1})$',
-    'viwvd': '$(kg m^{-2} s^{-1})$',
-    'lsp': '(m)',
-    'cp': '(m)',
-    'tp': '(m)',
-    'sshf': '$(J m^{-2})$',
-    'slhf': '$(J m^{-2})$',
-    'ssr': '$(J m^{-2})$',
-    'str': '$(J m^{-2})$',
-    'sro': '(m)',
-    'sf': '(m)',
-    'ssrd': '$(J m^{-2})$',
-    'strd': '$(J m^{-2})$',
-    'ttr': '$(J m^{-2})$',
-    'z': '$(m^2 s^{-2})$',
-    't': '(K)',
-    'u': '$(m s^{-1})$',
-    'v': '$(m s^{-1})$',
-    'q': '$(kg kg^{-1})$',
-    'w': '$(Pa s^{-1})$',
-    'r': '(%)',
+    'sd': r'(m)',
+    'msl': r'(Pa)',
+    'tcc': r'(0-1)',
+    'stl1': r'(K)',
+    'stl2': r'(K)',
+    'stl3': r'(K)',
+    'stl4': r'(K)',
+    'swvl1': r'$(m^3 m^{-3})$',
+    'swvl2': r'$(m^3 m^{-3})$',
+    'swvl3': r'$(m^3 m^{-3})$',
+    'swvl4': r'$(m^3 m^{-3})$',
+    '2t': r'(K)',
+    '2d': r'(K)',
+    'ishf': r'$(W m^{-2})$',
+    'ie': r'$(kg m^{-2} s^{-1})$',
+    'cape': r'$(J kg^{-1})$',
+    'tcw': r'$(kg m^{-2})$',
+    'sstk': r'(K)',
+    'vipile': r'$(J m^{-2})$',
+    'viwve': r'$(kg m^{-1} s^{-1})$',
+    'viwvn': r'$(kg m^{-1} s^{-1})$',
+    'viwvd': r'$(kg m^{-2} s^{-1})$',
+    'lsp': r'(m)',
+    'cp': r'(m)',
+    'tp': r'(m)',
+    'sshf': r'$(J m^{-2})$',
+    'slhf': r'$(J m^{-2})$',
+    'ssr': r'$(J m^{-2})$',
+    'str': r'$(J m^{-2})$',
+    'sro': r'(m)',
+    'sf': r'(m)',
+    'ssrd': r'$(J m^{-2})$',
+    'strd': r'$(J m^{-2})$',
+    'ttr': r'$(J m^{-2})$',
+    'z': r'$(m^2 s^{-2})$',
+    't': r'(K)',
+    'u': r'$(m s^{-1})$',
+    'v': r'$(m s^{-1})$',
+    'q': r'$(kg kg^{-1})$',
+    'w': r'$(Pa s^{-1})$',
+    'r': r'(%)',
     'onset': '',
     'retreat': '',
-    'length': ''
+    'length': r'# of days',
+    'precipitation': r'(m)',
+    'precipitation-rate': r'(m day^{-1}, NAM Season Precip / NAM Length)',
+    'nino-3': r'(Ni$\tilda{n}$o-3 Index Anomaly)',
 }
 
 # dictionary of regions and their names
@@ -204,7 +227,16 @@ region_avg_coords = {
     'MeNmAz': [246, 256, 38, 28],
 }
 
-
+# dictionary of colors for the plot of each region
+region_colors_dict = {
+    'cp': 'blue',
+    'mr': 'darkorange',
+    'son': 'green',
+    'chi': 'red',
+    'moj': 'purple',
+    'MeNmAz': 'brown',
+    'dsw': 'black'
+}
 
 
 
