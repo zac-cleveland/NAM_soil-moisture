@@ -1,11 +1,239 @@
-Waiting on job launch; 4625131.desched1 with qsub arguments:
+Waiting on job launch; 4671492.desched1 with qsub arguments:
     qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
 
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/numpy/core/_methods.py:178: RuntimeWarning: invalid value encountered in reduce
+ret = umr_sum(arr, axis, dtype, out, keepdims, where=where)
