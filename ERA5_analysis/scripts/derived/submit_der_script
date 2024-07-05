@@ -1,0 +1,32 @@
+#!/bin/bash
+
+### Job name
+#PBS -N NAM_soil-Moisture_der
+### Project code
+#PBS -A UUSL0032
+#PBS -l walltime=01:00:00
+#PBS -q main
+### Merge output and error files
+#PBS -j oe
+### Resources: 1 node, 2 CPUs, 55GB memory per node
+#PBS -l select=1:ncpus=2:mem=55gb
+### Email notification on abort, begin, and end
+#PBS -m abe
+#PBS -M cleveland.a.zac@gmail.com
+
+### Set TMPDIR as recommended by CISL
+export TMPDIR=/glade/scratch/$USER/temp
+mkdir -p $TMPDIR
+
+### Load any necessary modules (if required)
+# module load module_name
+
+### Optional: Activate Conda environment
+# source /path/to/your/conda/bin/activate your_env_name
+conda activate mland_xr
+
+### Navigate to the directory where the job was submitted
+# cd $PBS_O_WORKDIR
+
+### Run your command or script here
+python -u correlation_calc_rework.py

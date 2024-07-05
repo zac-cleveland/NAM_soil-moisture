@@ -1,0 +1,8 @@
+mkdir: cannot create directory ‘/glade/scratch’: Permission denied
+
+CondaError: Run 'conda init' before 'conda activate'
+
+Traceback (most recent call last):
+  File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/derived/correlation_calc_rework.py", line 13, in <module>
+    import cftime
+ModuleNotFoundError: No module named 'cftime'

@@ -1,769 +1,1739 @@
+Waiting on job launch; 4947450.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
 
-lsp	:	onset	:	cp	:	detrend=True	:	0.0 %
-lsp	:	onset	:	cp	:	detrend=False	:	0.15625 %
-lsp	:	retreat	:	cp	:	detrend=True	:	0.3125 %
-lsp	:	retreat	:	cp	:	detrend=False	:	0.46875 %
-lsp	:	length	:	cp	:	detrend=True	:	0.625 %
-lsp	:	length	:	cp	:	detrend=False	:	0.78125 %
-lsp	:	tp	:	cp	:	detrend=True	:	0.9375 %
-lsp	:	tp	:	cp	:	detrend=False	:	1.09375 %
-lsp	:	vipile	:	cp	:	detrend=True	:	1.25 %
-lsp	:	vipile	:	cp	:	detrend=False	:	1.40625 %
-lsp	:	viwve	:	cp	:	detrend=True	:	1.5625 %
-lsp	:	viwve	:	cp	:	detrend=False	:	1.71875 %
-lsp	:	viwvn	:	cp	:	detrend=True	:	1.875 %
-lsp	:	viwvn	:	cp	:	detrend=False	:	2.03125 %
-lsp	:	viwvd	:	cp	:	detrend=True	:	2.1875 %
-lsp	:	viwvd	:	cp	:	detrend=False	:	2.34375 %
-cp	:	onset	:	cp	:	detrend=True	:	2.5 %
-cp	:	onset	:	cp	:	detrend=False	:	2.65625 %
-cp	:	retreat	:	cp	:	detrend=True	:	2.8125 %
-cp	:	retreat	:	cp	:	detrend=False	:	2.96875 %
-cp	:	length	:	cp	:	detrend=True	:	3.125 %
-cp	:	length	:	cp	:	detrend=False	:	3.28125 %
-cp	:	tp	:	cp	:	detrend=True	:	3.4375 %
-cp	:	tp	:	cp	:	detrend=False	:	3.59375 %
-cp	:	vipile	:	cp	:	detrend=True	:	3.75 %
-cp	:	vipile	:	cp	:	detrend=False	:	3.90625 %
-cp	:	viwve	:	cp	:	detrend=True	:	4.0625 %
-cp	:	viwve	:	cp	:	detrend=False	:	4.21875 %
-cp	:	viwvn	:	cp	:	detrend=True	:	4.375 %
-cp	:	viwvn	:	cp	:	detrend=False	:	4.53125 %
-cp	:	viwvd	:	cp	:	detrend=True	:	4.6875 %
-cp	:	viwvd	:	cp	:	detrend=False	:	4.84375 %
-tp	:	onset	:	cp	:	detrend=True	:	5.0 %
-tp	:	onset	:	cp	:	detrend=False	:	5.15625 %
-tp	:	retreat	:	cp	:	detrend=True	:	5.3125 %
-tp	:	retreat	:	cp	:	detrend=False	:	5.46875 %
-tp	:	length	:	cp	:	detrend=True	:	5.625 %
-tp	:	length	:	cp	:	detrend=False	:	5.78125 %
-tp	:	tp	:	cp	:	detrend=True	:	5.9375 %
-tp	:	tp	:	cp	:	detrend=False	:	6.09375 %
-tp	:	vipile	:	cp	:	detrend=True	:	6.25 %
-tp	:	vipile	:	cp	:	detrend=False	:	6.40625 %
-tp	:	viwve	:	cp	:	detrend=True	:	6.5625 %
-tp	:	viwve	:	cp	:	detrend=False	:	6.71875 %
-tp	:	viwvn	:	cp	:	detrend=True	:	6.875 %
-tp	:	viwvn	:	cp	:	detrend=False	:	7.03125 %
-tp	:	viwvd	:	cp	:	detrend=True	:	7.1875 %
-tp	:	viwvd	:	cp	:	detrend=False	:	7.34375 %
-sshf	:	onset	:	cp	:	detrend=True	:	7.5 %
-sshf	:	onset	:	cp	:	detrend=False	:	7.65625 %
-sshf	:	retreat	:	cp	:	detrend=True	:	7.8125 %
-sshf	:	retreat	:	cp	:	detrend=False	:	7.96875 %
-sshf	:	length	:	cp	:	detrend=True	:	8.125 %
-sshf	:	length	:	cp	:	detrend=False	:	8.28125 %
-sshf	:	tp	:	cp	:	detrend=True	:	8.4375 %
-sshf	:	tp	:	cp	:	detrend=False	:	8.59375 %
-sshf	:	vipile	:	cp	:	detrend=True	:	8.75 %
-sshf	:	vipile	:	cp	:	detrend=False	:	8.90625 %
-sshf	:	viwve	:	cp	:	detrend=True	:	9.0625 %
-sshf	:	viwve	:	cp	:	detrend=False	:	9.21875 %
-sshf	:	viwvn	:	cp	:	detrend=True	:	9.375 %
-sshf	:	viwvn	:	cp	:	detrend=False	:	9.53125 %
-sshf	:	viwvd	:	cp	:	detrend=True	:	9.6875 %
-sshf	:	viwvd	:	cp	:	detrend=False	:	9.84375 %
-lsp	:	onset	:	cp	:	detrend=True	:	0.0 %
-lsp	:	onset	:	cp	:	detrend=False	:	0.15625 %
-lsp	:	retreat	:	cp	:	detrend=True	:	0.3125 %
-lsp	:	retreat	:	cp	:	detrend=False	:	0.46875 %
-lsp	:	length	:	cp	:	detrend=True	:	0.625 %
-lsp	:	length	:	cp	:	detrend=False	:	0.78125 %
-lsp	:	tp	:	cp	:	detrend=True	:	0.9375 %
-lsp	:	tp	:	cp	:	detrend=False	:	1.09375 %
-lsp	:	vipile	:	cp	:	detrend=True	:	1.25 %
-lsp	:	vipile	:	cp	:	detrend=False	:	1.40625 %
-lsp	:	viwve	:	cp	:	detrend=True	:	1.5625 %
-lsp	:	viwve	:	cp	:	detrend=False	:	1.71875 %
-lsp	:	viwvn	:	cp	:	detrend=True	:	1.875 %
-lsp	:	viwvn	:	cp	:	detrend=False	:	2.03125 %
-lsp	:	viwvd	:	cp	:	detrend=True	:	2.1875 %
-lsp	:	viwvd	:	cp	:	detrend=False	:	2.34375 %
-cp	:	onset	:	cp	:	detrend=True	:	2.5 %
-cp	:	onset	:	cp	:	detrend=False	:	2.65625 %
-cp	:	retreat	:	cp	:	detrend=True	:	2.8125 %
-cp	:	retreat	:	cp	:	detrend=False	:	2.96875 %
-cp	:	length	:	cp	:	detrend=True	:	3.125 %
-cp	:	length	:	cp	:	detrend=False	:	3.28125 %
-cp	:	tp	:	cp	:	detrend=True	:	3.4375 %
-cp	:	tp	:	cp	:	detrend=False	:	3.59375 %
-cp	:	vipile	:	cp	:	detrend=True	:	3.75 %
-cp	:	vipile	:	cp	:	detrend=False	:	3.90625 %
-cp	:	viwve	:	cp	:	detrend=True	:	4.0625 %
-cp	:	viwve	:	cp	:	detrend=False	:	4.21875 %
-cp	:	viwvn	:	cp	:	detrend=True	:	4.375 %
-cp	:	viwvn	:	cp	:	detrend=False	:	4.53125 %
-cp	:	viwvd	:	cp	:	detrend=True	:	4.6875 %
-cp	:	viwvd	:	cp	:	detrend=False	:	4.84375 %
-tp	:	onset	:	cp	:	detrend=True	:	5.0 %
-tp	:	onset	:	cp	:	detrend=False	:	5.15625 %
-tp	:	retreat	:	cp	:	detrend=True	:	5.3125 %
-tp	:	retreat	:	cp	:	detrend=False	:	5.46875 %
-tp	:	length	:	cp	:	detrend=True	:	5.625 %
-tp	:	length	:	cp	:	detrend=False	:	5.78125 %
-tp	:	tp	:	cp	:	detrend=True	:	5.9375 %
-tp	:	tp	:	cp	:	detrend=False	:	6.09375 %
-tp	:	vipile	:	cp	:	detrend=True	:	6.25 %
-tp	:	vipile	:	cp	:	detrend=False	:	6.40625 %
-tp	:	viwve	:	cp	:	detrend=True	:	6.5625 %
-tp	:	viwve	:	cp	:	detrend=False	:	6.71875 %
-tp	:	viwvn	:	cp	:	detrend=True	:	6.875 %
-tp	:	viwvn	:	cp	:	detrend=False	:	7.03125 %
-tp	:	viwvd	:	cp	:	detrend=True	:	7.1875 %
-tp	:	viwvd	:	cp	:	detrend=False	:	7.34375 %
-sshf	:	onset	:	cp	:	detrend=True	:	7.5 %
-sshf	:	onset	:	cp	:	detrend=False	:	7.65625 %
-sshf	:	retreat	:	cp	:	detrend=True	:	7.8125 %
-sshf	:	retreat	:	cp	:	detrend=False	:	7.96875 %
-sshf	:	length	:	cp	:	detrend=True	:	8.125 %
-sshf	:	length	:	cp	:	detrend=False	:	8.28125 %
-sshf	:	tp	:	cp	:	detrend=True	:	8.4375 %
-sshf	:	tp	:	cp	:	detrend=False	:	8.59375 %
-sshf	:	vipile	:	cp	:	detrend=True	:	8.75 %
-sshf	:	vipile	:	cp	:	detrend=False	:	8.90625 %
-sshf	:	viwve	:	cp	:	detrend=True	:	9.0625 %
-sshf	:	viwve	:	cp	:	detrend=False	:	9.21875 %
-sshf	:	viwvn	:	cp	:	detrend=True	:	9.375 %
-sshf	:	viwvn	:	cp	:	detrend=False	:	9.53125 %
-sshf	:	viwvd	:	cp	:	detrend=True	:	9.6875 %
-sshf	:	viwvd	:	cp	:	detrend=False	:	9.84375 %
-slhf	:	onset	:	cp	:	detrend=True	:	10.0 %
-slhf	:	onset	:	cp	:	detrend=False	:	10.15625 %
-slhf	:	retreat	:	cp	:	detrend=True	:	10.3125 %
-slhf	:	retreat	:	cp	:	detrend=False	:	10.46875 %
-slhf	:	length	:	cp	:	detrend=True	:	10.625 %
-slhf	:	length	:	cp	:	detrend=False	:	10.78125 %
-slhf	:	tp	:	cp	:	detrend=True	:	10.9375 %
-slhf	:	tp	:	cp	:	detrend=False	:	11.09375 %
-slhf	:	vipile	:	cp	:	detrend=True	:	11.25 %
-slhf	:	vipile	:	cp	:	detrend=False	:	11.40625 %
-slhf	:	viwve	:	cp	:	detrend=True	:	11.5625 %
-slhf	:	viwve	:	cp	:	detrend=False	:	11.71875 %
-slhf	:	viwvn	:	cp	:	detrend=True	:	11.875 %
-slhf	:	viwvn	:	cp	:	detrend=False	:	12.03125 %
-slhf	:	viwvd	:	cp	:	detrend=True	:	12.1875 %
-slhf	:	viwvd	:	cp	:	detrend=False	:	12.34375 %
-ssr	:	onset	:	cp	:	detrend=True	:	12.5 %
-ssr	:	onset	:	cp	:	detrend=False	:	12.65625 %
-ssr	:	retreat	:	cp	:	detrend=True	:	12.8125 %
-ssr	:	retreat	:	cp	:	detrend=False	:	12.96875 %
-ssr	:	length	:	cp	:	detrend=True	:	13.125 %
-ssr	:	length	:	cp	:	detrend=False	:	13.28125 %
-ssr	:	tp	:	cp	:	detrend=True	:	13.4375 %
-ssr	:	tp	:	cp	:	detrend=False	:	13.59375 %
-ssr	:	vipile	:	cp	:	detrend=True	:	13.75 %
-ssr	:	vipile	:	cp	:	detrend=False	:	13.90625 %
-ssr	:	viwve	:	cp	:	detrend=True	:	14.0625 %
-ssr	:	viwve	:	cp	:	detrend=False	:	14.21875 %
-ssr	:	viwvn	:	cp	:	detrend=True	:	14.375 %
-ssr	:	viwvn	:	cp	:	detrend=False	:	14.53125 %
-ssr	:	viwvd	:	cp	:	detrend=True	:	14.6875 %
-ssr	:	viwvd	:	cp	:	detrend=False	:	14.84375 %
-str	:	onset	:	cp	:	detrend=True	:	15.0 %
-str	:	onset	:	cp	:	detrend=False	:	15.15625 %
-str	:	retreat	:	cp	:	detrend=True	:	15.3125 %
-str	:	retreat	:	cp	:	detrend=False	:	15.46875 %
-str	:	length	:	cp	:	detrend=True	:	15.625 %
-str	:	length	:	cp	:	detrend=False	:	15.78125 %
-str	:	tp	:	cp	:	detrend=True	:	15.9375 %
-str	:	tp	:	cp	:	detrend=False	:	16.09375 %
-str	:	vipile	:	cp	:	detrend=True	:	16.25 %
-str	:	vipile	:	cp	:	detrend=False	:	16.40625 %
-str	:	viwve	:	cp	:	detrend=True	:	16.5625 %
-str	:	viwve	:	cp	:	detrend=False	:	16.71875 %
-str	:	viwvn	:	cp	:	detrend=True	:	16.875 %
-str	:	viwvn	:	cp	:	detrend=False	:	17.03125 %
-str	:	viwvd	:	cp	:	detrend=True	:	17.1875 %
-str	:	viwvd	:	cp	:	detrend=False	:	17.34375 %
-sro	:	onset	:	cp	:	detrend=True	:	17.5 %
-sro	:	onset	:	cp	:	detrend=False	:	17.65625 %
-sro	:	retreat	:	cp	:	detrend=True	:	17.8125 %
-sro	:	retreat	:	cp	:	detrend=False	:	17.96875 %
-sro	:	length	:	cp	:	detrend=True	:	18.125 %
-sro	:	length	:	cp	:	detrend=False	:	18.28125 %
-sro	:	tp	:	cp	:	detrend=True	:	18.4375 %
-sro	:	tp	:	cp	:	detrend=False	:	18.59375 %
-sro	:	vipile	:	cp	:	detrend=True	:	18.75 %
-sro	:	vipile	:	cp	:	detrend=False	:	18.90625 %
-sro	:	viwve	:	cp	:	detrend=True	:	19.0625 %
-sro	:	viwve	:	cp	:	detrend=False	:	19.21875 %
-sro	:	viwvn	:	cp	:	detrend=True	:	19.375 %
-sro	:	viwvn	:	cp	:	detrend=False	:	19.53125 %
-sro	:	viwvd	:	cp	:	detrend=True	:	19.6875 %
-sro	:	viwvd	:	cp	:	detrend=False	:	19.84375 %
-sf	:	onset	:	cp	:	detrend=True	:	20.0 %
-sf	:	onset	:	cp	:	detrend=False	:	20.15625 %
-sf	:	retreat	:	cp	:	detrend=True	:	20.3125 %
-sf	:	retreat	:	cp	:	detrend=False	:	20.46875 %
-sf	:	length	:	cp	:	detrend=True	:	20.625 %
-sf	:	length	:	cp	:	detrend=False	:	20.78125 %
-sf	:	tp	:	cp	:	detrend=True	:	20.9375 %
-sf	:	tp	:	cp	:	detrend=False	:	21.09375 %
-sf	:	vipile	:	cp	:	detrend=True	:	21.25 %
-sf	:	vipile	:	cp	:	detrend=False	:	21.40625 %
-sf	:	viwve	:	cp	:	detrend=True	:	21.5625 %
-sf	:	viwve	:	cp	:	detrend=False	:	21.71875 %
-sf	:	viwvn	:	cp	:	detrend=True	:	21.875 %
-sf	:	viwvn	:	cp	:	detrend=False	:	22.03125 %
-sf	:	viwvd	:	cp	:	detrend=True	:	22.1875 %
-sf	:	viwvd	:	cp	:	detrend=False	:	22.34375 %
-ssrd	:	onset	:	cp	:	detrend=True	:	22.5 %
-ssrd	:	onset	:	cp	:	detrend=False	:	22.65625 %
-ssrd	:	retreat	:	cp	:	detrend=True	:	22.8125 %
-ssrd	:	retreat	:	cp	:	detrend=False	:	22.96875 %
-ssrd	:	length	:	cp	:	detrend=True	:	23.125 %
-ssrd	:	length	:	cp	:	detrend=False	:	23.28125 %
-ssrd	:	tp	:	cp	:	detrend=True	:	23.4375 %
-ssrd	:	tp	:	cp	:	detrend=False	:	23.59375 %
-ssrd	:	vipile	:	cp	:	detrend=True	:	23.75 %
-ssrd	:	vipile	:	cp	:	detrend=False	:	23.90625 %
-ssrd	:	viwve	:	cp	:	detrend=True	:	24.0625 %
-ssrd	:	viwve	:	cp	:	detrend=False	:	24.21875 %
-ssrd	:	viwvn	:	cp	:	detrend=True	:	24.375 %
-ssrd	:	viwvn	:	cp	:	detrend=False	:	24.53125 %
-ssrd	:	viwvd	:	cp	:	detrend=True	:	24.6875 %
-ssrd	:	viwvd	:	cp	:	detrend=False	:	24.84375 %
-strd	:	onset	:	cp	:	detrend=True	:	25.0 %
-strd	:	onset	:	cp	:	detrend=False	:	25.15625 %
-strd	:	retreat	:	cp	:	detrend=True	:	25.3125 %
-strd	:	retreat	:	cp	:	detrend=False	:	25.46875 %
-strd	:	length	:	cp	:	detrend=True	:	25.625 %
-strd	:	length	:	cp	:	detrend=False	:	25.78125 %
-strd	:	tp	:	cp	:	detrend=True	:	25.9375 %
-strd	:	tp	:	cp	:	detrend=False	:	26.09375 %
-strd	:	vipile	:	cp	:	detrend=True	:	26.25 %
-strd	:	vipile	:	cp	:	detrend=False	:	26.40625 %
-strd	:	viwve	:	cp	:	detrend=True	:	26.5625 %
-strd	:	viwve	:	cp	:	detrend=False	:	26.71875 %
-strd	:	viwvn	:	cp	:	detrend=True	:	26.875 %
-strd	:	viwvn	:	cp	:	detrend=False	:	27.03125 %
-strd	:	viwvd	:	cp	:	detrend=True	:	27.1875 %
-strd	:	viwvd	:	cp	:	detrend=False	:	27.34375 %
-ttr	:	onset	:	cp	:	detrend=True	:	27.5 %
-ttr	:	onset	:	cp	:	detrend=False	:	27.65625 %
-ttr	:	retreat	:	cp	:	detrend=True	:	27.8125 %
-ttr	:	retreat	:	cp	:	detrend=False	:	27.96875 %
-ttr	:	length	:	cp	:	detrend=True	:	28.125 %
-ttr	:	length	:	cp	:	detrend=False	:	28.28125 %
-ttr	:	tp	:	cp	:	detrend=True	:	28.4375 %
-ttr	:	tp	:	cp	:	detrend=False	:	28.59375 %
-ttr	:	vipile	:	cp	:	detrend=True	:	28.75 %
-ttr	:	vipile	:	cp	:	detrend=False	:	28.90625 %
-ttr	:	viwve	:	cp	:	detrend=True	:	29.0625 %
-ttr	:	viwve	:	cp	:	detrend=False	:	29.21875 %
-ttr	:	viwvn	:	cp	:	detrend=True	:	29.375 %
-ttr	:	viwvn	:	cp	:	detrend=False	:	29.53125 %
-ttr	:	viwvd	:	cp	:	detrend=True	:	29.6875 %
-ttr	:	viwvd	:	cp	:	detrend=False	:	29.84375 %
-sd	:	onset	:	cp	:	detrend=True	:	30.0 %
-sd	:	onset	:	cp	:	detrend=False	:	30.15625 %
-sd	:	retreat	:	cp	:	detrend=True	:	30.3125 %
-sd	:	retreat	:	cp	:	detrend=False	:	30.46875 %
-sd	:	length	:	cp	:	detrend=True	:	30.625 %
-sd	:	length	:	cp	:	detrend=False	:	30.78125 %
-sd	:	tp	:	cp	:	detrend=True	:	30.9375 %
-sd	:	tp	:	cp	:	detrend=False	:	31.09375 %
-sd	:	vipile	:	cp	:	detrend=True	:	31.25 %
-sd	:	vipile	:	cp	:	detrend=False	:	31.40625 %
-sd	:	viwve	:	cp	:	detrend=True	:	31.5625 %
-sd	:	viwve	:	cp	:	detrend=False	:	31.71875 %
-sd	:	viwvn	:	cp	:	detrend=True	:	31.875 %
-sd	:	viwvn	:	cp	:	detrend=False	:	32.03125 %
-sd	:	viwvd	:	cp	:	detrend=True	:	32.1875 %
-sd	:	viwvd	:	cp	:	detrend=False	:	32.34375 %
-msl	:	onset	:	cp	:	detrend=True	:	32.5 %
-msl	:	onset	:	cp	:	detrend=False	:	32.65625 %
-msl	:	retreat	:	cp	:	detrend=True	:	32.8125 %
-msl	:	retreat	:	cp	:	detrend=False	:	32.96875 %
-msl	:	length	:	cp	:	detrend=True	:	33.125 %
-msl	:	length	:	cp	:	detrend=False	:	33.28125 %
-msl	:	tp	:	cp	:	detrend=True	:	33.4375 %
-msl	:	tp	:	cp	:	detrend=False	:	33.59375 %
-msl	:	vipile	:	cp	:	detrend=True	:	33.75 %
-msl	:	vipile	:	cp	:	detrend=False	:	33.90625 %
-msl	:	viwve	:	cp	:	detrend=True	:	34.0625 %
-msl	:	viwve	:	cp	:	detrend=False	:	34.21875 %
-msl	:	viwvn	:	cp	:	detrend=True	:	34.375 %
-msl	:	viwvn	:	cp	:	detrend=False	:	34.53125 %
-msl	:	viwvd	:	cp	:	detrend=True	:	34.6875 %
-msl	:	viwvd	:	cp	:	detrend=False	:	34.84375 %
-tcc	:	onset	:	cp	:	detrend=True	:	35.0 %
-tcc	:	onset	:	cp	:	detrend=False	:	35.15625 %
-tcc	:	retreat	:	cp	:	detrend=True	:	35.3125 %
-tcc	:	retreat	:	cp	:	detrend=False	:	35.46875 %
-tcc	:	length	:	cp	:	detrend=True	:	35.625 %
-tcc	:	length	:	cp	:	detrend=False	:	35.78125 %
-tcc	:	tp	:	cp	:	detrend=True	:	35.9375 %
-tcc	:	tp	:	cp	:	detrend=False	:	36.09375 %
-tcc	:	vipile	:	cp	:	detrend=True	:	36.25 %
-tcc	:	vipile	:	cp	:	detrend=False	:	36.40625 %
-tcc	:	viwve	:	cp	:	detrend=True	:	36.5625 %
-tcc	:	viwve	:	cp	:	detrend=False	:	36.71875 %
-tcc	:	viwvn	:	cp	:	detrend=True	:	36.875 %
-tcc	:	viwvn	:	cp	:	detrend=False	:	37.03125 %
-tcc	:	viwvd	:	cp	:	detrend=True	:	37.1875 %
-tcc	:	viwvd	:	cp	:	detrend=False	:	37.34375 %
-stl1	:	onset	:	cp	:	detrend=True	:	37.5 %
-stl1	:	onset	:	cp	:	detrend=False	:	37.65625 %
-stl1	:	retreat	:	cp	:	detrend=True	:	37.8125 %
-stl1	:	retreat	:	cp	:	detrend=False	:	37.96875 %
-stl1	:	length	:	cp	:	detrend=True	:	38.125 %
-stl1	:	length	:	cp	:	detrend=False	:	38.28125 %
-stl1	:	tp	:	cp	:	detrend=True	:	38.4375 %
-stl1	:	tp	:	cp	:	detrend=False	:	38.59375 %
-stl1	:	vipile	:	cp	:	detrend=True	:	38.75 %
-stl1	:	vipile	:	cp	:	detrend=False	:	38.90625 %
-stl1	:	viwve	:	cp	:	detrend=True	:	39.0625 %
-stl1	:	viwve	:	cp	:	detrend=False	:	39.21875 %
-stl1	:	viwvn	:	cp	:	detrend=True	:	39.375 %
-stl1	:	viwvn	:	cp	:	detrend=False	:	39.53125 %
-stl1	:	viwvd	:	cp	:	detrend=True	:	39.6875 %
-stl1	:	viwvd	:	cp	:	detrend=False	:	39.84375 %
-stl2	:	onset	:	cp	:	detrend=True	:	40.0 %
-stl2	:	onset	:	cp	:	detrend=False	:	40.15625 %
-stl2	:	retreat	:	cp	:	detrend=True	:	40.3125 %
-stl2	:	retreat	:	cp	:	detrend=False	:	40.46875 %
-stl2	:	length	:	cp	:	detrend=True	:	40.625 %
-stl2	:	length	:	cp	:	detrend=False	:	40.78125 %
-stl2	:	tp	:	cp	:	detrend=True	:	40.9375 %
-stl2	:	tp	:	cp	:	detrend=False	:	41.09375 %
-stl2	:	vipile	:	cp	:	detrend=True	:	41.25 %
-stl2	:	vipile	:	cp	:	detrend=False	:	41.40625 %
-stl2	:	viwve	:	cp	:	detrend=True	:	41.5625 %
-stl2	:	viwve	:	cp	:	detrend=False	:	41.71875 %
-stl2	:	viwvn	:	cp	:	detrend=True	:	41.875 %
-stl2	:	viwvn	:	cp	:	detrend=False	:	42.03125 %
-stl2	:	viwvd	:	cp	:	detrend=True	:	42.1875 %
-stl2	:	viwvd	:	cp	:	detrend=False	:	42.34375 %
-stl3	:	onset	:	cp	:	detrend=True	:	42.5 %
-stl3	:	onset	:	cp	:	detrend=False	:	42.65625 %
-stl3	:	retreat	:	cp	:	detrend=True	:	42.8125 %
-stl3	:	retreat	:	cp	:	detrend=False	:	42.96875 %
-stl3	:	length	:	cp	:	detrend=True	:	43.125 %
-stl3	:	length	:	cp	:	detrend=False	:	43.28125 %
-stl3	:	tp	:	cp	:	detrend=True	:	43.4375 %
-stl3	:	tp	:	cp	:	detrend=False	:	43.59375 %
-stl3	:	vipile	:	cp	:	detrend=True	:	43.75 %
-stl3	:	vipile	:	cp	:	detrend=False	:	43.90625 %
-stl3	:	viwve	:	cp	:	detrend=True	:	44.0625 %
-stl3	:	viwve	:	cp	:	detrend=False	:	44.21875 %
-stl3	:	viwvn	:	cp	:	detrend=True	:	44.375 %
-stl3	:	viwvn	:	cp	:	detrend=False	:	44.53125 %
-stl3	:	viwvd	:	cp	:	detrend=True	:	44.6875 %
-stl3	:	viwvd	:	cp	:	detrend=False	:	44.84375 %
-stl4	:	onset	:	cp	:	detrend=True	:	45.0 %
-stl4	:	onset	:	cp	:	detrend=False	:	45.15625 %
-stl4	:	retreat	:	cp	:	detrend=True	:	45.3125 %
-stl4	:	retreat	:	cp	:	detrend=False	:	45.46875 %
-stl4	:	length	:	cp	:	detrend=True	:	45.625 %
-stl4	:	length	:	cp	:	detrend=False	:	45.78125 %
-stl4	:	tp	:	cp	:	detrend=True	:	45.9375 %
-stl4	:	tp	:	cp	:	detrend=False	:	46.09375 %
-stl4	:	vipile	:	cp	:	detrend=True	:	46.25 %
-stl4	:	vipile	:	cp	:	detrend=False	:	46.40625 %
-stl4	:	viwve	:	cp	:	detrend=True	:	46.5625 %
-stl4	:	viwve	:	cp	:	detrend=False	:	46.71875 %
-stl4	:	viwvn	:	cp	:	detrend=True	:	46.875 %
-stl4	:	viwvn	:	cp	:	detrend=False	:	47.03125 %
-stl4	:	viwvd	:	cp	:	detrend=True	:	47.1875 %
-stl4	:	viwvd	:	cp	:	detrend=False	:	47.34375 %
-swvl1	:	onset	:	cp	:	detrend=True	:	47.5 %
-swvl1	:	onset	:	cp	:	detrend=False	:	47.65625 %
-swvl1	:	retreat	:	cp	:	detrend=True	:	47.8125 %
-swvl1	:	retreat	:	cp	:	detrend=False	:	47.96875 %
-swvl1	:	length	:	cp	:	detrend=True	:	48.125 %
-swvl1	:	length	:	cp	:	detrend=False	:	48.28125 %
-swvl1	:	tp	:	cp	:	detrend=True	:	48.4375 %
-swvl1	:	tp	:	cp	:	detrend=False	:	48.59375 %
-swvl1	:	vipile	:	cp	:	detrend=True	:	48.75 %
-swvl1	:	vipile	:	cp	:	detrend=False	:	48.90625 %
-swvl1	:	viwve	:	cp	:	detrend=True	:	49.0625 %
-swvl1	:	viwve	:	cp	:	detrend=False	:	49.21875 %
-swvl1	:	viwvn	:	cp	:	detrend=True	:	49.375 %
-swvl1	:	viwvn	:	cp	:	detrend=False	:	49.53125 %
-swvl1	:	viwvd	:	cp	:	detrend=True	:	49.6875 %
-swvl1	:	viwvd	:	cp	:	detrend=False	:	49.84375 %
-swvl2	:	onset	:	cp	:	detrend=True	:	50.0 %
-swvl2	:	onset	:	cp	:	detrend=False	:	50.15625 %
-swvl2	:	retreat	:	cp	:	detrend=True	:	50.3125 %
-swvl2	:	retreat	:	cp	:	detrend=False	:	50.46875 %
-swvl2	:	length	:	cp	:	detrend=True	:	50.625 %
-swvl2	:	length	:	cp	:	detrend=False	:	50.78125 %
-swvl2	:	tp	:	cp	:	detrend=True	:	50.9375 %
-swvl2	:	tp	:	cp	:	detrend=False	:	51.09375 %
-swvl2	:	vipile	:	cp	:	detrend=True	:	51.25 %
-swvl2	:	vipile	:	cp	:	detrend=False	:	51.40625 %
-swvl2	:	viwve	:	cp	:	detrend=True	:	51.5625 %
-swvl2	:	viwve	:	cp	:	detrend=False	:	51.71875 %
-swvl2	:	viwvn	:	cp	:	detrend=True	:	51.875 %
-swvl2	:	viwvn	:	cp	:	detrend=False	:	52.03125 %
-swvl2	:	viwvd	:	cp	:	detrend=True	:	52.1875 %
-swvl2	:	viwvd	:	cp	:	detrend=False	:	52.34375 %
-swvl3	:	onset	:	cp	:	detrend=True	:	52.5 %
-swvl3	:	onset	:	cp	:	detrend=False	:	52.65625 %
-swvl3	:	retreat	:	cp	:	detrend=True	:	52.8125 %
-swvl3	:	retreat	:	cp	:	detrend=False	:	52.96875 %
-swvl3	:	length	:	cp	:	detrend=True	:	53.125 %
-swvl3	:	length	:	cp	:	detrend=False	:	53.28125 %
-swvl3	:	tp	:	cp	:	detrend=True	:	53.4375 %
-swvl3	:	tp	:	cp	:	detrend=False	:	53.59375 %
-swvl3	:	vipile	:	cp	:	detrend=True	:	53.75 %
-swvl3	:	vipile	:	cp	:	detrend=False	:	53.90625 %
-swvl3	:	viwve	:	cp	:	detrend=True	:	54.0625 %
-swvl3	:	viwve	:	cp	:	detrend=False	:	54.21875 %
-swvl3	:	viwvn	:	cp	:	detrend=True	:	54.375 %
-swvl3	:	viwvn	:	cp	:	detrend=False	:	54.53125 %
-swvl3	:	viwvd	:	cp	:	detrend=True	:	54.6875 %
-swvl3	:	viwvd	:	cp	:	detrend=False	:	54.84375 %
-swvl4	:	onset	:	cp	:	detrend=True	:	55.0 %
-swvl4	:	onset	:	cp	:	detrend=False	:	55.15625 %
-swvl4	:	retreat	:	cp	:	detrend=True	:	55.3125 %
-swvl4	:	retreat	:	cp	:	detrend=False	:	55.46875 %
-swvl4	:	length	:	cp	:	detrend=True	:	55.625 %
-swvl4	:	length	:	cp	:	detrend=False	:	55.78125 %
-swvl4	:	tp	:	cp	:	detrend=True	:	55.9375 %
-swvl4	:	tp	:	cp	:	detrend=False	:	56.09375 %
-swvl4	:	vipile	:	cp	:	detrend=True	:	56.25 %
-swvl4	:	vipile	:	cp	:	detrend=False	:	56.40625 %
-swvl4	:	viwve	:	cp	:	detrend=True	:	56.5625 %
-swvl4	:	viwve	:	cp	:	detrend=False	:	56.71875 %
-swvl4	:	viwvn	:	cp	:	detrend=True	:	56.875 %
-swvl4	:	viwvn	:	cp	:	detrend=False	:	57.03125 %
-swvl4	:	viwvd	:	cp	:	detrend=True	:	57.1875 %
-swvl4	:	viwvd	:	cp	:	detrend=False	:	57.34375 %
-2t	:	onset	:	cp	:	detrend=True	:	57.5 %
-2t	:	onset	:	cp	:	detrend=False	:	57.65625 %
-2t	:	retreat	:	cp	:	detrend=True	:	57.8125 %
-2t	:	retreat	:	cp	:	detrend=False	:	57.96875 %
-2t	:	length	:	cp	:	detrend=True	:	58.125 %
-2t	:	length	:	cp	:	detrend=False	:	58.28125 %
-2t	:	tp	:	cp	:	detrend=True	:	58.4375 %
-2t	:	tp	:	cp	:	detrend=False	:	58.59375 %
-2t	:	vipile	:	cp	:	detrend=True	:	58.75 %
-2t	:	vipile	:	cp	:	detrend=False	:	58.90625 %
-2t	:	viwve	:	cp	:	detrend=True	:	59.0625 %
-2t	:	viwve	:	cp	:	detrend=False	:	59.21875 %
-2t	:	viwvn	:	cp	:	detrend=True	:	59.375 %
-2t	:	viwvn	:	cp	:	detrend=False	:	59.53125 %
-2t	:	viwvd	:	cp	:	detrend=True	:	59.6875 %
-2t	:	viwvd	:	cp	:	detrend=False	:	59.84375 %
-2d	:	onset	:	cp	:	detrend=True	:	60.0 %
-2d	:	onset	:	cp	:	detrend=False	:	60.15625 %
-2d	:	retreat	:	cp	:	detrend=True	:	60.3125 %
-2d	:	retreat	:	cp	:	detrend=False	:	60.46875 %
-2d	:	length	:	cp	:	detrend=True	:	60.625 %
-2d	:	length	:	cp	:	detrend=False	:	60.78125 %
-2d	:	tp	:	cp	:	detrend=True	:	60.9375 %
-2d	:	tp	:	cp	:	detrend=False	:	61.09375 %
-2d	:	vipile	:	cp	:	detrend=True	:	61.25 %
-2d	:	vipile	:	cp	:	detrend=False	:	61.40625 %
-2d	:	viwve	:	cp	:	detrend=True	:	61.5625 %
-2d	:	viwve	:	cp	:	detrend=False	:	61.71875 %
-2d	:	viwvn	:	cp	:	detrend=True	:	61.875 %
-2d	:	viwvn	:	cp	:	detrend=False	:	62.03125 %
-2d	:	viwvd	:	cp	:	detrend=True	:	62.1875 %
-2d	:	viwvd	:	cp	:	detrend=False	:	62.34375 %
-ishf	:	onset	:	cp	:	detrend=True	:	62.5 %
-ishf	:	onset	:	cp	:	detrend=False	:	62.65625 %
-ishf	:	retreat	:	cp	:	detrend=True	:	62.8125 %
-ishf	:	retreat	:	cp	:	detrend=False	:	62.96875 %
-ishf	:	length	:	cp	:	detrend=True	:	63.125 %
-ishf	:	length	:	cp	:	detrend=False	:	63.28125 %
-ishf	:	tp	:	cp	:	detrend=True	:	63.4375 %
-ishf	:	tp	:	cp	:	detrend=False	:	63.59375 %
-ishf	:	vipile	:	cp	:	detrend=True	:	63.75 %
-ishf	:	vipile	:	cp	:	detrend=False	:	63.90625 %
-ishf	:	viwve	:	cp	:	detrend=True	:	64.0625 %
-ishf	:	viwve	:	cp	:	detrend=False	:	64.21875 %
-ishf	:	viwvn	:	cp	:	detrend=True	:	64.375 %
-ishf	:	viwvn	:	cp	:	detrend=False	:	64.53125 %
-ishf	:	viwvd	:	cp	:	detrend=True	:	64.6875 %
-ishf	:	viwvd	:	cp	:	detrend=False	:	64.84375 %
-ie	:	onset	:	cp	:	detrend=True	:	65.0 %
-ie	:	onset	:	cp	:	detrend=False	:	65.15625 %
-ie	:	retreat	:	cp	:	detrend=True	:	65.3125 %
-ie	:	retreat	:	cp	:	detrend=False	:	65.46875 %
-ie	:	length	:	cp	:	detrend=True	:	65.625 %
-ie	:	length	:	cp	:	detrend=False	:	65.78125 %
-ie	:	tp	:	cp	:	detrend=True	:	65.9375 %
-ie	:	tp	:	cp	:	detrend=False	:	66.09375 %
-ie	:	vipile	:	cp	:	detrend=True	:	66.25 %
-ie	:	vipile	:	cp	:	detrend=False	:	66.40625 %
-ie	:	viwve	:	cp	:	detrend=True	:	66.5625 %
-ie	:	viwve	:	cp	:	detrend=False	:	66.71875 %
-ie	:	viwvn	:	cp	:	detrend=True	:	66.875 %
-ie	:	viwvn	:	cp	:	detrend=False	:	67.03125 %
-ie	:	viwvd	:	cp	:	detrend=True	:	67.1875 %
-ie	:	viwvd	:	cp	:	detrend=False	:	67.34375 %
-cape	:	onset	:	cp	:	detrend=True	:	67.5 %
-cape	:	onset	:	cp	:	detrend=False	:	67.65625 %
-cape	:	retreat	:	cp	:	detrend=True	:	67.8125 %
-cape	:	retreat	:	cp	:	detrend=False	:	67.96875 %
-cape	:	length	:	cp	:	detrend=True	:	68.125 %
-cape	:	length	:	cp	:	detrend=False	:	68.28125 %
-cape	:	tp	:	cp	:	detrend=True	:	68.4375 %
-cape	:	tp	:	cp	:	detrend=False	:	68.59375 %
-cape	:	vipile	:	cp	:	detrend=True	:	68.75 %
-cape	:	vipile	:	cp	:	detrend=False	:	68.90625 %
-cape	:	viwve	:	cp	:	detrend=True	:	69.0625 %
-cape	:	viwve	:	cp	:	detrend=False	:	69.21875 %
-cape	:	viwvn	:	cp	:	detrend=True	:	69.375 %
-cape	:	viwvn	:	cp	:	detrend=False	:	69.53125 %
-cape	:	viwvd	:	cp	:	detrend=True	:	69.6875 %
-cape	:	viwvd	:	cp	:	detrend=False	:	69.84375 %
-tcw	:	onset	:	cp	:	detrend=True	:	70.0 %
-tcw	:	onset	:	cp	:	detrend=False	:	70.15625 %
-tcw	:	retreat	:	cp	:	detrend=True	:	70.3125 %
-tcw	:	retreat	:	cp	:	detrend=False	:	70.46875 %
-tcw	:	length	:	cp	:	detrend=True	:	70.625 %
-tcw	:	length	:	cp	:	detrend=False	:	70.78125 %
-tcw	:	tp	:	cp	:	detrend=True	:	70.9375 %
-tcw	:	tp	:	cp	:	detrend=False	:	71.09375 %
-tcw	:	vipile	:	cp	:	detrend=True	:	71.25 %
-tcw	:	vipile	:	cp	:	detrend=False	:	71.40625 %
-tcw	:	viwve	:	cp	:	detrend=True	:	71.5625 %
-tcw	:	viwve	:	cp	:	detrend=False	:	71.71875 %
-tcw	:	viwvn	:	cp	:	detrend=True	:	71.875 %
-tcw	:	viwvn	:	cp	:	detrend=False	:	72.03125 %
-tcw	:	viwvd	:	cp	:	detrend=True	:	72.1875 %
-tcw	:	viwvd	:	cp	:	detrend=False	:	72.34375 %
-vipile	:	onset	:	cp	:	detrend=True	:	72.5 %
-vipile	:	onset	:	cp	:	detrend=False	:	72.65625 %
-vipile	:	retreat	:	cp	:	detrend=True	:	72.8125 %
-vipile	:	retreat	:	cp	:	detrend=False	:	72.96875 %
-vipile	:	length	:	cp	:	detrend=True	:	73.125 %
-vipile	:	length	:	cp	:	detrend=False	:	73.28125 %
-vipile	:	tp	:	cp	:	detrend=True	:	73.4375 %
-vipile	:	tp	:	cp	:	detrend=False	:	73.59375 %
-vipile	:	vipile	:	cp	:	detrend=True	:	73.75 %
-vipile	:	vipile	:	cp	:	detrend=False	:	73.90625 %
-vipile	:	viwve	:	cp	:	detrend=True	:	74.0625 %
-vipile	:	viwve	:	cp	:	detrend=False	:	74.21875 %
-vipile	:	viwvn	:	cp	:	detrend=True	:	74.375 %
-vipile	:	viwvn	:	cp	:	detrend=False	:	74.53125 %
-vipile	:	viwvd	:	cp	:	detrend=True	:	74.6875 %
-vipile	:	viwvd	:	cp	:	detrend=False	:	74.84375 %
-viwve	:	onset	:	cp	:	detrend=True	:	75.0 %
-viwve	:	onset	:	cp	:	detrend=False	:	75.15625 %
-viwve	:	retreat	:	cp	:	detrend=True	:	75.3125 %
-viwve	:	retreat	:	cp	:	detrend=False	:	75.46875 %
-viwve	:	length	:	cp	:	detrend=True	:	75.625 %
-viwve	:	length	:	cp	:	detrend=False	:	75.78125 %
-viwve	:	tp	:	cp	:	detrend=True	:	75.9375 %
-viwve	:	tp	:	cp	:	detrend=False	:	76.09375 %
-viwve	:	vipile	:	cp	:	detrend=True	:	76.25 %
-viwve	:	vipile	:	cp	:	detrend=False	:	76.40625 %
-viwve	:	viwve	:	cp	:	detrend=True	:	76.5625 %
-viwve	:	viwve	:	cp	:	detrend=False	:	76.71875 %
-viwve	:	viwvn	:	cp	:	detrend=True	:	76.875 %
-viwve	:	viwvn	:	cp	:	detrend=False	:	77.03125 %
-viwve	:	viwvd	:	cp	:	detrend=True	:	77.1875 %
-viwve	:	viwvd	:	cp	:	detrend=False	:	77.34375 %
-viwvn	:	onset	:	cp	:	detrend=True	:	77.5 %
-viwvn	:	onset	:	cp	:	detrend=False	:	77.65625 %
-viwvn	:	retreat	:	cp	:	detrend=True	:	77.8125 %
-viwvn	:	retreat	:	cp	:	detrend=False	:	77.96875 %
-viwvn	:	length	:	cp	:	detrend=True	:	78.125 %
-viwvn	:	length	:	cp	:	detrend=False	:	78.28125 %
-viwvn	:	tp	:	cp	:	detrend=True	:	78.4375 %
-viwvn	:	tp	:	cp	:	detrend=False	:	78.59375 %
-viwvn	:	vipile	:	cp	:	detrend=True	:	78.75 %
-viwvn	:	vipile	:	cp	:	detrend=False	:	78.90625 %
-viwvn	:	viwve	:	cp	:	detrend=True	:	79.0625 %
-viwvn	:	viwve	:	cp	:	detrend=False	:	79.21875 %
-viwvn	:	viwvn	:	cp	:	detrend=True	:	79.375 %
-viwvn	:	viwvn	:	cp	:	detrend=False	:	79.53125 %
-viwvn	:	viwvd	:	cp	:	detrend=True	:	79.6875 %
-viwvn	:	viwvd	:	cp	:	detrend=False	:	79.84375 %
-viwvd	:	onset	:	cp	:	detrend=True	:	80.0 %
-viwvd	:	onset	:	cp	:	detrend=False	:	80.15625 %
-viwvd	:	retreat	:	cp	:	detrend=True	:	80.3125 %
-viwvd	:	retreat	:	cp	:	detrend=False	:	80.46875 %
-viwvd	:	length	:	cp	:	detrend=True	:	80.625 %
-viwvd	:	length	:	cp	:	detrend=False	:	80.78125 %
-viwvd	:	tp	:	cp	:	detrend=True	:	80.9375 %
-viwvd	:	tp	:	cp	:	detrend=False	:	81.09375 %
-viwvd	:	vipile	:	cp	:	detrend=True	:	81.25 %
-viwvd	:	vipile	:	cp	:	detrend=False	:	81.40625 %
-viwvd	:	viwve	:	cp	:	detrend=True	:	81.5625 %
-viwvd	:	viwve	:	cp	:	detrend=False	:	81.71875 %
-viwvd	:	viwvn	:	cp	:	detrend=True	:	81.875 %
-viwvd	:	viwvn	:	cp	:	detrend=False	:	82.03125 %
-viwvd	:	viwvd	:	cp	:	detrend=True	:	82.1875 %
-viwvd	:	viwvd	:	cp	:	detrend=False	:	82.34375 %
-z	:	onset	:	cp	:	detrend=True	:	82.5 %
-z	:	onset	:	cp	:	detrend=False	:	82.65625 %
-z	:	retreat	:	cp	:	detrend=True	:	82.8125 %
-z	:	retreat	:	cp	:	detrend=False	:	82.96875 %
-z	:	length	:	cp	:	detrend=True	:	83.125 %
-z	:	length	:	cp	:	detrend=False	:	83.28125 %
-z	:	tp	:	cp	:	detrend=True	:	83.4375 %
-z	:	tp	:	cp	:	detrend=False	:	83.59375 %
-z	:	vipile	:	cp	:	detrend=True	:	83.75 %
-z	:	vipile	:	cp	:	detrend=False	:	83.90625 %
-z	:	viwve	:	cp	:	detrend=True	:	84.0625 %
-z	:	viwve	:	cp	:	detrend=False	:	84.21875 %
-z	:	viwvn	:	cp	:	detrend=True	:	84.375 %
-z	:	viwvn	:	cp	:	detrend=False	:	84.53125 %
-z	:	viwvd	:	cp	:	detrend=True	:	84.6875 %
-z	:	viwvd	:	cp	:	detrend=False	:	84.84375 %
-t	:	onset	:	cp	:	detrend=True	:	85.0 %
-t	:	onset	:	cp	:	detrend=False	:	85.15625 %
-t	:	retreat	:	cp	:	detrend=True	:	85.3125 %
-t	:	retreat	:	cp	:	detrend=False	:	85.46875 %
-t	:	length	:	cp	:	detrend=True	:	85.625 %
-t	:	length	:	cp	:	detrend=False	:	85.78125 %
-t	:	tp	:	cp	:	detrend=True	:	85.9375 %
-t	:	tp	:	cp	:	detrend=False	:	86.09375 %
-t	:	vipile	:	cp	:	detrend=True	:	86.25 %
-t	:	vipile	:	cp	:	detrend=False	:	86.40625 %
-t	:	viwve	:	cp	:	detrend=True	:	86.5625 %
-t	:	viwve	:	cp	:	detrend=False	:	86.71875 %
-t	:	viwvn	:	cp	:	detrend=True	:	86.875 %
-t	:	viwvn	:	cp	:	detrend=False	:	87.03125 %
-t	:	viwvd	:	cp	:	detrend=True	:	87.1875 %
-t	:	viwvd	:	cp	:	detrend=False	:	87.34375 %
-u	:	onset	:	cp	:	detrend=True	:	87.5 %
-u	:	onset	:	cp	:	detrend=False	:	87.65625 %
-u	:	retreat	:	cp	:	detrend=True	:	87.8125 %
-u	:	retreat	:	cp	:	detrend=False	:	87.96875 %
-u	:	length	:	cp	:	detrend=True	:	88.125 %
-u	:	length	:	cp	:	detrend=False	:	88.28125 %
-u	:	tp	:	cp	:	detrend=True	:	88.4375 %
-u	:	tp	:	cp	:	detrend=False	:	88.59375 %
-u	:	vipile	:	cp	:	detrend=True	:	88.75 %
-u	:	vipile	:	cp	:	detrend=False	:	88.90625 %
-u	:	viwve	:	cp	:	detrend=True	:	89.0625 %
-u	:	viwve	:	cp	:	detrend=False	:	89.21875 %
-u	:	viwvn	:	cp	:	detrend=True	:	89.375 %
-u	:	viwvn	:	cp	:	detrend=False	:	89.53125 %
-u	:	viwvd	:	cp	:	detrend=True	:	89.6875 %
-u	:	viwvd	:	cp	:	detrend=False	:	89.84375 %
-v	:	onset	:	cp	:	detrend=True	:	90.0 %
-v	:	onset	:	cp	:	detrend=False	:	90.15625 %
-v	:	retreat	:	cp	:	detrend=True	:	90.3125 %
-v	:	retreat	:	cp	:	detrend=False	:	90.46875 %
-v	:	length	:	cp	:	detrend=True	:	90.625 %
-v	:	length	:	cp	:	detrend=False	:	90.78125 %
-v	:	tp	:	cp	:	detrend=True	:	90.9375 %
-v	:	tp	:	cp	:	detrend=False	:	91.09375 %
-v	:	vipile	:	cp	:	detrend=True	:	91.25 %
-v	:	vipile	:	cp	:	detrend=False	:	91.40625 %
-v	:	viwve	:	cp	:	detrend=True	:	91.5625 %
-v	:	viwve	:	cp	:	detrend=False	:	91.71875 %
-v	:	viwvn	:	cp	:	detrend=True	:	91.875 %
-v	:	viwvn	:	cp	:	detrend=False	:	92.03125 %
-v	:	viwvd	:	cp	:	detrend=True	:	92.1875 %
-v	:	viwvd	:	cp	:	detrend=False	:	92.34375 %
-q	:	onset	:	cp	:	detrend=True	:	92.5 %
-q	:	onset	:	cp	:	detrend=False	:	92.65625 %
-q	:	retreat	:	cp	:	detrend=True	:	92.8125 %
-q	:	retreat	:	cp	:	detrend=False	:	92.96875 %
-q	:	length	:	cp	:	detrend=True	:	93.125 %
-q	:	length	:	cp	:	detrend=False	:	93.28125 %
-q	:	tp	:	cp	:	detrend=True	:	93.4375 %
-q	:	tp	:	cp	:	detrend=False	:	93.59375 %
-q	:	vipile	:	cp	:	detrend=True	:	93.75 %
-q	:	vipile	:	cp	:	detrend=False	:	93.90625 %
-q	:	viwve	:	cp	:	detrend=True	:	94.0625 %
-q	:	viwve	:	cp	:	detrend=False	:	94.21875 %
-q	:	viwvn	:	cp	:	detrend=True	:	94.375 %
-q	:	viwvn	:	cp	:	detrend=False	:	94.53125 %
-q	:	viwvd	:	cp	:	detrend=True	:	94.6875 %
-q	:	viwvd	:	cp	:	detrend=False	:	94.84375 %
-w	:	onset	:	cp	:	detrend=True	:	95.0 %
-w	:	onset	:	cp	:	detrend=False	:	95.15625 %
-w	:	retreat	:	cp	:	detrend=True	:	95.3125 %
-w	:	retreat	:	cp	:	detrend=False	:	95.46875 %
-w	:	length	:	cp	:	detrend=True	:	95.625 %
-w	:	length	:	cp	:	detrend=False	:	95.78125 %
-w	:	tp	:	cp	:	detrend=True	:	95.9375 %
-w	:	tp	:	cp	:	detrend=False	:	96.09375 %
-w	:	vipile	:	cp	:	detrend=True	:	96.25 %
-w	:	vipile	:	cp	:	detrend=False	:	96.40625 %
-w	:	viwve	:	cp	:	detrend=True	:	96.5625 %
-w	:	viwve	:	cp	:	detrend=False	:	96.71875 %
-w	:	viwvn	:	cp	:	detrend=True	:	96.875 %
-w	:	viwvn	:	cp	:	detrend=False	:	97.03125 %
-w	:	viwvd	:	cp	:	detrend=True	:	97.1875 %
-w	:	viwvd	:	cp	:	detrend=False	:	97.34375 %
-r	:	onset	:	cp	:	detrend=True	:	97.5 %
-r	:	onset	:	cp	:	detrend=False	:	97.65625 %
-r	:	retreat	:	cp	:	detrend=True	:	97.8125 %
-r	:	retreat	:	cp	:	detrend=False	:	97.96875 %
-r	:	length	:	cp	:	detrend=True	:	98.125 %
-r	:	length	:	cp	:	detrend=False	:	98.28125 %
-r	:	tp	:	cp	:	detrend=True	:	98.4375 %
-r	:	tp	:	cp	:	detrend=False	:	98.59375 %
-r	:	vipile	:	cp	:	detrend=True	:	98.75 %
-r	:	vipile	:	cp	:	detrend=False	:	98.90625 %
-r	:	viwve	:	cp	:	detrend=True	:	99.0625 %
-r	:	viwve	:	cp	:	detrend=False	:	99.21875 %
-r	:	viwvn	:	cp	:	detrend=True	:	99.375 %
-r	:	viwvn	:	cp	:	detrend=False	:	99.53125 %
-r	:	viwvd	:	cp	:	detrend=True	:	99.6875 %
-r	:	viwvd	:	cp	:	detrend=False	:	99.84375 %
-ttr	: onset	: [3, 4, 5]	: detrend=True	: 0.0 %	: time=4.696846008300781e-05
-ttr	: onset	: [3, 4, 5]	: detrend=False	: 1.5625 %	: time=7.75617241859436
-ttr	: onset	: [6, 7, 8]	: detrend=True	: 3.125 %	: time=15.451333284378052
-ttr	: onset	: [6, 7, 8]	: detrend=False	: 4.6875 %	: time=23.20044708251953
-ttr	: retreat	: [3, 4, 5]	: detrend=True	: 6.25 %	: time=30.546741485595703
-ttr	: retreat	: [3, 4, 5]	: detrend=False	: 7.8125 %	: time=37.69678020477295
-ttr	: retreat	: [6, 7, 8]	: detrend=True	: 9.375 %	: time=44.75746512413025
-ttr	: retreat	: [6, 7, 8]	: detrend=False	: 10.9375 %	: time=52.87184023857117
-ttr	: length	: [3, 4, 5]	: detrend=True	: 12.5 %	: time=60.724080324172974
-ttr	: length	: [3, 4, 5]	: detrend=False	: 14.0625 %	: time=68.23970651626587
-ttr	: length	: [6, 7, 8]	: detrend=True	: 15.625 %	: time=75.89389395713806
-ttr	: length	: [6, 7, 8]	: detrend=False	: 17.1875 %	: time=83.78047037124634
-ttr	: tp	: [3, 4, 5]	: detrend=True	: 18.75 %	: time=91.9428596496582
-ttr	: tp	: [3, 4, 5]	: detrend=False	: 20.3125 %	: time=99.81318020820618
-ttr	: tp	: [6, 7, 8]	: detrend=True	: 21.875 %	: time=108.09297013282776
-ttr	: tp	: [6, 7, 8]	: detrend=False	: 23.4375 %	: time=115.83846092224121
-ttr	: vipile	: [3, 4, 5]	: detrend=True	: 25.0 %	: time=124.19598197937012
-ttr	: vipile	: [3, 4, 5]	: detrend=False	: 26.5625 %	: time=133.26864624023438
-ttr	: vipile	: [6, 7, 8]	: detrend=True	: 28.125 %	: time=142.35034823417664
-ttr	: vipile	: [6, 7, 8]	: detrend=False	: 29.6875 %	: time=151.25422739982605
-ttr	: viwve	: [3, 4, 5]	: detrend=True	: 31.25 %	: time=159.74739694595337
-ttr	: viwve	: [3, 4, 5]	: detrend=False	: 32.8125 %	: time=167.71950888633728
-ttr	: viwve	: [6, 7, 8]	: detrend=True	: 34.375 %	: time=175.2630476951599
-ttr	: viwve	: [6, 7, 8]	: detrend=False	: 35.9375 %	: time=183.7475287914276
-ttr	: viwvn	: [3, 4, 5]	: detrend=True	: 37.5 %	: time=191.71661520004272
-ttr	: viwvn	: [3, 4, 5]	: detrend=False	: 39.0625 %	: time=200.25876355171204
-ttr	: viwvn	: [6, 7, 8]	: detrend=True	: 40.625 %	: time=209.07819485664368
-ttr	: viwvn	: [6, 7, 8]	: detrend=False	: 42.1875 %	: time=217.8634774684906
-ttr	: viwvd	: [3, 4, 5]	: detrend=True	: 43.75 %	: time=226.34874033927917
-ttr	: viwvd	: [3, 4, 5]	: detrend=False	: 45.3125 %	: time=234.16134071350098
-ttr	: viwvd	: [6, 7, 8]	: detrend=True	: 46.875 %	: time=242.2095353603363
-ttr	: viwvd	: [6, 7, 8]	: detrend=False	: 48.4375 %	: time=250.01208782196045
-sstk	: onset	: [3, 4, 5]	: detrend=True	: 50.0 %	: time=257.91912937164307
-sstk	: onset	: [3, 4, 5]	: detrend=False	: 51.5625 %	: time=275.12076210975647
-sstk	: onset	: [6, 7, 8]	: detrend=True	: 53.125 %	: time=290.28542041778564
-sstk	: onset	: [6, 7, 8]	: detrend=False	: 54.6875 %	: time=305.6776170730591
-sstk	: retreat	: [3, 4, 5]	: detrend=True	: 56.25 %	: time=319.6115713119507
-sstk	: retreat	: [3, 4, 5]	: detrend=False	: 57.8125 %	: time=332.9937446117401
-sstk	: retreat	: [6, 7, 8]	: detrend=True	: 59.375 %	: time=346.0766077041626
-sstk	: retreat	: [6, 7, 8]	: detrend=False	: 60.9375 %	: time=359.38465332984924
-sstk	: length	: [3, 4, 5]	: detrend=True	: 62.5 %	: time=372.87745928764343
-sstk	: length	: [3, 4, 5]	: detrend=False	: 64.0625 %	: time=388.18976879119873
-sstk	: length	: [6, 7, 8]	: detrend=True	: 65.625 %	: time=402.598673582077
-sstk	: length	: [6, 7, 8]	: detrend=False	: 67.1875 %	: time=415.47193694114685
-sstk	: tp	: [3, 4, 5]	: detrend=True	: 68.75 %	: time=427.48878240585327
-sstk	: tp	: [3, 4, 5]	: detrend=False	: 70.3125 %	: time=439.19924688339233
-sstk	: tp	: [6, 7, 8]	: detrend=True	: 71.875 %	: time=453.56987380981445
-sstk	: tp	: [6, 7, 8]	: detrend=False	: 73.4375 %	: time=466.5564911365509
-sstk	: vipile	: [3, 4, 5]	: detrend=True	: 75.0 %	: time=479.7146780490875
-sstk	: vipile	: [3, 4, 5]	: detrend=False	: 76.5625 %	: time=496.3387260437012
-sstk	: vipile	: [6, 7, 8]	: detrend=True	: 78.125 %	: time=511.5310597419739
-sstk	: vipile	: [6, 7, 8]	: detrend=False	: 79.6875 %	: time=524.2258005142212
-sstk	: viwve	: [3, 4, 5]	: detrend=True	: 81.25 %	: time=536.6738948822021
-sstk	: viwve	: [3, 4, 5]	: detrend=False	: 82.8125 %	: time=548.9443800449371
-sstk	: viwve	: [6, 7, 8]	: detrend=True	: 84.375 %	: time=562.236780166626
-sstk	: viwve	: [6, 7, 8]	: detrend=False	: 85.9375 %	: time=575.1809837818146
-sstk	: viwvn	: [3, 4, 5]	: detrend=True	: 87.5 %	: time=588.5485997200012
-sstk	: viwvn	: [3, 4, 5]	: detrend=False	: 89.0625 %	: time=599.7227981090546
-sstk	: viwvn	: [6, 7, 8]	: detrend=True	: 90.625 %	: time=610.0585761070251
-sstk	: viwvn	: [6, 7, 8]	: detrend=False	: 92.1875 %	: time=622.6845161914825
-sstk	: viwvd	: [3, 4, 5]	: detrend=True	: 93.75 %	: time=634.2593681812286
-sstk	: viwvd	: [3, 4, 5]	: detrend=False	: 95.3125 %	: time=647.0004947185516
-sstk	: viwvd	: [6, 7, 8]	: detrend=True	: 96.875 %	: time=663.3396360874176
-sstk	: viwvd	: [6, 7, 8]	: detrend=False	: 98.4375 %	: time=676.6133115291595
+var1: 2t	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [3, 4, 5]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [3, 4, 5]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [3, 4, 5]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [3, 4, 5]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [3, 4, 5]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [3, 4, 5]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [3, 4, 5]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [3, 4, 5]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [3, 4, 5]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [4, 5, 6]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [4, 5, 6]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [4, 5, 6]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [4, 5, 6]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [4, 5, 6]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [4, 5, 6]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [4, 5, 6]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [4, 5, 6]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [4, 5, 6]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [5, 6, 7]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [5, 6, 7]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [5, 6, 7]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [5, 6, 7]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [5, 6, 7]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [5, 6, 7]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [5, 6, 7]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [5, 6, 7]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [5, 6, 7]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [6, 7, 8]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [6, 7, 8]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [6, 7, 8]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [6, 7, 8]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [6, 7, 8]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [6, 7, 8]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [6, 7, 8]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [6, 7, 8]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t - [6, 7, 8]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [3, 4, 5]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [3, 4, 5]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [3, 4, 5]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [3, 4, 5]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [3, 4, 5]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [3, 4, 5]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [3, 4, 5]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [3, 4, 5]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [3, 4, 5]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [4, 5, 6]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [4, 5, 6]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [4, 5, 6]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [4, 5, 6]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [4, 5, 6]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [4, 5, 6]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [4, 5, 6]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [4, 5, 6]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [4, 5, 6]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [5, 6, 7]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [5, 6, 7]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [5, 6, 7]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [5, 6, 7]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [5, 6, 7]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [5, 6, 7]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [5, 6, 7]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [5, 6, 7]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [5, 6, 7]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [6, 7, 8]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [6, 7, 8]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [6, 7, 8]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [6, 7, 8]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [6, 7, 8]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [6, 7, 8]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [6, 7, 8]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [6, 7, 8]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1 - [6, 7, 8]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [3, 4, 5]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [3, 4, 5]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [3, 4, 5]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [3, 4, 5]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [3, 4, 5]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [3, 4, 5]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [3, 4, 5]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [3, 4, 5]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [3, 4, 5]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [4, 5, 6]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [4, 5, 6]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [4, 5, 6]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [4, 5, 6]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [4, 5, 6]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [4, 5, 6]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [4, 5, 6]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [4, 5, 6]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [4, 5, 6]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [5, 6, 7]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [5, 6, 7]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [5, 6, 7]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [5, 6, 7]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [5, 6, 7]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [5, 6, 7]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [5, 6, 7]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [5, 6, 7]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [5, 6, 7]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [6, 7, 8]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [6, 7, 8]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [6, 7, 8]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [6, 7, 8]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [6, 7, 8]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [6, 7, 8]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [6, 7, 8]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [6, 7, 8]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk - [6, 7, 8]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [3, 4, 5]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [3, 4, 5]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [3, 4, 5]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [3, 4, 5]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [3, 4, 5]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [3, 4, 5]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [3, 4, 5]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [3, 4, 5]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [3, 4, 5]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [4, 5, 6]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [4, 5, 6]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [4, 5, 6]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [4, 5, 6]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [4, 5, 6]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [4, 5, 6]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [4, 5, 6]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [4, 5, 6]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [4, 5, 6]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [5, 6, 7]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [5, 6, 7]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [5, 6, 7]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [5, 6, 7]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [5, 6, 7]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [5, 6, 7]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [5, 6, 7]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [5, 6, 7]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [5, 6, 7]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [6, 7, 8]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [6, 7, 8]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [6, 7, 8]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [6, 7, 8]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [6, 7, 8]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [6, 7, 8]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [6, 7, 8]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [6, 7, 8]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf - [6, 7, 8]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [3, 4, 5]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [3, 4, 5]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [3, 4, 5]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [3, 4, 5]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [3, 4, 5]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [3, 4, 5]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [3, 4, 5]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [3, 4, 5]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [3, 4, 5]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [4, 5, 6]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [4, 5, 6]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [4, 5, 6]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [4, 5, 6]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [4, 5, 6]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [4, 5, 6]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [4, 5, 6]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [4, 5, 6]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [4, 5, 6]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [5, 6, 7]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [5, 6, 7]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [5, 6, 7]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [5, 6, 7]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [5, 6, 7]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [5, 6, 7]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [5, 6, 7]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [5, 6, 7]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [5, 6, 7]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [6, 7, 8]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [6, 7, 8]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [6, 7, 8]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [6, 7, 8]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [6, 7, 8]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [6, 7, 8]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [6, 7, 8]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [6, 7, 8]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf - [6, 7, 8]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [3, 4, 5]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [3, 4, 5]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [3, 4, 5]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [3, 4, 5]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [3, 4, 5]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [3, 4, 5]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [3, 4, 5]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [3, 4, 5]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [3, 4, 5]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [4, 5, 6]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [4, 5, 6]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [4, 5, 6]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [4, 5, 6]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [4, 5, 6]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [4, 5, 6]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [4, 5, 6]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [4, 5, 6]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [4, 5, 6]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [5, 6, 7]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [5, 6, 7]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [5, 6, 7]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [5, 6, 7]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [5, 6, 7]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [5, 6, 7]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [5, 6, 7]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [5, 6, 7]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [5, 6, 7]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [6, 7, 8]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [6, 7, 8]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [6, 7, 8]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [6, 7, 8]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [6, 7, 8]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [6, 7, 8]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [6, 7, 8]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [6, 7, 8]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd - [6, 7, 8]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [3, 4, 5]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [3, 4, 5]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [3, 4, 5]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [3, 4, 5]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [3, 4, 5]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [3, 4, 5]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [3, 4, 5]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [3, 4, 5]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [3, 4, 5]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [4, 5, 6]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [4, 5, 6]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [4, 5, 6]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [4, 5, 6]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [4, 5, 6]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [4, 5, 6]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [4, 5, 6]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [4, 5, 6]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [4, 5, 6]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [5, 6, 7]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [5, 6, 7]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [5, 6, 7]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [5, 6, 7]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [5, 6, 7]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [5, 6, 7]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [5, 6, 7]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [5, 6, 7]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [5, 6, 7]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [6, 7, 8]	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [6, 7, 8]	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [6, 7, 8]	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [6, 7, 8]	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [6, 7, 8]	-	var2: onset
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [6, 7, 8]	-	var2: retreat
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [6, 7, 8]	-	var2: length
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [6, 7, 8]	-	var2: precipitation
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: swvl1 - [6, 7, 8]	-	var2: precipitation-rate
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: 2t	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: stl1	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sstk	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sshf	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf	-	var2: z_height
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf	-	var2: z_thick_1000-500
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf	-	var2: msl
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: slhf	-	var2: tp
+File already exists.
+overwrite_flag is False. Skipping . . .
+var1: sd	-	var2: z_height
+var1: sd	-	var2: z_thick_1000-500
+var1: sd	-	var2: msl
+var1: sd	-	var2: tp
+var1: swvl1	-	var2: z_height
+var1: swvl1	-	var2: z_thick_1000-500
+var1: swvl1	-	var2: msl
+var1: swvl1	-	var2: tp
+var1: 2t - [3, 4, 5]	-	var2: z_height
+var1: 2t - [3, 4, 5]	-	var2: z_thick_1000-500
+var1: 2t - [3, 4, 5]	-	var2: msl
+var1: 2t - [3, 4, 5]	-	var2: tp
+var1: 2t - [3, 4, 5]	-	var2: onset
+var1: 2t - [3, 4, 5]	-	var2: retreat
+var1: 2t - [3, 4, 5]	-	var2: length
+var1: 2t - [3, 4, 5]	-	var2: precipitation
+var1: 2t - [3, 4, 5]	-	var2: precipitation-rate
+var1: 2t - [4, 5, 6]	-	var2: z_height
+var1: 2t - [4, 5, 6]	-	var2: z_thick_1000-500
+var1: 2t - [4, 5, 6]	-	var2: msl
+var1: 2t - [4, 5, 6]	-	var2: tp
+var1: 2t - [4, 5, 6]	-	var2: onset
+var1: 2t - [4, 5, 6]	-	var2: retreat
+var1: 2t - [4, 5, 6]	-	var2: length
+var1: 2t - [4, 5, 6]	-	var2: precipitation
+var1: 2t - [4, 5, 6]	-	var2: precipitation-rate
+var1: 2t - [5, 6, 7]	-	var2: z_height
+var1: 2t - [5, 6, 7]	-	var2: z_thick_1000-500
+var1: 2t - [5, 6, 7]	-	var2: msl
+var1: 2t - [5, 6, 7]	-	var2: tp
+var1: 2t - [5, 6, 7]	-	var2: onset
+var1: 2t - [5, 6, 7]	-	var2: retreat
+var1: 2t - [5, 6, 7]	-	var2: length
+var1: 2t - [5, 6, 7]	-	var2: precipitation
+var1: 2t - [5, 6, 7]	-	var2: precipitation-rate
+var1: 2t - [6, 7, 8]	-	var2: z_height
+var1: 2t - [6, 7, 8]	-	var2: z_thick_1000-500
+var1: 2t - [6, 7, 8]	-	var2: msl
+var1: 2t - [6, 7, 8]	-	var2: tp
+var1: 2t - [6, 7, 8]	-	var2: onset
+var1: 2t - [6, 7, 8]	-	var2: retreat
+var1: 2t - [6, 7, 8]	-	var2: length
+var1: 2t - [6, 7, 8]	-	var2: precipitation
+var1: 2t - [6, 7, 8]	-	var2: precipitation-rate
+var1: stl1 - [3, 4, 5]	-	var2: z_height
+var1: stl1 - [3, 4, 5]	-	var2: z_thick_1000-500
+var1: stl1 - [3, 4, 5]	-	var2: msl
+var1: stl1 - [3, 4, 5]	-	var2: tp
+var1: stl1 - [3, 4, 5]	-	var2: onset
+var1: stl1 - [3, 4, 5]	-	var2: retreat
+var1: stl1 - [3, 4, 5]	-	var2: length
+var1: stl1 - [3, 4, 5]	-	var2: precipitation
+var1: stl1 - [3, 4, 5]	-	var2: precipitation-rate
+var1: stl1 - [4, 5, 6]	-	var2: z_height
+var1: stl1 - [4, 5, 6]	-	var2: z_thick_1000-500
+var1: stl1 - [4, 5, 6]	-	var2: msl
+var1: stl1 - [4, 5, 6]	-	var2: tp
+var1: stl1 - [4, 5, 6]	-	var2: onset
+var1: stl1 - [4, 5, 6]	-	var2: retreat
+var1: stl1 - [4, 5, 6]	-	var2: length
+var1: stl1 - [4, 5, 6]	-	var2: precipitation
+var1: stl1 - [4, 5, 6]	-	var2: precipitation-rate
+var1: stl1 - [5, 6, 7]	-	var2: z_height
+var1: stl1 - [5, 6, 7]	-	var2: z_thick_1000-500
+var1: stl1 - [5, 6, 7]	-	var2: msl
+var1: stl1 - [5, 6, 7]	-	var2: tp
+var1: stl1 - [5, 6, 7]	-	var2: onset
+var1: stl1 - [5, 6, 7]	-	var2: retreat
+var1: stl1 - [5, 6, 7]	-	var2: length
+var1: stl1 - [5, 6, 7]	-	var2: precipitation
+var1: stl1 - [5, 6, 7]	-	var2: precipitation-rate
+var1: stl1 - [6, 7, 8]	-	var2: z_height
+var1: stl1 - [6, 7, 8]	-	var2: z_thick_1000-500
+var1: stl1 - [6, 7, 8]	-	var2: msl
+var1: stl1 - [6, 7, 8]	-	var2: tp
+var1: stl1 - [6, 7, 8]	-	var2: onset
+var1: stl1 - [6, 7, 8]	-	var2: retreat
+var1: stl1 - [6, 7, 8]	-	var2: length
+var1: stl1 - [6, 7, 8]	-	var2: precipitation
+var1: stl1 - [6, 7, 8]	-	var2: precipitation-rate
+var1: sstk - [3, 4, 5]	-	var2: z_height
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: z_thick_1000-500
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: msl
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: tp
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: onset
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: retreat
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: length
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: precipitation
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: precipitation-rate
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: z_height
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: z_thick_1000-500
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: msl
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: tp
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: onset
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: retreat
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: length
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: precipitation
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: precipitation-rate
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: z_height
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: z_thick_1000-500
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: msl
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: tp
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: onset
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: retreat
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: length
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: precipitation
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: precipitation-rate
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: z_height
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: z_thick_1000-500
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: msl
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: tp
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: onset
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: retreat
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: length
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: precipitation
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: precipitation-rate
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sshf - [3, 4, 5]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: sd - [3, 4, 5]	-	var2: z_height
+var1: sd - [3, 4, 5]	-	var2: z_thick_1000-500
+var1: sd - [3, 4, 5]	-	var2: msl
+var1: sd - [3, 4, 5]	-	var2: tp
+var1: sd - [3, 4, 5]	-	var2: onset
+var1: sd - [3, 4, 5]	-	var2: retreat
+var1: sd - [3, 4, 5]	-	var2: length
+var1: sd - [3, 4, 5]	-	var2: precipitation
+var1: sd - [3, 4, 5]	-	var2: precipitation-rate
+var1: sd - [4, 5, 6]	-	var2: z_height
+var1: sd - [4, 5, 6]	-	var2: z_thick_1000-500
+var1: sd - [4, 5, 6]	-	var2: msl
+var1: sd - [4, 5, 6]	-	var2: tp
+var1: sd - [4, 5, 6]	-	var2: onset
+var1: sd - [4, 5, 6]	-	var2: retreat
+var1: sd - [4, 5, 6]	-	var2: length
+var1: sd - [4, 5, 6]	-	var2: precipitation
+var1: sd - [4, 5, 6]	-	var2: precipitation-rate
+var1: sd - [5, 6, 7]	-	var2: z_height
+var1: sd - [5, 6, 7]	-	var2: z_thick_1000-500
+var1: sd - [5, 6, 7]	-	var2: msl
+var1: sd - [5, 6, 7]	-	var2: tp
+var1: sd - [5, 6, 7]	-	var2: onset
+var1: sd - [5, 6, 7]	-	var2: retreat
+var1: sd - [5, 6, 7]	-	var2: length
+var1: sd - [5, 6, 7]	-	var2: precipitation
+var1: sd - [5, 6, 7]	-	var2: precipitation-rate
+var1: sd - [6, 7, 8]	-	var2: z_height
+var1: sd - [6, 7, 8]	-	var2: z_thick_1000-500
+var1: sd - [6, 7, 8]	-	var2: msl
+var1: sd - [6, 7, 8]	-	var2: tp
+var1: sd - [6, 7, 8]	-	var2: onset
+var1: sd - [6, 7, 8]	-	var2: retreat
+var1: sd - [6, 7, 8]	-	var2: length
+var1: sd - [6, 7, 8]	-	var2: precipitation
+var1: sd - [6, 7, 8]	-	var2: precipitation-rate
+var1: swvl1 - [3, 4, 5]	-	var2: z_height
+var1: swvl1 - [3, 4, 5]	-	var2: z_thick_1000-500
+var1: swvl1 - [3, 4, 5]	-	var2: msl
+var1: swvl1 - [3, 4, 5]	-	var2: tp
+var1: swvl1 - [3, 4, 5]	-	var2: onset
+var1: swvl1 - [3, 4, 5]	-	var2: retreat
+var1: swvl1 - [3, 4, 5]	-	var2: length
+var1: swvl1 - [3, 4, 5]	-	var2: precipitation
+var1: swvl1 - [3, 4, 5]	-	var2: precipitation-rate
+var1: swvl1 - [4, 5, 6]	-	var2: z_height
+var1: swvl1 - [4, 5, 6]	-	var2: z_thick_1000-500
+var1: swvl1 - [4, 5, 6]	-	var2: msl
+var1: swvl1 - [4, 5, 6]	-	var2: tp
+var1: swvl1 - [4, 5, 6]	-	var2: onset
+var1: swvl1 - [4, 5, 6]	-	var2: retreat
+var1: swvl1 - [4, 5, 6]	-	var2: length
+var1: swvl1 - [4, 5, 6]	-	var2: precipitation
+var1: swvl1 - [4, 5, 6]	-	var2: precipitation-rate
+var1: swvl1 - [5, 6, 7]	-	var2: z_height
+var1: swvl1 - [5, 6, 7]	-	var2: z_thick_1000-500
+var1: swvl1 - [5, 6, 7]	-	var2: msl
+var1: swvl1 - [5, 6, 7]	-	var2: tp
+var1: swvl1 - [5, 6, 7]	-	var2: onset
+var1: swvl1 - [5, 6, 7]	-	var2: retreat
+var1: swvl1 - [5, 6, 7]	-	var2: length
+var1: swvl1 - [5, 6, 7]	-	var2: precipitation
+var1: swvl1 - [5, 6, 7]	-	var2: precipitation-rate
+var1: swvl1 - [6, 7, 8]	-	var2: z_height
+var1: swvl1 - [6, 7, 8]	-	var2: z_thick_1000-500
+var1: swvl1 - [6, 7, 8]	-	var2: msl
+var1: swvl1 - [6, 7, 8]	-	var2: tp
+var1: swvl1 - [6, 7, 8]	-	var2: onset
+var1: swvl1 - [6, 7, 8]	-	var2: retreat
+var1: swvl1 - [6, 7, 8]	-	var2: length
+var1: swvl1 - [6, 7, 8]	-	var2: precipitation
+var1: swvl1 - [6, 7, 8]	-	var2: precipitation-rate
+var1: 2t	-	var2: z_height
+var1: 2t	-	var2: z_thick_1000-500
+var1: 2t	-	var2: msl
+var1: 2t	-	var2: tp
+var1: stl1	-	var2: z_height
+var1: stl1	-	var2: z_thick_1000-500
+var1: stl1	-	var2: msl
+var1: stl1	-	var2: tp
+var1: sstk	-	var2: z_height
+var1: sstk	-	var2: z_thick_1000-500
+var1: sstk	-	var2: msl
+var1: sstk	-	var2: tp
+var1: sshf	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: sshf	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: sshf	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: sshf	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: slhf	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: slhf	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: slhf	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: slhf	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: sd	-	var2: z_height
+var1: sd	-	var2: z_thick_1000-500
+var1: sd	-	var2: msl
+var1: sd	-	var2: tp
+var1: swvl1	-	var2: z_height
+var1: swvl1	-	var2: z_thick_1000-500
+var1: swvl1	-	var2: msl
+var1: swvl1	-	var2: tp
+var1: 2t - [3, 4, 5]	-	var2: z_height
+var1: 2t - [3, 4, 5]	-	var2: z_thick_1000-500
+var1: 2t - [3, 4, 5]	-	var2: msl
+var1: 2t - [3, 4, 5]	-	var2: tp
+var1: 2t - [3, 4, 5]	-	var2: onset
+var1: 2t - [3, 4, 5]	-	var2: retreat
+var1: 2t - [3, 4, 5]	-	var2: length
+var1: 2t - [3, 4, 5]	-	var2: precipitation
+var1: 2t - [3, 4, 5]	-	var2: precipitation-rate
+var1: 2t - [4, 5, 6]	-	var2: z_height
+var1: 2t - [4, 5, 6]	-	var2: z_thick_1000-500
+var1: 2t - [4, 5, 6]	-	var2: msl
+var1: 2t - [4, 5, 6]	-	var2: tp
+var1: 2t - [4, 5, 6]	-	var2: onset
+var1: 2t - [4, 5, 6]	-	var2: retreat
+var1: 2t - [4, 5, 6]	-	var2: length
+var1: 2t - [4, 5, 6]	-	var2: precipitation
+var1: 2t - [4, 5, 6]	-	var2: precipitation-rate
+var1: 2t - [5, 6, 7]	-	var2: z_height
+var1: 2t - [5, 6, 7]	-	var2: z_thick_1000-500
+var1: 2t - [5, 6, 7]	-	var2: msl
+var1: 2t - [5, 6, 7]	-	var2: tp
+var1: 2t - [5, 6, 7]	-	var2: onset
+var1: 2t - [5, 6, 7]	-	var2: retreat
+var1: 2t - [5, 6, 7]	-	var2: length
+var1: 2t - [5, 6, 7]	-	var2: precipitation
+var1: 2t - [5, 6, 7]	-	var2: precipitation-rate
+var1: 2t - [6, 7, 8]	-	var2: z_height
+var1: 2t - [6, 7, 8]	-	var2: z_thick_1000-500
+var1: 2t - [6, 7, 8]	-	var2: msl
+var1: 2t - [6, 7, 8]	-	var2: tp
+var1: 2t - [6, 7, 8]	-	var2: onset
+var1: 2t - [6, 7, 8]	-	var2: retreat
+var1: 2t - [6, 7, 8]	-	var2: length
+var1: 2t - [6, 7, 8]	-	var2: precipitation
+var1: 2t - [6, 7, 8]	-	var2: precipitation-rate
+var1: stl1 - [3, 4, 5]	-	var2: z_height
+var1: stl1 - [3, 4, 5]	-	var2: z_thick_1000-500
+var1: stl1 - [3, 4, 5]	-	var2: msl
+var1: stl1 - [3, 4, 5]	-	var2: tp
+var1: stl1 - [3, 4, 5]	-	var2: onset
+var1: stl1 - [3, 4, 5]	-	var2: retreat
+var1: stl1 - [3, 4, 5]	-	var2: length
+var1: stl1 - [3, 4, 5]	-	var2: precipitation
+var1: stl1 - [3, 4, 5]	-	var2: precipitation-rate
+var1: stl1 - [4, 5, 6]	-	var2: z_height
+var1: stl1 - [4, 5, 6]	-	var2: z_thick_1000-500
+var1: stl1 - [4, 5, 6]	-	var2: msl
+var1: stl1 - [4, 5, 6]	-	var2: tp
+var1: stl1 - [4, 5, 6]	-	var2: onset
+var1: stl1 - [4, 5, 6]	-	var2: retreat
+var1: stl1 - [4, 5, 6]	-	var2: length
+var1: stl1 - [4, 5, 6]	-	var2: precipitation
+var1: stl1 - [4, 5, 6]	-	var2: precipitation-rate
+var1: stl1 - [5, 6, 7]	-	var2: z_height
+var1: stl1 - [5, 6, 7]	-	var2: z_thick_1000-500
+var1: stl1 - [5, 6, 7]	-	var2: msl
+var1: stl1 - [5, 6, 7]	-	var2: tp
+var1: stl1 - [5, 6, 7]	-	var2: onset
+var1: stl1 - [5, 6, 7]	-	var2: retreat
+var1: stl1 - [5, 6, 7]	-	var2: length
+var1: stl1 - [5, 6, 7]	-	var2: precipitation
+var1: stl1 - [5, 6, 7]	-	var2: precipitation-rate
+var1: stl1 - [6, 7, 8]	-	var2: z_height
+var1: stl1 - [6, 7, 8]	-	var2: z_thick_1000-500
+var1: stl1 - [6, 7, 8]	-	var2: msl
+var1: stl1 - [6, 7, 8]	-	var2: tp
+var1: stl1 - [6, 7, 8]	-	var2: onset
+var1: stl1 - [6, 7, 8]	-	var2: retreat
+var1: stl1 - [6, 7, 8]	-	var2: length
+var1: stl1 - [6, 7, 8]	-	var2: precipitation
+var1: stl1 - [6, 7, 8]	-	var2: precipitation-rate
+var1: sstk - [3, 4, 5]	-	var2: z_height
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: z_thick_1000-500
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: msl
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: tp
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: onset
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: retreat
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: length
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: precipitation
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [3, 4, 5]	-	var2: precipitation-rate
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: z_height
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: z_thick_1000-500
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: msl
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: tp
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: onset
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: retreat
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: length
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: precipitation
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [4, 5, 6]	-	var2: precipitation-rate
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: z_height
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: z_thick_1000-500
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: msl
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: tp
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: onset
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: retreat
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: length
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: precipitation
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [5, 6, 7]	-	var2: precipitation-rate
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: z_height
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: z_thick_1000-500
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: msl
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: tp
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: onset
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: retreat
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: length
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: precipitation
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sstk - [6, 7, 8]	-	var2: precipitation-rate
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+var1: sshf - [3, 4, 5]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: sshf - [3, 4, 5]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: sshf - [4, 5, 6]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: sshf - [5, 6, 7]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: sshf - [6, 7, 8]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: slhf - [3, 4, 5]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: slhf - [4, 5, 6]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: slhf - [5, 6, 7]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: z_height
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: z_thick_1000-500
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: msl
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: tp
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: onset
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: retreat
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: length
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: precipitation
+var1 in flux_var_list. flipping . . .
+var1: slhf - [6, 7, 8]	-	var2: precipitation-rate
+var1 in flux_var_list. flipping . . .
+var1: sd - [3, 4, 5]	-	var2: z_height
+var1: sd - [3, 4, 5]	-	var2: z_thick_1000-500
+var1: sd - [3, 4, 5]	-	var2: msl
+var1: sd - [3, 4, 5]	-	var2: tp
+var1: sd - [3, 4, 5]	-	var2: onset
+var1: sd - [3, 4, 5]	-	var2: retreat
+var1: sd - [3, 4, 5]	-	var2: length
+var1: sd - [3, 4, 5]	-	var2: precipitation
+var1: sd - [3, 4, 5]	-	var2: precipitation-rate
+var1: sd - [4, 5, 6]	-	var2: z_height
+var1: sd - [4, 5, 6]	-	var2: z_thick_1000-500
+var1: sd - [4, 5, 6]	-	var2: msl
+var1: sd - [4, 5, 6]	-	var2: tp
+var1: sd - [4, 5, 6]	-	var2: onset
+var1: sd - [4, 5, 6]	-	var2: retreat
+var1: sd - [4, 5, 6]	-	var2: length
+var1: sd - [4, 5, 6]	-	var2: precipitation
+var1: sd - [4, 5, 6]	-	var2: precipitation-rate
+var1: sd - [5, 6, 7]	-	var2: z_height
+var1: sd - [5, 6, 7]	-	var2: z_thick_1000-500
+var1: sd - [5, 6, 7]	-	var2: msl
+var1: sd - [5, 6, 7]	-	var2: tp
+var1: sd - [5, 6, 7]	-	var2: onset
+var1: sd - [5, 6, 7]	-	var2: retreat
+var1: sd - [5, 6, 7]	-	var2: length
+var1: sd - [5, 6, 7]	-	var2: precipitation
+var1: sd - [5, 6, 7]	-	var2: precipitation-rate
+var1: sd - [6, 7, 8]	-	var2: z_height
+var1: sd - [6, 7, 8]	-	var2: z_thick_1000-500
+var1: sd - [6, 7, 8]	-	var2: msl
+var1: sd - [6, 7, 8]	-	var2: tp
+var1: sd - [6, 7, 8]	-	var2: onset
+var1: sd - [6, 7, 8]	-	var2: retreat
+var1: sd - [6, 7, 8]	-	var2: length
+var1: sd - [6, 7, 8]	-	var2: precipitation
+var1: sd - [6, 7, 8]	-	var2: precipitation-rate
+var1: swvl1 - [3, 4, 5]	-	var2: z_height
+var1: swvl1 - [3, 4, 5]	-	var2: z_thick_1000-500
+var1: swvl1 - [3, 4, 5]	-	var2: msl
+var1: swvl1 - [3, 4, 5]	-	var2: tp
+var1: swvl1 - [3, 4, 5]	-	var2: onset
+var1: swvl1 - [3, 4, 5]	-	var2: retreat
+var1: swvl1 - [3, 4, 5]	-	var2: length
+var1: swvl1 - [3, 4, 5]	-	var2: precipitation
+var1: swvl1 - [3, 4, 5]	-	var2: precipitation-rate
+var1: swvl1 - [4, 5, 6]	-	var2: z_height
+var1: swvl1 - [4, 5, 6]	-	var2: z_thick_1000-500
+var1: swvl1 - [4, 5, 6]	-	var2: msl
+var1: swvl1 - [4, 5, 6]	-	var2: tp
+var1: swvl1 - [4, 5, 6]	-	var2: onset
+var1: swvl1 - [4, 5, 6]	-	var2: retreat
+var1: swvl1 - [4, 5, 6]	-	var2: length
+var1: swvl1 - [4, 5, 6]	-	var2: precipitation
+var1: swvl1 - [4, 5, 6]	-	var2: precipitation-rate
+var1: swvl1 - [5, 6, 7]	-	var2: z_height
+var1: swvl1 - [5, 6, 7]	-	var2: z_thick_1000-500
+var1: swvl1 - [5, 6, 7]	-	var2: msl
+var1: swvl1 - [5, 6, 7]	-	var2: tp
+var1: swvl1 - [5, 6, 7]	-	var2: onset
+var1: swvl1 - [5, 6, 7]	-	var2: retreat
+var1: swvl1 - [5, 6, 7]	-	var2: length
+var1: swvl1 - [5, 6, 7]	-	var2: precipitation
+var1: swvl1 - [5, 6, 7]	-	var2: precipitation-rate
+var1: swvl1 - [6, 7, 8]	-	var2: z_height
+var1: swvl1 - [6, 7, 8]	-	var2: z_thick_1000-500
+var1: swvl1 - [6, 7, 8]	-	var2: msl
+var1: swvl1 - [6, 7, 8]	-	var2: tp
+var1: swvl1 - [6, 7, 8]	-	var2: onset
+var1: swvl1 - [6, 7, 8]	-	var2: retreat
+var1: swvl1 - [6, 7, 8]	-	var2: length
+var1: swvl1 - [6, 7, 8]	-	var2: precipitation
+var1: swvl1 - [6, 7, 8]	-	var2: precipitation-rate

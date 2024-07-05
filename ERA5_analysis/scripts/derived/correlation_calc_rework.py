@@ -3,7 +3,7 @@
 
 # This script calculates correlations between various parameters and saves them to their own netcdf file
 
-# In[1]:
+# In[ ]:
 
 
 # import functions
@@ -54,21 +54,20 @@ from IPython.display import HTML
 import IPython.core.display as di  # Example: di.display_html('<h3>%s:</h3>' % str, raw=True)
 
 
-# In[2]:
+# In[ ]:
 
 
 # specify directories
 my_era5_path = '/glade/u/home/zcleveland/scratch/ERA5/'  # path to subset data
-misc_data_path = '/glade/u/home/zcleveland/scratch/misc_data/'  # path to subset CP data
+misc_data_path = '/glade/u/home/zcleveland/scratch/misc_data/'  # path to misc data
 corr_out_path = '/glade/u/home/zcleveland/scratch/ERA5/correlations/'  # path to correlation calculation folder
 der_script_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/derived/'  # path to derived scripts
 
 
-# In[3]:
+# In[ ]:
 
 
-# define list of variables
-
+# Variable lists
 # surface instantaneous variables
 sfc_instan_list = [
     'sd',  # snow depth  (m of water equivalent)
@@ -89,10 +88,11 @@ sfc_instan_list = [
     'cape',  # convective available potential energy (J kg^-1)
     'tcw',  # total column water (kg m^-2) -- sum total of solid, liquid, and vapor in a column
     'sstk',  # sea surface temperature (K)
-    'vipile',  # vertical integral of potential, internal, and latent energy (J m^-2) - instan
-    'viwve',  # vertical integral of eastward water vapour flux (kg m^-1 s^-1) - instan -- positive south -> north
-    'viwvn',  # vertical integral of northward water vapour flux (kg m^-1 s^-1) - instan -- positive west -> east
-    'viwvd',  # vertical integral of divergence of moisture flux (kg m^-2 s^-1) - instan -- positive divergencve
+    'vipile',  # vertical integral of potential, internal, and latent energy (J m^-2)
+    'viwve',  # vertical integral of eastward water vapour flux (kg m^-1 s^-1) - positive south -> north
+    'viwvn',  # vertical integral of northward water vapour flux (kg m^-1 s^-1) - positive west -> east
+    'viwvd',  # vertical integral of divergence of moisture flux (kg m^-2 s^-1) - positive divergencve
+    'z_thick_1000-500',  # geopotential height thickness (m) - difference between two height levels
 ]
 
 # surface accumulation variables
@@ -117,6 +117,7 @@ pl_var_list = [
     # 'crwc',  # specific rain water content (kg kg^-1)
     # 'cswc',  # specific snow water content (kg kg^-1)
     'z',  # geopotential (m^2 s^2)
+    'z_height',  # geopotential height (m)
     't',  # temperature (K)
     'u',  # u component of wind(m s^-1)
     'v',  # v component of wind (m s^-1)
@@ -158,7 +159,7 @@ misc_var_list = [
 ]
 
 
-# In[4]:
+# In[ ]:
 
 
 # dictionary of variables and their names
@@ -198,6 +199,8 @@ var_dict = {
     'strd': 'Surface Thermal Radiation Downwards',
     'ttr': 'Top Net Thermal Radiation (OLR)',
     'z': 'Geopotential',
+    'z_height': 'Geopotential Height',
+    'z_thick_1000-500': 'Geopotential Height Thickness',
     't': 'Temperature',
     'u': 'U Component of Wind',
     'v': 'V Component of Wind',
@@ -210,6 +213,59 @@ var_dict = {
     'precipitation': 'Yearly NAM Season Precipitation',
     'precipitation-rate': 'NAM Precipitation Rate',
     'nino-3': r'Ni$\tilda{n}$o-3 Index',
+}
+
+# variable units in latex format for plotting
+var_units = {
+    'sd': r'(m)',
+    'msl': r'(Pa)',
+    'tcc': r'(0-1)',
+    'stl1': r'(K)',
+    'stl2': r'(K)',
+    'stl3': r'(K)',
+    'stl4': r'(K)',
+    'swvl1': r'$(m^3 m^{-3})$',
+    'swvl2': r'$(m^3 m^{-3})$',
+    'swvl3': r'$(m^3 m^{-3})$',
+    'swvl4': r'$(m^3 m^{-3})$',
+    '2t': r'(K)',
+    '2d': r'(K)',
+    'ishf': r'$(W m^{-2})$',
+    'ie': r'$(kg m^{-2} s^{-1})$',
+    'cape': r'$(J kg^{-1})$',
+    'tcw': r'$(kg m^{-2})$',
+    'sstk': r'(K)',
+    'vipile': r'$(J m^{-2})$',
+    'viwve': r'$(kg m^{-1} s^{-1})$',
+    'viwvn': r'$(kg m^{-1} s^{-1})$',
+    'viwvd': r'$(kg m^{-2} s^{-1})$',
+    'lsp': r'(m)',
+    'cp': r'(m)',
+    'tp': r'(m)',
+    'sshf': r'$(J m^{-2})$',
+    'slhf': r'$(J m^{-2})$',
+    'ssr': r'$(J m^{-2})$',
+    'str': r'$(J m^{-2})$',
+    'sro': r'(m)',
+    'sf': r'(m)',
+    'ssrd': r'$(J m^{-2})$',
+    'strd': r'$(J m^{-2})$',
+    'ttr': r'$(J m^{-2})$',
+    'z': r'$(m^2 s^{-2})$',
+    'z_height': '$(m)$',
+    'z_thick_1000-500': '$(m)$',
+    't': r'(K)',
+    'u': r'$(m s^{-1})$',
+    'v': r'$(m s^{-1})$',
+    'q': r'$(kg kg^{-1})$',
+    'w': r'$(Pa s^{-1})$',
+    'r': r'(%)',
+    'onset': '',
+    'retreat': '',
+    'length': r'# of days',
+    'precipitation': r'(m)',
+    'precipitation-rate': r'(m day^{-1}, NAM Season Precip / NAM Length)',
+    'nino-3': r'(Ni$\tilda{n}$o-3 Index Anomaly)',
 }
 
 # dictionary of regions and their names
@@ -234,7 +290,7 @@ region_avg_coords = {
 }
 
 
-# In[5]:
+# In[ ]:
 
 
 # define a function to calculate the correlation between
@@ -250,17 +306,25 @@ def calc_correlation(var1='sd', var1_month_list=[3, 4, 5], var1_region='cp',
     var1_months = month_num_to_name(var=var1, months=var1_month_list, **kwargs)
     var2_months = month_num_to_name(var=var2, months=var2_month_list, **kwargs)
 
-    # filename and path
-
     # set detrend string for naming convention
     if detrend_flag:
         detrend_str = ''
     else:
         detrend_str = 'NOT-DETRENDED'
 
+    # set var_level string for naming
+    if var1 in pl_var_list:
+        var1_level_str = kwargs.get('var1_level', 700)
+    else:
+        var1_level_str = ''
+    if var2 in pl_var_list:
+        var2_level_str = kwargs.get('var2_level', 700)
+    else:
+        var2_level_str = ''
+
     # create list of var names, months, regions, etc. for naming convention
-    fn_list = [str(var1), str(var1_months), str(var1_region),
-               str(var2), str(var2_months), str(var2_region),
+    fn_list = [str(var1), str(var1_level_str), str(var1_months), str(var1_region),
+               str(var2), str(var2_level_str), str(var2_months), str(var2_region),
                str(detrend_str)]
     # core of the naming convention
     fn_core = '_'.join([i for i in fn_list if i != ''])
@@ -269,13 +333,13 @@ def calc_correlation(var1='sd', var1_month_list=[3, 4, 5], var1_region='cp',
     # set the file path to save output
     # global correlations
     if ((var1_region == 'global') or (var2_region == 'global')):
-        out_fp = os.path.join(my_era5_path, 'correlations', 'global', out_fn)
+        out_fp = os.path.join(my_era5_path, 'correlations/global', out_fn)
     # region to region correlations
     elif ((var1_region in region_avg_list) and (var2_region in region_avg_list)):
-        out_fp = os.path.join(my_era5_path, 'correlations', f'regions/{var2_region}', out_fn)
+        out_fp = os.path.join(my_era5_path, 'correlations/regions', out_fn)
     # correlations within the DSW (region to DSW or DSW to DSW)
     elif ((var1_region == 'dsw') or (var2_region == 'dsw')):
-        out_fp = os.path.join(my_era5_path, 'correlations', 'dsw', out_fn)
+        out_fp = os.path.join(my_era5_path, 'correlations/dsw', out_fn)
 
     # check existence of file already
     if os.path.exists(out_fp):
@@ -309,13 +373,13 @@ def calc_correlation(var1='sd', var1_month_list=[3, 4, 5], var1_region='cp',
 
     # calculate correlation
     var_corr = apply_correlation(var1_data, var2_data)
-    # return var_corr, out_fn
+    # return var_corr
 
     # save to netCDF file
     var_corr.to_netcdf(out_fp)
 
 
-# In[6]:
+# In[ ]:
 
 
 # define a function to check if inputs are list or not
@@ -326,7 +390,7 @@ def ensure_var_list(x):
     return x
 
 
-# In[7]:
+# In[ ]:
 
 
 # define a function to turn a list of integers into months
@@ -342,7 +406,7 @@ def month_num_to_name(var, months, **kwargs):
     return var_months
 
 
-# In[8]:
+# In[ ]:
 
 
 # define a function to get the files for a given variable/region
@@ -351,11 +415,11 @@ def get_var_files(var, region, **kwargs):
     # grab files for sfc var
     if ((var in sfc_instan_list) or (var in sfc_accumu_list)):
         # dsw
-        if region == 'dsw':
+        if region != 'global':
             files = glob.glob(f'{my_era5_path}dsw/*/{var.lower()}_*_dsw.nc')
-        # regional averages
-        elif region in region_avg_list:
-            files = glob.glob(f'{my_era5_path}regions/{region}/{var.lower()}_198001_201912_{region}.nc')
+        # # regional averages
+        # elif region in region_avg_list:
+        #     files = glob.glob(f'{my_era5_path}regions/{region}/{var.lower()}_198001_201912_{region}.nc')
         # global
         elif region == 'global':
             files = glob.glob(f'{my_era5_path}global/*/{var.lower()}_*_dsw.nc')
@@ -373,13 +437,14 @@ def get_var_files(var, region, **kwargs):
 
     # if something went wrong
     else:
+        print('something went wrong finding files')
         files = []
 
     files.sort()
     return files
 
 
-# In[9]:
+# In[ ]:
 
 
 # define a function to open the datasets and return monthly averages
@@ -395,6 +460,11 @@ def get_var_data(files, var, months, region, level, **kwargs):
     var_name = [v for v in ds.data_vars.keys() if f'{var.upper()}' in v.upper()][0]
     da = ds[var_name]
     # select months and compute mean/sum for data
+
+    if region in region_avg_list:
+        lats = slice(region_avg_coords[region][2], region_avg_coords[region][3])
+        lons = slice(region_avg_coords[region][0], region_avg_coords[region][1])
+        da = da.sel(latitude=lats, longitude=lons).mean(dim=['latitude', 'longitude'], skipna=True)
 
     # sfc var
     if var.lower() in sfc_instan_list:
@@ -420,16 +490,10 @@ def get_var_data(files, var, months, region, level, **kwargs):
     else:
         return None
 
-    # check if NAM var requested for regional average
-    if ((var.lower() in NAM_var_list) & (region in region_avg_list)):
-        lats = slice(region_avg_coords[region][2], region_avg_coords[region][3])
-        lons = slice(region_avg_coords[region][0], region_avg_coords[region][1])
-        var_data = var_data.sel(latitude=lats, longitude=lons).mean(dim=['latitude', 'longitude'], skipna=True)
-
     return var_data
 
 
-# In[10]:
+# In[ ]:
 
 
 # define a function to detrend the data
@@ -479,7 +543,7 @@ def apply_detrend(da):
     return da_detrend
 
 
-# In[11]:
+# In[ ]:
 
 
 # define a function to calculate the Pearson correlation and p-value statistic
@@ -519,17 +583,22 @@ def apply_correlation(da1, da2):
 
 
 # # test cell -- dsw
-# var1 = 'sd'
+# var1 = 'swvl1'
+# var1_level = 500
 # var1_month_list = [3, 4, 5]
-# var1_region = 'cp'
-# var2 = 'precipitation'
+# var1_region = 'MeNmAz'
+
+# var2 = 'z_thick_1000-500'
+# var2_level = 500
 # var2_month_list = [6, 7, 8]
 # var2_region = 'dsw'
-# detrend_list=[True]
-# for detrend_flag in detrend_list:
-#     calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region,
-#                      var2=var2, var2_month_list=var2_month_list, var2_region=var2_region,
-#                      detrend_flag=detrend_flag, overwrite_flag=False)
+
+# detrend_flag=True
+# overwrite_flag=True
+
+# calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_level,
+#                  var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_level,
+#                  detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
 
 
 # In[ ]:
@@ -655,15 +724,14 @@ def apply_correlation(da1, da2):
 #                 cnt=cnt+1
 
 
-# In[12]:
+# In[ ]:
 
 
 # # cell to calculate nino-3 correlations of NAM
 # var1 = 'nino-3'
 # var1_months_list = [[i, i+1, i+2] for i in range(1,11)]  # create list of list [[1,2,3], [2,3,4], ... [10,11,12]]
 # var1_region = ''
-# # var2_list = ['onset', 'retreat', 'length', 'tp', 'precipitation', 'precipitation-rate']
-# var2_list = ['tp']
+# var2_list = ['onset', 'retreat', 'length', 'tp', 'precipitation', 'precipitation-rate']
 # var2_month_list = [6, 7, 8]
 # var2_region = 'dsw'
 # detrend_flag=True
@@ -681,63 +749,349 @@ def apply_correlation(da1, da2):
 
 
 # cell to calculate moving window correlations
-var1_list = ['sd', 'swvl1', 'stl1', '2t', 'tp', 'sf', 'sshf', 'slhf', 'ssr', 'str', 'ssrd', 'strd', 'sro', 'z', 'u', 'v']
+var1_list = ['sd', 'swvl1', 'stl1', '2t', 'tp', 'sf', 'sshf', 'slhf', 'ssr', 'str', 'ssrd', 'strd', 'sro', 'z_height', 'z_thick_1000-500', 'msl', 'u', 'v']
 var1_months_list = [[i, i+1, i+2] for i in range(1,11)]  # create list of list [[1,2,3], [2,3,4], ... [10,11,12]]
-var1_region = 'cp'
+# var1_region = 'cp'
+var1_regions = ['cp', 'MeNmAz']
 
-var2_list = ['onset', 'retreat', 'length', 'tp', 'precipitation', 'precipitation-rate', 'z', 'cape', 'cp']
-var2_months_list = [[3, 4, 5], [6, 7, 8]]
+var2_list = ['onset', 'retreat', 'length', 'tp', 'precipitation', 'precipitation-rate', 'z_height', 'z_thick_1000-500', 'msl', 'cape', 'cp']
+# var2_months_list = [[3, 4, 5], [6, 7, 8]]
+var2_months_list = [[4, 5, 6], [5, 6, 7]]
 var2_region = 'dsw'
+
+var1_levels = [700, 500]
+var2_levels = [700, 500]
 
 detrend_flag=True
 overwrite_flag=False
-len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list)
+len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list) * len(var1_regions) * len(var1_levels)
 start_time = time.time()
 cnt=0
 for var1 in var1_list:
     for var2 in var2_list:
         for var2_month_list in var2_months_list:
             for var1_month_list in var1_months_list:
-                # print(f'{var1}:\t{var2}:\t{var2_month_list}:\t{var1_month_list}')
-                with open(f'{der_script_path}corr.txt', 'a') as file:
-                    file.write(f'{var1}:\t{var2}:\t{var2_month_list}:\t{var1_month_list}\t: {100*cnt/len_lists} %\t: time={time.time()-start_time}\n')
-                calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region,
-                                 var2=var2, var2_month_list=var2_month_list, var2_region=var2_region,
-                                 detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
-                cnt=cnt+1
+                for var1_region in var1_regions:
+                    for i in range(len(var1_levels)):
+                        print(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}', end='\t:')
+                        # with open(f'{der_script_path}corr.txt', 'a') as file:
+                        #     file.write(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}\t:')
+                        calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_levels[i],
+                                         var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_levels[i],
+                                         detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
+                        print(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}')
+                        # with open(f'{der_script_path}corr.txt', 'a') as file:
+                        #     file.write(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}\n')
+                        cnt=cnt+1
 
 
 # In[ ]:
 
 
-# cell to calculate more moving window correlations
-var1_list = ['onset', 'retreat', 'length']
-var1_months_list = [3, 4, 5]
-var1_region = 'cp'
+# # cell to calculate more moving window correlations
+# var1_list = ['onset', 'retreat', 'length']
+# var1_month_list = [3, 4, 5]
+# # var1_region = 'cp'
+# # var1_region = 'MeNmAz'
 
-var2_list = ['tp', 'precipitation', 'precipitation-rate']
-var2_month_list = [[3, 4, 5], [6, 7, 8]]
-var2_region = 'dsw'
+# var2_list = ['tp', 'precipitation', 'precipitation-rate']
+# var2_month_list = [[3, 4, 5], [6, 7, 8]]
+# var2_region = 'dsw'
 
-detrend_flag=True
-overwrite_flag=False
-len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list)
-start_time = time.time()
-cnt=0
-for var1 in var1_list:
-    for var2 in var2_list:
-        for var2_month_list in var2_months_list:
-            # print(f'{var1}:\t{var2}:\t{var2_month_list}')
-            with open(f'{der_script_path}corr.txt', 'a') as file:
-                file.write(f'{var1}:\t{var2}:\t{var2_month_list}\t: {100*cnt/len_lists} %\t: time={time.time()-start_time}\n')
-            calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region,
-                             var2=var2, var2_month_list=var2_month_list, var2_region=var2_region,
-                             detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
-            cnt=cnt+1
+# # var1_level = 700
+# # var2_level = 700
+
+# detrend_flag=True
+# overwrite_flag=False
+# len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list) * len(var1_regions) * len(var1_levels)
+# start_time = time.time()
+# cnt=0
+# for var1 in var1_list:
+#     for var2 in var2_list:
+#         for var2_month_list in var2_months_list:
+#             for var1_region in var1_regions:
+#                 for i in range(len(var1_levels)):
+#                     # print(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}', end='\t:')
+#                     with open(f'{der_script_path}corr.txt', 'a') as file:
+#                         file.write(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}\t:')
+#                     calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_levels[i],
+#                                      var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_levels[i],
+#                                      detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
+#                     # print(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}')
+#                     with open(f'{der_script_path}corr.txt', 'a') as file:
+#                         file.write(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}\n')
+#                     cnt=cnt+1
 
 
 # In[ ]:
 
 
+# # cell to compute moving correlations of snow depth/soil moisture and net solar/thermal radiation or sensible/latent heat
+# var1_list = ['sd', 'swvl1']
+# var1_months_list = [[3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8]]
+# # var1_region = 'cp'
+# # var1_region = 'MeNmAz'
 
+# var2_list = ['ssr', 'str', 'sshf', 'slhf']
+# var2_months_list = [[i, i+1, i+2] for i in range(1,11)]
+# var2_region = 'dsw'
+
+# # var1_level = 700
+# # var2_level = 700
+
+# detrend_flag=True
+# overwrite_flag=False
+# len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list) * len(var1_regions) * len(var1_levels)
+# start_time = time.time()
+# cnt=1
+# for var1 in var1_list:
+#     for var2 in var2_list:
+#         for var1_month_list in var1_months_list:
+#             for var2_month_list in var2_months_list:
+#                 for var1_region in var1_regions:
+#                     for i in range(len(var1_levels)):
+#                         # print(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}', end='\t:')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}\t:')
+#                         calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_levels[i],
+#                                          var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_levels[i],
+#                                          detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
+#                         # print(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}\n')
+#                         cnt=cnt+1
+
+
+# In[ ]:
+
+
+# # cell to compute moving correlations of net solar/thermal radiation and sensible/latent heat or soil/2m temperature
+# var1_list = ['ssr', 'str']
+# var1_months_list = [[3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8]]
+# # var1_region = 'cp'
+# # var1_region = 'MeNmAz'
+
+# var2_list = ['sshf', 'slhf', '2t', 'stl1']
+# var2_months_list = [[i, i+1, i+2] for i in range(1,11)]
+# var2_region = 'dsw'
+
+# # var1_level = 700
+# # var2_level = 700
+
+# detrend_flag=True
+# overwrite_flag=False
+# len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list) * len(var1_regions) * len(var1_levels)
+# start_time = time.time()
+# cnt=1
+# for var1 in var1_list:
+#     for var2 in var2_list:
+#         for var1_month_list in var1_months_list:
+#             for var2_month_list in var2_months_list:
+#                 for var1_region in var1_regions:
+#                     for i in range(len(var1_levels)):
+#                         # print(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}', end='\t:')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}\t:')
+#                         calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_levels[i],
+#                                          var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_levels[i],
+#                                          detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
+#                         # print(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}\n')
+#                         cnt=cnt+1
+
+
+# In[ ]:
+
+
+# # cell to compute moving correlations of sensible/latent heat and soil/2m temperature geopotential
+# var1_list = ['sshf', 'slhf']
+# var1_months_list = [[3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8]]
+# # var1_region = 'cp'
+# # var1_region = 'MeNmAz'
+
+# var2_list = ['2t', 'stl1', 'z_height', 'z_thick_1000-500', 'msl']
+# var2_months_list = [[i, i+1, i+2] for i in range(1,11)]
+# var2_region = 'dsw'
+
+# # var1_level = 700
+# # var2_level = 700
+
+# detrend_flag=True
+# overwrite_flag=False
+# len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list) * len(var1_regions) * len(var1_levels)
+# start_time = time.time()
+# cnt=1
+# for var1 in var1_list:
+#     for var2 in var2_list:
+#         for var1_month_list in var1_months_list:
+#             for var2_month_list in var2_months_list:
+#                 for var1_region in var1_regions:
+#                     for i in range(len(var1_levels)):
+#                         # print(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}', end='\t:')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}\t:')
+#                         calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_levels[i],
+#                                          var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_levels[i],
+#                                          detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
+#                         # print(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}\n')
+#                         cnt=cnt+1
+
+
+# In[ ]:
+
+
+# # cell to compute moving correlations of soil/2m temperature and geopotential or u/v wind
+# var1_list = ['2t', 'stl1']
+# var1_months_list = [[3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8]]
+# # var1_region = 'cp'
+# # var1_region = 'MeNmAz'
+
+# var2_list = ['z_height', 'z_thick_1000-500', 'msl', 'u', 'v']
+# var2_months_list = [[i, i+1, i+2] for i in range(1,11)]
+# var2_region = 'dsw'
+
+# # var1_level = 700
+# # var2_level = 700
+
+# detrend_flag=True
+# overwrite_flag=False
+# len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list) * len(var1_regions) * len(var1_levels)
+# start_time = time.time()
+# cnt=1
+# for var1 in var1_list:
+#     for var2 in var2_list:
+#         for var1_month_list in var1_months_list:
+#             for var2_month_list in var2_months_list:
+#                 for var1_region in var1_regions:
+#                     for i in range(len(var1_levels)):
+#                         # print(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}', end='\t:')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}\t:')
+#                         calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_levels[i],
+#                                          var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_levels[i],
+#                                          detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
+#                         # print(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}\n')
+#                         cnt=cnt+1
+
+
+# In[ ]:
+
+
+# # cell to compute moving correlations of geopotential and u/v wind or N/E water vapor transport
+# var1_list = ['z_height', 'z_thick_1000-500', 'msl']
+# var1_months_list = [[3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8]]
+# # var1_region = 'cp'
+# # var1_region = 'MeNmAz'
+
+# var2_list = ['u', 'v', 'viwvn', 'viwve', 'onset', 'retreat', 'length', 'precipitation', 'precipitation-rate', 'cape', 'cp']
+# var2_months_list = [[i, i+1, i+2] for i in range(1,11)]
+# var2_region = 'dsw'
+
+# # var1_level = 700
+# # var2_level = 700
+
+# detrend_flag=True
+# overwrite_flag=False
+# len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list) * len(var1_regions) * len(var1_levels)
+# start_time = time.time()
+# cnt=1
+# for var1 in var1_list:
+#     for var2 in var2_list:
+#         for var1_month_list in var1_months_list:
+#             for var2_month_list in var2_months_list:
+#                 for var1_region in var1_regions:
+#                     for i in range(len(var1_levels)):
+#                         # print(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}', end='\t:')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}\t:')
+#                         calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_levels[i],
+#                                          var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_levels[i],
+#                                          detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
+#                         # print(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}\n')
+#                         cnt=cnt+1
+
+
+# In[ ]:
+
+
+# # cell to compute moving correlations of u/v wind and N/E water vapor transport or NAM stuff
+# var1_list = ['u', 'v']
+# var1_months_list = [[3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8]]
+# # var1_region = 'cp'
+# # var1_region = 'MeNmAz'
+
+# var2_list = ['viwvn', 'viwve', 'onset', 'retreat', 'length', 'tp', 'precipitation', 'precipitation-rate', 'cape', 'cp']
+# var2_months_list = [[i, i+1, i+2] for i in range(1,11)]
+# var2_region = 'dsw'
+
+# # var1_level = 700
+# # var2_level = 700
+
+# detrend_flag=True
+# overwrite_flag=False
+# len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list) * len(var1_regions) * len(var1_levels)
+# start_time = time.time()
+# cnt=1
+# for var1 in var1_list:
+#     for var2 in var2_list:
+#         for var1_month_list in var1_months_list:
+#             for var2_month_list in var2_months_list:
+#                 for var1_region in var1_regions:
+#                     for i in range(len(var1_levels)):
+#                         # print(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}', end='\t:')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}\t:')
+#                         calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_levels[i],
+#                                          var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_levels[i],
+#                                          detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
+#                         # print(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}\n')
+#                         cnt=cnt+1
+
+
+# In[ ]:
+
+
+# # cell to compute moving correlations of N/E water vapor transport and NAM stuff
+# var1_list = ['viwvn', 'viwve']
+# var1_months_list = [[3, 4, 5], [4, 5, 6], [5, 6, 7], [6, 7, 8]]
+# # var1_region = 'cp'
+# # var1_region = 'MeNmAz'
+
+# var2_list = ['onset', 'retreat', 'length', 'tp', 'precipitation', 'precipitation-rate', 'cape', 'cp']
+# var2_months_list = [[i, i+1, i+2] for i in range(1,11)]
+# var2_region = 'dsw'
+
+# # var1_level = 700
+# # var2_level = 700
+
+# detrend_flag=True
+# overwrite_flag=False
+# len_lists = len(var1_list) * len(var2_list) * len(var1_months_list) * len(var2_months_list) * len(var1_regions) * len(var1_levels)
+# start_time = time.time()
+# cnt=1
+# for var1 in var1_list:
+#     for var2 in var2_list:
+#         for var1_month_list in var1_months_list:
+#             for var2_month_list in var2_months_list:
+#                 for var1_region in var1_regions:
+#                     for i in range(len(var1_levels)):
+#                         # print(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}', end='\t:')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{var1}:\t{var1_month_list}:\t{var1_region}:\t--\t{var2}:\t{var2_month_list}\t:')
+#                         calc_correlation(var1=var1, var1_month_list=var1_month_list, var1_region=var1_region, var1_level=var1_levels[i],
+#                                          var2=var2, var2_month_list=var2_month_list, var2_region=var2_region, var2_level=var2_levels[i],
+#                                          detrend_flag=detrend_flag, overwrite_flag=overwrite_flag)
+#                         # print(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}')
+#                         with open(f'{der_script_path}corr.txt', 'a') as file:
+#                             file.write(f'{100*cnt/len_lists:.2f} %\t: time={time.time()-start_time:.2f}\n')
+#                         cnt=cnt+1
 

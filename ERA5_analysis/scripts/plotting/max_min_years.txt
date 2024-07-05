@@ -1,0 +1,29 @@
+Waiting on job launch; 5062356.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=1:00:00
+
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+Traceback (most recent call last):
+File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/plotting/max_min_years.py", line 378, in <module>
+main(var1, var1_months, var1_region, var2, var2_months, var2_region, rank_years, **kwargs)
+File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/plotting/max_min_years.py", line 150, in main
+var1_data_yearly = extract_var_yearly(var1, var1_data, var_years_mode, var2_months)
+File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/plotting/max_min_years.py", line 307, in extract_var_yearly
+return da.sel(year=years)
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataarray.py", line 1328, in sel
+ds = self._to_temp_dataset().sel(
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataset.py", line 2507, in sel
+result = self.isel(indexers=pos_indexers, drop=drop)
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataset.py", line 2351, in isel
+return self._isel_fancy(indexers, drop=drop, missing_dims=missing_dims)
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataset.py", line 2398, in _isel_fancy
+indexers_list = list(self._validate_indexers(indexers, missing_dims))
+File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataset.py", line 2231, in _validate_indexers
+raise IndexError(
+IndexError: Unlabeled multi-dimensional array cannot be used for indexing: year

@@ -1,22 +1,48 @@
-"""
-This code loops through a "root directory", finds any python (.py) or jupyter notebook (.ipynb) file, looks through the code to find a specified "old directory", and updates that line the include the "new directory".  For example, if you have a directory path to some data, data_dir = /path/to/my/data, but you have made changes to your directory structure and the data now exists in /path/to/my/<new_subdirectory>/data, the code will find /path/to/my/data, and update it to /path/to/my/<new_subdirector>/data, so long as the root_dir, old_dir, and new_dir are properly specified before running the code.
-"""
+#!/usr/bin/env python
+# coding: utf-8
 
-# import needed functions
+# This script contains all of the functions I use regularly.  The goal is to be able to import them into various scripts to help keep organization and readability of different scripts.
+
+# In[3]:
+
+
+# import needed items
 import sys
 import os
 
-sys.path.append('/glade/u/home/zcleveland/NAM_soil-moisture/scripts_main/')
+# add my directories module to path
+if '/glade/u/home/zcleveland/NAM_soil-moisture/scripts_main/' not in sys.path:
+    sys.path.append('/glade/u/home/zcleveland/NAM_soil-moisture/scripts_main/')
 
-# define root_directory, old_directory, and new_directory
-root_dir = '/glade/u/home/zcleveland/NAM_soil-moisture/'
-old_dir = None
-new_dir = None
+
+# In[9]:
+
+
+# check my_directories for any listed directories that do NOT exist
+def check_my_directories():
+    # import my directories
+    from my_directories import my_dirs
+
+    # create list of missing directories
+    missing_dirs = [(key, value) for key, value in my_dirs.items() if not os.path.exists(value)]
+
+    # print missing directories
+    if missing_dirs:
+        print("The following directories do not exist:")
+        for key, path in missing_dirs:
+            print(f"{key}: {path}")
+    else:
+        print("All directories exist")
+
+    return missing_dirs
+
+
+# In[ ]:
 
 
 # define function to check existence of directories
 # return list of missing directories
-def check_directories(root_dir, old_dir, new_dir):
+def check_update_directories(root_dir, old_dir, new_dir):
     dir_dict = {
         "root_dir": os.path.exists(root_dir),
         "old_dir": os.path.exists(old_dir),
@@ -35,6 +61,9 @@ def check_directories(root_dir, old_dir, new_dir):
     return missing_dirs
 
 
+# In[ ]:
+
+
 # define function to make user verify they want to continue
 def verify_continue():
     user_input = input('Continue with changes? This is the LAST check.'
@@ -47,6 +76,9 @@ def verify_continue():
         return True
 
 
+# In[ ]:
+
+
 # define the function to find the .py and .ipynb files
 def find_python_scripts(root_dir):
     py_file_paths = []
@@ -57,6 +89,9 @@ def find_python_scripts(root_dir):
                 py_file_paths.append(os.path.join(dir_path, file_name))
     # return python and jupyter notebook files
     return py_file_paths
+
+
+# In[ ]:
 
 
 # define a function to find which files will be updated
@@ -79,6 +114,9 @@ def files_to_update(py_file_paths, old_dir, new_dir):
     return update_files  # only files that will be updated
 
 
+# In[ ]:
+
+
 # define a function to replace old_dir with new_dir
 def update_py_files(update_files, old_dir, new_dir):
     # loop through py files and update them
@@ -93,11 +131,14 @@ def update_py_files(update_files, old_dir, new_dir):
             file.write(new_contents)
 
 
-# define the function to actually run all of this code
+# In[ ]:
+
+
+# define the function to actually run the code to update directories
 def update_directories(root_dir, old_dir, new_dir):
 
     # check for any non-existent directories and abort if any don't exist
-    if check_directories(root_dir, old_dir, new_dir):
+    if check_update_directories(root_dir, old_dir, new_dir):
         check_override = input('\nWould you like to override and continue anyway?'
                                '\n"y" for yes. Press any other key to abort: ')
         if check_override.lower() != 'y':
@@ -117,10 +158,4 @@ def update_directories(root_dir, old_dir, new_dir):
         return
     else:  # continue with updates
         update_py_files(update_files, old_dir, new_dir)
-
-
-# run the code
-if __name__ == '__main__':
-    update_directories(root_dir, old_dir, new_dir)
-
 

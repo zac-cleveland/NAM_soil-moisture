@@ -1,0 +1,92 @@
+Waiting on job launch; 4995378.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
+
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: z_height
+.nc file already exists. regress_nino-3_MAM_cp_z_height_500_JJA_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: z_thick_1000-500
+.nc file already exists. regress_nino-3_MAM_cp_z_thick_1000-500_JJA_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: msl
+.nc file already exists. regress_nino-3_MAM_cp_msl_JJA_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: tp
+.nc file already exists. regress_nino-3_MAM_cp_tp_JJA_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: onset
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: retreat
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: length
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: precipitation
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: precipitation-rate
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: z_height
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: z_thick_1000-500
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: msl
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: tp
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: onset
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: retreat
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: length
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: precipitation
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: precipitation-rate
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: z_height
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: z_thick_1000-500
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: msl
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: tp
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: onset
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: retreat
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: length
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: precipitation
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: precipitation-rate
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: tp
+.nc file already exists. regress_nino-3_MAM_cp_tp_JJA_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: onset
+.nc file already exists. regress_nino-3_MAM_cp_onset_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: retreat
+.nc file already exists. regress_nino-3_MAM_cp_retreat_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: length
+.nc file already exists. regress_nino-3_MAM_cp_length_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: precipitation
+.nc file already exists. regress_nino-3_MAM_cp_precipitation_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: 	var1: nino-3 - [3, 4, 5]	-	var2: precipitation-rate
+.nc file already exists. regress_nino-3_MAM_cp_precipitation-rate_dsw.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: tp
+.nc file already exists. regress_nino-3_MAM_cp_tp_JJA_dsw_deseasonalize.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: onset
+.nc file already exists. regress_nino-3_MAM_cp_onset_dsw_deseasonalize.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: retreat
+.nc file already exists. regress_nino-3_MAM_cp_retreat_dsw_deseasonalize.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: length
+.nc file already exists. regress_nino-3_MAM_cp_length_dsw_deseasonalize.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: precipitation
+.nc file already exists. regress_nino-3_MAM_cp_precipitation_dsw_deseasonalize.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: deseasonalize	var1: nino-3 - [3, 4, 5]	-	var2: precipitation-rate
+.nc file already exists. regress_nino-3_MAM_cp_precipitation-rate_dsw_deseasonalize.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: tp
+.nc file already exists. regress_nino-3_MAM_cp_tp_JJA_dsw_zscore.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: onset
+.nc file already exists. regress_nino-3_MAM_cp_onset_dsw_zscore.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: retreat
+.nc file already exists. regress_nino-3_MAM_cp_retreat_dsw_zscore.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: length
+.nc file already exists. regress_nino-3_MAM_cp_length_dsw_zscore.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: precipitation
+.nc file already exists. regress_nino-3_MAM_cp_precipitation_dsw_zscore.nc
+overwrite_flag is False. set to True to overwrite
+detrend_type: zscore	var1: nino-3 - [3, 4, 5]	-	var2: precipitation-rate
+.nc file already exists. regress_nino-3_MAM_cp_precipitation-rate_dsw_zscore.nc
+overwrite_flag is False. set to True to overwrite

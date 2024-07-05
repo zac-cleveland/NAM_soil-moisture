@@ -21,12 +21,14 @@ sfc_instan_list = [
     'ishf',  # instant surface heat flux (W m^-2)
     'ie',  # instant moisture flux (kg m^-2 s^-1)
     'cape',  # convective available potential energy (J kg^-1)
+    'cin',  # convective inhibition (J kg^-1)
     'tcw',  # total column water (kg m^-2) -- sum total of solid, liquid, and vapor in a column
     'sstk',  # sea surface temperature (K)
-    'vipile',  # vertical integral of potential, internal, and latent energy (J m^-2) - instan
-    'viwve',  # vertical integral of eastward water vapour flux (kg m^-1 s^-1) - instan -- positive south -> north
-    'viwvn',  # vertical integral of northward water vapour flux (kg m^-1 s^-1) - instan -- positive west -> east
-    'viwvd',  # vertical integral of divergence of moisture flux (kg m^-2 s^-1) - instan -- positive divergencve
+    'vipile',  # vertical integral of potential, internal, and latent energy (J m^-2)
+    'viwve',  # vertical integral of eastward water vapour flux (kg m^-1 s^-1) - positive south -> north
+    'viwvn',  # vertical integral of northward water vapour flux (kg m^-1 s^-1) - positive west -> east
+    'viwvd',  # vertical integral of divergence of moisture flux (kg m^-2 s^-1) - positive divergencve
+    'z_thick_1000-500',  # geopotential height thickness (m) - difference between two height levels
 ]
 
 # surface accumulation variables
@@ -51,6 +53,7 @@ pl_var_list = [
     # 'crwc',  # specific rain water content (kg kg^-1)
     # 'cswc',  # specific snow water content (kg kg^-1)
     'z',  # geopotential (m^2 s^2)
+    'z_height',  # geopotential height (m)
     't',  # temperature (K)
     'u',  # u component of wind(m s^-1)
     'v',  # v component of wind (m s^-1)
@@ -62,6 +65,25 @@ pl_var_list = [
     # 'clwc',  # specific cloud liquid water content
     # 'ciwc',  # specific cloud ice water content
     # 'cc',  # fraction of cloud cover (0-1)
+]
+
+# invariant data
+invar_var_list = [
+    'cl',  # lake cover (0-1)
+    'dl',  # lake depth (m)
+    'cvl',  # low vegetation cover (0-1)
+    'cvh',  # high vegetation cover (0-1)
+    'tvl',  # type of low vegetation ~
+    'tvh',  # type of high begetation ~
+    'slt',  # soil type ~
+    'sdfor',  # standard deviation of filtered subgrid orography (m)
+    'z_sfc',  # geopotential of surface (m^2 s^-2)
+    'sdor',  # standard deviation of orography ~
+    'isor',  # anisotropy of subgridscale orography ~
+    'anor',  # angle of subgridscale orography (radians)
+    'slor',  # slope of subgridscale orography ~
+    'lsm',  # land-sea mask (0-1)
+    'elevation',  # elevation of terrain (m)
 ]
 
 # NAM variables
@@ -84,6 +106,7 @@ region_avg_list = [
     'chi',
     'moj',
     'MeNmAz',
+    'baja',
 ]
 
 # variables that are fluxes and need to be multiplied by -1 for easier understanding
@@ -122,6 +145,7 @@ var_dict = {
     'ishf': 'Instant Surface Heat Flux',
     'ie': 'Instant Moisture Flux',
     'cape': 'Convective Available Potential Energy',
+    'cin': 'Convective Inhibition',
     'tcw': 'Total Column Water',
     'sstk': 'Sea Surface Temperature',
     'vipile': 'vertical integral of potential, internal, and latent energy',
@@ -141,6 +165,8 @@ var_dict = {
     'strd': 'Surface Thermal Radiation Downwards',
     'ttr': 'Top Net Thermal Radiation (OLR)',
     'z': 'Geopotential',
+    'z_height': 'Geopotential Height',
+    'z_thick_1000-500': 'Geopotential Height Thickness from 1000 to 500 mb',
     't': 'Temperature',
     'u': 'U Component of Wind',
     'v': 'V Component of Wind',
@@ -152,12 +178,12 @@ var_dict = {
     'length': 'NAM Length',
     'precipitation': 'Yearly NAM Season Precipitation',
     'precipitation-rate': 'NAM Precipitation Rate',
-    'nino-3': r'Ni$\tilda{n}$o-3 Index',
+    'nino-3': r'Nino-3 Index',
 }
 
 # variable units in latex format for plotting
 var_units = {
-    'sd': r'(m)',
+    'sd': r'(m of water equivalent)',
     'msl': r'(Pa)',
     'tcc': r'(0-1)',
     'stl1': r'(K)',
@@ -173,6 +199,7 @@ var_units = {
     'ishf': r'$(W m^{-2})$',
     'ie': r'$(kg m^{-2} s^{-1})$',
     'cape': r'$(J kg^{-1})$',
+    'cin': r'$(J kg^{-1})$',
     'tcw': r'$(kg m^{-2})$',
     'sstk': r'(K)',
     'vipile': r'$(J m^{-2})$',
@@ -187,11 +214,13 @@ var_units = {
     'ssr': r'$(J m^{-2})$',
     'str': r'$(J m^{-2})$',
     'sro': r'(m)',
-    'sf': r'(m)',
+    'sf': r'(m of water equivalent)',
     'ssrd': r'$(J m^{-2})$',
     'strd': r'$(J m^{-2})$',
     'ttr': r'$(J m^{-2})$',
     'z': r'$(m^2 s^{-2})$',
+    'z_height': '$(m)$',
+    'z_thick_1000-500': '$(m)$',
     't': r'(K)',
     'u': r'$(m s^{-1})$',
     'v': r'$(m s^{-1})$',
@@ -203,7 +232,7 @@ var_units = {
     'length': r'# of days',
     'precipitation': r'(m)',
     'precipitation-rate': r'(m day^{-1}, NAM Season Precip / NAM Length)',
-    'nino-3': r'(Ni$\tilda{n}$o-3 Index Anomaly)',
+    'nino-3': r'(Nino-3 Index Anomaly)',
 }
 
 # dictionary of regions and their names
@@ -213,18 +242,20 @@ region_avg_dict = {
     'son': 'Sonoran Desert',
     'chi': 'Chihuahuan Desert',
     'moj': 'Mojave Desert',
-    'MeNmAz': 'Mexico, New Mexico, and Arizona Border',
+    'MeNmAz': 'MEX, NM, AZ Border',
+    'baja': r'Coast of Baja, CA (5$\degree$ x 5$\degree$)',
 }
 
 # dictionary of regions and their coordinate boundaries
 # [WEST, EAST, NORTH, SOUTH] -- WEST and EAST are on 0-360 latitude grid system
 region_avg_coords = {
     'cp': [249, 253, 39, 35],
-    'mr': [249, 251, 34, 33],
-    'son': [246, 250, 32, 28],
-    'chi': [252, 256, 33, 29],
-    'moj': [243, 247, 37, 33],
+    'mr': [249, 251, 33, 34],
+    'son': [246, 250, 28, 32],
+    'chi': [252, 256, 29, 33],
+    'moj': [243, 247, 33, 37],
     'MeNmAz': [246, 256, 38, 28],
+    'baja': [242, 247, 27, 22],
 }
 
 # dictionary of colors for the plot of each region
@@ -235,6 +266,7 @@ region_colors_dict = {
     'chi': 'red',
     'moj': 'purple',
     'MeNmAz': 'brown',
+    'baja': 'yellow',
     'dsw': 'black'
 }
 
