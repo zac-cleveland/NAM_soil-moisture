@@ -57,6 +57,7 @@ pl_var_list = [
     't',  # temperature (K)
     'u',  # u component of wind(m s^-1)
     'v',  # v component of wind (m s^-1)
+    ['u', 'v'],  # u and v wind vector (m s^-1)
     'q',  # specific humidity (kg kg^-1)
     'w',  # vertical velo|city (Pa s^-1)
     # 'vo',  # vorticity - relative (s^-1)
@@ -119,6 +120,13 @@ flux_var_list = [
     'str',  # surface thermal radiation (J m^-2)
 ]
 
+# variables that can be turned into a vector. e.g., u and v wind turned into a vector of magnitude and direction
+# always a list with the longitudinal component first (u, x, e, etc.), then latitudinal (v, y, n, etc.)
+vector_var_list = [
+    ['u', 'v'],
+    ['viwve', 'viwvn'],
+]
+
 # misc variables
 misc_var_list = [
     'nino-3',
@@ -148,10 +156,11 @@ var_dict = {
     'cin': 'Convective Inhibition',
     'tcw': 'Total Column Water',
     'sstk': 'Sea Surface Temperature',
-    'vipile': 'vertical integral of potential, internal, and latent energy',
-    'viwve': 'vertical integral of eastward water vapour flux',
-    'viwvn': 'vertical integral of northward water vapour flux',
-    'viwvd': 'vertical integral of divergence of moisture flux',
+    'vipile': 'Vertical Integral of Potential, Internal, and Latent Energy',
+    'viwve': 'Vertical Integral of Eastward Water Vapour Flux',
+    'viwvn': 'Vertical Integral of Northward Water Vapour Flux',
+    "['viwve', 'viwvn']": 'Vertical Integral of N-E Water Vapor Flux',
+    'viwvd': 'Vertical Integral of Divergence of Moisture Flux',
     'lsp': 'Large Scale Precipitation',
     'cp': 'Convective Precipitation',
     'tp': 'Total Precipitation',
@@ -170,6 +179,7 @@ var_dict = {
     't': 'Temperature',
     'u': 'U Component of Wind',
     'v': 'V Component of Wind',
+    "['u', 'v']": 'U-V Wind Vector',
     'q': 'Specific Humidity',
     'w': 'Vertical Velocity',
     'r': 'Relative Humidity',
@@ -205,6 +215,7 @@ var_units = {
     'vipile': r'$(J m^{-2})$',
     'viwve': r'$(kg m^{-1} s^{-1})$',
     'viwvn': r'$(kg m^{-1} s^{-1})$',
+    "['viwve', 'viwvn']": r'$(kg m^{-1} s^{-1})$',
     'viwvd': r'$(kg m^{-2} s^{-1})$',
     'lsp': r'(m)',
     'cp': r'(m)',
@@ -224,6 +235,7 @@ var_units = {
     't': r'(K)',
     'u': r'$(m s^{-1})$',
     'v': r'$(m s^{-1})$',
+    "['u', 'v']": r'$(m s^{-1})$',
     'q': r'$(kg kg^{-1})$',
     'w': r'$(Pa s^{-1})$',
     'r': r'(%)',
@@ -250,10 +262,10 @@ region_avg_dict = {
 # [WEST, EAST, NORTH, SOUTH] -- WEST and EAST are on 0-360 latitude grid system
 region_avg_coords = {
     'cp': [249, 253, 39, 35],
-    'mr': [249, 251, 33, 34],
-    'son': [246, 250, 28, 32],
-    'chi': [252, 256, 29, 33],
-    'moj': [243, 247, 33, 37],
+    'mr': [249, 251, 34, 33],
+    'son': [246, 250, 32, 28],
+    'chi': [252, 256, 33, 29],
+    'moj': [243, 247, 37, 33],
     'MeNmAz': [246, 256, 38, 28],
     'baja': [242, 247, 27, 22],
 }
