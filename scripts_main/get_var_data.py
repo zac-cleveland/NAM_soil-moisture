@@ -78,7 +78,7 @@ def get_var_data(var, region='dsw', months=[i for i in range(1,13)], **kwargs):
     files = get_var_files(var, region, **kwargs)
     var_data = open_var_data(files, var, **kwargs)
     if kwargs.get('subset_flag', True):
-        return subset_var_data(var_data, var, months, region, **kwargs)
+        return subset_var_data(var_data, var, region, months, **kwargs)
     return var_data
 
 
@@ -162,7 +162,7 @@ def open_var_data(files, var, **kwargs):
     return ds[var_name]
 
 
-def subset_var_data(var_data, var, months, region, **kwargs):
+def subset_var_data(var_data, var, region, months, **kwargs):
     """
     Subsets the input data by latitude/longitude, time, and averages. Defaults to returning full dataset
     for region = dsw or global, and the latitude/longitude mean if region is in region_avg_list.  If time
@@ -217,7 +217,7 @@ def subset_var_data(var_data, var, months, region, **kwargs):
         
     if not dim_means:
         return var_data
-    return var_data.mean(dim=dim_means)
+    return var_data.mean(dim=dim_means, skipna=True)
 
 
 def time_to_year_month_avg(ds, **kwargs):
@@ -288,6 +288,10 @@ def time_to_year_month(var, ds, **kwargs):
     xarray.Dataset or xarray.DataArray
             the monthly summed or averaged dataset or data array.
     """
+    if var in NAM_var_list:
+        return ds
+    if 'time' not in ds.dims:
+        return ds
     years = np.unique(ds.time.dt.year)
     months = np.unique(ds.time.dt.month)
 

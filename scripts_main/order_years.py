@@ -25,8 +25,7 @@ if 'my_dictionaries' in sys.modules:
     importlib.reload(sys.modules['my_dictionaries'])
 
 # import common functions that I've created
-from get_var_data import get_var_data, get_var_files, open_var_data, subset_var_data, time_to_year_month_avg, time_to_year_month_sum
-
+from get_var_data import get_var_data, get_var_files, open_var_data, subset_var_data, time_to_year_month
 
 # import lists and dictionaries
 import my_dictionaries
@@ -43,7 +42,7 @@ region_avg_coords = my_dictionaries.region_avg_coords  # coordinates for regions
 region_colors_dict = my_dictionaries.region_colors_dict  # colors to plot for each region
 
 
-def calc_mean_sum_yearly(var, da, **kwargs):
+def calc_mean_sum_yearly(var, months, da, **kwargs):
     """
     Calculate the mean for accumulated variables and sum for all else over the
     month dimension. If month is not a dimension, don't calculate it.
@@ -63,10 +62,11 @@ def calc_mean_sum_yearly(var, da, **kwargs):
     if 'month' not in da.dims:
         return da  # only execute this code if month is actually a dimension
 
+    da = da.sel(month=months)
     if var in sfc_accumu_list:  # sum accumulated variables
-        return da.groupby('year').sum('month')
+        return da.groupby('year').sum('month', skipna=True)
     else:  # average all other variables
-        return da.groupby('year').mean('month')
+        return da.groupby('year').mean('month', skipna=True)
 
 
 def sort_years_descending(arr_data, arr_years, **kwargs):
@@ -122,7 +122,7 @@ def apply_sort_years(var, da, **kwargs):
     return sorted_years.assign_coords({'sorted_years': np.arange(1, len(years)+1)})
 
 
-def order_years(var, months, region, var_data=None, **kwargs):
+def order_years(var, region, months, var_data=None, **kwargs):
     """
     Determines the years, in descending order, of data for a given variable within a specified
     range of months. e.g., determine which years had the most to least precipitation in MJJASO
@@ -144,21 +144,16 @@ def order_years(var, months, region, var_data=None, **kwargs):
     xarray.Dataset or xarray.DataArray
         Dimensions (sorted_years, ...) in descending order.
     """
-    if var_data is not None and isinstance(var_data, xr.DataArray):
+    if var_data is None:
         # get var data
         var_data = get_var_data(var, region=region, **kwargs)
+    if not isinstance(var_data, xr.DataArray) and not isinstance(var_data, xr.Dataset):
+        raise TypeError("var_data must be an xarray DataArray or Dataset")
 
-    if var not in NAM_var_list:
-        # get monthly means or sums dims=(year, month, ...)
-        if var in sfc_accumu_list:
-            var_monthly = time_to_year_month_sum(var_data)  # monthly sums
-        else:
-            var_monthly = time_to_year_month_avg(var_data)  # monthly averages
-
-        # average or sum data dims=(year, ...)
-        var_yearly = calc_mean_sum_yearly(var, var_monthly.sel(month=months))
-    else:
-        var_yearly = var_data  # NAM_var_list contains data with dims=(year, latitude, longitude)
+    # make sure data is monthly means or sums dims=(year, month, ...)
+    var_monthly = time_to_year_month(var, var_data)  # monthly sums
+    # average or sum data dims=(year, ...)
+    var_yearly = calc_mean_sum_yearly(var, months, var_monthly)
 
     # get array of ordered years
     return apply_sort_years(var, var_yearly)
