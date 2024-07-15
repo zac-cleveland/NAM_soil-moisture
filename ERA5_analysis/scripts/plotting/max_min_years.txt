@@ -1,29 +1,63 @@
-Waiting on job launch; 5062356.desched1 with qsub arguments:
+Waiting on job launch; 5245716.desched1 with qsub arguments:
     qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=1:00:00
 
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
-x = np.divide(x1, x2, out)
-Traceback (most recent call last):
-File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/plotting/max_min_years.py", line 378, in <module>
-main(var1, var1_months, var1_region, var2, var2_months, var2_region, rank_years, **kwargs)
-File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/plotting/max_min_years.py", line 150, in main
-var1_data_yearly = extract_var_yearly(var1, var1_data, var_years_mode, var2_months)
-File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/plotting/max_min_years.py", line 307, in extract_var_yearly
-return da.sel(year=years)
-File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataarray.py", line 1328, in sel
-ds = self._to_temp_dataset().sel(
-File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataset.py", line 2507, in sel
-result = self.isel(indexers=pos_indexers, drop=drop)
-File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataset.py", line 2351, in isel
-return self._isel_fancy(indexers, drop=drop, missing_dims=missing_dims)
-File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataset.py", line 2398, in _isel_fancy
-indexers_list = list(self._validate_indexers(indexers, missing_dims))
-File "/glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/xarray/core/dataset.py", line 2231, in _validate_indexers
-raise IndexError(
-IndexError: Unlabeled multi-dimensional array cannot be used for indexing: year
+var1: onset, var1_region: cp, var2_months: [6]
+loop: 1 of 30 -- 0.03%
+var1: onset, var1_region: MeNmAz, var2_months: [6]
+loop: 2 of 30 -- 0.07%
+var1: onset, var1_region: chi, var2_months: [6]
+loop: 3 of 30 -- 0.10%
+var1: onset, var1_region: son, var2_months: [6]
+loop: 4 of 30 -- 0.13%
+var1: onset, var1_region: moj, var2_months: [6]
+loop: 5 of 30 -- 0.17%
+var1: onset, var1_region: dsw, var2_months: [6]
+loop: 6 of 30 -- 0.20%
+var1: length, var1_region: cp, var2_months: [6]
+loop: 7 of 30 -- 0.23%
+var1: length, var1_region: MeNmAz, var2_months: [6]
+loop: 8 of 30 -- 0.27%
+var1: length, var1_region: chi, var2_months: [6]
+loop: 9 of 30 -- 0.30%
+var1: length, var1_region: son, var2_months: [6]
+loop: 10 of 30 -- 0.33%
+var1: length, var1_region: moj, var2_months: [6]
+loop: 11 of 30 -- 0.37%
+var1: length, var1_region: dsw, var2_months: [6]
+loop: 12 of 30 -- 0.40%
+var1: precipitation, var1_region: cp, var2_months: [6]
+loop: 13 of 30 -- 0.43%
+var1: precipitation, var1_region: MeNmAz, var2_months: [6]
+loop: 14 of 30 -- 0.47%
+var1: precipitation, var1_region: chi, var2_months: [6]
+loop: 15 of 30 -- 0.50%
+var1: precipitation, var1_region: son, var2_months: [6]
+loop: 16 of 30 -- 0.53%
+var1: precipitation, var1_region: moj, var2_months: [6]
+loop: 17 of 30 -- 0.57%
+var1: precipitation, var1_region: dsw, var2_months: [6]
+loop: 18 of 30 -- 0.60%
+var1: precipitation-rate, var1_region: cp, var2_months: [6]
+loop: 19 of 30 -- 0.63%
+var1: precipitation-rate, var1_region: MeNmAz, var2_months: [6]
+loop: 20 of 30 -- 0.67%
+var1: precipitation-rate, var1_region: chi, var2_months: [6]
+loop: 21 of 30 -- 0.70%
+var1: precipitation-rate, var1_region: son, var2_months: [6]
+loop: 22 of 30 -- 0.73%
+var1: precipitation-rate, var1_region: moj, var2_months: [6]
+loop: 23 of 30 -- 0.77%
+var1: precipitation-rate, var1_region: dsw, var2_months: [6]
+loop: 24 of 30 -- 0.80%
+var1: tp, var1_region: cp, var2_months: [6]
+loop: 25 of 30 -- 0.83%
+var1: tp, var1_region: MeNmAz, var2_months: [6]
+loop: 26 of 30 -- 0.87%
+var1: tp, var1_region: chi, var2_months: [6]
+loop: 27 of 30 -- 0.90%
+var1: tp, var1_region: son, var2_months: [6]
+loop: 28 of 30 -- 0.93%
+var1: tp, var1_region: moj, var2_months: [6]
+loop: 29 of 30 -- 0.97%
+var1: tp, var1_region: dsw, var2_months: [6]
+loop: 30 of 30 -- 1.00%

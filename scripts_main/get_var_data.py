@@ -117,6 +117,8 @@ def get_var_files(var, region, **kwargs):
         pattern = f'{misc_data_path}{var}/{var}*.nc'
     elif var in path_map['invar']:
         pattern = f'{my_era5_path}invariants/{var}_invariant.nc'
+    elif var in path_map['cci']:
+        pattern = f'{}'
     else:
         return []
 

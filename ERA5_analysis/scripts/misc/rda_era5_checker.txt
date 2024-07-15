@@ -1,0 +1,337 @@
+Waiting on job launch; 5283452.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
+
+
+--------------------------------------------------------------------------------
+Processing var: Large Scale Precipitation
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Convective Precipitation
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Total Precipitation
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Surface Sensible Heat Flux
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Surface Latent Heat Flux
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Surface Net Solar Radiation
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Surface Net Thermal Radiation
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Surface Runoff
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Total Snowfall
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Surface Solar Radiation Downwards
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Surface Thermal Radiation Downwards
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Top Net Thermal Radiation (OLR)
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Snow Depth
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Mean Sea Level Pressure
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Total Cloud Cover
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Soil Temp Layer 1
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Soil Temp Layer 2
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Soil Temp Layer 3
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Soil Temp Layer 4
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Soil Volume Water Content Layer 1
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Soil Volume Water Content Layer 2
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Soil Volume Water Content Layer 3
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Soil Volume Water Content Layer 4
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: 2 Meter Temp
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: 2 Meter Dew Point
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Instant Surface Heat Flux
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Instant Moisture Flux
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Convective Available Potential Energy
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Convective Inhibition
+
+Convective Inhibition is a derived var. RDA data will not be processed.
+my_data: 73324265...
+
+--------------------------------------------------------------------------------
+Processing var: Total Column Water
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Sea Surface Temperature
+
+NANs or INFs found in my data. Processing raw data
+value: not_finite
+var_base_dir: /glade/campaign/collections/rda/data/ds633.0/e5.oper.an.sfc
+1980: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 1664202...
+1981: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1982: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1983: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1984: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 0...
+1985: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1986: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1987: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1988: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 0...
+1989: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1990: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1991: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1992: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 0...
+1993: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1994: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1995: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1996: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 0...
+1997: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1998: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+1999: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2000: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 0...
+2001: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2002: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2003: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2004: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 0...
+2005: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2006: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2007: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2008: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 0...
+2009: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2010: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2011: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2012: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 0...
+2013: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2014: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2015: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2016: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39940848...	da_daily: 1664202...	my_data: 0...
+2017: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2018: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+2019: /glade/u/home/zcleveland/.conda/envs/mland_xr/lib/python3.9/site-packages/dask/array/numpy_compat.py:40: RuntimeWarning: invalid value encountered in true_divide
+x = np.divide(x1, x2, out)
+da_sub: 39831720...	da_daily: 1659655...	my_data: 0...
+
+--------------------------------------------------------------------------------
+Processing var: Vertical Integral of Potential, Internal, and Latent Energy
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Vertical Integral of Eastward Water Vapour Flux
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Vertical Integral of Northward Water Vapour Flux
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Vertical Integral of Divergence of Moisture Flux
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Geopotential Height Thickness from 1000 to 500 mb
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Geopotential
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Geopotential Height
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: Temperature
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: U Component of Wind
+
+No NANs or INFs found in my data. Skipping . . .
+
+--------------------------------------------------------------------------------
+Processing var: V Component of Wind
+
+No NANs or INFs found in my data. Skipping . . .
+Traceback (most recent call last):
+File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/misc/rda_era5_checker.py", line 194, in <module>
+main(var)
+File "/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/misc/rda_era5_checker.py", line 53, in main
+print(f"n{'--'*40}nProcessing var: {var_dict[var]}n")
+TypeError: unhashable type: 'list'

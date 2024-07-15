@@ -68,6 +68,16 @@ pl_var_list = [
     # 'cc',  # fraction of cloud cover (0-1)
 ]
 
+# variables that I derived from others. They won't exist in the RDA ERA5 data on CISL
+derived_var_list = [
+    'tp',  # total precipitation. derived from cp and lsp.
+    'cin',  # convective inhibition. just doesn't exist in RDA data on CISL.
+    'z_height',  # geopootential height. derived from geopotential.
+    'z_thick_1000-500',  # 1000-500mb geopotential height thickness. derived from z_height.
+    ['u', 'v'],  # u and v wind vector. not derived but used to identify when to process u and v wind as vector.
+    ['viwve', 'viwvn'],  # u and v components of moisture transport.  similar to above.
+]
+
 # invariant data
 invar_var_list = [
     'cl',  # lake cover (0-1)
