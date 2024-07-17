@@ -199,6 +199,7 @@ var_dict = {
     'precipitation': 'Yearly NAM Season Precipitation',
     'precipitation-rate': 'NAM Precipitation Rate',
     'nino-3': r'Nino-3 Index',
+    'ESA_sm': 'ESA Soil Moisture',
 }
 
 # variable units in latex format for plotting
@@ -255,6 +256,7 @@ var_units = {
     'precipitation': r'(m)',
     'precipitation-rate': r'(m day^{-1}, NAM Season Precip / NAM Length)',
     'nino-3': r'(Nino-3 Index Anomaly)',
+    'ESA_sm': r'$(m^3 m^{-3})$',
 }
 
 # dictionary of regions and their names

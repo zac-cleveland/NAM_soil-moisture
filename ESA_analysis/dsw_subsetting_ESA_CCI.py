@@ -1,137 +1,133 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[10]:
 
 
+# import functions
+# OS interaction and time
+import os
 import sys
+import cftime
+import datetime
+import time
+import glob
+import dask
+import dask.bag as db
+import calendar
+import importlib
 
+# math and data
+import math
 import numpy as np
 import netCDF4 as nc
-import numpy.matlib
-import datetime
 import xarray as xr
-from scipy import interpolate
-from numpy import ma
-from scipy import stats
-import scipy.io as sio
+import scipy as sp
+import scipy.linalg
+from scipy.signal import detrend
+import pandas as pd
 import pickle as pickle
 from sklearn import linear_model
-import numpy.ma as ma
 import matplotlib.patches as mpatches
 from shapely.geometry.polygon import LinearRing
+import statsmodels.stats.multitest as multitest
 
-import scipy as sp
-import pandas as pd
-
-import time
-
-from copy import copy 
-
-# Plotting
+# plotting
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib import ticker
+import matplotlib.colors as mcolors
+from matplotlib.gridspec import GridSpec
+import matplotlib.image as mpimg
+from matplotlib.colors import TwoSlopeNorm
+import matplotlib.cm as cm
 
 from matplotlib.ticker import FormatStrFormatter
 from mpl_toolkits.axes_grid1.axes_divider import HBoxDivider
 import mpl_toolkits.axes_grid1.axes_size as Size
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
-# OS interaction
-import os
-import sys
-import cftime
-
 import cartopy.crs as ccrs
+import cartopy.feature as cfeature
 from cartopy.util import add_cyclic_point
 
+# random
 from IPython.display import display
 from IPython.display import HTML
 import IPython.core.display as di # Example: di.display_html('<h3>%s:</h3>' % str, raw=True)
 
-import matplotlib.colors as mcolors
+# paths to various directories
+rda_era5_path = '/glade/campaign/collections/rda/data/ds633.0/'  # base path to ERA5 data on derecho
+my_era5_path = '/glade/u/home/zcleveland/scratch/ERA5/'  # path to subset data
+misc_data_path = '/glade/u/home/zcleveland/scratch/misc_data/'  # path to misc data
+my_esa_path = '/glade/u/home/zcleveland/scratch/ESA_data/'  # path to both the original ESA data and the data that I subset
+plot_out_path = '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/plots/'  # path to generated plots
+scripts_main_path = '/glade/u/home/zcleveland/NAM_soil-moisture/scripts_main/'  # path to my dicts, lists, and functions
 
-import glob
-import dask
-import dask.bag as db
+# import variable lists and dictionaries
+if scripts_main_path not in sys.path:
+    sys.path.insert(0, scripts_main_path)  # path to file containing these lists/dicts
+if 'get_var_data' in sys.modules:
+    importlib.reload(sys.modules['get_var_data'])
+if 'my_functions' in sys.modules:
+    importlib.reload(sys.modules['my_functions'])
+if 'my_dictionaries' in sys.modules:
+    importlib.reload(sys.modules['my_dictionaries'])
 
-from scipy import interpolate
+# import common functions that I've created
+from get_var_data import get_var_data, get_var_files, open_var_data, subset_var_data, time_to_year_month_avg, time_to_year_month_sum, time_to_year_month
+from my_functions import month_num_to_name, ensure_var_list
 
-import statsmodels.stats.multitest as multitest
-
-from matplotlib.gridspec import GridSpec
-from cartopy.crs import EqualEarth, PlateCarree
-
-
-# In[2]:
+# import lists and dictionaries
+from my_dictionaries import sfc_instan_list, sfc_accumu_list, pl_var_list, derived_var_list, invar_var_list, NAM_var_list, region_avg_list, flux_var_list, misc_var_list, var_dict, var_units, region_avg_dict, region_avg_coords, region_colors_dict
 
 
-esa_path = '/glade/u/home/zcleveland/scratch/ESA_data/COMBINED/' # base path to full ESA dataset I downloaded
-out_path = '/glade/u/home/zcleveland/scratch/ESA_data/dsw/' # base path to save the subsetted data
-
-
-# In[52]:
+# In[46]:
 
 
 # create function to subset ESA data into the desert southwest combined into 1 year
-def dsw_subsetting_ESA(year=1980):
-
-    start_time = time.time() # keep track of time to process.
-    
+def main(region, year):
     # define output filename and path
-    out_fn = f'ESA_COMBINED_sm_{year}01_{year}12_dsw.nc' # out file name
-    out_fp = f'{out_path}{out_fn}' # out file path (including file name)
+    out_fn = f'ESA_sm_{year}01_{year}12_{region}.nc'
+    out_fp = os.path.join(my_esa_path, f'{region}', out_fn)
 
     # check if file already exists
-    if (os.path.exists(f'{out_fp}')):        
+    if (os.path.exists(f'{out_fp}')):
         print(f'File {out_fn} already exists. Skipping...\n')
         return
 
-    print(f'Processing ESA COMBINED sm data for {year} . . .\n')
-
     # find full datasets
-    files = glob.glob(f'{esa_path}{year}/ESACCI-SOILMOISTURE-L3S-SSMV-COMBINED-{year}*-fv08.1.nc')
+    files = glob.glob(f'{my_esa_path}original/{year}/ESACCI-SOILMOISTURE-L3S-SSMV-COMBINED-{year}*-fv08.1.nc')
     files.sort()
-    print(f'{len(files)} number of files \n')
+    if not files:
+        raise FileNotFoundError(f'Files not found for ESA_sm for year: {year}')
 
     # open datasets using dask for memory control
     with dask.config.set(**{'array.slicing.split_large_chunks': True}): # only for systems with dask
         ds = xr.open_mfdataset(files)
-        
-        # define lat/lon boundaries for subsetting
-        lat_range = slice(40,20)
-        lon_range = slice(-120,-100)
-        ds_sub = ds.sel(lat=lat_range, lon=lon_range, drop=True)
-
-        # rename coordinates to match ERA5 data
-        ds_sub = ds_sub.rename({'lat': 'latitude', 'lon': 'longitude'})        
-
-        # double check dimension names for sanity
-        if set(ds_sub.dims) == set(['time', 'latitude', 'longitude']):
-            print(f'Dimensions reset from {set(ds.dims)} to {set(ds_sub.dims)} \n')
-        else:
-            print(f'Something wrong with dimension renaming . . .\n')
-            return
+        # rename lat and lon to latitude and longitude
+        ds = ds.rename({'lat': 'latitude', 'lon': 'longitude', 'sm': 'ESA_sm'})
+        # change the longitude coordinates from a -180 to 180 grid to a 0-360 grid to match other data
+        ds = ds.assign_coords(longitude=((ds.longitude + 360) % 360))
+        ds = ds.sortby(ds.longitude)
+        # subset if region is not global
+        if region != 'global':
+            ds = ds.sel(latitude=slice(40, 20), longitude=slice(240, 260), drop=True)
 
         # write files to new .nc file
-        print(f'Writing {out_fn} to netCDF . . .\n')
-        ds_sub.to_netcdf(f'{out_fp}')
-        print(f'{out_fn} completed \n{time.time()-start_time:.2f} s\n')
-
-
-# In[53]:
-
-
-for year in range(1980,2020):
-    dsw_subsetting_ESA(year)
-    print(f'\n{year} COMPLETE \n\n')
-
-print('All years complete.')
+        ds.to_netcdf(f'{out_fp}')
 
 
 # In[ ]:
 
 
+# run the code
+if __name__ == '__main__':
+    years = np.arange(1980,2020)
+    regions = ['dsw', 'global']
 
+    for region in regions:
+        for year in years:
+            print(f'region: {region}\t-\tyear: {year}')
+            main(region, year)
 

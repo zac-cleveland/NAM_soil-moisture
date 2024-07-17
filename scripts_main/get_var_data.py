@@ -117,8 +117,8 @@ def get_var_files(var, region, **kwargs):
         pattern = f'{misc_data_path}{var}/{var}*.nc'
     elif var in path_map['invar']:
         pattern = f'{my_era5_path}invariants/{var}_invariant.nc'
-    elif var in path_map['cci']:
-        pattern = f'{}'
+    elif var.lower() == 'ESA_sm'.lower():
+        pattern = f'{my_esa_path}dsw/{var}_*_dsw.nc' if region != 'global' else f'{my_esa_path}global/{var}_*_dsw.nc'
     else:
         return []
 
@@ -204,7 +204,10 @@ def subset_var_data(var_data, var, region, months, **kwargs):
         coords = region_avg_coords[region]
         dim_means = kwargs.get('dim_means', ['latitude', 'longitude'])
     else:
-        coords = kwargs.get('coords', [240, 260, 40, 20])  # default to whole dsw
+        if region != 'global':
+            coords = kwargs.get('coords', [240, 260, 40, 20])  # default to whole dsw
+        else:
+            coords = kwargs.get('coords', [0, 360, 90, -90])  # dafault to global
         dim_means = kwargs.get('dim_means', [])
     lats = slice(coords[2], coords[3])  # (North, South)
     lons = slice(coords[0], coords[1])  # (West, East)
