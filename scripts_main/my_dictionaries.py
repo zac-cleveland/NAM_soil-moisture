@@ -268,6 +268,8 @@ region_avg_dict = {
     'moj': 'Mojave Desert',
     'MeNmAz': 'MEX, NM, AZ Border',
     'baja': r'Coast of Baja, CA (5$\degree$ x 5$\degree$)',
+    'dsw': 'Desert Southwest',
+    'NAM': 'NAM Influence Region',
 }
 
 # dictionary of regions and their coordinate boundaries
@@ -291,7 +293,8 @@ region_colors_dict = {
     'moj': 'purple',
     'MeNmAz': 'brown',
     'baja': 'yellow',
-    'dsw': 'black'
+    'dsw': 'brown',
+    'NAM': 'black',
 }
 
 

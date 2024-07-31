@@ -1,0 +1,1156 @@
+Waiting on job launch; 5420166.desched1 with qsub arguments:
+    qsub  -l select=1:ncpus=32:mem=55GB -A UUSL0032 -q develop@desched1 -l walltime=6:00:00
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Processing var 1 of 1: Geopotential
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1980:  1...
+file already exists for: z_198001_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198002_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198003_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198004_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198005_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198006_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198007_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198008_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198009_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198010_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198011_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198012_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1981:  1...
+file already exists for: z_198101_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198102_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198103_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198104_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198105_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198106_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198107_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198108_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198109_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198110_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198111_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198112_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1982:  1...
+file already exists for: z_198201_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198202_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198203_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198204_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198205_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198206_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198207_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198208_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198209_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198210_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198211_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198212_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1983:  1...
+file already exists for: z_198301_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198302_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198303_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198304_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198305_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198306_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198307_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198308_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198309_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198310_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198311_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198312_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1984:  1...
+file already exists for: z_198401_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198402_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198403_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198404_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198405_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198406_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198407_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198408_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198409_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198410_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198411_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198412_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1985:  1...
+file already exists for: z_198501_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198502_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198503_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198504_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198505_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198506_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198507_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198508_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198509_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198510_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198511_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198512_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1986:  1...
+file already exists for: z_198601_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198602_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198603_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198604_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198605_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198606_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198607_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198608_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198609_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198610_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198611_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198612_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1987:  1...
+file already exists for: z_198701_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198702_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198703_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198704_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198705_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198706_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198707_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198708_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198709_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198710_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198711_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198712_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1988:  1...
+file already exists for: z_198801_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198802_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198803_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198804_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198805_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198806_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198807_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198808_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198809_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198810_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198811_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198812_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1989:  1...
+file already exists for: z_198901_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_198902_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_198903_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_198904_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_198905_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_198906_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_198907_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_198908_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_198909_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_198910_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_198911_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_198912_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1990:  1...
+file already exists for: z_199001_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199002_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199003_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199004_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199005_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199006_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199007_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199008_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199009_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199010_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199011_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199012_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1991:  1...
+file already exists for: z_199101_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199102_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199103_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199104_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199105_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199106_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199107_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199108_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199109_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199110_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199111_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199112_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1992:  1...
+file already exists for: z_199201_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199202_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199203_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199204_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199205_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199206_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199207_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199208_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199209_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199210_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199211_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199212_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1993:  1...
+file already exists for: z_199301_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199302_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199303_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199304_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199305_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199306_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199307_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199308_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199309_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199310_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199311_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199312_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1994:  1...
+file already exists for: z_199401_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199402_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199403_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199404_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199405_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199406_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199407_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199408_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199409_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199410_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199411_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199412_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1995:  1...
+file already exists for: z_199501_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199502_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199503_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199504_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199505_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199506_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199507_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199508_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199509_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199510_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199511_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199512_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1996:  1...
+file already exists for: z_199601_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199602_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199603_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199604_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199605_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199606_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199607_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199608_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199609_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199610_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199611_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199612_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1997:  1...
+file already exists for: z_199701_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199702_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199703_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199704_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199705_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199706_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199707_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199708_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199709_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199710_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199711_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199712_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1998:  1...
+file already exists for: z_199801_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199802_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199803_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199804_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199805_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199806_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199807_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199808_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199809_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199810_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199811_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199812_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+1999:  1...
+file already exists for: z_199901_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_199902_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_199903_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_199904_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_199905_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_199906_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_199907_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_199908_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_199909_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_199910_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_199911_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_199912_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+2000:  1...
+file already exists for: z_200001_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_200002_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_200003_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_200004_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_200005_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_200006_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_200007_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_200008_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_200009_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_200010_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_200011_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_200012_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+2001:  1...
+file already exists for: z_200101_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_200102_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_200103_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_200104_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_200105_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_200106_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_200107_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_200108_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_200109_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_200110_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_200111_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_200112_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+2002:  1...
+file already exists for: z_200201_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_200202_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_200203_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_200204_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_200205_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+6...
+file already exists for: z_200206_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+7...
+file already exists for: z_200207_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+8...
+file already exists for: z_200208_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+9...
+file already exists for: z_200209_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+10...
+file already exists for: z_200210_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+11...
+file already exists for: z_200211_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+12...
+file already exists for: z_200212_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+
+2003:  1...
+file already exists for: z_200301_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+2...
+file already exists for: z_200302_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+3...
+file already exists for: z_200303_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+4...
+file already exists for: z_200304_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
+5...
+file already exists for: z_200305_WestUS_Mexico.nc.
+
+Exception raised: overwrite_flag is False, set to True to overwrite. Skipping . . .
