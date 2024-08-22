@@ -45,6 +45,7 @@ sfc_accumu_list = [
     'ssrd',  # surface solar radiation downwards (J m^-2)
     'strd',  # surface thermal radiation downwards (J m^-2)
     'ttr',  # top net thermal radiation (OLR, J m^-2) -- divide by time (s) for W m^-2
+    'tsr',  # top net solar radiation (J m^-2)
 ]
 
 # pressure level variables
@@ -118,6 +119,7 @@ region_avg_list = [
     'moj',
     'MeNmAz',
     'baja',
+    'rockies',
 ]
 
 # variables that are fluxes and need to be multiplied by -1 for easier understanding
@@ -183,6 +185,7 @@ var_dict = {
     'ssrd': 'Surface Solar Radiation Downwards',
     'strd': 'Surface Thermal Radiation Downwards',
     'ttr': 'Top Net Thermal Radiation (OLR)',
+    'tsr': 'Top Net Solar Radiarion',
     'z': 'Geopotential',
     'z_height': 'Geopotential Height',
     'z_thick_1000-500': 'Geopotential Height Thickness from 1000 to 500 mb',
@@ -240,6 +243,7 @@ var_units = {
     'ssrd': r'$(J m^{-2})$',
     'strd': r'$(J m^{-2})$',
     'ttr': r'$(J m^{-2})$',
+    'tsr': r'$(J m^{-2})$',
     'z': r'$(m^2 s^{-2})$',
     'z_height': '$(m)$',
     'z_thick_1000-500': '$(m)$',
@@ -270,6 +274,7 @@ region_avg_dict = {
     'baja': r'Coast of Baja, CA (5$\degree$ x 5$\degree$)',
     'dsw': 'Desert Southwest',
     'NAM': 'NAM Influence Region',
+    'rockies': 'Rocky Mountains',
 }
 
 # dictionary of regions and their coordinate boundaries
@@ -282,6 +287,7 @@ region_avg_coords = {
     'moj': [243, 247, 37, 33],
     'MeNmAz': [246, 256, 38, 28],
     'baja': [242, 247, 27, 22],
+    'rockies': [247, 255, 42, 36],
 }
 
 # dictionary of colors for the plot of each region
@@ -295,6 +301,7 @@ region_colors_dict = {
     'baja': 'yellow',
     'dsw': 'brown',
     'NAM': 'black',
+    'rockies': 'magenta',
 }
 
 

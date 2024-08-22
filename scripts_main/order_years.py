@@ -28,18 +28,22 @@ if 'my_dictionaries' in sys.modules:
 from get_var_data import get_var_data, get_var_files, open_var_data, subset_var_data, time_to_year_month
 
 # import lists and dictionaries
-import my_dictionaries
+from my_dictionaries import (
+sfc_accumu_list, NAM_var_list, var_dict, var_units, region_avg_dict, region_avg_coords,
+region_colors_dict, flux_var_list
+)
 
-# my lists
-sfc_accumu_list = my_dictionaries.sfc_accumu_list  # accumulated surface variables
-NAM_var_list = my_dictionaries.NAM_var_list  # NAM-based variables
+# # my lists
+# sfc_accumu_list = my_dictionaries.sfc_accumu_list  # accumulated surface variables
+# NAM_var_list = my_dictionaries.NAM_var_list  # NAM-based variables
 
-# my dictionaries
-var_dict = my_dictionaries.var_dict  # variables and their names
-var_units = my_dictionaries.var_units  # variable units
-region_avg_dict = my_dictionaries.region_avg_dict  # region IDs and names
-region_avg_coords = my_dictionaries.region_avg_coords  # coordinates for regions
-region_colors_dict = my_dictionaries.region_colors_dict  # colors to plot for each region
+# # my dictionaries
+# var_dict = my_dictionaries.var_dict  # variables and their names
+# var_units = my_dictionaries.var_units  # variable units
+# region_avg_dict = my_dictionaries.region_avg_dict  # region IDs and names
+# region_avg_coords = my_dictionaries.region_avg_coords  # coordinates for regions
+# region_colors_dict = my_dictionaries.region_colors_dict  # colors to plot for each region
+
 
 
 def calc_mean_sum_yearly(var, months, da, **kwargs):
@@ -144,16 +148,19 @@ def order_years(var, region, months, var_data=None, **kwargs):
     xarray.Dataset or xarray.DataArray
         Dimensions (sorted_years, ...) in descending order.
     """
-    if var_data is None:
-        # get var data
+    if var_data is None:  # get var data
         var_data = get_var_data(var, region=region, **kwargs)
-    if not isinstance(var_data, xr.DataArray) and not isinstance(var_data, xr.Dataset):
+    if not (isinstance(var_data, xr.DataArray) or isinstance(var_data, xr.Dataset)):
         raise TypeError("var_data must be an xarray DataArray or Dataset")
+    # flip sign variables that need to be redefined for positive up
+    if var in flux_var_list or var == 'onset':
+        var_data = var_data * -1
 
     # make sure data is monthly means or sums dims=(year, month, ...)
-    var_monthly = time_to_year_month(var, var_data)  # monthly sums
+    if 'time' in var_data.dims:
+        var_data = time_to_year_month(var, var_data)  # monthly sums
     # average or sum data dims=(year, ...)
-    var_yearly = calc_mean_sum_yearly(var, months, var_monthly)
+    var_yearly = calc_mean_sum_yearly(var, months, var_data)
 
     # get array of ordered years
     return apply_sort_years(var, var_yearly)

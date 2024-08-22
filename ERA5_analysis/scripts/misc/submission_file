@@ -1,0 +1,23 @@
+#!/bin/bash
+
+### Project Code
+#PBS -A UUSL0032
+### Project Name
+#PBS -N py_script
+#PBS -q main
+#PBS -l select=1:ncpus=32:mem=128GB
+#PBS -l walltime=6:00:00
+### Merge output and error files
+#PBS -j oe
+### Email on start, end, and abort
+#PBS -m abe
+#PBS -M cleveland.a.zac@gmail.com
+
+export TMPDIR=${SCRATCH}/${USER}/temp
+mkdir -p ${TMPDIR}
+
+cd $PBS_O_WORKDIR
+module load conda
+conda activate mland_xr
+
+python -u test_stuff.py

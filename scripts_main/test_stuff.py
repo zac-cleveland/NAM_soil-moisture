@@ -16,7 +16,6 @@ import time
 import glob
 import dask
 import dask.bag as db
-from dask.diagnostics import ProgressBar
 import calendar
 import importlib
 
@@ -25,7 +24,6 @@ import math
 import numpy as np
 import netCDF4 as nc
 import xarray as xr
-from functools import partial
 import scipy as sp
 import scipy.linalg
 from scipy.signal import detrend
@@ -89,95 +87,31 @@ var_dict, var_units, region_avg_dict, region_avg_coords, region_colors_dict
 )
 
 
-# In[2]:
-
-
-# define functions to be used
-
-def get_file_paths(base_fp: str, var: str, year: int, month: int=None) -> str:
-    """ Return a list of file paths based on a base directory, variable name, year, and optionsl month from the rda ERA5 directory on NCAR
-    
-    Parameters
-    ----------
-    base_fp: str
-        The base directory to start for file globbing.
-    var: str
-        The variable name as specified in the file names. e.g., 'z'.
-    year: int
-        The year of data to get. Multi-year globbing not implemented as some variables are > 400 GB per year.
-    month: int, optional, default: None
-        The month of data to get.  Multi-month data is supported. default of None returns all months.
-        
-    Returns
-    -------
-    list, str
-        List of file paths related to the variable years and months.
-        
-    """
-    
-    month_str = f"{month:02d}" if month else "??"
-    files = glob.glob(os.path.join(base_fp, f"{year}{month_str}", f"*_{var}.*{year}{month_str}*.nc"))
-    if not files:
-        raise FileNotFoundError(f"Files not Found in {base_fp} for var: {var}, year: {year}, month: {month_str}")
-    return files
-
-
-def _preprocess(x, lats, lons, levels):
-    """ Preprocess dataset prior to reading in with xr.open_mfdataset() """
-    return x.sel(latitude=lats, longitude=lons, level=levels)
-
-
-def compute_mean(arr):
-    """ gufunc to compute daily mean of some dataset/data array. """
-    hrs = 24
-    days = int(len(arr)/hrs)
-    arr = arr.reshape(hrs, days)
-    return np.nanmean(arr, axis=0)
-
-
-def apply_mean(da):
-    """ Applies gufunc compute_mean to the dataset/data array along time dimension """
-    da_mean = xr.apply_ufunc(
-        compute_mean, da,
-        input_core_dims=[['time']],
-        output_core_dims=[['time']],
-        exclude_dims={'time'},
-        vectorize=True,
-        dask='parallelized',
-        dask_gufunc_kwargs={'allow_rechunk': True, 'output_sizes': {'time': int(len(da.time)/24)}},
-        output_dtypes=[da.dtype]
-    )
-    ds_mean = da_mean.to_dataset()
-    return ds_mean
-
-
 # In[ ]:
 
 
 # testing subsetting by opening all days in month at once and saving after
-year = 2005
-print(f"\n{'--'*20}\nProcessing: parallel method\n{'--'*20}\n")
+print(f"\n{'--'*20}\nProcessing: Whole Month\n{'--'*20}\n")
 start_time = time.time()
 
 for month in range(1,13):
     loop_start = time.time()
-    files = glob.glob(f'/glade/u/home/zcleveland/rda_era5/e5.oper.an.pl/{year}{month:02d}/*_z.*.nc')
+    files = glob.glob(f'/glade/u/home/zcleveland/rda_era5/e5.oper.an.pl/1985{month:02d}/*_z.*.nc')
     
     ds = xr.open_mfdataset(files, parallel=True)
     da_sub = ds['Z'].sel(latitude=slice(50,10), longitude=slice(230,270), level=[1000, 850, 700, 500, 300], drop=True)
     da_mean = da_sub.resample(time='1D').mean('time', skipna=True)
-    da_mean.to_netcdf(f'/glade/u/home/zcleveland/scratch/ERA5/WestUS_Mexico/temp/z_{year}{month:02d}WestUS_Mexico_parallel.nc')
+    da_mean.to_netcdf(f'/glade/u/home/zcleveland/scratch/data_temp/z_1985{month:02d}_no_ufunc.nc')
     print(f'loop: {month} --- time: {(time.time() - loop_start):.4f}') 
 
 print(f'\ntotal time: {(time.time() - start_time):.4f}')
-print(f"\n{'--'*20}\nCompleted: parallel method\n{'--'*20}\n")
+print(f"\n{'--'*20}\nCompleted: Whole Month\n{'--'*20}\n")
 
 
 # In[ ]:
 
 
 # testing using apply_ufunc
-year = 2006
 def compute_mean(arr):
     hrs = 24
     days = int(len(arr)/hrs)
@@ -202,52 +136,78 @@ def apply_mean(da):
     ds_mean.assign_coords({'time_new': da.time[::24]})
     return ds_mean.rename({'time_new': 'time'})
     
-print(f"\n{'--'*20}\nProcessing: ufunc method\n{'--'*20}\n")
+print(f"\n{'--'*20}\nProcessing: Whole Month\n{'--'*20}\n")
 start_time = time.time()
 
 for month in range(1,13):
     loop_start = time.time()
-    files = glob.glob(f'/glade/u/home/zcleveland/rda_era5/e5.oper.an.pl/{year}{month:02d}/*_z.*.nc')
+    files = glob.glob(f'/glade/u/home/zcleveland/rda_era5/e5.oper.an.pl/1985{month:02d}/*_z.*.nc')
     
     ds = xr.open_mfdataset(files, parallel=True)
     da_sub = ds['Z'].sel(latitude=slice(50,10), longitude=slice(230,270), level=[1000, 850, 700, 500, 300], drop=True)
     da_mean = apply_mean(da_sub)
-    da_mean.to_netcdf(f'/glade/u/home/zcleveland/scratch/ERA5/WestUS_Mexico/temp/z_{year}{month:02d}WestUS_Mexico_ufunc.nc')
+    da_mean.to_netcdf(f'/glade/u/home/zcleveland/scratch/data_temp/z_1985{month:02d}_yes_ufunc.nc')
     print(f'loop: {month} --- time: {(time.time() - loop_start):.4f}') 
 
 print(f'total time: {(time.time() - start_time):.4f}')
-print(f"\n{'--'*20}\nCompleted: ufunc method\n{'--'*20}\n")
+print(f"\n{'--'*20}\nCompleted: Whole Month\n{'--'*20}\n")
 
 
 # In[ ]:
 
 
-# tets using apply_ucunf and the xr.save_mfdataset option
-year = 2007
-months = np.arange(1,13)
+# # testing subsetting data by going day by day, then concatenating monthly data
+# print(f"\n{'--'*20}\nProcessing: Day by Day\n{'--'*20}\n")
+# start_time = time.time()
+# files = glob.glob('/glade/u/home/zcleveland/rda_era5/e5.oper.an.pl/198001/*_z.*.nc')
+# for day, file in enumerate(files, start=1):
+#     loop_time = time.time()
+#     print(f'loop: {day}', end=' --- ')
+#     ds = xr.open_dataset(file)
+#     ds_sub = ds.sel(latitude=slice(50,10), longitude=slice(230,270), level=[1000, 850, 700, 500, 300], drop=True)
+#     da_mean = ds_sub['Z'].resample(time='1D').mean('time', skipna=True)
+#     da_mean.to_netcdf(f'/glade/u/home/zcleveland/scratch/data_temp/z_198001{day}_daily_python.nc')
+#     print(f'loop time: {(time.time() - loop_time):.4f}')
+# print(f'\ntotal loop time: {(time.time() - start_time):.4f}')
+# files = glob.glob('/glade/u/home/zcleveland/scratch/data_temp/z_198001*_daily_python.nc')
+# ds = xr.open_mfdataset(files)
+# ds.to_netcdf('/glade/u/home/zcleveland/scratch/data_temp/z_198001_python_individual.nc')
+# print(f'total time: {(time.time() - start_time):.4f}')
+# print(f"\n{'--'*20}\nCompleted: Day by Day\n{'--'*20}\n")
 
-print(f"\n{'--'*20}\nProcessing: xr.save_mfdataset method\n{'--'*20}\n")
-start_time = time.time()
 
-ds_list = []
-out_fp_list = []
-for month in months:
-    # loop_start = time.time()
-    base_fp = os.path.join(rda_era5_path, 'e5.oper.an.pl')
-    files = get_file_paths(base_fp, var='z', year=year, month=month)
+# In[ ]:
 
-    lats, lons, levels = slice(50, 10), slice(230, 270), [1000, 850, 700, 500, 300]
-    partial_func = partial(_preprocess, lats=lats, lons=lons, levels=levels)
-    ds = xr.open_mfdataset(files, preprocess=partial_func, parallel=True)
-    ds_mean = apply_mean(ds['Z'])
-    ds_list.append(ds_mean)
-    out_fp_list.append(f'/glade/u/home/zcleveland/scratch/ERA5/WestUS_Mexico/temp/z_{year}{month:02d}WestUS_Mexico_xr_save_mfdataset.nc')
-    # out_fp_list.append(os.path.join(my_era5_path, 'WestUS_Mexico', f'{year}', f'z_{year}{month:02d}WestUS_Mexico_xr_save_mfdataset.nc'))
-    # ds_mean.to_netcdf(f'/glade/u/home/zcleveland/scratch/data_temp/z_{year}{month:02d}_ufunc.nc')
-    # print(f'loop: {month} --- time: {(time.time() - loop_start):.4f}') 
-# make filepaths and save datasets
-xr.save_mfdataset(ds_list, out_fp_list)
 
-print(f'total time: {(time.time() - start_time):.4f}')
-print(f"\n{'--'*20}\nCompleted: xr.save_mfdataset method\n{'--'*20}\n")
+# # testing by writing subset data first, then reopening all together and computing the mean
+# print(f"\n{'--'*20}\nProcessing: Subset then Mean\n{'--'*20}\n")
+# start_time = time.time()
+# files = glob.glob('/glade/u/home/zcleveland/rda_era5/e5.oper.an.pl/198003/*_z.*.nc')
+# for day, file in enumerate(files, start=1):
+#     loop_time = time.time()
+#     print(f'loop: {day}', end=' --- ')
+#     ds = xr.open_dataset(file)
+#     ds_sub = ds.sel(latitude=slice(50,10), longitude=slice(230,270), level=[1000, 850, 700, 500, 300], drop=True)
+#     ds_sub.to_netcdf(f'/glade/u/home/zcleveland/scratch/data_temp/z_198003{day}_subset_python.nc')
+#     print(f'loop time: {(time.time() - loop_time):.4f}')
+# print(f'\ntotal loop time: {(time.time() - start_time):.4f}')
+# files = glob.glob('/glade/u/home/zcleveland/scratch/data_temp/z_198003*_subset_python.nc')
+# ds = xr.open_mfdataset(files)
+# da_mean = ds['Z'].resample(time='1D').mean('time', skipna=True)
+# da_mean.to_netcdf('/glade/u/home/zcleveland/scratch/data_temp/z_198003_python_subset_first.nc')
+# print(f'total time: {(time.time() - start_time):.4f}')
+# print(f"\n{'--'*20}\nCompleted: Subset then Mean\n{'--'*20}\n")
+
+
+# In[ ]:
+
+
+# # testing my function to subset the data otherwise
+# sys.path.insert(0, '/glade/u/home/zcleveland/NAM_soil-moisture/ERA5_analysis/scripts/subsetting/')
+# from subset_era5_data import *
+# start_time = time.time()
+# print(f"\n{'--'*20}\nProcessing: My Function\n{'--'*20}\n")
+# main('z', region='WestUS_Mexico', year=1980, month=4, **{'overwrite_flag': False, 'save_nc': True, 'pl_levels': [1000, 850, 700, 500, 300]})
+# print(f'total time: {(time.time() - start_time):.4f}')
+# print(f"\n{'--'*20}\nCompleted: My Function\n{'--'*20}\n")
 

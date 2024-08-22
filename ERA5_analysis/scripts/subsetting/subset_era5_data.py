@@ -3,7 +3,7 @@
 
 # This script is used to subset ERA5 data by lat/lon and time (e.g., daily averages). Pressure level variables will be subset and saved in 1 file.
 
-# In[8]:
+# In[1]:
 
 
 # import functions
@@ -52,7 +52,7 @@ if 'my_dictionaries' in sys.modules:
 from my_dictionaries import var_dict
 
 
-# In[9]:
+# In[2]:
 
 
 # variables to subset
@@ -88,10 +88,10 @@ sfc_accumu_vars = [
 
 # pressure level variables
 pl_vars = [
-    'z',  # geopotential (m^2 s^2)
+    # 'z',  # geopotential (m^2 s^2)
     # 't',  # temperature (K)
-    # 'u',  # u component of wind(m s^-1)
-    # 'v',  # v component of wind (m s^-1)
+    'u',  # u component of wind(m s^-1)
+    'v',  # v component of wind (m s^-1)
     # 'q',  # specific humidity (kg kg^-1)
 ]
 
@@ -183,11 +183,7 @@ def process_var_data(var, region, year, month, var_base_dir, **kwargs):
     var_files = find_var_files(var, year, month, var_base_dir)
 
     # open datasets
-    if var not in pl_vars:
-        chunks = {'time': 24} if var not in sfc_accumu_vars else {'forecast_initial_time': 1, 'forecast_hour': 12}
-    else:
-        chunks = {'time': 24, 'level': 1}
-    var_ds = xr.open_mfdataset(var_files, chunks=chunks, parallel=True)  # chunk by daily
+    var_ds = xr.open_mfdataset(var_files, parallel=True)  # chunk by daily
 
     # subset by latitude/longitude
     var_ds = subset_lat_lon(var_ds, region)

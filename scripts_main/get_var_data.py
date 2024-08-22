@@ -34,7 +34,7 @@ var_dict = my_dictionaries.var_dict  # variables and their names
 region_avg_coords = my_dictionaries.region_avg_coords  # coordinates for regions
 
 
-def get_var_data(var, region='dsw', months=[i for i in range(1,13)], **kwargs):
+def get_var_data(var, region='WestUS_Mexico', time_type='monthly', months=[i for i in range(1,13)], **kwargs):
     """
     Retrieves the data for a given variable from my subet ERA5 dataset.  User can choose to return a dataset or data array
     and whether to subset that data based on a region or time.  Any subset data is returned as a data array.
@@ -42,22 +42,24 @@ def get_var_data(var, region='dsw', months=[i for i in range(1,13)], **kwargs):
     Parameters
     ----------
     var : str
-            The variable desired
-    region : str, optional
-            The region desired
-    months : list of int, optional
-            A list of months desired [1, 2, ..., 12]
+            The variable desired. List of options available in my_dictionaries.
+    region : str, optional, default: 'WestUS_Mexico'
+            The region desired. List of options available in my_dictionaries.
+    time_type : str, optional, default: 'monthly'.
+            Whether to return daily or monthly data.
+    months : list of int, optional, default: [1, ..., 12]
+            A list of months desired [1, 2, ..., 12].
 
     Kwargs
     ------
-    subset_flag : bool, optional
-            True or False.  Whether to subset the data or not
-    var_type : str, optional
-            Specify whether to return a dataset or data array
-    level : int, optional
-            The pressure level desired.  Only applied for pressure level data
-    coords : list of int, optional
-            [west, east, north, south] longitude and latitude coordinates to subset the data.
+    subset_flag : bool
+            True or False. Whether to subset the data or not. Defaults to True.
+    var_type : str
+            Specify whether to return a dataset (ds) or data array (da).
+    level : int
+            The pressure level desired [1000, ..., ].  Only applied for pressure level data.
+    coords : list of int
+            [west, east, north, south] longitude and latitude coordinates to subset the data. Note ERA5 data is on a 0-360 longitude grid.
 
     Returns
     -------
@@ -75,55 +77,49 @@ def get_var_data(var, region='dsw', months=[i for i in range(1,13)], **kwargs):
 
     """
 
-    files = get_var_files(var, region, **kwargs)
+    files = get_var_files(var, region, time_type, **kwargs)
     var_data = open_var_data(files, var, **kwargs)
     if kwargs.get('subset_flag', True):
         return subset_var_data(var_data, var, region, months, **kwargs)
     return var_data
 
 
-def get_var_files(var, region, **kwargs):
+def get_var_files(var, region, time_type='monthly', **kwargs):
     """
     Retrieves files for the given variable and region.
 
-    Parameters
-    ----------
-    var : str
-        The desired variable.
-    region : str
-        The desired region.
-
-    Returns
-    -------
-    list
-        Sorted list of file paths.
+    Returns sorted list of file paths.
     """
 
-    path_map = {
-        'sfc': sfc_instan_list + sfc_accumu_list,
-        'pl': pl_var_list,
+    var_map = {  # help map to directories based on var type
+        'base': sfc_instan_list + sfc_accumu_list + pl_var_list,
         'NAM': NAM_var_list,
         'misc': misc_var_list,
-        'invar': invar_var_list
-    }
-    
-    if var in path_map['sfc']:
-        pattern = f'{my_era5_path}dsw/*/{var.lower()}_*_dsw.nc' if region != 'global' else f'{my_era5_path}global/*/{var.lower()}_*_dsw.nc'
-    elif var in path_map['pl']:
-        pattern = f'{my_era5_path}dsw/*/pl/{var.lower()}_*_dsw.nc'
-    elif var in path_map['NAM']:
-        pattern = f'{my_era5_path}dsw/NAM_{var}.nc'
-    elif var in path_map['misc']:
-        pattern = f'{misc_data_path}{var}/{var}*.nc'
-    elif var in path_map['invar']:
-        pattern = f'{my_era5_path}invariants/{var}_invariant.nc'
+        'invar': invar_var_list,
+    }    
+
+    # create file path based on pattern of files for var, region, and time_type
+    data_dir = 'dsw' if region == 'dsw' else 'WestUS_Mexico'  # for regional averages, the data is averaged later on
+    if var in var_map['base']:
+        if time_type == 'monthly':
+            year_dir = ''
+            time_str = '????_????'
+        else:
+            year_dir = '*'
+            time_str = '??????' if var in pl_var_list else '??????_??????'
+        pattern = os.path.join(my_era5_path, data_dir, year_dir, f'{var}_{time_str}_{data_dir}.nc')
+    elif var in var_map['NAM']:
+        pattern = os.path.join(my_era5_path, data_dir, f'NAM_{var}.nc')
+    elif var in var_map['misc']:
+        pattern = os.path.join(misc_data_path, var, f'{var}*.nc')
+    elif var in var_map['invar']:
+        pattern = os.path.join(my_era5_path, 'invariants', f'{var}_invariant.nc')
     elif var.lower() == 'ESA_sm'.lower():
-        pattern = f'{my_esa_path}dsw/{var}_*_dsw.nc' if region != 'global' else f'{my_esa_path}global/{var}_*_dsw.nc'
+        pattern = os.path.join(my_esa_path, 'global', f'{var}_*_dsw.nc')
     else:
         return []
 
-    files = glob.glob(pattern)
-    files.sort()
+    files = sorted(glob.glob(pattern))
     return files
 
 
@@ -131,68 +127,27 @@ def open_var_data(files, var, **kwargs):
     """
     Opens datasets for the given variable.
 
-    Parameters
-    ----------
-    files : list of str
-        List of full file paths.
-    var : str
-        The desired variable.
-
-    Keyword Args
-    ------------
-    var_type : str, optional
-        Specify whether to return a dataset ('ds') or data array ('da'). Defaults to 'da'.
-
-    Returns
-    -------
-    xarray.DataArray or xarray.Dataset
-        Data array or dataset containing the variable data.
+    Returns Data Array or Dataset containing the variable data.
     """
     var_type = kwargs.get('var_type', 'da')  # default to returning a data array
-    ds = xr.open_mfdataset(files)
+    ds = xr.open_mfdataset(files, parallel=True)
 
     if var_type == 'ds':  # return dataset if specified
         return ds
-
     # pull out actual variable name in the dataset since they can be different names/capitalized
     var_name = [v for v in ds.data_vars.keys() if f'{var.upper()}' in v.upper()][0]
 
-    # if var is onset or retreat, convert to day of year
+    # if var is onset or retreat, return the day of year (datetime -> integer)
     if var.lower() in ['onset', 'retreat']:
-        return ds[var_name].dt.dayofyear  # convert to dayofyear (datetime -> integer)
-
+        return ds[var_name].dt.dayofyear
     return ds[var_name]
 
 
 def subset_var_data(var_data, var, region, months, **kwargs):
     """
-    Subsets the input data by latitude/longitude, time, and averages. Defaults to returning full dataset
-    for region = dsw or global, and the latitude/longitude mean if region is in region_avg_list.  If time
-    is specified in dim_means, time_group must be specified. If level is specified in dim_means, level must
-    be input as a list of levels in kwargs.
+    Subsets the input data 
 
-    Parameters
-    ----------
-    var_data : xarray.DataArray or xarray.Dataset
-        Input data.
-    var : str
-        The desired variable.
-    months : list of int
-        List of months.
-    region : str
-        The desired region.
-
-    Keyword Args
-    ------------
-    level : int, optional
-        The pressure level desired. Only applied for pressure level data.
-    dim_means : list of str, optional
-        Dimensions to average over, e.g., ['time', 'latitude', 'longitude', 'level'].
-
-    Returns
-    -------
-    xarray.DataArray
-        Subsetted data array.
+    Returns subsetted data array.
     """
     # subset to level if var is a pl var
     if var.lower() in pl_var_list:
@@ -205,7 +160,10 @@ def subset_var_data(var_data, var, region, months, **kwargs):
         dim_means = kwargs.get('dim_means', ['latitude', 'longitude'])
     else:
         if region != 'global':
-            coords = kwargs.get('coords', [240, 260, 40, 20])  # default to whole dsw
+            if region == 'WestUS_Mexico':
+                coords = kwargs.get('coords', [230, 270, 50, 10])  # default to West US and Mexico region
+            else:
+                coords = kwargs.get('coords', [240, 260, 40, 20])  # default to whole dsw
         else:
             coords = kwargs.get('coords', [0, 360, 90, -90])  # dafault to global
         dim_means = kwargs.get('dim_means', [])
@@ -219,6 +177,13 @@ def subset_var_data(var_data, var, region, months, **kwargs):
     # remove latitude and longitude from dim_means if they don't actually exist as dimensions
     if not {'latitude', 'longitude'}.issubset(var_data.dims):
         dim_means = [dim for dim in dim_means if dim not in ['latitude', 'longitude']]
+
+    # mask out terrain by elevation
+    elevation_value = kwargs.get('elevation_mask', None)
+    if elevation_value:
+        elevation = xr.open_dataset(os.path.join(my_era5_path, 'invariants/elevation_invariant.nc'))['elevation'].sel(latitude=lats, longitude=lons)
+        mask = elevation > elevation_value
+        var_data = var_data.where(mask, other=np.nan)
         
     if not dim_means:
         return var_data
@@ -240,14 +205,17 @@ def time_to_year_month_avg(ds, **kwargs):
     xarray.Dataset or xarray.DataArray
             the monthly averaged dataset or data array.
     """
+    if var in NAM_var_list or 'time' not in ds.dims:
+        return ds
     years = np.unique(ds.time.dt.year)
     months = np.unique(ds.time.dt.month)
 
     # make a pandas MultiIndex that is years x months
     midx = pd.MultiIndex.from_product([years, months], names=("year","month"))
-    ds_temp = ds.resample(time='1M').mean(dim='time', skipna=True)
+    midx_coords = xr.Coordinates.from_pandas_multiindex(midx, 'time')
+    ds_temp = ds.resample(time='1ME').mean(dim='time', skipna=True)
 
-    return ds_temp.assign_coords({'time':midx}).unstack()
+    return ds_temp.assign_coords(midx_coords).unstack()
 
 
 def time_to_year_month_sum(ds, **kwargs):
@@ -265,14 +233,17 @@ def time_to_year_month_sum(ds, **kwargs):
     xarray.Dataset or xarray.DataArray
             the monthly summed dataset or data array.
     """
+    if var in NAM_var_list or 'time' not in ds.dims:
+        return ds
     years = np.unique(ds.time.dt.year)
     months = np.unique(ds.time.dt.month)
 
     # make a pandas MultiIndex that is years x months
     midx = pd.MultiIndex.from_product([years, months], names=("year","month"))
-    ds_temp = ds.resample(time='1M').sum(dim='time', skipna=True)
+    midx_coords = xr.Coordinates.from_pandas_multiindex(midx, 'time')
+    ds_temp = ds.resample(time='1ME').sum(dim='time', skipna=True)
 
-    return ds_temp.assign_coords({'time':midx}).unstack()
+    return ds_temp.assign_coords(midx_coords).unstack()
 
 
 def time_to_year_month(var, ds, **kwargs):
@@ -293,18 +264,16 @@ def time_to_year_month(var, ds, **kwargs):
     xarray.Dataset or xarray.DataArray
             the monthly summed or averaged dataset or data array.
     """
-    if var in NAM_var_list:
+    if var in NAM_var_list or 'time' not in ds.dims:
         return ds
-    if 'time' not in ds.dims:
-        return ds
+
     years = np.unique(ds.time.dt.year)
     months = np.unique(ds.time.dt.month)
 
     # make a pandas MultiIndex that is years x months
     midx = pd.MultiIndex.from_product([years, months], names=("year","month"))
-    if var in sfc_accumu_list:
-        ds_temp = ds.resample(time='1M').sum(dim='time', skipna=True)
-    else:
-        ds_temp = ds.resample(time='1M').mean(dim='time', skipna=True)
-
-    return ds_temp.assign_coords({'time':midx}).unstack()
+    midx_coords = xr.Coordinates.from_pandas_multiindex(midx, 'time')
+    ds_res = ds.resample(time='1ME')
+    ds_out = ds_res.sum(dim='time', skipna=True) if var in sfc_accumu_list else ds_res.mean(dim='time', skipna=True)
+    ds_out = ds_out.assign_coords(midx_coords).unstack()
+    return ds_out

@@ -3,22 +3,25 @@
 #PBS -N subset_py
 ### Project code
 #PBS -A UUSL0032
-#PBS -l walltime=06:00:00
+#PBS -l walltime=12:00:00
 #PBS -q main
 ### Merge output and error files
 #PBS -j oe
 #PBS -o subset.txt
-### Select 1 nodes with 16 CPUs each for a total of 16 processes
-#PBS -l select=1:ncpus=16
+### Select 1 node with 8 CPUs and 8 MPIprocs for a total of 8 processes
+#PBS -l select=1:ncpus=8:mpiprocs=4:ompthreads=2:mem=128GB
 ### Send email on abort, begin, and end
 #PBS -m abe
 #PBS -M cleveland.a.zac@gmail.com
 
+export TMPDIR=${SCRATCH}/${USER}/temp
+mkdir -p ${TMPDIR}
+
 ### Change to directory from which job is submitted
 cd $PBS_O_WORKDIR
 ### Activate conda environment
-
-source activate mland_xr
+module load conda
+conda activate mland_xr
 
 ### Run the executable
-mpiexec_mpt -n 16 python -u ./subset_era5_data.py
+python -u subset_era5_data.py
